@@ -1,0 +1,54 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix :  <http://example.org/roadtrip#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+
+:RoadTrip rdf:type owl:Class .
+:Country  rdf:type skos:Concept .
+:Activity rdf:type owl:Class .
+:Itinerary rdf:type owl:Class.
+:Trip rdf:type owl:Class .
+:User rdf:type owl:Class .
+:TravelMode rdf:type skos:Concept.
+:NatureRoadTrip rdf:type owl:Class;
+           rdfs:subClassOf :RoadTrip. 
+:UrbanRoadTrip rdf:type owl:Class;
+           rdfs:subClassOf :RoadTrip. 
+:Location rdf:type owl:Class.
+
+
+# Road Trip props
+:hasDestination rdf:type owl:ObjectProperty .
+:hasItinerary rdf:type owl:ObjectProperty .
+
+
+#  country props
+:hasCapital rdf:type owl:ObjectProperty .
+:hasCurrency rdf:type owl:ObjectProperty .
+:hasLanguage rdf:type owl:ObjectProperty .
+:requiresVisa rdf:type owl:DatatypeProperty .
+:requiresVaccination rdf:type owl:DatatypeProperty .
+
+# Activity props
+:hasLocation rdf:type owl:ObjectProperty .
+:hasBudget rdf:type owl:DatatypeProperty .
+:hasType rdf:type owl:ObjectProperty .
+
+# Itinerary props
+:hasStartingPoint rdf:type owl:ObjectProperty .
+:hasEndingPoint rdf:type owl:ObjectProperty .
+
+ 
+# Trip props 
+:from rdf:type owl:ObjectProperty .
+:to rdf:type owl:ObjectProperty .
+:hasDistance rdf:type owl:DatatypeProperty .
+:hasTime rdf:type owl:DatatypeProperty .
+:hasTransport rdf:type owl:ObjectProperty .
+
+# User props s
+:ofType rdf:type owl:ObjectProperty .
+:hasVaccinationStatus rdf:type owl:DatatypeProperty .
+:hasVisaStatus rdf:type owl:DatatypeProperty .
