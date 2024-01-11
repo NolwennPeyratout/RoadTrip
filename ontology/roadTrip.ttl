@@ -5,50 +5,327 @@
 @prefix :  <http://example.org/roadtrip#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 
-:RoadTrip rdf:type owl:Class .
-:Country  rdf:type skos:Concept .
-:Activity rdf:type owl:Class .
-:Itinerary rdf:type owl:Class.
-:Trip rdf:type owl:Class .
-:User rdf:type owl:Class .
-:TravelMode rdf:type skos:Concept.
-:NatureRoadTrip rdf:type owl:Class;
-           rdfs:subClassOf :RoadTrip. 
-:UrbanRoadTrip rdf:type owl:Class;
-           rdfs:subClassOf :RoadTrip. 
-:Location rdf:type owl:Class.
 
 
-# Road Trip props
-:hasDestination rdf:type owl:ObjectProperty .
-:hasItinerary rdf:type owl:ObjectProperty .
+
+#roadTrip
+
+:RoadTrip 
+    a       owl:Class ;
+    rdfs:label "RoadTrip" ;
+    rdfs:comment "A journey or excursion by road, especially for pleasure" .
+
+:in 
+    a       owl:ObjectProperty ;
+    rdfs:domain :RoadTrip ;
+    rdfs:range :Country.
 
 
-#  country props
-:hasCapital rdf:type owl:ObjectProperty .
-:hasCurrency rdf:type owl:ObjectProperty .
-:hasLanguage rdf:type owl:ObjectProperty .
-:requiresVisa rdf:type owl:DatatypeProperty .
-:requiresVaccination rdf:type owl:DatatypeProperty .
+:hasItinerary 
+    a       owl:ObjectProperty ;
+    rdfs:domain :RoadTrip ;
+    rdfs:range :Itinerary .
 
-# Activity props
-:hasLocation rdf:type owl:ObjectProperty .
-:hasBudget rdf:type owl:DatatypeProperty .
-:hasType rdf:type owl:ObjectProperty .
+:RuraleRoadTrip 
+    a        owl:Class ;
+           rdfs:subClassOf :RoadTrip;
+           owl:disjointWith :UrbanRoadTrip.
 
-# Itinerary props
-:hasStartingPoint rdf:type owl:ObjectProperty .
-:hasEndingPoint rdf:type owl:ObjectProperty .
+:UrbanRoadTrip
+    a        owl:Class ;
+           rdfs:subClassOf :RoadTrip;
+           owl:disjointWith :RuraleRoadTrip.
 
- 
-# Trip props 
-:from rdf:type owl:ObjectProperty .
-:to rdf:type owl:ObjectProperty .
-:hasDistance rdf:type owl:DatatypeProperty .
-:hasTime rdf:type owl:DatatypeProperty .
-:hasTransport rdf:type owl:ObjectProperty .
 
-# User props s
-:ofType rdf:type owl:ObjectProperty .
-:hasVaccinationStatus rdf:type owl:DatatypeProperty .
-:hasVisaStatus rdf:type owl:DatatypeProperty .
+:hasReview
+    a        owl:ObjectProperty;
+    rdfs:domain :RoadTrip ;
+    rdfs:range :Review;
+    owl:inverseOf :userReview. 
+
+:Review 
+    a        owl:Class ;
+    rdfs:label "Review" ;
+    rdfs:comment "A review or rating given to an entity" .
+
+
+#country
+:Country 
+    a        skos:Concept ;
+    skos:prefLabel "Country"@en ;
+    skos:definition "A nation with its own government, occupying a particular territory" .
+
+:hasCountryName 
+    a        owl:DatatypeProperty ;
+    rdfs:domain :Country ;
+    rdfs:range xsd:string .
+
+:hasCapital 
+    a        owl:DatatypeProperty ;
+    rdfs:domain :Country ;
+    rdfs:range xsd:string .
+
+:hasCurrency 
+    a        owl:DatatypeProperty ;
+    rdfs:domain :Country ;
+    rdfs:range xsd:string .
+
+:hasLanguage 
+    a        owl:DatatypeProperty ;
+    rdfs:domain :Country ;
+    rdfs:range xsd:string .
+
+:requiresVaccine 
+    a        owl:DatatypeProperty ;
+    rdfs:domain :Country ;
+    rdfs:range xsd:boolean .
+
+#itinerary 
+:Itinerary 
+	a 		 owl:Class ;
+    rdfs:label "Itinerary" ;
+    rdfs:comment "A planned route or journey" .
+
+:hasStartingPoint 
+	a 		owl:ObjectProperty ;
+    rdfs:domain :Itinerary ;
+    rdfs:range :Location .
+
+:hasEndingPoint 
+	a 		owl:ObjectProperty ;
+    rdfs:domain :Itinerary ;
+    rdfs:range :Location .
+
+
+
+#activity 
+
+:Activity 
+	a 		 owl:Class ;
+    rdfs:label "Activity" ;
+    rdfs:comment "A specific activity or event" .
+
+:hasActivityName 
+	a 		 owl:DatatypeProperty ;
+    rdfs:domain :Activity ;
+    rdfs:range xsd:string .
+
+:hasLocation 
+	a 		 owl:ObjectProperty ;
+    rdfs:domain :Activity ;
+    rdfs:range :Location .
+
+:hasBudget 
+	a 		 owl:DatatypeProperty ;
+    rdfs:domain :Activity ;
+    rdfs:range xsd:float .
+
+:hasActivityType 
+	a 		 owl:DatatypeProperty ;
+    rdfs:domain :Activity ;
+    rdfs:range xsd:string .
+
+    
+:hasLongitude 
+	a 		 owl:DatatypeProperty ;
+    rdfs:domain :Location ;
+    rdfs:range xsd:float .
+
+:hasLatitude 
+	a 		 owl:DatatypeProperty ;
+    rdfs:domain :Location ;
+    rdfs:range xsd:float .
+
+:hasAddress 
+	a 		 owl:DatatypeProperty ;
+    rdfs:domain :Location ;
+    rdfs:range xsd:string .
+
+
+:Location 
+	a 		owl:Class ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty :hasLongitude ;
+        owl:someValuesFrom xsd:double
+    ] ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty :hasLatitude ;
+        owl:someValuesFrom xsd:double
+    ] ;
+    rdfs:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty :hasAddress ;
+        owl:someValuesFrom xsd:string
+    ] 
+    .
+:ActivityTypeConceptScheme 
+	a 		 skos:ConceptScheme ;
+    skos:prefLabel "Activity Type"@en ;
+    skos:definition "A scheme for categorizing types of activities" .
+
+:RuralActivity 
+	a 		 skos:Concept ;
+    skos:inScheme :ActivityTypeConceptScheme ;
+    skos:prefLabel "Rural Activity"@en ;
+    skos:definition "An activity associated with the countryside or rural areas" .
+
+:UrbanActivity 
+	a 		 skos:Concept ;
+    skos:inScheme :ActivityTypeConceptScheme ;
+    skos:prefLabel "Urban Activity"@en ;
+    skos:definition "An activity associated with cities or urban areas" .
+
+#trip 
+:Trip 
+	a 		owl:Class ;
+    rdfs:label "Trip" ;
+    rdfs:comment "A journey or excursion, especially for pleasure" .
+
+:involvesActivityA 
+	a 		owl:ObjectProperty ;
+    rdfs:domain :Trip ;
+    rdfs:range :Activity .
+
+:involvesActivityB 
+	a 		owl:ObjectProperty ;
+    rdfs:domain :Trip ;
+    rdfs:range :Activity .
+
+:hasDistance 
+	a 		owl:DatatypeProperty ;
+    rdfs:domain :Trip ;
+    rdfs:range xsd:float .
+
+:hasTime 
+	a 		owl:DatatypeProperty ;
+    rdfs:domain :Trip ;
+    rdfs:range xsd:string .
+
+:hasTransport 
+	a 		owl:DatatypeProperty ;
+    rdfs:domain :Trip ;
+    rdfs:range :travelMode .
+
+
+:travelMode 
+	a 		skos:ConceptScheme ;
+    skos:prefLabel "Transport"@en;
+    skos:hasTopConcept :PublicTransport, :PrivateTransport .
+
+:PublicTransport
+	a 		 skos:Concept ;
+	skos:inScheme : ;
+	skos:narrower :Train, :BusAndCoach, :Plane, :Boat ;
+	skos:prefLabel "All Public Transport"@en ;
+	skos:topConceptOf : .
+
+
+:PrivateTransport
+	a 		 skos:Concept ;
+	skos:inScheme : ;
+	skos:narrower :Car, :Walk, :Bicycle, :Motorcycle ;
+	skos:prefLabel "All private vehicles"@en ;
+	skos:topConceptOf : .
+
+
+:Car
+    a 		 skos:Concept ;
+    skos:broader :PrivateTransport ;
+    skos:inScheme : ;
+    skos:prefLabel "Car"@en .
+
+:Walk
+    a 		 skos:Concept ;
+    skos:broader :PrivateTransport ;
+    skos:inScheme : ;
+    skos:prefLabel "Walk"@en .
+
+:Bicycle
+    a 		 skos:Concept ;
+    skos:broader :PrivateTransport ;
+    skos:inScheme : ;
+    skos:prefLabel "Bicycle"@en .
+
+:Train
+    a 		 skos:Concept ;
+    skos:broader :PublicTransport ;
+    skos:inScheme : ;
+    skos:prefLabel "Train"@en .
+
+:Motorcycle
+    a		 skos:Concept ;
+    skos:broader :PrivateTransport ;
+    skos:inScheme : ;
+    skos:prefLabel "Motorcycle"@en .
+
+:MRT
+    a		 skos:Concept ;
+    skos:broader :PublicTransport ;
+    skos:inScheme : ;
+    skos:prefLabel "Mass Rapid Transit"@en .
+
+
+:BusAndCoach
+    a		 skos:Concept ;
+    skos:broader :PublicTransport ;
+    skos:inScheme : ;
+    skos:prefLabel "Buses and coaches"@en .
+
+:Boat
+    a		 skos:Concept ;
+    skos:broader :PublicTransport ;
+    skos:inScheme : ;
+    skos:prefLabel "Boat"@en .
+
+:Plane
+    a		skos:Concept ;
+    skos:broader :PublicTransport ;
+    skos:inScheme : ;
+    skos:prefLabel "Plane"@en .
+
+#user
+
+
+:User 
+	a 		 owl:Class ;
+    rdfs:label "User" ;
+    rdfs:comment "An individual who interacts with the system" .
+
+:hasCompleteName 
+	a 		 owl:DatatypeProperty ;
+    rdfs:domain :User ;
+    rdfs:range xsd:string .
+
+:hasType 
+	a 		 owl:DatatypeProperty ;
+    rdfs:domain :User ;
+    rdfs:range xsd:string .
+
+:hasVaccinationStatus 
+	a 		 owl:DatatypeProperty ;
+    rdfs:domain :User ;
+    rdfs:range xsd:string .
+
+:hasPassportStatus 
+	a 		 owl:DatatypeProperty ;
+    rdfs:domain :User ;
+    rdfs:range xsd:string .
+
+:hasPassportExpirationDate 
+	a 		 owl:DatatypeProperty ;
+    rdfs:domain :User ;
+    rdfs:range xsd:date .
+
+:userReview 
+	a 		 owl:ObjectProperty;
+    rdfs:domain :User;
+    rdfs:range :Review;
+    owl:inverseOf :hasReview .
+    
+
+:hasPossibility 
+	a 		 owl:ObjectProperty ;
+    rdfs:domain :User ;
+    rdfs:range xsd:string .
