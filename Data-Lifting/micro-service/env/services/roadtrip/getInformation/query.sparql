@@ -1,0 +1,16 @@
+PREFIX ex: <http://ns.inria.fr/sparql-micro-service/api#>
+
+SELECT ?name (GROUP_CONCAT(?type; SEPARATOR=",") AS ?types) ?id ?latitude ?longitude ?rating ?open_now
+WHERE {
+  ?s ex:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location ex:lat ?latitude;
+            ex:lng ?longitude.
+  ?s ex:place_id ?id.
+  ?s ex:rating ?rating. 
+  ?s ex:types ?type.
+  ?s ex:opening_hours ?openH.
+  ?openH ex:open_now ?open_now.
+
+}

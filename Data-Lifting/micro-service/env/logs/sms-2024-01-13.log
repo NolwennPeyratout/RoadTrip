@@ -1,0 +1,1829 @@
+2024-01-13 17:51:13 ["54c62dlpr3ukp"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 17:51:13 ["ur223ajb9d8lh"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 17:51:13 ["ur223ajb9d8lh"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/place=Paris
+2024-01-13 17:51:13 ["54c62dlpr3ukp"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/place=Paris
+2024-01-13 17:51:13 ["ur223ajb9d8lh"] Utils WARNING: service roadtrip/place=Paris not found.
+2024-01-13 17:51:13 ["54c62dlpr3ukp"] Utils WARNING: service roadtrip/place=Paris not found.
+2024-01-13 17:51:13 ["ur223ajb9d8lh"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 17:51:13 ["54c62dlpr3ukp"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 17:52:17 ["cidh7n2q5abju"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 17:52:17 ["cidh7n2q5abju"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 17:52:17 ["cidh7n2q5abju"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 17:52:17 ["cidh7n2q5abju"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 17:52:17 ["cidh7n2q5abju"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 17:52:17 ["cidh7n2q5abju"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 17:52:18 ["cidh7n2q5abju"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 17:52:18 ["b5u3e27hmr0eb"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 17:52:18 ["b5u3e27hmr0eb"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 17:52:18 ["b5u3e27hmr0eb"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 17:52:18 ["b5u3e27hmr0eb"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 17:52:18 ["b5u3e27hmr0eb"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 17:52:18 ["b5u3e27hmr0eb"] service NOTICE: Client SPARQL query (html special chars encoded):
+ASK {?x ?y ?z}
+2024-01-13 17:52:18 ["b5u3e27hmr0eb"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Paris
+)
+
+2024-01-13 17:52:18 ["b5u3e27hmr0eb"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Paris&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 17:52:19 ["b5u3e27hmr0eb"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 17:52:20 ["b5u3e27hmr0eb"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 17:52:20 ["b5u3e27hmr0eb"] service NOTICE: Sending response with Content-Type: application/sparql-results+xml
+2024-01-13 17:52:20 ["b5u3e27hmr0eb"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 17:52:20 ["tg04hoqdku09v"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 17:52:21 ["tg04hoqdku09v"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 17:52:21 ["tg04hoqdku09v"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 17:52:21 ["tg04hoqdku09v"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 17:52:21 ["tg04hoqdku09v"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 17:52:21 ["tg04hoqdku09v"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 17:52:21 ["tg04hoqdku09v"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 17:52:21 ["fk0vbcntsvmtn"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 17:52:21 ["fk0vbcntsvmtn"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 17:52:21 ["fk0vbcntsvmtn"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 17:52:21 ["fk0vbcntsvmtn"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 17:52:21 ["fk0vbcntsvmtn"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 17:52:21 ["fk0vbcntsvmtn"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} 
+2024-01-13 17:52:21 ["fk0vbcntsvmtn"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Paris
+)
+
+2024-01-13 17:52:21 ["fk0vbcntsvmtn"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Paris&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 17:52:21 ["fk0vbcntsvmtn"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 17:52:21 ["fk0vbcntsvmtn"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 17:52:21 ["fk0vbcntsvmtn"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 17:52:21 ["fk0vbcntsvmtn"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 17:52:33 ["7ap4mluhmu4sq"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 17:52:33 ["7ap4mluhmu4sq"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 17:52:33 ["7ap4mluhmu4sq"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 17:52:33 ["7ap4mluhmu4sq"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 17:52:33 ["7ap4mluhmu4sq"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 17:52:33 ["7ap4mluhmu4sq"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 17:52:33 ["7ap4mluhmu4sq"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 17:52:33 ["6vpv9n5miept4"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 17:52:33 ["6vpv9n5miept4"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 17:52:33 ["6vpv9n5miept4"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 17:52:33 ["6vpv9n5miept4"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 17:52:33 ["6vpv9n5miept4"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 17:52:33 ["6vpv9n5miept4"] service NOTICE: Client SPARQL query (html special chars encoded):
+ASK {?x ?y ?z}
+2024-01-13 17:52:33 ["6vpv9n5miept4"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 17:52:33 ["6vpv9n5miept4"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 17:52:34 ["6vpv9n5miept4"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 17:52:34 ["6vpv9n5miept4"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 17:52:34 ["6vpv9n5miept4"] service NOTICE: Sending response with Content-Type: application/sparql-results+xml
+2024-01-13 17:52:34 ["6vpv9n5miept4"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 17:52:35 ["0k517gb78o7qd"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 17:52:35 ["0k517gb78o7qd"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 17:52:35 ["0k517gb78o7qd"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 17:52:35 ["0k517gb78o7qd"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 17:52:35 ["0k517gb78o7qd"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 17:52:35 ["0k517gb78o7qd"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 17:52:35 ["0k517gb78o7qd"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 17:52:35 ["tsftvcd8d2bbg"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 17:52:35 ["tsftvcd8d2bbg"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 17:52:35 ["tsftvcd8d2bbg"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 17:52:35 ["tsftvcd8d2bbg"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 17:52:35 ["tsftvcd8d2bbg"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 17:52:35 ["tsftvcd8d2bbg"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} 
+2024-01-13 17:52:35 ["tsftvcd8d2bbg"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 17:52:35 ["tsftvcd8d2bbg"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 17:52:35 ["tsftvcd8d2bbg"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 17:52:36 ["tsftvcd8d2bbg"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 17:52:36 ["tsftvcd8d2bbg"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 17:52:36 ["tsftvcd8d2bbg"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 17:53:21 ["ub498qg3ka8sd"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 17:53:21 ["ub498qg3ka8sd"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 17:53:21 ["ub498qg3ka8sd"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 17:53:21 ["ub498qg3ka8sd"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 17:53:21 ["ub498qg3ka8sd"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 17:53:21 ["ub498qg3ka8sd"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 17:53:21 ["ub498qg3ka8sd"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 17:53:21 ["b2k3uap9nu2l9"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 17:53:21 ["b2k3uap9nu2l9"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 17:53:21 ["b2k3uap9nu2l9"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 17:53:21 ["b2k3uap9nu2l9"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 17:53:21 ["b2k3uap9nu2l9"] Utils NOTICE: Query HTTP header "Accept": application/n-triples,*/*;q=0.9
+2024-01-13 17:53:21 ["b2k3uap9nu2l9"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+PREFIX ex: &lt;http://example.org/&gt;
+
+CONSTRUCT {
+  ?activity a ex:Place;
+    ex:formatted_address ?address;
+    geo:lat ?lat;
+    geo:long ?lng;
+    ex:name ?name;
+    ex:opening_hours [ ex:open_now ?open_now ];
+    ex:place_id ?place_id;
+    ex:rating ?rating.
+}
+WHERE {
+  ?activity ex:formatted_address ?address;
+                geo:lat ?lat;
+                geo:long ?lng;
+                ex:name ?name;
+                ex:opening_hours [ ex:open_now ?open_now ];
+                ex:place_id ?place_id;
+                ex:rating ?rating.
+}
+
+2024-01-13 17:53:21 ["b2k3uap9nu2l9"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 17:53:21 ["b2k3uap9nu2l9"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 17:53:21 ["b2k3uap9nu2l9"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 17:53:21 ["b2k3uap9nu2l9"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 17:53:21 ["b2k3uap9nu2l9"] service NOTICE: Sending response with Content-Type: application/sparql-results+xml
+2024-01-13 17:53:21 ["b2k3uap9nu2l9"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 17:54:56 ["mcgis4nk48b4h"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 17:54:56 ["mcgis4nk48b4h"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 17:54:56 ["mcgis4nk48b4h"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 17:54:56 ["mcgis4nk48b4h"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 17:54:56 ["mcgis4nk48b4h"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 17:54:56 ["mcgis4nk48b4h"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 17:54:56 ["mcgis4nk48b4h"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 17:54:56 ["0d3lnt91erqt4"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 17:54:56 ["0d3lnt91erqt4"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 17:54:56 ["0d3lnt91erqt4"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 17:54:56 ["0d3lnt91erqt4"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 17:54:56 ["0d3lnt91erqt4"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 17:54:56 ["0d3lnt91erqt4"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+PREFIX ex: &lt;http://example.org/&gt;
+
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} 
+2024-01-13 17:54:56 ["0d3lnt91erqt4"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 17:54:56 ["0d3lnt91erqt4"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 17:54:56 ["0d3lnt91erqt4"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 17:54:56 ["0d3lnt91erqt4"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 17:54:56 ["0d3lnt91erqt4"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 17:54:56 ["0d3lnt91erqt4"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 17:56:58 ["hdrubqu1m2of2"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 17:56:58 ["hdrubqu1m2of2"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 17:56:58 ["hdrubqu1m2of2"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 17:56:58 ["hdrubqu1m2of2"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 17:56:58 ["hdrubqu1m2of2"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 17:56:58 ["hdrubqu1m2of2"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 17:56:58 ["hdrubqu1m2of2"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 17:56:58 ["gee8fno52iv4j"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 17:56:58 ["gee8fno52iv4j"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 17:56:58 ["gee8fno52iv4j"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 17:56:58 ["gee8fno52iv4j"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 17:56:58 ["gee8fno52iv4j"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 17:56:58 ["gee8fno52iv4j"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+
+SELECT ?name ?lng ?lat ?user_ratings_total ?types
+WHERE {
+  ?place ex:name ?name;
+         ex:location ?location;
+         ex:user_ratings_total ?user_ratings_total;
+         ex:types ?types.
+
+  ?location ex:lat ?lat;
+            ex:lng ?lng.
+}
+
+2024-01-13 17:56:58 ["gee8fno52iv4j"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 17:56:58 ["gee8fno52iv4j"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 17:56:58 ["gee8fno52iv4j"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 17:56:59 ["gee8fno52iv4j"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 17:56:59 ["gee8fno52iv4j"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 17:56:59 ["gee8fno52iv4j"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 17:57:18 ["oh0mpb5jdvu2o"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 17:57:18 ["oh0mpb5jdvu2o"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 17:57:18 ["oh0mpb5jdvu2o"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 17:57:18 ["oh0mpb5jdvu2o"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 17:57:18 ["oh0mpb5jdvu2o"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 17:57:18 ["oh0mpb5jdvu2o"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 17:57:18 ["oh0mpb5jdvu2o"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 17:57:18 ["n7mqtri37po8b"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 17:57:18 ["n7mqtri37po8b"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 17:57:18 ["n7mqtri37po8b"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 17:57:18 ["n7mqtri37po8b"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 17:57:18 ["n7mqtri37po8b"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 17:57:18 ["n7mqtri37po8b"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+
+SELECT ?name ?lng ?lat ?user_ratings_total ?types
+WHERE {
+  ?place ex:location ?location;
+         ex:user_ratings_total ?user_ratings_total;
+         ex:types ?types.
+
+  ?location ex:lat ?lat;
+            ex:lng ?lng.
+}
+
+2024-01-13 17:57:18 ["n7mqtri37po8b"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 17:57:18 ["n7mqtri37po8b"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 17:57:18 ["n7mqtri37po8b"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 17:57:18 ["n7mqtri37po8b"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 17:57:18 ["n7mqtri37po8b"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 17:57:19 ["n7mqtri37po8b"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 17:58:16 ["1pf9k9akl68cd"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 17:58:16 ["1pf9k9akl68cd"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 17:58:16 ["1pf9k9akl68cd"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 17:58:16 ["1pf9k9akl68cd"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 17:58:16 ["1pf9k9akl68cd"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 17:58:16 ["1pf9k9akl68cd"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 17:58:16 ["1pf9k9akl68cd"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 17:58:17 ["5mp0htjq35qgk"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 17:58:17 ["5mp0htjq35qgk"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 17:58:17 ["5mp0htjq35qgk"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 17:58:17 ["5mp0htjq35qgk"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 17:58:17 ["5mp0htjq35qgk"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 17:58:17 ["5mp0htjq35qgk"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} 
+2024-01-13 17:58:17 ["5mp0htjq35qgk"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 17:58:17 ["5mp0htjq35qgk"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 17:58:17 ["5mp0htjq35qgk"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 17:58:17 ["5mp0htjq35qgk"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 17:58:17 ["5mp0htjq35qgk"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 17:58:17 ["5mp0htjq35qgk"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 17:59:39 ["lk15862vuo1sa"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 17:59:39 ["lk15862vuo1sa"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 17:59:39 ["lk15862vuo1sa"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 17:59:39 ["lk15862vuo1sa"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 17:59:39 ["lk15862vuo1sa"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 17:59:39 ["lk15862vuo1sa"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 17:59:39 ["lk15862vuo1sa"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 17:59:39 ["m3o2udh541d70"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 17:59:39 ["m3o2udh541d70"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 17:59:39 ["m3o2udh541d70"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 17:59:39 ["m3o2udh541d70"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 17:59:39 ["m3o2udh541d70"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 17:59:39 ["m3o2udh541d70"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+SELECT ?name ?loc
+WHERE {
+  ?p ex:name ?name;
+     ex:location ?loc.
+} 
+2024-01-13 17:59:39 ["m3o2udh541d70"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 17:59:39 ["m3o2udh541d70"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 17:59:39 ["m3o2udh541d70"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 17:59:39 ["m3o2udh541d70"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 17:59:39 ["m3o2udh541d70"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 17:59:39 ["m3o2udh541d70"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:02:30 ["856gk9lq07bn7"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:02:30 ["856gk9lq07bn7"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:02:30 ["856gk9lq07bn7"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:02:30 ["856gk9lq07bn7"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:02:30 ["856gk9lq07bn7"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:02:30 ["856gk9lq07bn7"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:02:30 ["856gk9lq07bn7"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:02:30 ["4aau22r119vgi"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:02:30 ["4aau22r119vgi"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:02:30 ["4aau22r119vgi"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:02:30 ["4aau22r119vgi"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:02:30 ["4aau22r119vgi"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:02:30 ["4aau22r119vgi"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+
+SELECT ?name ?lng ?lat ?user_ratings_total ?types
+WHERE {
+  ?place ex:name ?name;
+         ex:location ?location;
+         ex:user_ratings_total ?user_ratings_total;
+         ex:types ?types.
+
+  ?location ex:lat ?lat;
+            ex:lng ?lng.
+}
+
+2024-01-13 18:02:30 ["4aau22r119vgi"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:02:30 ["4aau22r119vgi"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:02:30 ["4aau22r119vgi"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:02:30 ["4aau22r119vgi"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:02:30 ["4aau22r119vgi"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:02:30 ["4aau22r119vgi"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:03:56 ["9er628q8rijhe"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:03:56 ["9er628q8rijhe"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:03:56 ["9er628q8rijhe"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:03:56 ["9er628q8rijhe"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:03:56 ["9er628q8rijhe"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:03:56 ["9er628q8rijhe"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:03:56 ["9er628q8rijhe"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:03:56 ["rvo9vasmuhmf1"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:03:56 ["rvo9vasmuhmf1"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:03:56 ["rvo9vasmuhmf1"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:03:56 ["rvo9vasmuhmf1"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:03:56 ["rvo9vasmuhmf1"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:03:56 ["rvo9vasmuhmf1"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+
+SELECT ?name ?lng ?lat ?user_ratings_total ?types
+WHERE {
+  ?place ex:name ?name.
+  ?place ex:location ?location.
+  ?location ex:lat ?lat.
+  ?location ex:lng ?lng.
+  ?place ex:user_ratings_total ?user_ratings_total.
+  ?place ex:types ?types.
+}
+
+2024-01-13 18:03:56 ["rvo9vasmuhmf1"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:03:56 ["rvo9vasmuhmf1"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:03:56 ["rvo9vasmuhmf1"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:03:56 ["rvo9vasmuhmf1"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:03:56 ["rvo9vasmuhmf1"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:03:56 ["rvo9vasmuhmf1"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:05:43 ["eupfg7f1krjnb"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:05:43 ["eupfg7f1krjnb"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:05:43 ["eupfg7f1krjnb"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:05:43 ["eupfg7f1krjnb"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:05:43 ["eupfg7f1krjnb"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:05:43 ["eupfg7f1krjnb"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:05:43 ["eupfg7f1krjnb"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:05:43 ["mqpuqh1so3f72"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:05:43 ["mqpuqh1so3f72"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:05:43 ["mqpuqh1so3f72"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:05:43 ["mqpuqh1so3f72"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:05:43 ["mqpuqh1so3f72"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:05:43 ["mqpuqh1so3f72"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+
+SELECT ?name
+WHERE {
+  ?s ex:name ?name.
+}
+
+2024-01-13 18:05:43 ["mqpuqh1so3f72"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:05:43 ["mqpuqh1so3f72"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:05:43 ["mqpuqh1so3f72"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:05:43 ["mqpuqh1so3f72"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:05:44 ["mqpuqh1so3f72"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:05:44 ["mqpuqh1so3f72"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:07:49 ["pevhme2siv3np"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:07:49 ["pevhme2siv3np"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:07:49 ["pevhme2siv3np"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:07:49 ["pevhme2siv3np"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:07:49 ["pevhme2siv3np"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:07:49 ["pevhme2siv3np"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:07:49 ["pevhme2siv3np"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:07:49 ["ulgpbe0u33hvb"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:07:49 ["ulgpbe0u33hvb"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:07:49 ["ulgpbe0u33hvb"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:07:49 ["ulgpbe0u33hvb"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:07:49 ["ulgpbe0u33hvb"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:07:49 ["ulgpbe0u33hvb"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+
+SELECT ?name ?latitude ?longitude
+WHERE {
+  ?s ex:name ?name.
+  ?location ex:lat ?latitude.
+  ?location ex:lng ?longitude.
+}
+
+2024-01-13 18:07:49 ["ulgpbe0u33hvb"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:07:49 ["ulgpbe0u33hvb"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:07:49 ["ulgpbe0u33hvb"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:07:49 ["ulgpbe0u33hvb"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:07:49 ["ulgpbe0u33hvb"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:07:49 ["ulgpbe0u33hvb"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:07:57 ["0bbsg36thvct5"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:07:57 ["0bbsg36thvct5"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:07:57 ["0bbsg36thvct5"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:07:57 ["0bbsg36thvct5"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:07:57 ["0bbsg36thvct5"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:07:57 ["0bbsg36thvct5"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:07:57 ["0bbsg36thvct5"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:07:57 ["pi7ear87ucuig"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:07:57 ["pi7ear87ucuig"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:07:57 ["pi7ear87ucuig"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:07:57 ["pi7ear87ucuig"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:07:57 ["pi7ear87ucuig"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:07:57 ["pi7ear87ucuig"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+
+SELECT DISTINCT ?name ?latitude ?longitude
+WHERE {
+  ?s ex:name ?name.
+  ?location ex:lat ?latitude.
+  ?location ex:lng ?longitude.
+}
+
+2024-01-13 18:07:57 ["pi7ear87ucuig"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:07:57 ["pi7ear87ucuig"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:07:57 ["pi7ear87ucuig"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:07:57 ["pi7ear87ucuig"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:07:57 ["pi7ear87ucuig"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:07:57 ["pi7ear87ucuig"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:10:16 ["go5ho3ngvdfnq"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:10:16 ["go5ho3ngvdfnq"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:10:16 ["go5ho3ngvdfnq"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:10:16 ["go5ho3ngvdfnq"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:10:16 ["go5ho3ngvdfnq"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:10:16 ["go5ho3ngvdfnq"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:10:16 ["go5ho3ngvdfnq"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:10:16 ["3nth9dadu2lj3"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:10:16 ["3nth9dadu2lj3"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:10:16 ["3nth9dadu2lj3"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:10:16 ["3nth9dadu2lj3"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:10:16 ["3nth9dadu2lj3"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:10:16 ["3nth9dadu2lj3"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+
+SELECT DISTINCT ?name ?latitude ?longitude
+WHERE {
+  ?s ex:name ?name.
+  ?location rdf:type ex:location;
+            ex:lat ?latitude;
+            ex:lng ?longitude.
+}
+
+2024-01-13 18:10:16 ["3nth9dadu2lj3"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:10:16 ["3nth9dadu2lj3"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:10:16 ["3nth9dadu2lj3"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:10:16 ["3nth9dadu2lj3"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:10:16 ["3nth9dadu2lj3"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:10:16 ["3nth9dadu2lj3"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:10:36 ["lrij9l1rm0htk"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:10:36 ["lrij9l1rm0htk"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:10:36 ["lrij9l1rm0htk"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:10:36 ["lrij9l1rm0htk"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:10:36 ["lrij9l1rm0htk"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:10:36 ["lrij9l1rm0htk"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:10:36 ["lrij9l1rm0htk"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:10:36 ["c8rp301mv7pjf"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:10:36 ["c8rp301mv7pjf"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:10:36 ["c8rp301mv7pjf"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:10:36 ["c8rp301mv7pjf"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:10:36 ["c8rp301mv7pjf"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:10:36 ["c8rp301mv7pjf"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+
+SELECT DISTINCT ?name ?latitude ?longitude
+WHERE {
+  ?s ex:name ?name.
+  ?location a ex:location;
+            ex:lat ?latitude;
+            ex:lng ?longitude.
+}
+
+2024-01-13 18:10:36 ["c8rp301mv7pjf"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:10:36 ["c8rp301mv7pjf"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:10:36 ["c8rp301mv7pjf"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:10:36 ["c8rp301mv7pjf"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:10:36 ["c8rp301mv7pjf"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:10:36 ["c8rp301mv7pjf"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:11:32 ["o7g9aumsdrsq7"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:11:32 ["o7g9aumsdrsq7"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:11:32 ["o7g9aumsdrsq7"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:11:32 ["o7g9aumsdrsq7"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:11:32 ["o7g9aumsdrsq7"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:11:32 ["o7g9aumsdrsq7"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:11:32 ["o7g9aumsdrsq7"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:11:32 ["iip61gkpevud8"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:11:32 ["iip61gkpevud8"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:11:32 ["iip61gkpevud8"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:11:32 ["iip61gkpevud8"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:11:32 ["iip61gkpevud8"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:11:32 ["iip61gkpevud8"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+
+SELECT DISTINCT ?name ?latitude ?longitude
+WHERE {
+  ?s ex:name ?name.
+  ?location a ex:location .
+  ?location ex:lat ?latitude;
+   			ex:lng ?longitude.
+}
+
+2024-01-13 18:11:32 ["iip61gkpevud8"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:11:32 ["iip61gkpevud8"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:11:32 ["iip61gkpevud8"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:11:32 ["iip61gkpevud8"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:11:32 ["iip61gkpevud8"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:11:32 ["iip61gkpevud8"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:12:03 ["u7l89gt5u7tft"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:12:03 ["u7l89gt5u7tft"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:12:03 ["u7l89gt5u7tft"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:12:03 ["u7l89gt5u7tft"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:12:03 ["u7l89gt5u7tft"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:12:03 ["u7l89gt5u7tft"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:12:03 ["u7l89gt5u7tft"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:12:04 ["9q9h3si0faf8a"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:12:04 ["9q9h3si0faf8a"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:12:04 ["9q9h3si0faf8a"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:12:04 ["9q9h3si0faf8a"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:12:04 ["9q9h3si0faf8a"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:12:04 ["9q9h3si0faf8a"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+
+SELECT DISTINCT ?name ?latitude ?longitude
+WHERE {
+  ?s ex:name ?name.
+  ?s ex:location ?location.
+  ?location ex:lat ?latitude;
+            ex:lng ?longitude.
+}
+
+2024-01-13 18:12:04 ["9q9h3si0faf8a"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:12:04 ["9q9h3si0faf8a"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:12:04 ["9q9h3si0faf8a"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:12:04 ["9q9h3si0faf8a"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:12:04 ["9q9h3si0faf8a"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:12:04 ["9q9h3si0faf8a"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:13:33 ["r57i2t7864it2"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:13:33 ["r57i2t7864it2"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:13:33 ["r57i2t7864it2"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:13:33 ["r57i2t7864it2"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:13:33 ["r57i2t7864it2"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:13:33 ["r57i2t7864it2"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:13:33 ["r57i2t7864it2"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:13:33 ["fttb60fledmci"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:13:33 ["fttb60fledmci"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:13:33 ["fttb60fledmci"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:13:33 ["fttb60fledmci"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:13:33 ["fttb60fledmci"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:13:33 ["fttb60fledmci"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+
+SELECT DISTINCT ?name ?latitude ?longitude
+WHERE {
+  ?s ex:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location ex:lat ?latitude;
+            ex:lng ?longitude.
+}
+
+2024-01-13 18:13:33 ["fttb60fledmci"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:13:33 ["fttb60fledmci"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:13:33 ["fttb60fledmci"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:13:33 ["fttb60fledmci"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:13:33 ["fttb60fledmci"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:13:33 ["fttb60fledmci"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:15:44 ["2o1jv2kagg0th"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:15:44 ["2o1jv2kagg0th"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:15:44 ["2o1jv2kagg0th"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:15:44 ["2o1jv2kagg0th"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:15:44 ["2o1jv2kagg0th"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:15:44 ["2o1jv2kagg0th"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:15:44 ["2o1jv2kagg0th"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:15:44 ["9k4tjlgb3746h"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:15:44 ["9k4tjlgb3746h"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:15:44 ["9k4tjlgb3746h"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:15:44 ["9k4tjlgb3746h"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:15:44 ["9k4tjlgb3746h"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:15:44 ["9k4tjlgb3746h"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+
+SELECT *
+WHERE {
+  ?s ex:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location ex:lat ?latitude;
+            ex:lng ?longitude.
+  ?s ex:opening_hours ?opened.
+  ?s ex:place_id ?id.
+  ?s ex:rating ?rating. 
+  ?s ex:types ?types.
+}
+
+2024-01-13 18:15:44 ["9k4tjlgb3746h"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:15:44 ["9k4tjlgb3746h"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:15:44 ["9k4tjlgb3746h"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:15:44 ["9k4tjlgb3746h"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:15:44 ["9k4tjlgb3746h"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:15:44 ["9k4tjlgb3746h"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:16:37 ["0v9p3tfagt34l"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:16:37 ["0v9p3tfagt34l"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:16:37 ["0v9p3tfagt34l"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:16:37 ["0v9p3tfagt34l"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:16:37 ["0v9p3tfagt34l"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:16:37 ["0v9p3tfagt34l"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:16:37 ["0v9p3tfagt34l"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:16:37 ["e2qo64qrk57ra"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:16:37 ["e2qo64qrk57ra"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:16:37 ["e2qo64qrk57ra"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:16:37 ["e2qo64qrk57ra"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:16:37 ["e2qo64qrk57ra"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:16:37 ["e2qo64qrk57ra"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+
+SELECT ?name ?types ?id ?latitude ?longitude ?rating ?opened ?types
+WHERE {
+  ?s ex:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location ex:lat ?latitude;
+            ex:lng ?longitude.
+  ?s ex:place_id ?id.
+  ?s ex:rating ?rating. 
+  ?s ex:types ?types.
+  ?s ex:opening_hours ?opened.
+
+}
+
+2024-01-13 18:16:37 ["e2qo64qrk57ra"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:16:37 ["e2qo64qrk57ra"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:16:37 ["e2qo64qrk57ra"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:16:38 ["e2qo64qrk57ra"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:16:38 ["e2qo64qrk57ra"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:16:38 ["e2qo64qrk57ra"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:19:33 ["pkdktn28i74gj"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:19:33 ["pkdktn28i74gj"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:19:33 ["pkdktn28i74gj"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:19:33 ["pkdktn28i74gj"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:19:33 ["pkdktn28i74gj"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:19:33 ["pkdktn28i74gj"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:19:33 ["pkdktn28i74gj"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:19:33 ["ifii725itv4so"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:19:33 ["ifii725itv4so"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:19:33 ["ifii725itv4so"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:19:33 ["ifii725itv4so"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:19:33 ["ifii725itv4so"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:19:33 ["ifii725itv4so"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+
+SELECT ?name (GROUP_CONCAT(?type; SEPARATOR=&quot;,&quot;) AS ?types) ?id ?latitude ?longitude ?rating ?opened ?types
+WHERE {
+  ?s ex:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location ex:lat ?latitude;
+            ex:lng ?longitude.
+  ?s ex:place_id ?id.
+  ?s ex:rating ?rating. 
+  ?s ex:types ?type.
+  ?s ex:open_now ?open_now.
+
+}
+
+2024-01-13 18:19:33 ["ifii725itv4so"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:19:33 ["ifii725itv4so"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:19:33 ["ifii725itv4so"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:19:33 ["ifii725itv4so"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:19:34 ["ifii725itv4so"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:19:34 ["ifii725itv4so"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:19:49 ["b4pkj5d7rsnub"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:19:49 ["b4pkj5d7rsnub"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:19:49 ["b4pkj5d7rsnub"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:19:49 ["b4pkj5d7rsnub"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:19:49 ["b4pkj5d7rsnub"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:19:49 ["b4pkj5d7rsnub"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:19:49 ["b4pkj5d7rsnub"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:19:49 ["7re4irio0042a"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:19:49 ["7re4irio0042a"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:19:49 ["7re4irio0042a"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:19:49 ["7re4irio0042a"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:19:49 ["7re4irio0042a"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:19:49 ["7re4irio0042a"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+
+SELECT ?name (GROUP_CONCAT(?type; SEPARATOR=&quot;,&quot;) AS ?types) ?id ?latitude ?longitude ?rating ?opened 
+WHERE {
+  ?s ex:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location ex:lat ?latitude;
+            ex:lng ?longitude.
+  ?s ex:place_id ?id.
+  ?s ex:rating ?rating. 
+  ?s ex:types ?types.
+  ?s ex:open_now ?open_now.
+
+}
+
+2024-01-13 18:19:49 ["7re4irio0042a"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:19:49 ["7re4irio0042a"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:19:49 ["7re4irio0042a"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:19:49 ["7re4irio0042a"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:19:49 ["7re4irio0042a"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:19:49 ["7re4irio0042a"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:20:06 ["v2supcbv1kf5g"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:20:06 ["v2supcbv1kf5g"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:20:06 ["v2supcbv1kf5g"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:20:06 ["v2supcbv1kf5g"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:20:06 ["v2supcbv1kf5g"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:20:06 ["v2supcbv1kf5g"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:20:06 ["v2supcbv1kf5g"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:20:06 ["n223uee6r3p1c"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:20:06 ["n223uee6r3p1c"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:20:06 ["n223uee6r3p1c"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:20:06 ["n223uee6r3p1c"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:20:06 ["n223uee6r3p1c"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:20:06 ["n223uee6r3p1c"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+
+SELECT ?name ?types ?id ?latitude ?longitude ?rating ?opened 
+WHERE {
+  ?s ex:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location ex:lat ?latitude;
+            ex:lng ?longitude.
+  ?s ex:place_id ?id.
+  ?s ex:rating ?rating. 
+  ?s ex:types ?types.
+  ?s ex:open_now ?opened.
+
+}
+
+2024-01-13 18:20:06 ["n223uee6r3p1c"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:20:06 ["n223uee6r3p1c"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:20:06 ["n223uee6r3p1c"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:20:07 ["n223uee6r3p1c"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:20:07 ["n223uee6r3p1c"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:20:07 ["n223uee6r3p1c"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:20:29 ["cf4ualaf592m3"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:20:29 ["cf4ualaf592m3"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:20:29 ["cf4ualaf592m3"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:20:29 ["cf4ualaf592m3"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:20:29 ["cf4ualaf592m3"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:20:29 ["cf4ualaf592m3"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:20:29 ["cf4ualaf592m3"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:20:29 ["0f27f2svenb1i"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:20:29 ["0f27f2svenb1i"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:20:29 ["0f27f2svenb1i"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:20:29 ["0f27f2svenb1i"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:20:29 ["0f27f2svenb1i"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:20:29 ["0f27f2svenb1i"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+
+SELECT ?name ?types ?id ?latitude ?longitude ?rating ?opened 
+WHERE {
+  ?s ex:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location ex:lat ?latitude;
+            ex:lng ?longitude.
+  ?s ex:place_id ?id.
+  ?s ex:rating ?rating. 
+  ?s ex:types ?types.
+  ?s ex:open_now ?opened.
+}
+
+2024-01-13 18:20:29 ["0f27f2svenb1i"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:20:29 ["0f27f2svenb1i"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:20:29 ["0f27f2svenb1i"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:20:29 ["0f27f2svenb1i"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:20:30 ["0f27f2svenb1i"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:20:30 ["0f27f2svenb1i"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:20:40 ["b6t70hmdu03jp"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:20:40 ["b6t70hmdu03jp"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:20:40 ["b6t70hmdu03jp"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:20:40 ["b6t70hmdu03jp"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:20:40 ["b6t70hmdu03jp"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:20:40 ["b6t70hmdu03jp"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:20:40 ["b6t70hmdu03jp"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:20:40 ["cjfb6fa81rf0f"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:20:40 ["cjfb6fa81rf0f"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:20:40 ["cjfb6fa81rf0f"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:20:40 ["cjfb6fa81rf0f"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:20:40 ["cjfb6fa81rf0f"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:20:40 ["cjfb6fa81rf0f"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+
+SELECT ?name ?types ?id ?latitude ?longitude ?rating ?opened ?types
+WHERE {
+  ?s ex:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location ex:lat ?latitude;
+            ex:lng ?longitude.
+  ?s ex:place_id ?id.
+  ?s ex:rating ?rating. 
+  ?s ex:types ?types.
+  ?s ex:opening_hours ?opened.
+
+}
+
+2024-01-13 18:20:41 ["cjfb6fa81rf0f"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:20:41 ["cjfb6fa81rf0f"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:20:41 ["cjfb6fa81rf0f"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:20:41 ["cjfb6fa81rf0f"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:20:41 ["cjfb6fa81rf0f"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:20:41 ["cjfb6fa81rf0f"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:20:56 ["crudccqjcsilr"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:20:56 ["crudccqjcsilr"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:20:56 ["crudccqjcsilr"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:20:56 ["crudccqjcsilr"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:20:56 ["crudccqjcsilr"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:20:56 ["crudccqjcsilr"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:20:56 ["crudccqjcsilr"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:20:56 ["05m9f0pah3eg1"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:20:56 ["05m9f0pah3eg1"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:20:56 ["05m9f0pah3eg1"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:20:56 ["05m9f0pah3eg1"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:20:56 ["05m9f0pah3eg1"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:20:56 ["05m9f0pah3eg1"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+
+SELECT ?name ?types ?id ?latitude ?longitude ?rating ?opened ?types
+WHERE {
+  ?s ex:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location ex:lat ?latitude;
+            ex:lng ?longitude.
+  ?s ex:place_id ?id.
+  ?s ex:rating ?rating. 
+  ?s ex:types ?types.
+  ?s ex:open_now ?opened.
+
+}
+
+2024-01-13 18:20:56 ["05m9f0pah3eg1"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:20:56 ["05m9f0pah3eg1"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:20:56 ["05m9f0pah3eg1"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:20:56 ["05m9f0pah3eg1"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:20:56 ["05m9f0pah3eg1"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:20:56 ["05m9f0pah3eg1"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:21:27 ["id70u3rru5pos"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:21:27 ["id70u3rru5pos"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:21:27 ["id70u3rru5pos"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:21:27 ["id70u3rru5pos"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:21:27 ["id70u3rru5pos"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:21:27 ["id70u3rru5pos"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:21:27 ["id70u3rru5pos"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:21:27 ["dfs6tfhtc4m7v"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:21:27 ["dfs6tfhtc4m7v"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:21:27 ["dfs6tfhtc4m7v"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:21:27 ["dfs6tfhtc4m7v"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:21:27 ["dfs6tfhtc4m7v"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:21:27 ["dfs6tfhtc4m7v"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+
+SELECT ?name ?types ?id ?latitude ?longitude ?rating ?opened ?types
+WHERE {
+  ?s ex:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location ex:lat ?latitude;
+            ex:lng ?longitude.
+  ?s ex:place_id ?id.
+  ?s ex:rating ?rating. 
+  ?s ex:types ?types.
+  ?s ex:opening_hours ?openH.
+  ?openH ex:open_now ?opened.
+
+}
+
+2024-01-13 18:21:27 ["dfs6tfhtc4m7v"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:21:27 ["dfs6tfhtc4m7v"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:21:27 ["dfs6tfhtc4m7v"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:21:27 ["dfs6tfhtc4m7v"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:21:27 ["dfs6tfhtc4m7v"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:21:27 ["dfs6tfhtc4m7v"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:22:09 ["50o5vul6dqgu8"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:22:09 ["50o5vul6dqgu8"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:22:09 ["50o5vul6dqgu8"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:22:09 ["50o5vul6dqgu8"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:22:09 ["50o5vul6dqgu8"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:22:09 ["50o5vul6dqgu8"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:22:09 ["50o5vul6dqgu8"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:22:09 ["1f639ndnakcu2"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:22:09 ["1f639ndnakcu2"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:22:09 ["1f639ndnakcu2"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:22:09 ["1f639ndnakcu2"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:22:09 ["1f639ndnakcu2"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:22:09 ["1f639ndnakcu2"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+
+SELECT ?name ?types ?id ?latitude ?longitude ?rating ?open_now
+WHERE {
+  ?s ex:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location ex:lat ?latitude;
+            ex:lng ?longitude.
+  ?s ex:place_id ?id.
+  ?s ex:rating ?rating. 
+  ?s ex:types ?types.
+  ?s ex:opening_hours ?openH.
+  ?openH ex:open_now ?open_now.
+
+}
+
+2024-01-13 18:22:09 ["1f639ndnakcu2"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:22:09 ["1f639ndnakcu2"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:22:09 ["1f639ndnakcu2"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:22:10 ["1f639ndnakcu2"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:22:10 ["1f639ndnakcu2"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:22:10 ["1f639ndnakcu2"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:29:54 ["20gl292u7cok9"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:29:54 ["20gl292u7cok9"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:29:54 ["20gl292u7cok9"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:29:54 ["20gl292u7cok9"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:29:54 ["20gl292u7cok9"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:29:54 ["20gl292u7cok9"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:29:54 ["20gl292u7cok9"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:29:54 ["vt93bfnruh10f"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:29:54 ["vt93bfnruh10f"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:29:54 ["vt93bfnruh10f"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:29:54 ["vt93bfnruh10f"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:29:54 ["vt93bfnruh10f"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:29:54 ["vt93bfnruh10f"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+
+SELECT ?name (GROUP_CONCAT(?type; SEPARATOR=&quot;,&quot;) AS ?types) ?id ?latitude ?longitude ?rating ?open_now
+WHERE {
+  ?s ex:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location ex:lat ?latitude;
+            ex:lng ?longitude.
+  ?s ex:place_id ?id.
+  ?s ex:rating ?rating. 
+  ?s ex:types ?type.
+  ?s ex:opening_hours ?openH.
+  ?openH ex:open_now ?open_now.
+
+}
+
+2024-01-13 18:29:54 ["vt93bfnruh10f"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:29:54 ["vt93bfnruh10f"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:29:54 ["vt93bfnruh10f"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:29:54 ["vt93bfnruh10f"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:29:54 ["vt93bfnruh10f"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:29:54 ["vt93bfnruh10f"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:37:16 ["d18apqmqmv5gf"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:37:16 ["d18apqmqmv5gf"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:37:16 ["d18apqmqmv5gf"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:37:16 ["d18apqmqmv5gf"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:37:16 ["d18apqmqmv5gf"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:37:16 ["d18apqmqmv5gf"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:37:16 ["d18apqmqmv5gf"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:37:16 ["35e372u20g1ha"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:37:16 ["35e372u20g1ha"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:37:16 ["35e372u20g1ha"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:37:16 ["35e372u20g1ha"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:37:16 ["35e372u20g1ha"] Utils NOTICE: Query HTTP header "Accept": application/n-triples,*/*;q=0.9
+2024-01-13 18:37:16 ["35e372u20g1ha"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX sc: &lt;http://purl.org/science/owl/sciencecommons/&gt;
+PREFIX geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+PREFIX ex: &lt;http://example.org/&gt;
+PREFIX schema: &lt;http://schema.org/&gt;
+PREFIX dbo: &lt;http://dbpedia.org/ontology/&gt;
+CONSTRUCT {
+  []
+    a schema:Place;
+    schema:name ?name;
+    geo:lat ?lat;
+    geo:long ?lng;
+    schema:boolean ?open_now ;
+    schema:identifier ?place_id;
+    schema:rating ?rating;
+  	dbo:type ?type.
+}WHERE {
+  ?s ex:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location ex:lat ?latitude;
+            ex:lng ?longitude.
+  ?s ex:place_id ?id.
+  ?s ex:rating ?rating. 
+  ?s ex:types ?type.
+  ?s ex:opening_hours ?openH.
+  ?openH ex:open_now ?open_now.
+
+}
+
+2024-01-13 18:37:16 ["35e372u20g1ha"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:37:16 ["35e372u20g1ha"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:37:16 ["35e372u20g1ha"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:37:16 ["35e372u20g1ha"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:37:16 ["35e372u20g1ha"] service NOTICE: Sending response with Content-Type: application/sparql-results+xml
+2024-01-13 18:37:16 ["35e372u20g1ha"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:37:40 ["2npbnlsvfc0bh"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:37:40 ["2npbnlsvfc0bh"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:37:40 ["2npbnlsvfc0bh"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:37:40 ["2npbnlsvfc0bh"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:37:40 ["2npbnlsvfc0bh"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:37:40 ["2npbnlsvfc0bh"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:37:40 ["2npbnlsvfc0bh"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:37:40 ["7bl46faaq32mr"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:37:40 ["7bl46faaq32mr"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:37:40 ["7bl46faaq32mr"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:37:40 ["7bl46faaq32mr"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:37:40 ["7bl46faaq32mr"] Utils NOTICE: Query HTTP header "Accept": application/n-triples,*/*;q=0.9
+2024-01-13 18:37:40 ["7bl46faaq32mr"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX sc: &lt;http://purl.org/science/owl/sciencecommons/&gt;
+PREFIX geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+PREFIX ex: &lt;http://example.org/&gt;
+PREFIX schema: &lt;http://schema.org/&gt;
+PREFIX dbo: &lt;http://dbpedia.org/ontology/&gt;
+CONSTRUCT {
+  []
+    a schema:Place;
+    schema:name ?name;
+    geo:lat ?latitude;
+    geo:long ?longitude;
+    schema:boolean ?open_now ;
+    schema:identifier ?place_id;
+    schema:rating ?rating;
+  	dbo:type ?type.
+}WHERE {
+  ?s ex:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location ex:lat ?latitude;
+            ex:lng ?longitude.
+  ?s ex:place_id ?id.
+  ?s ex:rating ?rating. 
+  ?s ex:types ?type.
+  ?s ex:opening_hours ?openH.
+  ?openH ex:open_now ?open_now.
+
+}
+
+2024-01-13 18:37:40 ["7bl46faaq32mr"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:37:40 ["7bl46faaq32mr"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:37:40 ["7bl46faaq32mr"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:37:40 ["7bl46faaq32mr"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:37:40 ["7bl46faaq32mr"] service NOTICE: Sending response with Content-Type: application/sparql-results+xml
+2024-01-13 18:37:40 ["7bl46faaq32mr"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:37:50 ["v2bb4oq30uova"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:37:51 ["v2bb4oq30uova"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:37:51 ["v2bb4oq30uova"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:37:51 ["v2bb4oq30uova"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:37:51 ["v2bb4oq30uova"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:37:51 ["v2bb4oq30uova"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:37:51 ["v2bb4oq30uova"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:37:51 ["08htnrogq8hdq"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:37:51 ["08htnrogq8hdq"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:37:51 ["08htnrogq8hdq"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:37:51 ["08htnrogq8hdq"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:37:51 ["08htnrogq8hdq"] Utils NOTICE: Query HTTP header "Accept": application/n-triples,*/*;q=0.9
+2024-01-13 18:37:51 ["08htnrogq8hdq"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX sc: &lt;http://purl.org/science/owl/sciencecommons/&gt;
+PREFIX geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+PREFIX ex: &lt;http://example.org/&gt;
+PREFIX schema: &lt;http://schema.org/&gt;
+PREFIX dbo: &lt;http://dbpedia.org/ontology/&gt;
+CONSTRUCT {
+  []
+    a schema:Place;
+    schema:name ?name;
+    geo:lat ?latitude;
+    geo:long ?longitude;
+    schema:boolean ?open_now ;
+    schema:identifier ?id;
+    schema:rating ?rating;
+  	dbo:type ?type.
+}WHERE {
+  ?s ex:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location ex:lat ?latitude;
+            ex:lng ?longitude.
+  ?s ex:place_id ?id.
+  ?s ex:rating ?rating. 
+  ?s ex:types ?type.
+  ?s ex:opening_hours ?openH.
+  ?openH ex:open_now ?open_now.
+
+}
+
+2024-01-13 18:37:51 ["08htnrogq8hdq"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:37:51 ["08htnrogq8hdq"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:37:51 ["08htnrogq8hdq"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:37:51 ["08htnrogq8hdq"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:37:51 ["08htnrogq8hdq"] service NOTICE: Sending response with Content-Type: application/sparql-results+xml
+2024-01-13 18:37:51 ["08htnrogq8hdq"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:38:46 ["bsvlga3vo2n18"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:38:46 ["bsvlga3vo2n18"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:38:46 ["bsvlga3vo2n18"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:38:46 ["bsvlga3vo2n18"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:38:46 ["bsvlga3vo2n18"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:38:46 ["bsvlga3vo2n18"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:38:46 ["bsvlga3vo2n18"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:38:46 ["9euj16mjdq5fp"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:38:46 ["9euj16mjdq5fp"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:38:46 ["9euj16mjdq5fp"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:38:46 ["9euj16mjdq5fp"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:38:46 ["9euj16mjdq5fp"] Utils NOTICE: Query HTTP header "Accept": application/n-triples,*/*;q=0.9
+2024-01-13 18:38:46 ["9euj16mjdq5fp"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX sc: &lt;http://purl.org/science/owl/sciencecommons/&gt;
+PREFIX geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+PREFIX ex: &lt;http://example.org/&gt;
+PREFIX schema: &lt;http://schema.org/&gt;
+PREFIX dbo: &lt;http://dbpedia.org/ontology/&gt;
+
+CONSTRUCT {
+  [] a schema:Place;
+     schema:name ?name;
+     geo:lat ?latitude;
+     geo:long ?longitude;
+     schema:opens ?open_now ;
+     schema:identifier ?id;
+     schema:rating ?rating;
+     dbo:type ?type.
+}
+WHERE {
+  ?s ex:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location ex:lat ?latitude;
+            ex:lng ?longitude.
+  ?s ex:place_id ?id.
+  ?s ex:rating ?rating. 
+  ?s ex:types ?type.
+  ?s ex:opening_hours ?openH.
+  ?openH ex:open_now ?open_now.
+}
+
+2024-01-13 18:38:46 ["9euj16mjdq5fp"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:38:46 ["9euj16mjdq5fp"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:38:46 ["9euj16mjdq5fp"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:38:47 ["9euj16mjdq5fp"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:38:47 ["9euj16mjdq5fp"] service NOTICE: Sending response with Content-Type: application/sparql-results+xml
+2024-01-13 18:38:47 ["9euj16mjdq5fp"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:40:05 ["p2o3kq2t80t02"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:40:05 ["p2o3kq2t80t02"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:40:05 ["p2o3kq2t80t02"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:40:05 ["p2o3kq2t80t02"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:40:05 ["p2o3kq2t80t02"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:40:05 ["p2o3kq2t80t02"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:40:05 ["p2o3kq2t80t02"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:40:05 ["rkip938natd26"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:40:05 ["rkip938natd26"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:40:05 ["rkip938natd26"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:40:05 ["rkip938natd26"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:40:05 ["rkip938natd26"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:40:05 ["rkip938natd26"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX sc: &lt;http://purl.org/science/owl/sciencecommons/&gt;
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+PREFIX geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+PREFIX ex: &lt;http://example.org/&gt;
+PREFIX schema: &lt;http://schema.org/&gt;
+PREFIX dbo: &lt;http://dbpedia.org/ontology/&gt;
+
+SELECT ?name (GROUP_CONCAT(?type; SEPARATOR=&quot;,&quot;) AS ?types) ?id ?latitude ?longitude ?rating ?open_now
+WHERE {
+  ?s schema:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location geo:lat ?latitude;
+            geo:lng ?longitude.
+  ?s schema:identifier ?id.
+  ?s schema:rating ?rating. 
+  ?s schema:type ?type.
+  ?s ex:opening_hours ?openH.
+  ?openH  schema:boolean ?open_now ;
+
+}
+
+2024-01-13 18:40:05 ["rkip938natd26"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:40:05 ["rkip938natd26"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:40:05 ["rkip938natd26"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:40:05 ["rkip938natd26"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:40:05 ["rkip938natd26"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:40:05 ["rkip938natd26"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:40:11 ["gitoepit73343"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:40:11 ["gitoepit73343"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:40:11 ["gitoepit73343"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:40:11 ["gitoepit73343"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:40:11 ["gitoepit73343"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:40:11 ["gitoepit73343"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:40:11 ["gitoepit73343"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:40:11 ["o6i02ud1piema"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:40:11 ["o6i02ud1piema"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:40:11 ["o6i02ud1piema"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:40:11 ["o6i02ud1piema"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:40:11 ["o6i02ud1piema"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:40:11 ["o6i02ud1piema"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX sc: &lt;http://purl.org/science/owl/sciencecommons/&gt;
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+PREFIX geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+PREFIX ex: &lt;http://example.org/&gt;
+PREFIX schema: &lt;http://schema.org/&gt;
+PREFIX dbo: &lt;http://dbpedia.org/ontology/&gt;
+
+SELECT ?name (GROUP_CONCAT(?type; SEPARATOR=&quot;,&quot;) AS ?types) ?id ?latitude ?longitude ?rating ?open_now
+WHERE {
+  ?s schema:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location geo:lat ?latitude;
+            geo:lng ?longitude.
+  ?s schema:identifier ?id.
+  ?s schema:rating ?rating. 
+  ?s schema:type ?type.
+  ?s ex:opening_hours ?openH.
+  ?openH ex:open_now ?open_now.
+
+}
+
+2024-01-13 18:40:11 ["o6i02ud1piema"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:40:11 ["o6i02ud1piema"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:40:11 ["o6i02ud1piema"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:40:12 ["o6i02ud1piema"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:40:12 ["o6i02ud1piema"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:40:12 ["o6i02ud1piema"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:40:14 ["st76ajpv7lcvs"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:40:14 ["st76ajpv7lcvs"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:40:14 ["st76ajpv7lcvs"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:40:14 ["st76ajpv7lcvs"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:40:14 ["st76ajpv7lcvs"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:40:14 ["st76ajpv7lcvs"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:40:14 ["st76ajpv7lcvs"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:40:14 ["8hfa5r697gjc9"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:40:14 ["8hfa5r697gjc9"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:40:14 ["8hfa5r697gjc9"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:40:14 ["8hfa5r697gjc9"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:40:14 ["8hfa5r697gjc9"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:40:14 ["8hfa5r697gjc9"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX sc: &lt;http://purl.org/science/owl/sciencecommons/&gt;
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+PREFIX geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+PREFIX ex: &lt;http://example.org/&gt;
+PREFIX schema: &lt;http://schema.org/&gt;
+PREFIX dbo: &lt;http://dbpedia.org/ontology/&gt;
+
+SELECT ?name (GROUP_CONCAT(?type; SEPARATOR=&quot;,&quot;) AS ?types) ?id ?latitude ?longitude ?rating ?open_now
+WHERE {
+  ?s schema:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location geo:lat ?latitude;
+            geo:lng ?longitude.
+  ?s schema:identifier ?id.
+  ?s schema:rating ?rating. 
+  ?s schema:type ?type.
+  ?s ex:opening_hours ?openH.
+  ?openH ex:open_now ?open_now.
+
+}
+
+2024-01-13 18:40:14 ["8hfa5r697gjc9"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:40:14 ["8hfa5r697gjc9"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:40:14 ["8hfa5r697gjc9"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:40:14 ["8hfa5r697gjc9"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:40:14 ["8hfa5r697gjc9"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:40:14 ["8hfa5r697gjc9"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:40:19 ["h9v1p41jp97bn"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:40:19 ["h9v1p41jp97bn"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:40:19 ["h9v1p41jp97bn"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:40:19 ["h9v1p41jp97bn"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:40:19 ["h9v1p41jp97bn"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:40:19 ["h9v1p41jp97bn"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:40:19 ["h9v1p41jp97bn"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:40:19 ["cplgv6f4l0crm"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:40:19 ["cplgv6f4l0crm"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:40:19 ["cplgv6f4l0crm"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:40:19 ["cplgv6f4l0crm"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:40:19 ["cplgv6f4l0crm"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:40:19 ["cplgv6f4l0crm"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX sc: &lt;http://purl.org/science/owl/sciencecommons/&gt;
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+PREFIX geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+PREFIX ex: &lt;http://example.org/&gt;
+PREFIX schema: &lt;http://schema.org/&gt;
+PREFIX dbo: &lt;http://dbpedia.org/ontology/&gt;
+
+SELECT ?name (GROUP_CONCAT(?type; SEPARATOR=&quot;,&quot;) AS ?types) ?id ?latitude ?longitude ?rating ?open_now
+WHERE {
+  ?s schema:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location geo:lat ?latitude;
+            geo:lng ?longitude.
+  ?s schema:identifier ?id.
+  ?s schema:rating ?rating. 
+  ?s ex:types ?type.
+  ?s ex:opening_hours ?openH.
+  ?openH ex:open_now ?open_now.
+
+}
+
+2024-01-13 18:40:19 ["cplgv6f4l0crm"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:40:19 ["cplgv6f4l0crm"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:40:19 ["cplgv6f4l0crm"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:40:19 ["cplgv6f4l0crm"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:40:19 ["cplgv6f4l0crm"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:40:19 ["cplgv6f4l0crm"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:40:22 ["70gsls07112i2"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:40:22 ["70gsls07112i2"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:40:22 ["70gsls07112i2"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:40:22 ["70gsls07112i2"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:40:22 ["70gsls07112i2"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:40:22 ["70gsls07112i2"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:40:22 ["70gsls07112i2"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:40:22 ["o9fcjddf4cfv0"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:40:22 ["o9fcjddf4cfv0"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:40:22 ["o9fcjddf4cfv0"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:40:22 ["o9fcjddf4cfv0"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:40:22 ["o9fcjddf4cfv0"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:40:22 ["o9fcjddf4cfv0"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX sc: &lt;http://purl.org/science/owl/sciencecommons/&gt;
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+PREFIX geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+PREFIX ex: &lt;http://example.org/&gt;
+PREFIX schema: &lt;http://schema.org/&gt;
+PREFIX dbo: &lt;http://dbpedia.org/ontology/&gt;
+
+SELECT ?name (GROUP_CONCAT(?type; SEPARATOR=&quot;,&quot;) AS ?types) ?id ?latitude ?longitude ?rating ?open_now
+WHERE {
+  ?s schema:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location geo:lat ?latitude;
+            geo:lng ?longitude.
+  ?s schema:identifier ?id.
+  ?s ex:rating ?rating. 
+  ?s ex:types ?type.
+  ?s ex:opening_hours ?openH.
+  ?openH ex:open_now ?open_now.
+
+}
+
+2024-01-13 18:40:22 ["o9fcjddf4cfv0"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:40:22 ["o9fcjddf4cfv0"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:40:22 ["o9fcjddf4cfv0"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:40:22 ["o9fcjddf4cfv0"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:40:22 ["o9fcjddf4cfv0"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:40:22 ["o9fcjddf4cfv0"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:40:25 ["ruv94igl87uug"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:40:25 ["ruv94igl87uug"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:40:25 ["ruv94igl87uug"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:40:25 ["ruv94igl87uug"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:40:25 ["ruv94igl87uug"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:40:25 ["ruv94igl87uug"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:40:25 ["ruv94igl87uug"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:40:25 ["s41ei9egadmh9"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:40:25 ["s41ei9egadmh9"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:40:25 ["s41ei9egadmh9"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:40:25 ["s41ei9egadmh9"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:40:25 ["s41ei9egadmh9"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:40:25 ["s41ei9egadmh9"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX sc: &lt;http://purl.org/science/owl/sciencecommons/&gt;
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+PREFIX geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+PREFIX ex: &lt;http://example.org/&gt;
+PREFIX schema: &lt;http://schema.org/&gt;
+PREFIX dbo: &lt;http://dbpedia.org/ontology/&gt;
+
+SELECT ?name (GROUP_CONCAT(?type; SEPARATOR=&quot;,&quot;) AS ?types) ?id ?latitude ?longitude ?rating ?open_now
+WHERE {
+  ?s schema:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location geo:lat ?latitude;
+            geo:lng ?longitude.
+  ?s ex:place_id ?id.
+  ?s ex:rating ?rating. 
+  ?s ex:types ?type.
+  ?s ex:opening_hours ?openH.
+  ?openH ex:open_now ?open_now.
+
+}
+
+2024-01-13 18:40:25 ["s41ei9egadmh9"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:40:25 ["s41ei9egadmh9"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:40:25 ["s41ei9egadmh9"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:40:25 ["s41ei9egadmh9"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:40:25 ["s41ei9egadmh9"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:40:25 ["s41ei9egadmh9"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:40:31 ["mk1lq7nre5k0m"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:40:31 ["mk1lq7nre5k0m"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:40:31 ["mk1lq7nre5k0m"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:40:31 ["mk1lq7nre5k0m"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:40:31 ["mk1lq7nre5k0m"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:40:31 ["mk1lq7nre5k0m"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:40:31 ["mk1lq7nre5k0m"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:40:31 ["o1h6a4il5l18a"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:40:31 ["o1h6a4il5l18a"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:40:31 ["o1h6a4il5l18a"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:40:31 ["o1h6a4il5l18a"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:40:31 ["o1h6a4il5l18a"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:40:31 ["o1h6a4il5l18a"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX sc: &lt;http://purl.org/science/owl/sciencecommons/&gt;
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+PREFIX geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+PREFIX ex: &lt;http://example.org/&gt;
+PREFIX schema: &lt;http://schema.org/&gt;
+PREFIX dbo: &lt;http://dbpedia.org/ontology/&gt;
+
+SELECT ?name (GROUP_CONCAT(?type; SEPARATOR=&quot;,&quot;) AS ?types) ?id ?latitude ?longitude ?rating ?open_now
+WHERE {
+  ?s schema:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location ex:lat ?latitude;
+            ex:lng ?longitude.
+  ?s ex:place_id ?id.
+  ?s ex:rating ?rating. 
+  ?s ex:types ?type.
+  ?s ex:opening_hours ?openH.
+  ?openH ex:open_now ?open_now.
+
+}
+
+2024-01-13 18:40:31 ["o1h6a4il5l18a"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:40:31 ["o1h6a4il5l18a"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:40:31 ["o1h6a4il5l18a"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:40:31 ["o1h6a4il5l18a"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:40:31 ["o1h6a4il5l18a"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:40:32 ["o1h6a4il5l18a"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:40:40 ["f149grkcpa9jn"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:40:40 ["f149grkcpa9jn"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:40:40 ["f149grkcpa9jn"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:40:40 ["f149grkcpa9jn"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:40:40 ["f149grkcpa9jn"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:40:40 ["f149grkcpa9jn"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:40:40 ["f149grkcpa9jn"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:40:40 ["o5e2ja76oen81"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:40:40 ["o5e2ja76oen81"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:40:40 ["o5e2ja76oen81"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:40:40 ["o5e2ja76oen81"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:40:40 ["o5e2ja76oen81"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:40:40 ["o5e2ja76oen81"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX sc: &lt;http://purl.org/science/owl/sciencecommons/&gt;
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+PREFIX geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+PREFIX ex: &lt;http://example.org/&gt;
+PREFIX schema: &lt;http://schema.org/&gt;
+PREFIX dbo: &lt;http://dbpedia.org/ontology/&gt;
+
+SELECT ?name (GROUP_CONCAT(?type; SEPARATOR=&quot;,&quot;) AS ?types) ?id ?latitude ?longitude ?rating ?open_now
+WHERE {
+  ?s ex:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location ex:lat ?latitude;
+            ex:lng ?longitude.
+  ?s ex:place_id ?id.
+  ?s ex:rating ?rating. 
+  ?s ex:types ?type.
+  ?s ex:opening_hours ?openH.
+  ?openH ex:open_now ?open_now.
+
+}
+
+2024-01-13 18:40:40 ["o5e2ja76oen81"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:40:40 ["o5e2ja76oen81"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:40:40 ["o5e2ja76oen81"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:40:40 ["o5e2ja76oen81"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:40:40 ["o5e2ja76oen81"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:40:40 ["o5e2ja76oen81"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:40:55 ["9686bjsgjp26v"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:40:55 ["9686bjsgjp26v"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:40:55 ["9686bjsgjp26v"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:40:55 ["9686bjsgjp26v"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:40:55 ["9686bjsgjp26v"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:40:55 ["9686bjsgjp26v"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:40:55 ["9686bjsgjp26v"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:40:55 ["0a64o6su8km66"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:40:55 ["0a64o6su8km66"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:40:55 ["0a64o6su8km66"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:40:55 ["0a64o6su8km66"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:40:55 ["0a64o6su8km66"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:40:55 ["0a64o6su8km66"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+PREFIX geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+PREFIX ex: &lt;http://example.org/&gt;
+PREFIX schema: &lt;http://schema.org/&gt;
+PREFIX dbo: &lt;http://dbpedia.org/ontology/&gt;
+
+SELECT ?name (GROUP_CONCAT(?type; SEPARATOR=&quot;,&quot;) AS ?types) ?id ?latitude ?longitude ?rating ?open_now
+WHERE {
+  ?s ex:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location ex:lat ?latitude;
+            ex:lng ?longitude.
+  ?s ex:place_id ?id.
+  ?s ex:rating ?rating. 
+  ?s ex:types ?type.
+  ?s ex:opening_hours ?openH.
+  ?openH ex:open_now ?open_now.
+
+}
+
+2024-01-13 18:40:55 ["0a64o6su8km66"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:40:55 ["0a64o6su8km66"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:40:56 ["0a64o6su8km66"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:40:56 ["0a64o6su8km66"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:40:56 ["0a64o6su8km66"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:40:56 ["0a64o6su8km66"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:41:09 ["3uev8ednm0ggr"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:41:09 ["3uev8ednm0ggr"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:41:09 ["3uev8ednm0ggr"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:41:09 ["3uev8ednm0ggr"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:41:09 ["3uev8ednm0ggr"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:41:09 ["3uev8ednm0ggr"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:41:09 ["3uev8ednm0ggr"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:41:09 ["70tbfr9t4f5fe"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:41:09 ["70tbfr9t4f5fe"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:41:09 ["70tbfr9t4f5fe"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:41:09 ["70tbfr9t4f5fe"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:41:09 ["70tbfr9t4f5fe"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:41:09 ["70tbfr9t4f5fe"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX sc: &lt;http://purl.org/science/owl/sciencecommons/&gt;
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+PREFIX geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+PREFIX ex: &lt;http://example.org/&gt;
+PREFIX schema: &lt;http://schema.org/&gt;
+PREFIX dbo: &lt;http://dbpedia.org/ontology/&gt;
+
+SELECT ?name (GROUP_CONCAT(?type; SEPARATOR=&quot;,&quot;) AS ?types) ?id ?latitude ?longitude ?rating ?open_now
+WHERE {
+  ?s schema:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location ex:lat ?latitude;
+            ex:lng ?longitude.
+  ?s ex:place_id ?id.
+  ?s ex:rating ?rating. 
+  ?s ex:types ?type.
+  ?s ex:opening_hours ?openH.
+  ?openH ex:open_now ?open_now.
+
+}
+
+2024-01-13 18:41:09 ["70tbfr9t4f5fe"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:41:09 ["70tbfr9t4f5fe"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:41:09 ["70tbfr9t4f5fe"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:41:09 ["70tbfr9t4f5fe"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:41:09 ["70tbfr9t4f5fe"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:41:09 ["70tbfr9t4f5fe"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:41:18 ["3lqia047eg1s0"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:41:18 ["3lqia047eg1s0"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:41:18 ["3lqia047eg1s0"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:41:18 ["3lqia047eg1s0"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:41:18 ["3lqia047eg1s0"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:41:18 ["3lqia047eg1s0"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:41:18 ["3lqia047eg1s0"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:41:18 ["32d612enj0srq"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:41:18 ["32d612enj0srq"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:41:18 ["32d612enj0srq"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:41:18 ["32d612enj0srq"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:41:18 ["32d612enj0srq"] Utils NOTICE: Query HTTP header "Accept": application/n-triples,*/*;q=0.9
+2024-01-13 18:41:18 ["32d612enj0srq"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+PREFIX ex: &lt;http://example.org/&gt;
+PREFIX schema: &lt;http://schema.org/&gt;
+PREFIX dbo: &lt;http://dbpedia.org/ontology/&gt;
+CONSTRUCT {
+  []
+    a schema:Place;
+    schema:name ?name;
+    geo:lat ?latitude;
+    geo:long ?longitude;
+    schema:boolean ?open_now ;
+    schema:identifier ?id;
+    schema:rating ?rating;
+  	dbo:type ?type.
+}WHERE {
+  ?s ex:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location ex:lat ?latitude;
+            ex:lng ?longitude.
+  ?s ex:place_id ?id.
+  ?s ex:rating ?rating. 
+  ?s ex:types ?type.
+  ?s ex:opening_hours ?openH.
+  ?openH ex:open_now ?open_now.
+
+}
+2024-01-13 18:41:18 ["32d612enj0srq"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:41:18 ["32d612enj0srq"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:41:18 ["32d612enj0srq"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:41:18 ["32d612enj0srq"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:41:18 ["32d612enj0srq"] service NOTICE: Sending response with Content-Type: application/sparql-results+xml
+2024-01-13 18:41:18 ["32d612enj0srq"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-13 18:41:27 ["1hqbi8v25btq5"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:41:27 ["1hqbi8v25btq5"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:41:27 ["1hqbi8v25btq5"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:41:27 ["1hqbi8v25btq5"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-13 18:41:27 ["1hqbi8v25btq5"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-13 18:41:27 ["1hqbi8v25btq5"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-13 18:41:27 ["1hqbi8v25btq5"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-13 18:41:27 ["s8ctv3kpqkmaj"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-13 18:41:27 ["s8ctv3kpqkmaj"] service NOTICE: Query parameter (html special chars encoded) 'service': roadtrip/getInformation
+2024-01-13 18:41:27 ["s8ctv3kpqkmaj"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-13 18:41:27 ["s8ctv3kpqkmaj"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-13 18:41:27 ["s8ctv3kpqkmaj"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-13 18:41:27 ["s8ctv3kpqkmaj"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX ex: &lt;http://ns.inria.fr/sparql-micro-service/api#&gt;
+
+SELECT ?name (GROUP_CONCAT(?type; SEPARATOR=&quot;,&quot;) AS ?types) ?id ?latitude ?longitude ?rating ?open_now
+WHERE {
+  ?s ex:name ?name.
+  ?s ex:geometry ?geom.
+  ?geom ex:location ?location.
+  ?location ex:lat ?latitude;
+            ex:lng ?longitude.
+  ?s ex:place_id ?id.
+  ?s ex:rating ?rating. 
+  ?s ex:types ?type.
+  ?s ex:opening_hours ?openH.
+  ?openH ex:open_now ?open_now.
+
+}
+
+2024-01-13 18:41:27 ["s8ctv3kpqkmaj"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [place] => Tour Eiffel
+)
+
+2024-01-13 18:41:27 ["s8ctv3kpqkmaj"] service NOTICE: Web API query string: https://maps.googleapis.com/maps/api/place/textsearch/json?query=Tour%20Eiffel&key=AIzaSyBEnGCybJWH7SgryMewLGyFlPOnIZn_MeA
+2024-01-13 18:41:27 ["s8ctv3kpqkmaj"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-13 18:41:27 ["s8ctv3kpqkmaj"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-13 18:41:27 ["s8ctv3kpqkmaj"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-13 18:41:27 ["s8ctv3kpqkmaj"] service NOTICE: --------- Done - SPARQL ÂµS execution --------

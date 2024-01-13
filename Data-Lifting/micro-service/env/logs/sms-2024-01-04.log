@@ -1,0 +1,147 @@
+2024-01-04 11:27:27 ["niqpe2rvejbqv"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-04 11:27:28 ["gfbmj19fqvg96"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-04 11:27:28 ["niqpe2rvejbqv"] service NOTICE: Query parameter (html special chars encoded) 'service': deezer/findAlbums
+2024-01-04 11:27:28 ["gfbmj19fqvg96"] service NOTICE: Query parameter (html special chars encoded) 'service': deezer/findAlbums
+2024-01-04 11:27:28 ["niqpe2rvejbqv"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-04 11:27:28 ["gfbmj19fqvg96"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-04 11:27:28 ["niqpe2rvejbqv"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-04 11:27:28 ["niqpe2rvejbqv"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-04 11:27:28 ["gfbmj19fqvg96"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-04 11:27:28 ["gfbmj19fqvg96"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-04 11:27:28 ["niqpe2rvejbqv"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-04 11:27:28 ["gfbmj19fqvg96"] service NOTICE: Client SPARQL query (html special chars encoded):
+ASK {?x ?y ?z}
+2024-01-04 11:27:28 ["niqpe2rvejbqv"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-04 11:27:28 ["gfbmj19fqvg96"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [keyword] => eminem
+)
+
+2024-01-04 11:27:28 ["gfbmj19fqvg96"] service NOTICE: Web API query string: https://api.deezer.com/search/album?q=eminem
+2024-01-04 11:27:28 ["gfbmj19fqvg96"] service NOTICE: Executing SPARQL CONSTRUCT query from file: /services/deezer/findAlbums/construct.sparql
+2024-01-04 11:27:29 ["gfbmj19fqvg96"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-04 11:27:29 ["gfbmj19fqvg96"] service NOTICE: Sending response with Content-Type: application/sparql-results+xml
+2024-01-04 11:27:29 ["gfbmj19fqvg96"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-04 11:27:29 ["11k0b2tl0c2f3"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-04 11:27:29 ["11k0b2tl0c2f3"] service NOTICE: Query parameter (html special chars encoded) 'service': deezer/findAlbums
+2024-01-04 11:27:29 ["11k0b2tl0c2f3"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-04 11:27:29 ["11k0b2tl0c2f3"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-04 11:27:29 ["11k0b2tl0c2f3"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-04 11:27:29 ["11k0b2tl0c2f3"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-04 11:27:29 ["11k0b2tl0c2f3"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-04 11:27:29 ["r91b2pslnugnr"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-04 11:27:29 ["r91b2pslnugnr"] service NOTICE: Query parameter (html special chars encoded) 'service': deezer/findAlbums
+2024-01-04 11:27:29 ["r91b2pslnugnr"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-04 11:27:29 ["r91b2pslnugnr"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2024-01-04 11:27:29 ["r91b2pslnugnr"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2024-01-04 11:27:29 ["r91b2pslnugnr"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} LIMIT 10
+2024-01-04 11:27:29 ["r91b2pslnugnr"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [keyword] => eminem
+)
+
+2024-01-04 11:27:29 ["r91b2pslnugnr"] service NOTICE: Web API query string: https://api.deezer.com/search/album?q=eminem
+2024-01-04 11:27:29 ["r91b2pslnugnr"] service NOTICE: Executing SPARQL CONSTRUCT query from file: /services/deezer/findAlbums/construct.sparql
+2024-01-04 11:27:30 ["r91b2pslnugnr"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-04 11:27:30 ["r91b2pslnugnr"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2024-01-04 11:27:30 ["r91b2pslnugnr"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-04 11:34:33 ["mpvv5ifikhml7"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-04 11:34:33 ["mpvv5ifikhml7"] service NOTICE: Query parameter (html special chars encoded) 'service': football/getSchedulebySeason
+2024-01-04 11:34:33 ["mpvv5ifikhml7"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-04 11:34:33 ["mpvv5ifikhml7"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-04 11:34:33 ["mpvv5ifikhml7"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-04 11:34:33 ["mpvv5ifikhml7"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-04 11:34:33 ["mpvv5ifikhml7"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-04 11:34:33 ["dl3akfjbue9vg"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-04 11:34:33 ["dl3akfjbue9vg"] service NOTICE: Query parameter (html special chars encoded) 'service': football/getSchedulebySeason
+2024-01-04 11:34:33 ["dl3akfjbue9vg"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-04 11:34:33 ["dl3akfjbue9vg"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-04 11:34:33 ["dl3akfjbue9vg"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-04 11:34:33 ["dl3akfjbue9vg"] service NOTICE: Client SPARQL query (html special chars encoded):
+ASK {?x ?y ?z}
+2024-01-04 11:34:33 ["dl3akfjbue9vg"] service NOTICE: Web API query string: https://api.sportradar.com/soccer/trial/v4/en/seasons/sr:season:93741/schedules.json?api_key=nknxxfzjdjr6zdp2umdrb9kx
+2024-01-04 11:34:41 ["cp31g1dvh8v75"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-04 11:34:41 ["cp31g1dvh8v75"] service NOTICE: Query parameter (html special chars encoded) 'service': football/getSchedulebySeason
+2024-01-04 11:34:41 ["cp31g1dvh8v75"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-04 11:34:41 ["cp31g1dvh8v75"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-04 11:34:41 ["cp31g1dvh8v75"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-04 11:34:41 ["cp31g1dvh8v75"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-04 11:34:41 ["cp31g1dvh8v75"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-04 11:34:41 ["3fo42tksaj73t"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-04 11:34:41 ["3fo42tksaj73t"] service NOTICE: Query parameter (html special chars encoded) 'service': football/getSchedulebySeason
+2024-01-04 11:34:42 ["3fo42tksaj73t"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-04 11:34:42 ["3fo42tksaj73t"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-04 11:34:42 ["3fo42tksaj73t"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-04 11:34:42 ["3fo42tksaj73t"] service NOTICE: Client SPARQL query (html special chars encoded):
+ASK {?x ?y ?z}
+2024-01-04 11:34:42 ["3fo42tksaj73t"] service NOTICE: Web API query string: https://api.sportradar.com/soccer/trial/v4/en/seasons/sr:season:93741/schedules.json?api_key=nknxxfzjdjr6zdp2umdrb9kx
+2024-01-04 11:34:49 ["dl3akfjbue9vg"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-04 11:34:50 ["da668emba57pb"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-04 11:34:50 ["da668emba57pb"] service NOTICE: Query parameter (html special chars encoded) 'service': football/getSeasonbyCompet
+2024-01-04 11:34:50 ["sedh3k0q7h1lb"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-04 11:34:50 ["da668emba57pb"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-04 11:34:50 ["da668emba57pb"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-04 11:34:50 ["sedh3k0q7h1lb"] service NOTICE: Query parameter (html special chars encoded) 'service': football/getSeasonbyCompet
+2024-01-04 11:34:50 ["da668emba57pb"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-04 11:34:50 ["da668emba57pb"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-04 11:34:50 ["da668emba57pb"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-04 11:34:50 ["sedh3k0q7h1lb"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-04 11:34:50 ["sedh3k0q7h1lb"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-04 11:34:50 ["sedh3k0q7h1lb"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-04 11:34:50 ["sedh3k0q7h1lb"] service NOTICE: Client SPARQL query (html special chars encoded):
+ASK {?x ?y ?z}
+2024-01-04 11:34:50 ["sedh3k0q7h1lb"] service NOTICE: Web API query string: https://api.sportradar.com/soccer/trial/v4/en/competitions/sr:competition:17/seasons.json?api_key=nknxxfzjdjr6zdp2umdrb9kx
+2024-01-04 11:34:51 ["sedh3k0q7h1lb"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-04 11:34:58 ["sedh3k0q7h1lb"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-04 11:34:58 ["sedh3k0q7h1lb"] service NOTICE: Sending response with Content-Type: application/sparql-results+xml
+2024-01-04 11:34:58 ["sedh3k0q7h1lb"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-04 11:35:04 ["8r1n430h5hcit"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-04 11:35:05 ["du1j5ed0kf9c0"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-04 11:35:05 ["8r1n430h5hcit"] service NOTICE: Query parameter (html special chars encoded) 'service': football/getSeasonbyCompet
+2024-01-04 11:35:05 ["du1j5ed0kf9c0"] service NOTICE: Query parameter (html special chars encoded) 'service': football/getSeasonbyCompet
+2024-01-04 11:35:05 ["8r1n430h5hcit"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-04 11:35:05 ["8r1n430h5hcit"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-04 11:35:05 ["8r1n430h5hcit"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-04 11:35:05 ["8r1n430h5hcit"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-04 11:35:05 ["du1j5ed0kf9c0"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-04 11:35:05 ["8r1n430h5hcit"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-04 11:35:05 ["du1j5ed0kf9c0"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-04 11:35:05 ["du1j5ed0kf9c0"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-04 11:35:05 ["du1j5ed0kf9c0"] service NOTICE: Client SPARQL query (html special chars encoded):
+ASK {?x ?y ?z}
+2024-01-04 11:35:05 ["du1j5ed0kf9c0"] service NOTICE: Web API query string: https://api.sportradar.com/soccer/trial/v4/en/competitions/sr:competition:17/seasons.json?api_key=nknxxfzjdjr6zdp2umdrb9kx
+2024-01-04 11:35:07 ["du1j5ed0kf9c0"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-04 11:35:08 ["du1j5ed0kf9c0"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-04 11:35:09 ["du1j5ed0kf9c0"] service NOTICE: Sending response with Content-Type: application/sparql-results+xml
+2024-01-04 11:35:09 ["du1j5ed0kf9c0"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-04 11:35:11 ["3fo42tksaj73t"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-04 11:35:12 ["d1g0og2aaa08n"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-04 11:35:12 ["d1g0og2aaa08n"] service NOTICE: Query parameter (html special chars encoded) 'service': football/getLineupsbySeason
+2024-01-04 11:35:12 ["d1g0og2aaa08n"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-04 11:35:12 ["d1g0og2aaa08n"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-04 11:35:12 ["d1g0og2aaa08n"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-04 11:35:12 ["d1g0og2aaa08n"] Utils WARNING: Unsupported HTTP method OPTIONS
+2024-01-04 11:35:12 ["d1g0og2aaa08n"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2024-01-04 11:35:13 ["ec8f3al7evcsu"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2024-01-04 11:35:13 ["ec8f3al7evcsu"] service NOTICE: Query parameter (html special chars encoded) 'service': football/getLineupsbySeason
+2024-01-04 11:35:13 ["ec8f3al7evcsu"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2024-01-04 11:35:13 ["ec8f3al7evcsu"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2024-01-04 11:35:13 ["ec8f3al7evcsu"] Utils NOTICE: Query HTTP header "Accept": */*
+2024-01-04 11:35:13 ["ec8f3al7evcsu"] service NOTICE: Client SPARQL query (html special chars encoded):
+ASK {?x ?y ?z}
+2024-01-04 11:35:13 ["ec8f3al7evcsu"] service NOTICE: Web API query string: https://api.sportradar.com/soccer/trial/v4/en/seasons/sr:season:66441/lineups.json?api_key=nknxxfzjdjr6zdp2umdrb9kx
+2024-01-04 11:35:15 ["ec8f3al7evcsu"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2024-01-04 11:35:16 ["ec8f3al7evcsu"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-04 11:35:16 ["ec8f3al7evcsu"] service NOTICE: Sending response with Content-Type: application/sparql-results+xml
+2024-01-04 11:35:16 ["ec8f3al7evcsu"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-04 11:35:21 ["dl3akfjbue9vg"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-04 11:35:21 ["dl3akfjbue9vg"] service NOTICE: Sending response with Content-Type: application/sparql-results+xml
+2024-01-04 11:35:23 ["dl3akfjbue9vg"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2024-01-04 11:35:27 ["3fo42tksaj73t"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2024-01-04 11:35:27 ["3fo42tksaj73t"] service NOTICE: Sending response with Content-Type: application/sparql-results+xml
+2024-01-04 11:35:28 ["3fo42tksaj73t"] service NOTICE: --------- Done - SPARQL ÂµS execution --------

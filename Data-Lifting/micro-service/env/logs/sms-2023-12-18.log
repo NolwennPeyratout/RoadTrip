@@ -1,0 +1,585 @@
+2023-12-18 09:50:53 ["iio52lasse1r5"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 09:50:53 ["d9easqf91l420"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 09:50:54 ["d9easqf91l420"] service NOTICE: Query parameter (html special chars encoded) 'service': deezer/findAlbums
+2023-12-18 09:50:54 ["iio52lasse1r5"] service NOTICE: Query parameter (html special chars encoded) 'service': deezer/findAlbums
+2023-12-18 09:50:54 ["d9easqf91l420"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 09:50:54 ["d9easqf91l420"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 09:50:54 ["d9easqf91l420"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 09:50:54 ["iio52lasse1r5"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 09:50:54 ["d9easqf91l420"] Utils WARNING: Unsupported HTTP method OPTIONS
+2023-12-18 09:50:54 ["iio52lasse1r5"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 09:50:54 ["iio52lasse1r5"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 09:50:54 ["d9easqf91l420"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2023-12-18 09:50:54 ["iio52lasse1r5"] service NOTICE: Client SPARQL query (html special chars encoded):
+ASK {?x ?y ?z}
+2023-12-18 09:50:55 ["iio52lasse1r5"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [keyword] => eminem
+)
+
+2023-12-18 09:50:55 ["iio52lasse1r5"] service NOTICE: Web API query string: https://api.deezer.com/search/album?q=eminem
+2023-12-18 09:51:10 ["iio52lasse1r5"] service NOTICE: Executing SPARQL CONSTRUCT query from file: /services/deezer/findAlbums/construct.sparql
+2023-12-18 09:51:13 ["iio52lasse1r5"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2023-12-18 09:51:14 ["iio52lasse1r5"] service NOTICE: Sending response with Content-Type: application/sparql-results+xml
+2023-12-18 09:51:14 ["iio52lasse1r5"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2023-12-18 09:53:43 ["dvs8kif4rlav1"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 09:53:43 ["9iv365hb6569t"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 09:53:43 ["9iv365hb6569t"] service NOTICE: Query parameter (html special chars encoded) 'service': deezer/findAlbums
+2023-12-18 09:53:43 ["dvs8kif4rlav1"] service NOTICE: Query parameter (html special chars encoded) 'service': deezer/findAlbums
+2023-12-18 09:53:43 ["dvs8kif4rlav1"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 09:53:43 ["9iv365hb6569t"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 09:53:43 ["dvs8kif4rlav1"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 09:53:43 ["9iv365hb6569t"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2023-12-18 09:53:43 ["dvs8kif4rlav1"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 09:53:43 ["9iv365hb6569t"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2023-12-18 09:53:43 ["dvs8kif4rlav1"] Utils WARNING: Unsupported HTTP method OPTIONS
+2023-12-18 09:53:43 ["9iv365hb6569t"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} LIMIT 10
+2023-12-18 09:53:43 ["dvs8kif4rlav1"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2023-12-18 09:53:43 ["9iv365hb6569t"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [keyword] => eminem
+)
+
+2023-12-18 09:53:43 ["9iv365hb6569t"] service NOTICE: Web API query string: https://api.deezer.com/search/album?q=eminem
+2023-12-18 09:53:44 ["9iv365hb6569t"] service NOTICE: Executing SPARQL CONSTRUCT query from file: /services/deezer/findAlbums/construct.sparql
+2023-12-18 09:53:45 ["9iv365hb6569t"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2023-12-18 09:53:45 ["9iv365hb6569t"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2023-12-18 09:53:45 ["9iv365hb6569t"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2023-12-18 10:00:03 ["ktpgn09ige3t2"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:00:03 ["ktpgn09ige3t2"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:00:03 ["ktpgn09ige3t2"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:00:03 ["ktpgn09ige3t2"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:00:03 ["ktpgn09ige3t2"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:00:03 ["ktpgn09ige3t2"] Utils WARNING: Unsupported HTTP method OPTIONS
+2023-12-18 10:00:03 ["ktpgn09ige3t2"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2023-12-18 10:00:03 ["vdt61abv8vjhe"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:00:03 ["vdt61abv8vjhe"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:00:03 ["vdt61abv8vjhe"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:00:03 ["vdt61abv8vjhe"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:00:03 ["vdt61abv8vjhe"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:00:03 ["vdt61abv8vjhe"] service NOTICE: Client SPARQL query (html special chars encoded):
+ASK {?x ?y ?z}
+2023-12-18 10:00:04 ["vdt61abv8vjhe"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => country_id,
+)
+but read: array (
+)
+2023-12-18 10:00:04 ["vdt61abv8vjhe"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2023-12-18 10:00:04 ["vdt61abv8vjhe"] service NOTICE: Sending response with Content-Type: application/sparql-results+xml
+2023-12-18 10:00:04 ["vdt61abv8vjhe"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2023-12-18 10:00:05 ["bdpiciq097fde"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:00:05 ["bdpiciq097fde"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:00:05 ["bdpiciq097fde"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:00:05 ["bdpiciq097fde"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:00:05 ["bdpiciq097fde"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:00:05 ["bdpiciq097fde"] Utils WARNING: Unsupported HTTP method OPTIONS
+2023-12-18 10:00:05 ["bdpiciq097fde"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2023-12-18 10:00:05 ["2v7n4npnu8fe3"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:00:05 ["2v7n4npnu8fe3"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:00:05 ["2v7n4npnu8fe3"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:00:05 ["2v7n4npnu8fe3"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2023-12-18 10:00:05 ["2v7n4npnu8fe3"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2023-12-18 10:00:05 ["2v7n4npnu8fe3"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} LIMIT 10
+2023-12-18 10:00:05 ["2v7n4npnu8fe3"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => country_id,
+)
+but read: array (
+)
+2023-12-18 10:00:05 ["2v7n4npnu8fe3"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2023-12-18 10:00:05 ["2v7n4npnu8fe3"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2023-12-18 10:00:05 ["2v7n4npnu8fe3"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2023-12-18 10:00:22 ["qald4geprcc8i"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:00:22 ["qald4geprcc8i"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:00:22 ["qald4geprcc8i"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:00:22 ["qald4geprcc8i"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:00:22 ["qald4geprcc8i"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:00:22 ["qald4geprcc8i"] Utils WARNING: Unsupported HTTP method OPTIONS
+2023-12-18 10:00:22 ["qald4geprcc8i"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2023-12-18 10:00:22 ["lb2iut867qh7m"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:00:22 ["lb2iut867qh7m"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:00:22 ["lb2iut867qh7m"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:00:22 ["lb2iut867qh7m"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2023-12-18 10:00:22 ["lb2iut867qh7m"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2023-12-18 10:00:22 ["lb2iut867qh7m"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} LIMIT 10
+2023-12-18 10:00:22 ["lb2iut867qh7m"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => country_id,
+)
+but read: array (
+)
+2023-12-18 10:00:22 ["lb2iut867qh7m"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2023-12-18 10:00:22 ["lb2iut867qh7m"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2023-12-18 10:00:22 ["lb2iut867qh7m"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2023-12-18 10:00:26 ["tv1a5oeg85jkh"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:00:26 ["tv1a5oeg85jkh"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:00:26 ["tv1a5oeg85jkh"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:00:26 ["tv1a5oeg85jkh"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:00:26 ["tv1a5oeg85jkh"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:00:26 ["tv1a5oeg85jkh"] Utils WARNING: Unsupported HTTP method OPTIONS
+2023-12-18 10:00:26 ["tv1a5oeg85jkh"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2023-12-18 10:00:26 ["h5jqr7r5s7j78"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:00:26 ["h5jqr7r5s7j78"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:00:26 ["h5jqr7r5s7j78"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:00:26 ["h5jqr7r5s7j78"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:00:26 ["h5jqr7r5s7j78"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:00:26 ["h5jqr7r5s7j78"] service NOTICE: Client SPARQL query (html special chars encoded):
+ASK {?x ?y ?z}
+2023-12-18 10:00:26 ["h5jqr7r5s7j78"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => country_id,
+)
+but read: array (
+)
+2023-12-18 10:00:26 ["h5jqr7r5s7j78"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2023-12-18 10:00:26 ["h5jqr7r5s7j78"] service NOTICE: Sending response with Content-Type: application/sparql-results+xml
+2023-12-18 10:00:26 ["h5jqr7r5s7j78"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2023-12-18 10:00:27 ["03q3kk3d85rc8"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:00:27 ["03q3kk3d85rc8"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:00:27 ["03q3kk3d85rc8"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:00:27 ["03q3kk3d85rc8"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:00:27 ["03q3kk3d85rc8"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:00:27 ["03q3kk3d85rc8"] Utils WARNING: Unsupported HTTP method OPTIONS
+2023-12-18 10:00:27 ["03q3kk3d85rc8"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2023-12-18 10:00:27 ["ui7b7hbked40f"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:00:27 ["ui7b7hbked40f"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:00:27 ["ui7b7hbked40f"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:00:27 ["ui7b7hbked40f"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2023-12-18 10:00:27 ["ui7b7hbked40f"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2023-12-18 10:00:27 ["ui7b7hbked40f"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} LIMIT 10
+2023-12-18 10:00:27 ["ui7b7hbked40f"] service WARNING: Not all service arguments were found. Expected: array (
+  0 => country_id,
+)
+but read: array (
+)
+2023-12-18 10:00:27 ["ui7b7hbked40f"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2023-12-18 10:00:27 ["ui7b7hbked40f"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2023-12-18 10:00:27 ["ui7b7hbked40f"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2023-12-18 10:02:23 ["jik903m9otsbr"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:02:23 ["jik903m9otsbr"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:02:23 ["jik903m9otsbr"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:02:23 ["jik903m9otsbr"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:02:23 ["jik903m9otsbr"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:02:23 ["jik903m9otsbr"] Utils WARNING: Unsupported HTTP method OPTIONS
+2023-12-18 10:02:23 ["jik903m9otsbr"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2023-12-18 10:02:23 ["56f8kjadnolu7"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:02:23 ["56f8kjadnolu7"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:02:23 ["56f8kjadnolu7"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:02:23 ["56f8kjadnolu7"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:02:23 ["56f8kjadnolu7"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:02:23 ["56f8kjadnolu7"] service NOTICE: Client SPARQL query (html special chars encoded):
+ASK {?x ?y ?z}
+2023-12-18 10:02:23 ["56f8kjadnolu7"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [country_id] => 6
+)
+
+2023-12-18 10:02:23 ["56f8kjadnolu7"] service NOTICE: Web API query string: https://apiv3.apifootball.com/?action=get_leagues&country_id=6&APIkey=c4d8615ca11bdf2544168dff19ace6c0835a3f2af08cd2cf413da11936bee7e4
+2023-12-18 10:02:24 ["56f8kjadnolu7"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2023-12-18 10:02:24 ["56f8kjadnolu7"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2023-12-18 10:02:24 ["56f8kjadnolu7"] service NOTICE: Sending response with Content-Type: application/sparql-results+xml
+2023-12-18 10:02:24 ["56f8kjadnolu7"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2023-12-18 10:02:25 ["3sp8a2o8almsf"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:02:25 ["3sp8a2o8almsf"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:02:25 ["3sp8a2o8almsf"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:02:25 ["3sp8a2o8almsf"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:02:25 ["3sp8a2o8almsf"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:02:25 ["3sp8a2o8almsf"] Utils WARNING: Unsupported HTTP method OPTIONS
+2023-12-18 10:02:25 ["3sp8a2o8almsf"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2023-12-18 10:02:25 ["13uqu5mhn3619"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:02:25 ["13uqu5mhn3619"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:02:25 ["13uqu5mhn3619"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:02:25 ["13uqu5mhn3619"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2023-12-18 10:02:25 ["13uqu5mhn3619"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2023-12-18 10:02:25 ["13uqu5mhn3619"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} LIMIT 10
+2023-12-18 10:02:25 ["13uqu5mhn3619"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [country_id] => 6
+)
+
+2023-12-18 10:02:25 ["13uqu5mhn3619"] service NOTICE: Web API query string: https://apiv3.apifootball.com/?action=get_leagues&country_id=6&APIkey=c4d8615ca11bdf2544168dff19ace6c0835a3f2af08cd2cf413da11936bee7e4
+2023-12-18 10:02:25 ["13uqu5mhn3619"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2023-12-18 10:02:25 ["13uqu5mhn3619"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2023-12-18 10:02:25 ["13uqu5mhn3619"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2023-12-18 10:02:25 ["13uqu5mhn3619"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2023-12-18 10:03:36 ["tqijvr4638ehe"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:03:36 ["tqijvr4638ehe"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:03:36 ["tqijvr4638ehe"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:03:36 ["tqijvr4638ehe"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:03:36 ["tqijvr4638ehe"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:03:36 ["tqijvr4638ehe"] Utils WARNING: Unsupported HTTP method OPTIONS
+2023-12-18 10:03:36 ["tqijvr4638ehe"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2023-12-18 10:03:36 ["hbak466a0jafr"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:03:36 ["hbak466a0jafr"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:03:36 ["hbak466a0jafr"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:03:36 ["hbak466a0jafr"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2023-12-18 10:03:36 ["hbak466a0jafr"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2023-12-18 10:03:36 ["hbak466a0jafr"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} 
+2023-12-18 10:03:36 ["hbak466a0jafr"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [country_id] => 6
+)
+
+2023-12-18 10:03:36 ["hbak466a0jafr"] service NOTICE: Web API query string: https://apiv3.apifootball.com/?action=get_leagues&country_id=6&APIkey=c4d8615ca11bdf2544168dff19ace6c0835a3f2af08cd2cf413da11936bee7e4
+2023-12-18 10:03:36 ["hbak466a0jafr"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2023-12-18 10:03:36 ["hbak466a0jafr"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2023-12-18 10:03:36 ["hbak466a0jafr"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2023-12-18 10:03:36 ["hbak466a0jafr"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2023-12-18 10:04:06 ["hrrr0hmt7ujm5"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:04:06 ["hrrr0hmt7ujm5"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:04:06 ["hrrr0hmt7ujm5"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:04:06 ["hrrr0hmt7ujm5"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:04:06 ["hrrr0hmt7ujm5"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:04:06 ["hrrr0hmt7ujm5"] Utils WARNING: Unsupported HTTP method OPTIONS
+2023-12-18 10:04:06 ["hrrr0hmt7ujm5"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2023-12-18 10:04:06 ["efsbu1iee2mhv"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:04:06 ["efsbu1iee2mhv"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:04:06 ["efsbu1iee2mhv"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:04:06 ["efsbu1iee2mhv"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:04:06 ["efsbu1iee2mhv"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:04:06 ["efsbu1iee2mhv"] service NOTICE: Client SPARQL query (html special chars encoded):
+ASK {?x ?y ?z}
+2023-12-18 10:04:07 ["efsbu1iee2mhv"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [country_id] => 10
+)
+
+2023-12-18 10:04:07 ["efsbu1iee2mhv"] service NOTICE: Web API query string: https://apiv3.apifootball.com/?action=get_leagues&country_id=10&APIkey=c4d8615ca11bdf2544168dff19ace6c0835a3f2af08cd2cf413da11936bee7e4
+2023-12-18 10:04:07 ["efsbu1iee2mhv"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2023-12-18 10:04:07 ["efsbu1iee2mhv"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2023-12-18 10:04:07 ["efsbu1iee2mhv"] service NOTICE: Sending response with Content-Type: application/sparql-results+xml
+2023-12-18 10:04:07 ["efsbu1iee2mhv"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2023-12-18 10:04:08 ["lsrtdinudcgp1"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:04:08 ["lsrtdinudcgp1"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:04:08 ["lsrtdinudcgp1"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:04:08 ["lsrtdinudcgp1"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:04:08 ["lsrtdinudcgp1"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:04:08 ["lsrtdinudcgp1"] Utils WARNING: Unsupported HTTP method OPTIONS
+2023-12-18 10:04:08 ["lsrtdinudcgp1"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2023-12-18 10:04:08 ["0tbng9sd0lq6l"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:04:08 ["0tbng9sd0lq6l"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:04:08 ["0tbng9sd0lq6l"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:04:08 ["0tbng9sd0lq6l"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2023-12-18 10:04:08 ["0tbng9sd0lq6l"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2023-12-18 10:04:08 ["0tbng9sd0lq6l"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} 
+2023-12-18 10:04:08 ["0tbng9sd0lq6l"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [country_id] => 10
+)
+
+2023-12-18 10:04:08 ["0tbng9sd0lq6l"] service NOTICE: Web API query string: https://apiv3.apifootball.com/?action=get_leagues&country_id=10&APIkey=c4d8615ca11bdf2544168dff19ace6c0835a3f2af08cd2cf413da11936bee7e4
+2023-12-18 10:04:08 ["0tbng9sd0lq6l"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2023-12-18 10:04:08 ["0tbng9sd0lq6l"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2023-12-18 10:04:08 ["0tbng9sd0lq6l"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2023-12-18 10:04:08 ["0tbng9sd0lq6l"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2023-12-18 10:08:11 ["7u35lctt56m9v"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:08:11 ["7u35lctt56m9v"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:08:11 ["7u35lctt56m9v"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:08:11 ["7u35lctt56m9v"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:08:11 ["7u35lctt56m9v"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:08:11 ["7u35lctt56m9v"] Utils WARNING: Unsupported HTTP method OPTIONS
+2023-12-18 10:08:11 ["7u35lctt56m9v"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2023-12-18 10:08:11 ["oaim2feh7c5mu"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:08:11 ["oaim2feh7c5mu"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:08:11 ["oaim2feh7c5mu"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:08:11 ["oaim2feh7c5mu"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2023-12-18 10:08:11 ["oaim2feh7c5mu"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2023-12-18 10:08:11 ["oaim2feh7c5mu"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX api: &lt;https://apifootball.com/#api&gt;
+SELECT * WHERE {
+  ?s a api:league_id;
+  api:league_name ?name.
+} 
+2023-12-18 10:08:11 ["oaim2feh7c5mu"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [country_id] => 10
+)
+
+2023-12-18 10:08:11 ["oaim2feh7c5mu"] service NOTICE: Web API query string: https://apiv3.apifootball.com/?action=get_leagues&country_id=10&APIkey=c4d8615ca11bdf2544168dff19ace6c0835a3f2af08cd2cf413da11936bee7e4
+2023-12-18 10:08:11 ["oaim2feh7c5mu"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2023-12-18 10:08:11 ["oaim2feh7c5mu"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2023-12-18 10:08:11 ["oaim2feh7c5mu"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2023-12-18 10:08:11 ["oaim2feh7c5mu"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2023-12-18 10:08:29 ["g32rs06qlh3or"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:08:29 ["g32rs06qlh3or"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:08:29 ["g32rs06qlh3or"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:08:29 ["g32rs06qlh3or"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:08:29 ["g32rs06qlh3or"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:08:29 ["g32rs06qlh3or"] Utils WARNING: Unsupported HTTP method OPTIONS
+2023-12-18 10:08:29 ["g32rs06qlh3or"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2023-12-18 10:08:29 ["lgg5arrhuh9ln"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:08:29 ["lgg5arrhuh9ln"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:08:29 ["lgg5arrhuh9ln"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:08:29 ["lgg5arrhuh9ln"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2023-12-18 10:08:29 ["lgg5arrhuh9ln"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2023-12-18 10:08:29 ["lgg5arrhuh9ln"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX api: &lt;https://apiv3.apifootball.com/#api&gt;
+SELECT * WHERE {
+  ?s a api:league_id;
+  api:league_name ?name.
+} 
+2023-12-18 10:08:29 ["lgg5arrhuh9ln"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [country_id] => 10
+)
+
+2023-12-18 10:08:29 ["lgg5arrhuh9ln"] service NOTICE: Web API query string: https://apiv3.apifootball.com/?action=get_leagues&country_id=10&APIkey=c4d8615ca11bdf2544168dff19ace6c0835a3f2af08cd2cf413da11936bee7e4
+2023-12-18 10:08:29 ["lgg5arrhuh9ln"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2023-12-18 10:08:29 ["lgg5arrhuh9ln"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2023-12-18 10:08:29 ["lgg5arrhuh9ln"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2023-12-18 10:08:29 ["lgg5arrhuh9ln"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2023-12-18 10:08:31 ["gmen0od757g79"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:08:31 ["gmen0od757g79"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:08:31 ["gmen0od757g79"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:08:31 ["gmen0od757g79"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:08:31 ["gmen0od757g79"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:08:31 ["gmen0od757g79"] Utils WARNING: Unsupported HTTP method OPTIONS
+2023-12-18 10:08:31 ["gmen0od757g79"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2023-12-18 10:08:31 ["kf50868064b9i"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:08:31 ["kf50868064b9i"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:08:31 ["kf50868064b9i"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:08:31 ["kf50868064b9i"] Utils NOTICE: Query HTTP header "Content-Type": application/x-www-form-urlencoded
+2023-12-18 10:08:31 ["kf50868064b9i"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2023-12-18 10:08:31 ["kf50868064b9i"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX api: &lt;https://apiv3.apifootball.com/#api&gt;
+SELECT * WHERE {
+  ?s a api:league_id;
+  api:league_name ?name.
+} 
+2023-12-18 10:08:31 ["kf50868064b9i"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [country_id] => 10
+)
+
+2023-12-18 10:08:31 ["kf50868064b9i"] service NOTICE: Web API query string: https://apiv3.apifootball.com/?action=get_leagues&country_id=10&APIkey=c4d8615ca11bdf2544168dff19ace6c0835a3f2af08cd2cf413da11936bee7e4
+2023-12-18 10:08:31 ["kf50868064b9i"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2023-12-18 10:08:31 ["kf50868064b9i"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2023-12-18 10:08:31 ["kf50868064b9i"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2023-12-18 10:08:31 ["kf50868064b9i"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2023-12-18 10:09:02 ["voo084pjf1apv"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:09:02 ["voo084pjf1apv"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:09:02 ["voo084pjf1apv"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:09:02 ["voo084pjf1apv"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:09:02 ["voo084pjf1apv"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:09:02 ["voo084pjf1apv"] Utils WARNING: Unsupported HTTP method OPTIONS
+2023-12-18 10:09:02 ["voo084pjf1apv"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2023-12-18 10:09:03 ["g3dvpmoph2kbg"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:09:03 ["g3dvpmoph2kbg"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:09:03 ["g3dvpmoph2kbg"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:09:03 ["g3dvpmoph2kbg"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:09:03 ["g3dvpmoph2kbg"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2023-12-18 10:09:03 ["g3dvpmoph2kbg"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX api: &lt;https://apiv3.apifootball.com/#api&gt;
+SELECT * WHERE {
+  ?s a api:league_id;
+  api:league_name ?name.
+} 
+2023-12-18 10:09:03 ["g3dvpmoph2kbg"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [country_id] => 10
+)
+
+2023-12-18 10:09:03 ["g3dvpmoph2kbg"] service NOTICE: Web API query string: https://apiv3.apifootball.com/?action=get_leagues&country_id=10&APIkey=c4d8615ca11bdf2544168dff19ace6c0835a3f2af08cd2cf413da11936bee7e4
+2023-12-18 10:09:03 ["g3dvpmoph2kbg"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2023-12-18 10:09:03 ["g3dvpmoph2kbg"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2023-12-18 10:09:03 ["g3dvpmoph2kbg"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2023-12-18 10:09:03 ["g3dvpmoph2kbg"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2023-12-18 10:18:13 ["jqfcnep8c312t"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:18:13 ["jqfcnep8c312t"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:18:13 ["jqfcnep8c312t"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:18:13 ["jqfcnep8c312t"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:18:13 ["jqfcnep8c312t"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:18:13 ["jqfcnep8c312t"] Utils WARNING: Unsupported HTTP method OPTIONS
+2023-12-18 10:18:13 ["jqfcnep8c312t"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2023-12-18 10:18:13 ["pp64gdhmablu1"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:18:13 ["pp64gdhmablu1"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:18:13 ["pp64gdhmablu1"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:18:13 ["pp64gdhmablu1"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:18:13 ["pp64gdhmablu1"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2023-12-18 10:18:13 ["pp64gdhmablu1"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX api: &lt;https://apifootball.com/#api&gt;
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} 
+2023-12-18 10:18:13 ["pp64gdhmablu1"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [country_id] => 10
+)
+
+2023-12-18 10:18:13 ["pp64gdhmablu1"] service NOTICE: Web API query string: https://apiv3.apifootball.com/?action=get_leagues&country_id=10&APIkey=c4d8615ca11bdf2544168dff19ace6c0835a3f2af08cd2cf413da11936bee7e4
+2023-12-18 10:18:13 ["pp64gdhmablu1"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2023-12-18 10:18:13 ["pp64gdhmablu1"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2023-12-18 10:18:13 ["pp64gdhmablu1"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2023-12-18 10:18:13 ["pp64gdhmablu1"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2023-12-18 10:18:30 ["6k2q39ula43e5"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:18:30 ["6k2q39ula43e5"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:18:30 ["6k2q39ula43e5"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:18:30 ["6k2q39ula43e5"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:18:30 ["6k2q39ula43e5"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:18:30 ["6k2q39ula43e5"] Utils WARNING: Unsupported HTTP method OPTIONS
+2023-12-18 10:18:30 ["6k2q39ula43e5"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2023-12-18 10:18:30 ["081jn3km0lu02"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:18:30 ["081jn3km0lu02"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:18:30 ["081jn3km0lu02"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:18:30 ["081jn3km0lu02"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:18:30 ["081jn3km0lu02"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:18:30 ["081jn3km0lu02"] service NOTICE: Client SPARQL query (html special chars encoded):
+ASK {?x ?y ?z}
+2023-12-18 10:18:30 ["081jn3km0lu02"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [country_id] => 10,12
+)
+
+2023-12-18 10:18:30 ["081jn3km0lu02"] service NOTICE: Web API query string: https://apiv3.apifootball.com/?action=get_leagues&country_id=10%2C12&APIkey=c4d8615ca11bdf2544168dff19ace6c0835a3f2af08cd2cf413da11936bee7e4
+2023-12-18 10:18:32 ["081jn3km0lu02"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2023-12-18 10:18:32 ["081jn3km0lu02"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2023-12-18 10:18:32 ["081jn3km0lu02"] service NOTICE: Sending response with Content-Type: application/sparql-results+xml
+2023-12-18 10:18:32 ["081jn3km0lu02"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2023-12-18 10:18:36 ["l1sunvedoks7t"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:18:36 ["l1sunvedoks7t"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:18:36 ["l1sunvedoks7t"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:18:36 ["l1sunvedoks7t"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:18:36 ["l1sunvedoks7t"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:18:36 ["l1sunvedoks7t"] Utils WARNING: Unsupported HTTP method OPTIONS
+2023-12-18 10:18:36 ["l1sunvedoks7t"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2023-12-18 10:18:36 ["ji15pg743ki8e"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:18:36 ["ji15pg743ki8e"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:18:36 ["ji15pg743ki8e"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:18:36 ["ji15pg743ki8e"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:18:36 ["ji15pg743ki8e"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:18:36 ["ji15pg743ki8e"] service NOTICE: Client SPARQL query (html special chars encoded):
+ASK {?x ?y ?z}
+2023-12-18 10:18:36 ["ji15pg743ki8e"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [country_id] => 200
+)
+
+2023-12-18 10:18:36 ["ji15pg743ki8e"] service NOTICE: Web API query string: https://apiv3.apifootball.com/?action=get_leagues&country_id=200&APIkey=c4d8615ca11bdf2544168dff19ace6c0835a3f2af08cd2cf413da11936bee7e4
+2023-12-18 10:18:36 ["ji15pg743ki8e"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2023-12-18 10:18:36 ["ji15pg743ki8e"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2023-12-18 10:18:36 ["ji15pg743ki8e"] service NOTICE: Sending response with Content-Type: application/sparql-results+xml
+2023-12-18 10:18:36 ["ji15pg743ki8e"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2023-12-18 10:18:37 ["pn4pfeepq46on"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:18:37 ["pn4pfeepq46on"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:18:37 ["pn4pfeepq46on"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:18:37 ["pn4pfeepq46on"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:18:37 ["pn4pfeepq46on"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:18:37 ["pn4pfeepq46on"] Utils WARNING: Unsupported HTTP method OPTIONS
+2023-12-18 10:18:37 ["pn4pfeepq46on"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2023-12-18 10:18:37 ["0fj7fa9gfr2cu"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:18:37 ["0fj7fa9gfr2cu"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:18:37 ["0fj7fa9gfr2cu"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:18:37 ["0fj7fa9gfr2cu"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:18:37 ["0fj7fa9gfr2cu"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2023-12-18 10:18:37 ["0fj7fa9gfr2cu"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX api: &lt;https://apifootball.com/#api&gt;
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} 
+2023-12-18 10:18:38 ["0fj7fa9gfr2cu"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [country_id] => 200
+)
+
+2023-12-18 10:18:38 ["0fj7fa9gfr2cu"] service NOTICE: Web API query string: https://apiv3.apifootball.com/?action=get_leagues&country_id=200&APIkey=c4d8615ca11bdf2544168dff19ace6c0835a3f2af08cd2cf413da11936bee7e4
+2023-12-18 10:18:38 ["0fj7fa9gfr2cu"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2023-12-18 10:18:38 ["0fj7fa9gfr2cu"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2023-12-18 10:18:38 ["0fj7fa9gfr2cu"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2023-12-18 10:18:38 ["0fj7fa9gfr2cu"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2023-12-18 10:18:46 ["uvv3bp52fp4t2"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:18:46 ["uvv3bp52fp4t2"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:18:46 ["uvv3bp52fp4t2"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:18:46 ["uvv3bp52fp4t2"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:18:46 ["uvv3bp52fp4t2"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:18:46 ["uvv3bp52fp4t2"] Utils WARNING: Unsupported HTTP method OPTIONS
+2023-12-18 10:18:46 ["uvv3bp52fp4t2"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2023-12-18 10:18:46 ["bdtfu2364kfh8"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:18:46 ["bdtfu2364kfh8"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:18:46 ["bdtfu2364kfh8"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:18:46 ["bdtfu2364kfh8"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:18:46 ["bdtfu2364kfh8"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:18:46 ["bdtfu2364kfh8"] service NOTICE: Client SPARQL query (html special chars encoded):
+ASK {?x ?y ?z}
+2023-12-18 10:18:46 ["bdtfu2364kfh8"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [country_id] => 100
+)
+
+2023-12-18 10:18:46 ["bdtfu2364kfh8"] service NOTICE: Web API query string: https://apiv3.apifootball.com/?action=get_leagues&country_id=100&APIkey=c4d8615ca11bdf2544168dff19ace6c0835a3f2af08cd2cf413da11936bee7e4
+2023-12-18 10:18:46 ["bdtfu2364kfh8"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2023-12-18 10:18:46 ["bdtfu2364kfh8"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2023-12-18 10:18:46 ["bdtfu2364kfh8"] service NOTICE: Sending response with Content-Type: application/sparql-results+xml
+2023-12-18 10:18:46 ["bdtfu2364kfh8"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
+2023-12-18 10:18:47 ["qg3tjd2b73va4"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:18:47 ["qg3tjd2b73va4"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:18:47 ["qg3tjd2b73va4"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:18:47 ["qg3tjd2b73va4"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:18:47 ["qg3tjd2b73va4"] Utils NOTICE: Query HTTP header "Accept": */*
+2023-12-18 10:18:47 ["qg3tjd2b73va4"] Utils WARNING: Unsupported HTTP method OPTIONS
+2023-12-18 10:18:47 ["qg3tjd2b73va4"] Utils NOTICE: --------- Done - SPARQL µS execution --------
+2023-12-18 10:18:47 ["6rgjmgv6aq78d"] Context NOTICE: --------- Starting SPARQL micro-service --------
+2023-12-18 10:18:47 ["6rgjmgv6aq78d"] service NOTICE: Query parameter (html special chars encoded) 'service': Football/getCompetbyID
+2023-12-18 10:18:47 ["6rgjmgv6aq78d"] service NOTICE: Query parameter (html special chars encoded) 'querymode': sparql
+2023-12-18 10:18:47 ["6rgjmgv6aq78d"] Utils NOTICE: Query HTTP header "Content-Type" undefined.
+2023-12-18 10:18:47 ["6rgjmgv6aq78d"] Utils NOTICE: Query HTTP header "Accept": application/sparql-results+json,*/*;q=0.9
+2023-12-18 10:18:47 ["6rgjmgv6aq78d"] service NOTICE: Client SPARQL query (html special chars encoded):
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX api: &lt;https://apifootball.com/#api&gt;
+SELECT * WHERE {
+  ?sub ?pred ?obj .
+} 
+2023-12-18 10:18:47 ["6rgjmgv6aq78d"] service NOTICE: Will query the Web API with arguments: Array
+(
+    [country_id] => 100
+)
+
+2023-12-18 10:18:47 ["6rgjmgv6aq78d"] service NOTICE: Web API query string: https://apiv3.apifootball.com/?action=get_leagues&country_id=100&APIkey=c4d8615ca11bdf2544168dff19ace6c0835a3f2af08cd2cf413da11936bee7e4
+2023-12-18 10:18:47 ["6rgjmgv6aq78d"] service NOTICE: Executing default SPARQL CONSTRUCT query
+2023-12-18 10:18:47 ["6rgjmgv6aq78d"] service NOTICE: Evaluating client SPARQL query against temporary graph...
+2023-12-18 10:18:47 ["6rgjmgv6aq78d"] service NOTICE: Sending response with Content-Type: application/sparql-results+json
+2023-12-18 10:18:47 ["6rgjmgv6aq78d"] service NOTICE: --------- Done - SPARQL ÂµS execution --------
