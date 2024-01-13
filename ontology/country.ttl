@@ -1,0 +1,49 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix country:  <http://example.org/country#> .
+@prefix :  <http://example.org/roadtrip#> .
+
+
+country:France a :Country;
+    :hasCountryName "France";
+    :hasCapital "Paris";
+    :hasCurrency "Euro";
+    :hasLanguage "French";
+    :requiresVaccine true.
+
+country:US a :Country;
+    :hasCountryName "France";
+    :hasCapital "Washington";
+    :hasCurrency "Dollar";
+    :hasLanguage "English";
+    :requiresVaccine true.
+
+country:England a :Country;
+    :hasCountryName "France";
+    :hasCapital "London";
+    :hasCurrency "Pound Sterling";
+    :hasLanguage "English";
+    :requiresVaccine true.
+
+country:Australia a :Country;
+    :hasCountryName "Australia";
+    :hasCapital "Canberra";
+    :hasCurrency "Australian Dollar";
+    :hasLanguage "English";
+    :requiresVaccine true.
+
+country:Spain a :Country;
+    :hasCountryName "Spain";
+    :hasCapital "Madrid";
+    :hasCurrency "Euro";
+    :hasLanguage "Spanish";
+    :requiresVaccine true.
+
+country:Morrocco a :Country;
+    :hasCountryName "Morroco";
+    :hasCapital "Rabat";
+    :hasCurrency "Dirham Marocain";
+    :hasLanguage "Arabic";
+    :requiresVaccine true.
