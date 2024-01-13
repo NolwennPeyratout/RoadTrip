@@ -6,7 +6,7 @@ SELECT ?name ?country (GROUP_CONCAT(?type; SEPARATOR=",") AS ?types) ?id ?latitu
 WHERE {
  ?x schema:name ?name;
       schema:country ?country.
- BIND (str(?name as ?placeName)
+ BIND (str(?name) as ?placeName)
 SERVICE <http://localhost/service/roadtrip/getInformation?place=?placeName>{
         ?s ex:geometry ?geom.
         ?geom ex:location ?location.
