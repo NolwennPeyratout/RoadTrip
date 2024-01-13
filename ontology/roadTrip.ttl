@@ -291,7 +291,8 @@
 :User 
 	a 		 owl:Class ;
     rdfs:label "User" ;
-    rdfs:comment "An individual who interacts with the system" .
+    rdfs:comment "An individual who interacts with the system" ;
+    owl:oneOf (:Individual :Group :TravelAgency ).
 
 :hasCompleteName 
 	a 		 owl:DatatypeProperty ;
@@ -299,9 +300,9 @@
     rdfs:range xsd:string .
 
 :hasType 
-	a 		 owl:DatatypeProperty ;
+	a 		 owl:ObjectProperty ;
     rdfs:domain :User ;
-    rdfs:range xsd:string .
+    rdfs:range :Group, :Individual, :TravelAgency.
 
 :hasVaccinationStatus 
 	a 		 owl:DatatypeProperty ;
@@ -329,3 +330,18 @@
 	a 		 owl:ObjectProperty ;
     rdfs:domain :User ;
     rdfs:range xsd:string .
+
+
+#Type of user
+:Group a owl:Class;
+    rdfs:label "Group of User" ;
+    rdfs:comment "A group of user who interacts with the system" .
+
+:Individual a owl:Class;
+    rdfs:label "A unique User" ;
+    rdfs:comment "An individual who interacts with the system" .
+
+:TravelAgency a owl:Class;
+    rdfs:label "A travel Agency" ;
+    rdfs:comment "A user of a travel agency who interacts with the system" .
+

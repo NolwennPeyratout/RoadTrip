@@ -7,12 +7,12 @@
 
 user:Marie a :User;
     :hasCompleteName "Marie Dupond";
-    :hasType "individual";
+    :hasType :Individual;
     :hasVaccinationStatus "tetanus","measles","mumps", "rubella", "monkeypox";
     :hasPassportExpirationDate "2030-12-01".
 
 user:Jean a :User;
     :hasCompleteName "Jean Briand";
-    :hasType "individual";
+    :hasType :Individual;
     :hasVaccinationStatus "tetanus","measles","mumps", "rubella", "Hepatitis B", "rabies";
     :hasPassportExpirationDate "2027-05-15".
