@@ -1,0 +1,4 @@
+@prefix shacl: <http://www.w3.org/ns/shacl#> .
+@prefix user:  <http://example.org/user#> .
+@prefix :  <http://example.org/roadtrip#> .
+
