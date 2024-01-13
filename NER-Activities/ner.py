@@ -11,6 +11,10 @@ df = pd.DataFrame(columns=['country', 'activity'])
 dfOther = pd.DataFrame(columns=['NER', 'word'])
 
 dossier_paragraph = os.path.join(os.getcwd(), 'paragraph')
+word_accepted=["lake", "mount", "park", "bay", "island", "crater", "valley"]
+word_not_accepted=["the", "a"]
+
+
 
 # Vérifier si le dossier existe
 if os.path.exists(dossier_paragraph):
@@ -22,24 +26,12 @@ if os.path.exists(dossier_paragraph):
            for ligne in file:
                doc=nlp(ligne.strip())
                for ent in doc.ents:
-                    if ent.label_=="LOC":
-                        nouvelle_ligne = {'country': country, 'activity': ent.text}
-                        df = df.append(nouvelle_ligne, ignore_index=True)
-                        print(ent.text, ent.label_)
-                    else:
-                        nouvelle_ligne = {'NER': ent.label_, 'word': ent.text}
-                        dfOther = dfOther.append(nouvelle_ligne, ignore_index=True)
+                    if ent.label_=="LOC" and any(word in ent.text.lower() for word in word_accepted) :
+                        edit_string_as_list = ent.text.lower().split()
+                        final_list = [word for word in edit_string_as_list if word not in word_not_accepted]
+                        activity = ' '.join(final_list)
+                        new_record = pd.DataFrame([{'country': country, 'activity':activity}])
+                        df = pd.concat([df, new_record].drop_duplicates(), ignore_index=True)
                         
-    # fichier1="paragraph/"+fichiers_dans_dossier[0]
-    # with open(fichier1, 'r', encoding='utf-8') as file:
-    #        country = fichier1.split('-')[1].split('.')[0]
-    #        for ligne in file:
-    #            doc=nlp(ligne.strip())
-    #            for ent in doc.ents:
-    #                 if ent.label_=="LOC":
-    #                     nouvelle_ligne = {'pays': country, 'activity': ent.text}
-    #                     df = df.append(nouvelle_ligne, ignore_index=True)
-    #                     print(ent.text, ent.label_)
-                    
-    #print(df)
-    #print(dfOther)
+
+    df.to_csv('ner.csv', index=False) 
