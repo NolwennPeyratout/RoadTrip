@@ -125,6 +125,11 @@
     rdfs:domain :Activity ;
     rdfs:range xsd:string .
 
+:hasCountry
+    a owl:DatatypeProperty;
+    rdfs:domain :Activity;
+    rdfs:range :Country.
+
 :hasLocation 
 	a 		 owl:ObjectProperty ;
     rdfs:domain :Activity ;

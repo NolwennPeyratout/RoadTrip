@@ -1,0 +1,54 @@
+@prefix ns1: <http://example.org/activity#> .
+
+ns1:blue%20lake ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:hooker%20lake ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:hooker%20valley ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:hooker%20valley%20track ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:lake%20rotoaira ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:lake%20wanaka ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:marathonisi%20island ns1:hasCountry <http://example.org/country#Greece> .
+
+ns1:melissani%20lake ns1:hasCountry <http://example.org/country#Greece> .
+
+ns1:montserrat%20natural%20park ns1:hasCountry <http://example.org/country#Spain> .
+
+ns1:mount%20aspiring ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:mount%20cook ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:mount%20cook%20village ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:mount%20doom ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:mount%20fuji ns1:hasCountry <http://example.org/country#Japan> .
+
+ns1:mount%20sefton ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:nara%20park ns1:hasCountry <http://example.org/country#Japan> .
+
+ns1:national%20park ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:navagio%20bay ns1:hasCountry <http://example.org/country#Greece> .
+
+ns1:north%20crater ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:north%20island ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:red%20crater ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:south%20crater ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:south%20island ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:tasman%20lake ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:turtle%20island ns1:hasCountry <http://example.org/country#Greece> .
+
+ns1:valley ns1:hasCountry <http://example.org/country#Egypt> .
+
