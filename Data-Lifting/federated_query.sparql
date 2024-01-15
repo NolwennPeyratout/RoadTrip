@@ -2,21 +2,23 @@ PREFIX act: <http://example.org/activities/>
 PREFIX ex: <http://ns.inria.fr/sparql-micro-service/api#>
 PREFIX schema: <http://schema.org/>
 
-SELECT ?name ?country (GROUP_CONCAT(?type; SEPARATOR=",") AS ?types) ?id ?latitude ?longitude ?rating ?open_now
+SELECT ?name ?country ?id (GROUP_CONCAT(?type; SEPARATOR=",") AS ?types) ?latitude ?longitude ?rating ?open_now
 WHERE {
  ?x schema:name ?name;
       schema:country ?country.
- BIND (str(?name) as ?placeName)
-SERVICE <http://localhost/service/roadtrip/getInformation?place=?placeName>{
-        ?s ex:geometry ?geom.
-        ?geom ex:location ?location.
-        ?location ex:lat ?latitude;
-                  ex:lng ?longitude.
-        ?s ex:place_id ?id.
-        ?s ex:rating ?rating. 
-        ?s ex:types ?type.
-        ?s ex:opening_hours ?openH.
-        ?openH ex:open_now ?open_now.
 
+BIND(IRI(CONCAT("http://localhost/service/roadtrip/getInformation?place=",?name)) as ?serviceURI)
+
+SERVICE ?serviceURI{
+  ?s ex:place_id ?id.
+  OPTIONAL{ ?s ex:geometry ?geom.}
+  OPTIONAL{?geom ex:location ?location.}
+  OPTIONAL{?location ex:lat ?latitude;}
+  OPTIONAL{?location ex:lng ?longitude.}
+  OPTIONAL{ ?s ex:rating ?rating. }
+  OPTIONAL{ ?s ex:opening_hours ?openH.}
+  OPTIONAL{?openH ex:open_now ?open_now.}
+  OPTIONAL{?s ex:types ?type.}
   }
 }
+GROUP BY ?name
