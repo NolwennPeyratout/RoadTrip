@@ -41,8 +41,8 @@ country:Spain a :Country;
     :hasLanguage "Spanish";
     :requiresVaccine true.
 
-country:Morrocco a :Country;
-    :hasCountryName "Morroco";
+country:Morocco a :Country;
+    :hasCountryName "Moroco";
     :hasCapital "Rabat";
     :hasCurrency "Dirham Marocain";
     :hasLanguage "Arabic";
