@@ -48,6 +48,21 @@
     rdfs:label "Review" ;
     rdfs:comment "A review or rating given to an entity" .
 
+:relatedTo
+    a owl:ObjectProperty;
+    rdfs:domain :Review ;
+    rdfs:range :RoadTrip.
+
+:writtenBy
+    a owl:ObjectProperty;
+    rdfs:domain :Review ;
+    rdfs:range :User.
+
+:date 
+    a owl:DatatypeProperty;
+    rdfs:domain :RoadTrip ;
+    rdfs:range xsd:date.
+
 
 #country
 :Country 
@@ -78,7 +93,7 @@
 :requiresVaccine 
     a        owl:DatatypeProperty ;
     rdfs:domain :Country ;
-    rdfs:range xsd:boolean .
+    rdfs:range xsd:string .
 
 #itinerary 
 :Itinerary 
@@ -309,11 +324,6 @@
     rdfs:domain :User ;
     rdfs:range xsd:string .
 
-:hasPassportStatus 
-	a 		 owl:DatatypeProperty ;
-    rdfs:domain :User ;
-    rdfs:range xsd:string .
-
 :hasPassportExpirationDate 
 	a 		 owl:DatatypeProperty ;
     rdfs:domain :User ;
@@ -324,12 +334,6 @@
     rdfs:domain :User;
     rdfs:range :Review;
     owl:inverseOf :hasReview .
-    
-
-:hasPossibility 
-	a 		 owl:ObjectProperty ;
-    rdfs:domain :User ;
-    rdfs:range xsd:string .
 
 
 #Type of user
