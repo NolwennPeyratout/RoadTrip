@@ -5,14 +5,12 @@
 @prefix user:  <http://example.org/user#> .
 @prefix :  <http://example.org/roadtrip#> .
 
-user:Marie a :User;
+user:Marie a :Individual;
     :hasCompleteName "Marie Dupond";
-    :hasType :Individual;
     :hasVaccinationStatus "tetanus","measles","mumps", "rubella", "monkeypox";
     :hasPassportExpirationDate "2030-12-01".
 
-user:Jean a :User;
+user:Jean a :Individual;
     :hasCompleteName "Jean Briand";
-    :hasType :Individual;
     :hasVaccinationStatus "tetanus","measles","mumps", "rubella", "Hepatitis B", "rabies";
     :hasPassportExpirationDate "2027-05-15".

@@ -139,12 +139,6 @@
 	a 		 owl:DatatypeProperty ;
     rdfs:domain :Activity ;
     rdfs:range xsd:float .
-
-:hasActivityType 
-	a 		 owl:DatatypeProperty ;
-    rdfs:domain :Activity ;
-    rdfs:range xsd:string .
-
     
 :hasLongitude 
 	a 		 owl:DatatypeProperty ;
@@ -180,10 +174,6 @@
         owl:someValuesFrom xsd:string
     ] 
     .
-:ActivityTypeConceptScheme 
-	a 		 skos:ConceptScheme ;
-    skos:prefLabel "Activity Type"@en ;
-    skos:definition "A scheme for categorizing types of activities" .
 
 :RuralActivity 
 	a 		 skos:Concept ;
@@ -229,6 +219,7 @@
     rdfs:range :travelMode .
 
 
+#Travel mode
 :travelMode 
 	a 		skos:ConceptScheme ;
     skos:prefLabel "Transport"@en;
@@ -312,17 +303,12 @@
 	a 		 owl:Class ;
     rdfs:label "User" ;
     rdfs:comment "An individual who interacts with the system" ;
-    owl:oneOf (:Individual :Group :TravelAgency ).
+    owl:disjointUnionOf ( :Individual :Group :TravelAgency ) .
 
 :hasCompleteName 
 	a 		 owl:DatatypeProperty ;
     rdfs:domain :User ;
     rdfs:range xsd:string .
-
-:hasType 
-	a 		 owl:ObjectProperty ;
-    rdfs:domain :User ;
-    rdfs:range :Group, :Individual, :TravelAgency.
 
 :hasVaccinationStatus 
 	a 		 owl:DatatypeProperty ;
