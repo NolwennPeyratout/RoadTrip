@@ -1,4 +1,197 @@
-@prefix shacl: <http://www.w3.org/ns/shacl#> .
-@prefix user:  <http://example.org/user#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix :  <http://example.org/roadtrip#> .
+@prefix transport:  <http://example.org/transport#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+
+:RoadTripShape
+  a sh:NodeShape ;
+  sh:targetClass :RoadTrip ;
+  sh:property [
+    sh:path :in;
+    sh:class :Country ;
+    sh:minCount 1 ;
+    sh:node sh:CountryConstraint ;
+  ] ;
+  sh:property [
+    sh:path :hasItinerary ;
+    sh:class :Itinerary ;
+    sh:minCount 1 ;
+    sh:maxCount 1;
+  ] ;
+  sh:property [
+    sh:path :startingDate;
+    sh:datatype xsd:date ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:path :endingDate;
+    sh:datatype xsd:date ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+     sh:path :participants ;
+    sh:class :User ;
+    sh:minCount 1 ;
+    sh:nodeKind :User ;
+    sh:node sh:UserConstraint ;
+  ].
+
+
+
+:ItineraryShape
+    rdf:type sh:NodeShape ;
+    sh:targetClass :Itinerary ;
+    sh:property [
+        sh:path :hasStartingPoint ;
+        sh:class :Location ;
+    ] ;
+    sh:property [
+        sh:path :hasEndingPoint ;
+        sh:class :Location ;
+    ] ;  
+    sh:property [
+      sh:path :hasRoute;
+      sh:datatype :Route;
+      sh:minCount 2 ;
+    ] .
+
+
+
+
+:CountryShape
+  a sh:NodeShape ;
+  sh:targetClass :Country ;
+  sh:property [
+    sh:path :hasCountryName ;
+    sh:class xsd:string ;
+    sh:minCount 1 ;
+    sh:maxCount 1;
+  ] ;
+  sh:property [
+    sh:path :hasCapital ;
+    sh:class xsd:string ;
+    sh:minCount 1 ;
+    sh:maxCount 1;
+  ] ;
+  sh:property [
+    sh:path :hasCurrency ;
+    sh:class xsd:string ;
+    sh:minCount 1 ;
+    sh:maxCount 1;
+  ] ;
+  sh:property [
+    sh:path :hasLanguage ;
+    sh:class xsd:string ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+     sh:path :requiresVaccine ;
+     sh:datatype xsd:string ;
+  ] .
+
+
+
+
+:UserShape
+  a sh:NodeShape ;
+  sh:targetClass :User ;
+    sh:property [
+    sh:path :hasCompleteName ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ;
+  ] ;
+    sh:property [
+      sh:path :hasVaccinationStatus ;
+      sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path :passportExpirationDate ;
+        sh:datatype xsd:date ;
+        sh:minCount 1 ;
+        sh:maxCount 1;
+  ] .
+
+
+
+sh:RouteShape 
+  a sh:NodeSHape;
+  sh:targetClass :Route;
+    sh:property [
+        sh:path :hasActivity ;
+        sh:datatype :Activity ;
+        sh:minCount 2 ;
+        sh:maxCount 2;
+        sh:in (:RuralActivity :UrbanActivity);
+  ] ;
+    sh:property [
+      sh:path :hasDistance;
+      sh:datatype xsd:float;
+    ];
+    sh:property [
+      sh:path :hasTime;
+      sh:datatype xsd:string;
+    ];
+    sh:property[
+      sh:path :hasTransport ;
+      sh:datatype transport:TravelMode;
+      sh:minCount 1;
+      sh:maxCount 1;
+    ].
+
+
+
+sh:ActivityShape
+  a sh:NodeShape;
+  sh:targetClass :Activity;
+    sh:property [
+      sh:path :hasActivityName ;
+      sh:datatype xsd:string;
+      sh:minCount 1;
+      sh:maxCount 1;
+    ];
+    sh:property [
+      sh:path :hasCountry ;
+      sh:datatype :Country;
+      sh:minCount 1;
+      sh:maxCount 1;
+    ];
+    sh:property [
+      sh:path :hasLocation  ;
+      sh:datatype :Location;
+      sh:minCount 1;
+      sh:maxCount 1;
+    ];
+    sh:property [
+      sh:path :hasBudget  ;
+      sh:datatype xsd:float;
+      sh:maxCount 1;
+    ].
+
+
+sh:LocationConstraint
+  a sh:NodeShape;
+  sh:targetClass :Location;
+  sh:property [
+    sh:path :hasLongitude;
+    sh:datatype xsd:double;
+    sh:maxCount 1;
+  ];
+  sh:property [
+    sh:path :hasLatitude;
+    sh:datatype xsd:double;
+    sh:maxCount 1;
+  ];
+  sh:property [
+    sh:path :hasAddress;
+    sh:datatype xsd:string;
+    sh:maxCount 1;
+  ];
+
+
+
+
 
