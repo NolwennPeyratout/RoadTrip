@@ -29,13 +29,28 @@
 
 :RuraleRoadTrip 
     a        owl:Class ;
-           rdfs:subClassOf :RoadTrip;
-           owl:disjointWith :UrbanRoadTrip.
+           owl:disjointWith :UrbanRoadTrip;
+           owl:intersectionOf (:RoadTrip rdfs:subClassOf [
+                                                         a owl:Restriction ;
+                                                           owl:onProperty :involvesRuralActivity;
+                                                           owl:minCardinality 3
+                                                          ]
+           
+                             ).
+
+  
 
 :UrbanRoadTrip
     a        owl:Class ;
-           rdfs:subClassOf :RoadTrip;
-           owl:disjointWith  :RuraleRoadTrip.
+        owl:disjointWith :RuralRoadTrip;
+       owl:intersectionOf (:RoadTrip rdfs:subClassOf [
+                                                         a owl:Restriction ;
+                                                           owl:onProperty :involvesUrbanActivity;
+                                                           owl:minCardinality 3
+                                                          ]
+           
+                             ).
+
 
 
 :hasReview
@@ -73,6 +88,10 @@
 :participants rdf:type owl:ObjectProperty ;
                rdfs:domain :RoadTrip ;
                rdfs:range :User .
+
+:involvesRuralActivity owl:propertyChainAxiom (:hasItinerary :hasRoute :hasRuralActivity).
+:involvesUrbanActivity owl:propertyChainAxiom (:hasItinerary :hasRoute :hasUrbanActivity).
+
 
 #country
 :Country 
@@ -128,6 +147,8 @@
            rdfs:domain :Itinerary ;
            rdfs:range :Route. 
 
+
+
 #activity 
 
 :Activity 
@@ -155,7 +176,8 @@
 	a 		 owl:DatatypeProperty ;
     rdfs:domain :Activity ;
     rdfs:range xsd:float .
-    
+
+
 :hasLongitude 
 	a 		 owl:DatatypeProperty ;
     rdfs:domain :Location ;
@@ -201,21 +223,30 @@
            rdfs:subClassOf :Activity ;
            owl:disjointWith :RuralActivity.
            
-#trip 
+#route
 :Route
 	a 		owl:Class ;
     rdfs:label "Route" ;
-    rdfs:comment "A journey or excursion, especially for pleasure" .
+    rdfs:comment "A journey or excursion, especially for pleasure" ;
+    rdfs:subClassOf [ a owl:Restriction ; 
+                        owl:onProperty :hasActivity;
+                        owl:cardinality 2
+                    ].
 
-:involvesActivityA 
+:hasActivity
 	a 		owl:ObjectProperty ;
     rdfs:domain :Route ;
     rdfs:range :Activity .
 
-:involvesActivityB 
+:hasRuralActivity
 	a 		owl:ObjectProperty ;
     rdfs:domain :Route ;
-    rdfs:range :Activity .
+    rdfs:range :RuralActivity .
+
+:hasUrbanActivity
+	a 		owl:ObjectProperty ;
+    rdfs:domain :Route ;
+    rdfs:range :UrbanActivity .
 
 :hasDistance 
 	a 		owl:DatatypeProperty ;
@@ -233,7 +264,6 @@
     rdfs:range :travelMode .
 
 
-#Travel mode
 :travelMode 
 	a 		skos:ConceptScheme ;
     skos:prefLabel "Transport"@en;
@@ -317,12 +347,13 @@
 	a 		 owl:Class ;
     rdfs:label "User" ;
     rdfs:comment "An individual who interacts with the system" ;
-    owl:disjointUnionOf ( :Individual :Group :TravelAgency ) .
+    owl:disjointUnionOf (:Individual :Group :TravelAgency ).
 
 :hasCompleteName 
 	a 		 owl:DatatypeProperty ;
     rdfs:domain :User ;
     rdfs:range xsd:string .
+
 
 :hasVaccinationStatus 
 	a 		 owl:DatatypeProperty ;
