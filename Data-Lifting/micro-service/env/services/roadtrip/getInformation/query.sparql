@@ -1,6 +1,6 @@
 PREFIX ex: <http://ns.inria.fr/sparql-micro-service/api#>
 
-SELECT ?name ?country ?id (GROUP_CONCAT(?type; SEPARATOR=",") AS ?types) ?latitude ?longitude ?rating ?open_now
+SELECT ?name ?country ?id (GROUP_CONCAT(?type; SEPARATOR=",") AS ?types) ?latitude ?longitude ?rating ?open_now ?address
 WHERE {
   ?s ex:place_id ?id.
   OPTIONAL{?s ex:name ?name.}
@@ -12,6 +12,9 @@ WHERE {
   OPTIONAL{ ?s ex:opening_hours ?openH.}
   OPTIONAL{?openH ex:open_now ?open_now.}
   OPTIONAL{?s ex:types ?type.}
+  OPTIONAL{?s ex:maxprice ?budget}
+  OPTIONAL{?s ex:formatted_address ?address}
+
   }
-}
 GROUP BY ?name
+
