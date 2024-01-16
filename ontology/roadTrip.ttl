@@ -4,8 +4,9 @@
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
 @prefix :  <http://example.org/roadtrip#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
-
-
+@prefix wd:      <http://www.wikidata.org/entity/>.
+@prefix schema:  <http://schema.org/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
 
 
 #roadTrip
@@ -34,7 +35,7 @@
 :UrbanRoadTrip
     a        owl:Class ;
            rdfs:subClassOf :RoadTrip;
-           owl:disjointWith :RuraleRoadTrip.
+           owl:disjointWith  :RuraleRoadTrip.
 
 
 :hasReview
@@ -46,7 +47,8 @@
 :Review 
     a        owl:Class ;
     rdfs:label "Review" ;
-    rdfs:comment "A review or rating given to an entity" .
+    rdfs:comment "A review or rating given to an entity" ;
+    owl:sameAs wd:Q265158.
 
 :relatedTo
     a owl:ObjectProperty;
@@ -58,17 +60,23 @@
     rdfs:domain :Review ;
     rdfs:range :User.
 
-:date 
+:startingDate 
     a owl:DatatypeProperty;
     rdfs:domain :RoadTrip ;
     rdfs:range xsd:date.
 
+:endingDate 
+    a owl:DatatypeProperty;
+    rdfs:domain :RoadTrip ;
+    rdfs:range xsd:date.
+    
+:participants rdf:type owl:ObjectProperty ;
+               rdfs:domain :RoadTrip ;
+               rdfs:range :User .
 
 #country
 :Country 
-    a        skos:Concept ;
-    skos:prefLabel "Country"@en ;
-    skos:definition "A nation with its own government, occupying a particular territory" .
+    a        owl:Class.
 
 :hasCountryName 
     a        owl:DatatypeProperty ;
@@ -99,7 +107,11 @@
 :Itinerary 
 	a 		 owl:Class ;
     rdfs:label "Itinerary" ;
-    rdfs:comment "A planned route or journey" .
+    rdfs:comment "A planned route or journey" ;
+    rdfs:subClassOf [ a owl:Restriction ; 
+                        owl:onProperty :hasRoute;
+                        owl:minCardinality 2].
+    #defines an itinerary as a class that has at least 2 routes
 
 :hasStartingPoint 
 	a 		owl:ObjectProperty ;
@@ -112,13 +124,17 @@
     rdfs:range :Location .
 
 
+:hasRoute rdf:type owl:ObjectProperty ;
+           rdfs:domain :Itinerary ;
+           rdfs:range :Route. 
 
 #activity 
 
 :Activity 
 	a 		 owl:Class ;
     rdfs:label "Activity" ;
-    rdfs:comment "A specific activity or event" .
+    rdfs:comment "A specific activity or event" ;
+    owl:sameAs dbo:Activity.
 
 :hasActivityName 
 	a 		 owl:DatatypeProperty ;
@@ -140,12 +156,7 @@
     rdfs:domain :Activity ;
     rdfs:range xsd:float .
 
-:hasActivityType 
-	a 		 owl:DatatypeProperty ;
-    rdfs:domain :Activity ;
-    rdfs:range xsd:string .
 
-    
 :hasLongitude 
 	a 		 owl:DatatypeProperty ;
     rdfs:domain :Location ;
@@ -180,37 +191,31 @@
         owl:someValuesFrom xsd:string
     ] 
     .
-:ActivityTypeConceptScheme 
-	a 		 skos:ConceptScheme ;
-    skos:prefLabel "Activity Type"@en ;
-    skos:definition "A scheme for categorizing types of activities" .
 
 :RuralActivity 
-	a 		 skos:Concept ;
-    skos:inScheme :ActivityTypeConceptScheme ;
-    skos:prefLabel "Rural Activity"@en ;
-    skos:definition "An activity associated with the countryside or rural areas" .
+        a        owl:Class ;
+           rdfs:subClassOf :Activity ;
+           owl:disjointWith :UrbanActivity.
 
 :UrbanActivity 
-	a 		 skos:Concept ;
-    skos:inScheme :ActivityTypeConceptScheme ;
-    skos:prefLabel "Urban Activity"@en ;
-    skos:definition "An activity associated with cities or urban areas" .
-
+        a        owl:Class ;
+           rdfs:subClassOf :Activity ;
+           owl:disjointWith :RuralActivity.
+           
 #trip 
-:Trip 
+:Route
 	a 		owl:Class ;
-    rdfs:label "Trip" ;
+    rdfs:label "Route" ;
     rdfs:comment "A journey or excursion, especially for pleasure" .
 
 :involvesActivityA 
 	a 		owl:ObjectProperty ;
-    rdfs:domain :Trip ;
+    rdfs:domain :Route ;
     rdfs:range :Activity .
 
 :involvesActivityB 
 	a 		owl:ObjectProperty ;
-    rdfs:domain :Trip ;
+    rdfs:domain :Route ;
     rdfs:range :Activity .
 
 :hasDistance 
@@ -312,17 +317,13 @@
 	a 		 owl:Class ;
     rdfs:label "User" ;
     rdfs:comment "An individual who interacts with the system" ;
-    owl:oneOf (:Individual :Group :TravelAgency ).
+    owl:disjointUnionOf (:Individual :Group :TravelAgency ).
 
 :hasCompleteName 
 	a 		 owl:DatatypeProperty ;
     rdfs:domain :User ;
     rdfs:range xsd:string .
 
-:hasType 
-	a 		 owl:ObjectProperty ;
-    rdfs:domain :User ;
-    rdfs:range :Group, :Individual, :TravelAgency.
 
 :hasVaccinationStatus 
 	a 		 owl:DatatypeProperty ;
