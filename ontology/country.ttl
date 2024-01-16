@@ -14,14 +14,14 @@ country:France a :Country;
     :requiresVaccine true.
 
 country:US a :Country;
-    :hasCountryName "France";
+    :hasCountryName "US";
     :hasCapital "Washington";
     :hasCurrency "Dollar";
     :hasLanguage "English";
     :requiresVaccine true.
 
 country:England a :Country;
-    :hasCountryName "France";
+    :hasCountryName "England";
     :hasCapital "London";
     :hasCurrency "Pound Sterling";
     :hasLanguage "English";

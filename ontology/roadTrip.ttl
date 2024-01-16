@@ -3,11 +3,15 @@
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
 @prefix :  <http://example.org/roadtrip#> .
+@prefix transport:  <http://example.org/transport#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix wd:      <http://www.wikidata.org/entity/>.
 @prefix schema:  <http://schema.org/>.
 @prefix dbo: <http://dbpedia.org/ontology/>.
 
+
+: a owl:Ontology;
+    rdfs:label "Road trip".
 
 #roadTrip
 
@@ -177,7 +181,6 @@
     rdfs:domain :Activity ;
     rdfs:range xsd:float .
 
-
 :hasLongitude 
 	a 		 owl:DatatypeProperty ;
     rdfs:domain :Location ;
@@ -261,88 +264,10 @@
 :hasTransport 
 	a 		owl:DatatypeProperty ;
     rdfs:domain :Trip ;
-    rdfs:range :travelMode .
+    rdfs:range transport:travelMode .
 
-
-:travelMode 
-	a 		skos:ConceptScheme ;
-    skos:prefLabel "Transport"@en;
-    skos:hasTopConcept :PublicTransport, :PrivateTransport .
-
-:PublicTransport
-	a 		 skos:Concept ;
-	skos:inScheme : ;
-	skos:narrower :Train, :BusAndCoach, :Plane, :Boat ;
-	skos:prefLabel "All Public Transport"@en ;
-	skos:topConceptOf : .
-
-
-:PrivateTransport
-	a 		 skos:Concept ;
-	skos:inScheme : ;
-	skos:narrower :Car, :Walk, :Bicycle, :Motorcycle ;
-	skos:prefLabel "All private vehicles"@en ;
-	skos:topConceptOf : .
-
-
-:Car
-    a 		 skos:Concept ;
-    skos:broader :PrivateTransport ;
-    skos:inScheme : ;
-    skos:prefLabel "Car"@en .
-
-:Walk
-    a 		 skos:Concept ;
-    skos:broader :PrivateTransport ;
-    skos:inScheme : ;
-    skos:prefLabel "Walk"@en .
-
-:Bicycle
-    a 		 skos:Concept ;
-    skos:broader :PrivateTransport ;
-    skos:inScheme : ;
-    skos:prefLabel "Bicycle"@en .
-
-:Train
-    a 		 skos:Concept ;
-    skos:broader :PublicTransport ;
-    skos:inScheme : ;
-    skos:prefLabel "Train"@en .
-
-:Motorcycle
-    a		 skos:Concept ;
-    skos:broader :PrivateTransport ;
-    skos:inScheme : ;
-    skos:prefLabel "Motorcycle"@en .
-
-:MRT
-    a		 skos:Concept ;
-    skos:broader :PublicTransport ;
-    skos:inScheme : ;
-    skos:prefLabel "Mass Rapid Transit"@en .
-
-
-:BusAndCoach
-    a		 skos:Concept ;
-    skos:broader :PublicTransport ;
-    skos:inScheme : ;
-    skos:prefLabel "Buses and coaches"@en .
-
-:Boat
-    a		 skos:Concept ;
-    skos:broader :PublicTransport ;
-    skos:inScheme : ;
-    skos:prefLabel "Boat"@en .
-
-:Plane
-    a		skos:Concept ;
-    skos:broader :PublicTransport ;
-    skos:inScheme : ;
-    skos:prefLabel "Plane"@en .
 
 #user
-
-
 :User 
 	a 		 owl:Class ;
     rdfs:label "User" ;
@@ -353,7 +278,6 @@
 	a 		 owl:DatatypeProperty ;
     rdfs:domain :User ;
     rdfs:range xsd:string .
-
 
 :hasVaccinationStatus 
 	a 		 owl:DatatypeProperty ;

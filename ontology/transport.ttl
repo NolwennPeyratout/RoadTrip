@@ -1,0 +1,89 @@
+@prefix :  <http://example.org/transport#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+
+
+:travelMode 
+	a 		skos:ConceptScheme ;
+    skos:prefLabel "Transport"@en;
+    skos:hasTopConcept :PublicTransport, :PrivateTransport .
+
+:PublicTransport
+	a 		 skos:Concept ;
+	skos:inScheme :travelMode ;
+	skos:narrower :Train, :BusAndCoach, :Plane, :Boat ;
+	skos:prefLabel "All Public Transport"@en;
+    skos:topConceptOf :travelMode.
+
+:PrivateTransport
+	a 		 skos:Concept ;
+	skos:inScheme :travelMode ;
+	skos:narrower :Car, :Walk, :Bicycle, :Motorcycle ;
+	skos:prefLabel "All private vehicles"@en;
+    skos:topConceptOf :travelMode.
+
+:Car
+    a 		 skos:Concept ;
+    skos:broader :PrivateTransport ;
+    skos:inScheme :travelMode ;
+    skos:prefLabel "Car"@en ;
+    skos:topConceptOf :PrivateTransport.
+
+:Walk
+    a 		 skos:Concept ;
+    skos:broader :PrivateTransport ;
+    skos:inScheme :travelMode ;
+    skos:prefLabel "Walk"@en ;
+    skos:topConceptOf :PrivateTransport.
+
+:Bicycle
+    a 		 skos:Concept ;
+    skos:broader :PrivateTransport ;
+    skos:inScheme :travelMode ;
+    skos:prefLabel "Bicycle"@en;
+    skos:topConceptOf :PrivateTransport.
+
+:Train
+    a 		 skos:Concept ;
+    skos:broader :PublicTransport ;
+    skos:inScheme :travelMode ;
+    skos:prefLabel "Train"@en;
+    skos:topConceptOf :PublicTransport.
+
+:Motorcycle
+    a		 skos:Concept ;
+    skos:broader :PrivateTransport ;
+    skos:inScheme :travelMode ;
+    skos:prefLabel "Motorcycle"@en;
+    skos:topConceptOf :PrivateTransport.
+
+:MRT
+    a		 skos:Concept ;
+    skos:broader :PublicTransport ;
+    skos:inScheme :travelMode ;
+    skos:prefLabel "Mass Rapid Transit"@en;
+    skos:topConceptOf :PublicTransport.
+
+:BusAndCoach
+    a		 skos:Concept ;
+    skos:broader :PublicTransport ;
+    skos:inScheme :travelMode ;
+    skos:prefLabel "Buses and coaches"@en;
+    skos:topConceptOf :PublicTransport.
+
+:Boat
+    a		 skos:Concept ;
+    skos:broader :PublicTransport ;
+    skos:inScheme :travelMode ;
+    skos:prefLabel "Boat"@en;
+    skos:topConceptOf :PublicTransport.
+
+:Plane
+    a		skos:Concept ;
+    skos:broader :PublicTransport ;
+    skos:inScheme :travelMode ;
+    skos:prefLabel "Plane"@en;
+    skos:topConceptOf :PublicTransport.
