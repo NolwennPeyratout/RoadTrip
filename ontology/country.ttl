@@ -11,39 +11,39 @@ country:France a :Country;
     :hasCapital "Paris";
     :hasCurrency "Euro";
     :hasLanguage "French";
-    :requiresVaccine true.
+    :requiresVaccine "tetanus","measles","mumps", "rubella".
 
 country:US a :Country;
     :hasCountryName "US";
     :hasCapital "Washington";
     :hasCurrency "Dollar";
     :hasLanguage "English";
-    :requiresVaccine true.
+    :requiresVaccine "tetanus","measles","mumps", "rubella".
 
 country:England a :Country;
     :hasCountryName "England";
     :hasCapital "London";
     :hasCurrency "Pound Sterling";
     :hasLanguage "English";
-    :requiresVaccine true.
+    :requiresVaccine"tetanus","measles","mumps", "rubella".
 
 country:Australia a :Country;
     :hasCountryName "Australia";
     :hasCapital "Canberra";
     :hasCurrency "Australian Dollar";
     :hasLanguage "English";
-    :requiresVaccine true.
+    :requiresVaccine "tetanus","measles","mumps", "rubella".
 
 country:Spain a :Country;
     :hasCountryName "Spain";
     :hasCapital "Madrid";
     :hasCurrency "Euro";
     :hasLanguage "Spanish";
-    :requiresVaccine true.
+    :requiresVaccine "tetanus","measles","mumps", "rubella".
 
 country:Morocco a :Country;
     :hasCountryName "Moroco";
     :hasCapital "Rabat";
     :hasCurrency "Dirham Marocain";
     :hasLanguage "Arabic";
-    :requiresVaccine true.
+    :requiresVaccine "tetanus","measles","mumps", "rubella".
