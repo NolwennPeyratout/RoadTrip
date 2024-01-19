@@ -203,8 +203,3 @@ sh:LocationConstraint
     sh:datatype xsd:string;
     sh:maxCount 1;
   ].
-
-
-
-
-

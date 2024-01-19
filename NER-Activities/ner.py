@@ -70,10 +70,16 @@ if os.path.exists(dossier_paragraph):
                         if not ((df['country'] == country) & (df['activity'] == activity)).any():
                             #add node in the graph
                             subject = URIRef(activityURI + quote(activity))
-                            predicate = URIRef(activityURI + "hasCountry")
-                            object_ = URIRef(countryURI + quote(country))
+                            hasCountry = URIRef(activityURI + "hasCountry")
+                            countryObjet = URIRef(countryURI + quote(country))
+                            a = RDF.type
+                            classActivity = URIRef(activityURI + "RuralActivity")
+                            hasActivityName = URIRef(activityURI + "hasActivityName")
+                            activityName = Literal(activity)
 
-                            g.add((subject, predicate, object_))
+                            g.add((subject, hasCountry, countryObjet))
+                            g.add((subject, a, classActivity))
+                            g.add((subject, hasActivityName, activityName))
                             #add in the dataframe
                             new_record = pd.DataFrame([{'country': country, 'activity':activity}])
                             df = pd.concat([df, new_record]).drop_duplicates(ignore_index=True)
@@ -84,6 +90,6 @@ if os.path.exists(dossier_paragraph):
     # Affichage du graph RDF
     print("Graph RDF:")
     print(f"Graph g has {len(g)} statements.")
-    with open("NER.ttl", "w") as file:
+    with open("../ontology/NER.ttl", "w") as file:
         file.write(g.serialize(format="turtle"))
     print(g.serialize(format="turtle"))

@@ -1,0 +1,106 @@
+@prefix ns1: <http://example.org/activity#> .
+
+ns1:blue%20lake a ns1:RuralActivity ;
+    ns1:hasActivityName "blue lake" ;
+    ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:hooker%20lake a ns1:RuralActivity ;
+    ns1:hasActivityName "hooker lake" ;
+    ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:hooker%20valley a ns1:RuralActivity ;
+    ns1:hasActivityName "hooker valley" ;
+    ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:hooker%20valley%20track a ns1:RuralActivity ;
+    ns1:hasActivityName "hooker valley track" ;
+    ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:lake%20rotoaira a ns1:RuralActivity ;
+    ns1:hasActivityName "lake rotoaira" ;
+    ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:lake%20wanaka a ns1:RuralActivity ;
+    ns1:hasActivityName "lake wanaka" ;
+    ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:marathonisi%20island a ns1:RuralActivity ;
+    ns1:hasActivityName "marathonisi island" ;
+    ns1:hasCountry <http://example.org/country#Greece> .
+
+ns1:melissani%20lake a ns1:RuralActivity ;
+    ns1:hasActivityName "melissani lake" ;
+    ns1:hasCountry <http://example.org/country#Greece> .
+
+ns1:montserrat%20natural%20park a ns1:RuralActivity ;
+    ns1:hasActivityName "montserrat natural park" ;
+    ns1:hasCountry <http://example.org/country#Spain> .
+
+ns1:mount%20aspiring a ns1:RuralActivity ;
+    ns1:hasActivityName "mount aspiring" ;
+    ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:mount%20cook a ns1:RuralActivity ;
+    ns1:hasActivityName "mount cook" ;
+    ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:mount%20cook%20village a ns1:RuralActivity ;
+    ns1:hasActivityName "mount cook village" ;
+    ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:mount%20doom a ns1:RuralActivity ;
+    ns1:hasActivityName "mount doom" ;
+    ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:mount%20fuji a ns1:RuralActivity ;
+    ns1:hasActivityName "mount fuji" ;
+    ns1:hasCountry <http://example.org/country#Japan> .
+
+ns1:mount%20sefton a ns1:RuralActivity ;
+    ns1:hasActivityName "mount sefton" ;
+    ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:nara%20park a ns1:RuralActivity ;
+    ns1:hasActivityName "nara park" ;
+    ns1:hasCountry <http://example.org/country#Japan> .
+
+ns1:national%20park a ns1:RuralActivity ;
+    ns1:hasActivityName "national park" ;
+    ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:navagio%20bay a ns1:RuralActivity ;
+    ns1:hasActivityName "navagio bay" ;
+    ns1:hasCountry <http://example.org/country#Greece> .
+
+ns1:north%20crater a ns1:RuralActivity ;
+    ns1:hasActivityName "north crater" ;
+    ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:north%20island a ns1:RuralActivity ;
+    ns1:hasActivityName "north island" ;
+    ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:red%20crater a ns1:RuralActivity ;
+    ns1:hasActivityName "red crater" ;
+    ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:south%20crater a ns1:RuralActivity ;
+    ns1:hasActivityName "south crater" ;
+    ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:south%20island a ns1:RuralActivity ;
+    ns1:hasActivityName "south island" ;
+    ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:tasman%20lake a ns1:RuralActivity ;
+    ns1:hasActivityName "tasman lake" ;
+    ns1:hasCountry <http://example.org/country#New%20Zealand> .
+
+ns1:turtle%20island a ns1:RuralActivity ;
+    ns1:hasActivityName "turtle island" ;
+    ns1:hasCountry <http://example.org/country#Greece> .
+
+ns1:valley a ns1:RuralActivity ;
+    ns1:hasActivityName "valley" ;
+    ns1:hasCountry <http://example.org/country#Egypt> .
+
