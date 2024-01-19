@@ -1,0 +1,18 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "url": "activities.csv",
+  "tableSchema": {
+    "aboutUrl": "http://example.org/activities/{Name}",
+    "columns": [
+      {"name": "Name", "titles": ["Name"],"propertyUrl": "schema:name"},
+      {"name":"Country","titles":["Location"] ,"propertyUrl": "schema:country"},
+      {"name":"Image","titles":["Image"] ,"propertyUrl": "schema:image"}
+
+    ]
+  }
+}  

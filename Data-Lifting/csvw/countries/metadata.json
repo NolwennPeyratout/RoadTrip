@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "url": "countries.csv",
+  "tableSchema": {
+    "primaryKey": "Location",
+    "aboutUrl": "http://example.org/countries/{Location}",
+    "columns": [
+      {"name": "Location", "titles": "Location","propertyUrl": "schema:name"},
+      {"name": "phoneCode", "titles": "phoneCode","propertyUrl": "schema:phoneCode", "suppressOutput": true},
+      {"name":"capital","titles":"capital" ,"propertyUrl": "schema:capital"},
+      {"name":"currency","titles":"currency" ,"propertyUrl": "schema:currency"},
+      {"name":"region","titles":"region" ,"propertyUrl": "schema:region", "suppressOutput": true},
+      {"name":"timezones","titles":"timezones" ,"propertyUrl": "schema:timezone", "suppressOutput": true}, 
+      {
+        "virtual": true,
+        "propertyUrl": "rdf:type",
+        "valueUrl": "schema:Country"
+    }
+
+    ]
+  }
+}  

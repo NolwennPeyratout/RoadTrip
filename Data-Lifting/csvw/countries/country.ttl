@@ -1,0 +1,1206 @@
+
+<http://example.org/countries/Cambodia> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Phnom%20Penh";
+  <http://schema.org/currency> "KHR";
+  <http://schema.org/name> "Cambodia" .
+
+<http://example.org/countries/Australia> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Canberra";
+  <http://schema.org/currency> "AUD";
+  <http://schema.org/name> "Australia" .
+
+<http://example.org/countries/Peru> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Lima";
+  <http://schema.org/currency> "PEN";
+  <http://schema.org/name> "Peru" .
+
+<http://example.org/countries/China> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Beijing";
+  <http://schema.org/currency> "CNY";
+  <http://schema.org/name> "China" .
+
+<http://example.org/countries/India> a <http://schema.org/Country>;
+  <http://schema.org/capital> "New%20Delhi";
+  <http://schema.org/currency> "INR";
+  <http://schema.org/name> "India" .
+
+<http://example.org/countries/United%20States> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Washington";
+  <http://schema.org/currency> "USD";
+  <http://schema.org/name> "United%20States" .
+
+<http://example.org/countries/Italy> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Rome";
+  <http://schema.org/currency> "EUR";
+  <http://schema.org/name> "Italy" .
+
+<http://example.org/countries/Argentina> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Buenos%20Aires";
+  <http://schema.org/currency> "ARS";
+  <http://schema.org/name> "Argentina" .
+
+<http://example.org/countries/Spain> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Madrid";
+  <http://schema.org/currency> "EUR";
+  <http://schema.org/name> "Spain" .
+
+<http://example.org/countries/Turkey> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Ankara";
+  <http://schema.org/currency> "TRY";
+  <http://schema.org/name> "Turkey" .
+
+<http://example.org/countries/Morocco> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Rabat";
+  <http://schema.org/currency> "MAD";
+  <http://schema.org/name> "Morocco" .
+
+<http://example.org/countries/Jordan> <http://schema.org/capital> "Amman";
+  <http://schema.org/currency> "JOD";
+  <http://schema.org/name> "Jordan";
+  a <http://schema.org/Country> .
+
+_:tablegroupG__164 a <http://www.w3.org/ns/csvw#TableGroup>;
+  <http://www.w3.org/ns/csvw#table> _:tableG__165 .
+
+_:tableG__165 a <http://www.w3.org/ns/csvw#Table>;
+  <http://www.w3.org/ns/csvw#row> _:rowG__166 .
+
+_:rowG__166 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Cambodia>;
+  <http://www.w3.org/ns/csvw#rownum> 1;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=2> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__168 .
+
+_:rowG__168 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Australia>;
+  <http://www.w3.org/ns/csvw#rownum> 2;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=3> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__170 .
+
+_:rowG__170 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Peru>;
+  <http://www.w3.org/ns/csvw#rownum> 3;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=4> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__172 .
+
+_:rowG__172 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/China>;
+  <http://www.w3.org/ns/csvw#rownum> 4;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=5> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__174 .
+
+_:rowG__174 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/India>;
+  <http://www.w3.org/ns/csvw#rownum> 5;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=6> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__176 .
+
+_:rowG__176 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/United%20States>;
+  <http://www.w3.org/ns/csvw#rownum> 6;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=7> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__178 .
+
+_:rowG__178 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Italy>;
+  <http://www.w3.org/ns/csvw#rownum> 7;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=8> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__180 .
+
+_:rowG__180 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Argentina>;
+  <http://www.w3.org/ns/csvw#rownum> 8;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=9> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__182 .
+
+_:rowG__182 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Spain>;
+  <http://www.w3.org/ns/csvw#rownum> 9;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=10> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__184 .
+
+_:rowG__184 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Turkey>;
+  <http://www.w3.org/ns/csvw#rownum> 10;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=11> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__186 .
+
+_:rowG__186 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Morocco>;
+  <http://www.w3.org/ns/csvw#rownum> 11;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=12> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__188 .
+
+_:rowG__188 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Jordan>;
+  <http://www.w3.org/ns/csvw#rownum> 12;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=13> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__190 .
+
+_:rowG__190 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Guatemala>;
+  <http://www.w3.org/ns/csvw#rownum> 13;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=14> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__192 .
+
+_:rowG__192 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/United%20Kingdom>;
+  <http://www.w3.org/ns/csvw#rownum> 14;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=15> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__194 .
+
+_:rowG__194 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/New%20Zealand>;
+  <http://www.w3.org/ns/csvw#rownum> 15;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=16> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__196 .
+
+_:rowG__196 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Greece>;
+  <http://www.w3.org/ns/csvw#rownum> 16;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=17> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__198 .
+
+_:rowG__198 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Ecuador>;
+  <http://www.w3.org/ns/csvw#rownum> 17;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=18> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__200 .
+
+_:rowG__200 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Croatia>;
+  <http://www.w3.org/ns/csvw#rownum> 18;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=19> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__202 .
+
+_:rowG__202 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Bolivia>;
+  <http://www.w3.org/ns/csvw#rownum> 19;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=20> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__204 .
+
+_:rowG__204 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Myanmar>;
+  <http://www.w3.org/ns/csvw#rownum> 20;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=21> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__206 .
+
+_:rowG__206 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Egypt>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Egypt>;
+  <http://www.w3.org/ns/csvw#rownum> 21;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=22> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__208 .
+
+_:rowG__208 <http://www.w3.org/ns/csvw#rownum> 22;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=23>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Zimbabwe>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Zimbabwe> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv> .
+
+<http://example.org/countries/Guatemala> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Guatemala%20City";
+  <http://schema.org/currency> "GTQ";
+  <http://schema.org/name> "Guatemala" .
+
+<http://example.org/countries/United%20Kingdom> a <http://schema.org/Country>;
+  <http://schema.org/capital> "London";
+  <http://schema.org/currency> "GBP";
+  <http://schema.org/name> "United%20Kingdom" .
+
+<http://example.org/countries/New%20Zealand> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Wellington";
+  <http://schema.org/currency> "NZD";
+  <http://schema.org/name> "New%20Zealand" .
+
+<http://example.org/countries/Greece> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Athens";
+  <http://schema.org/currency> "EUR";
+  <http://schema.org/name> "Greece" .
+
+<http://example.org/countries/Ecuador> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Quito";
+  <http://schema.org/currency> "USD";
+  <http://schema.org/name> "Ecuador" .
+
+<http://example.org/countries/Croatia> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Zagreb";
+  <http://schema.org/currency> "HRK";
+  <http://schema.org/name> "Croatia" .
+
+<http://example.org/countries/Bolivia> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Sucre";
+  <http://schema.org/currency> "BOB";
+  <http://schema.org/name> "Bolivia" .
+
+<http://example.org/countries/Myanmar> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Nay%20Pyi%20Taw";
+  <http://schema.org/currency> "MMK";
+  <http://schema.org/name> "Myanmar" .
+
+<http://example.org/countries/Egypt> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Cairo";
+  <http://schema.org/currency> "EGP";
+  <http://schema.org/name> "Egypt" .
+
+<http://example.org/countries/Zimbabwe> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Harare";
+  <http://schema.org/currency> "ZWL";
+  <http://schema.org/name> "Zimbabwe" .
+
+<http://example.org/countries/France> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Paris";
+  <http://schema.org/currency> "EUR";
+  <http://schema.org/name> "France" .
+
+<http://example.org/countries/Vietnam> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Hanoi";
+  <http://schema.org/currency> "VND";
+  <http://schema.org/name> "Vietnam" .
+
+<http://example.org/countries/Czech%20Republic> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Prague";
+  <http://schema.org/currency> "CZK";
+  <http://schema.org/name> "Czech%20Republic" .
+
+<http://example.org/countries/Chile> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Santiago";
+  <http://schema.org/currency> "CLP";
+  <http://schema.org/name> "Chile" .
+
+_:rowG__208 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Zimbabwe> .
+
+<http://example.org/countries/Russia> <http://schema.org/name> "Russia" .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__210 .
+
+_:rowG__210 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/France>;
+  <http://www.w3.org/ns/csvw#rownum> 23;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=24> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__212 .
+
+_:rowG__212 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Vietnam>;
+  <http://www.w3.org/ns/csvw#rownum> 24;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=25> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__214 .
+
+_:rowG__214 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Czech%20Republic>;
+  <http://www.w3.org/ns/csvw#rownum> 25;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=26> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__216 .
+
+_:rowG__216 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Chile>;
+  <http://www.w3.org/ns/csvw#rownum> 26;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=27> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__218 .
+
+_:rowG__218 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Russia>;
+  <http://www.w3.org/ns/csvw#rownum> 27;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=28> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__220 .
+
+_:rowG__220 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Cuba>;
+  <http://www.w3.org/ns/csvw#rownum> 28;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=29> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__222 .
+
+_:rowG__222 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/South%20Africa>;
+  <http://www.w3.org/ns/csvw#rownum> 29;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=30> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__224 .
+
+_:rowG__224 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Tanzania>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Tanzania>;
+  <http://www.w3.org/ns/csvw#rownum> 30;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Tanzania>;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=31> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__226 .
+
+_:rowG__226 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 31;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=32>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Montenegro> .
+
+<http://example.org/countries/Russia> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Moscow";
+  <http://schema.org/currency> "RUB" .
+
+<http://example.org/countries/Cuba> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Havana";
+  <http://schema.org/currency> "CUP";
+  <http://schema.org/name> "Cuba" .
+
+<http://example.org/countries/South%20Africa> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Pretoria";
+  <http://schema.org/currency> "ZAR";
+  <http://schema.org/name> "South%20Africa" .
+
+<http://example.org/countries/Tanzania> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Dodoma";
+  <http://schema.org/currency> "TZS";
+  <http://schema.org/name> "Tanzania" .
+
+<http://example.org/countries/Montenegro> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Podgorica";
+  <http://schema.org/currency> "EUR";
+  <http://schema.org/name> "Montenegro" .
+
+<http://example.org/countries/Japan> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Tokyo";
+  <http://schema.org/currency> "JPY";
+  <http://schema.org/name> "Japan" .
+
+_:rowG__226 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Montenegro> .
+
+<http://example.org/countries/Iran> <http://schema.org/name> "Iran" .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__228 .
+
+_:rowG__228 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Japan>;
+  <http://www.w3.org/ns/csvw#rownum> 32;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=33> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__230 .
+
+_:rowG__230 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Iran>;
+  <http://www.w3.org/ns/csvw#rownum> 33;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=34> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__232 .
+
+_:rowG__232 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Netherlands>;
+  <http://www.w3.org/ns/csvw#rownum> 34;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Netherlands>;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=35>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Netherlands> .
+
+<http://example.org/countries/Iran> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Tehran";
+  <http://schema.org/currency> "IRR" .
+
+<http://example.org/countries/Netherlands> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Amsterdam";
+  <http://schema.org/currency> "EUR";
+  <http://schema.org/name> "Netherlands" .
+
+<http://example.org/countries/Iceland> <http://schema.org/name> "Iceland";
+  <http://schema.org/capital> "Reykjavik" .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__234 .
+
+_:rowG__234 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Iceland>;
+  <http://www.w3.org/ns/csvw#rownum> 35;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=36> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__236 .
+
+_:rowG__236 <http://www.w3.org/ns/csvw#rownum> 36;
+  <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=37>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Germany>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Germany> .
+
+<http://example.org/countries/Iceland> a <http://schema.org/Country>;
+  <http://schema.org/currency> "ISK" .
+
+<http://example.org/countries/Germany> <http://schema.org/capital> "Berlin";
+  <http://schema.org/currency> "EUR";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Germany" .
+
+_:rowG__236 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Germany> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__238 .
+
+_:rowG__238 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=38>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Thailand>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Thailand>;
+  <http://www.w3.org/ns/csvw#rownum> 37;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Thailand> .
+
+<http://example.org/countries/Thailand> <http://schema.org/capital> "Bangkok";
+  <http://schema.org/currency> "THB";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Thailand" .
+
+_:rowG__238 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Thailand> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__240 .
+
+_:rowG__240 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=39>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Mexico>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Mexico>;
+  <http://www.w3.org/ns/csvw#rownum> 38;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Mexico> .
+
+<http://example.org/countries/Mexico> <http://schema.org/capital> "Mexico%20City";
+  <http://schema.org/currency> "MXN";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Mexico" .
+
+_:rowG__240 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Mexico> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__242 .
+
+_:rowG__242 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=40>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Greenland>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Greenland>;
+  <http://www.w3.org/ns/csvw#rownum> 39;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Greenland> .
+
+<http://example.org/countries/Greenland> <http://schema.org/capital> "Nuuk";
+  <http://schema.org/currency> "DKK";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Greenland" .
+
+_:rowG__242 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Greenland> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__244 .
+
+_:rowG__244 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=41>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Brazil>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Brazil>;
+  <http://www.w3.org/ns/csvw#rownum> 40;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Brazil> .
+
+<http://example.org/countries/Brazil> <http://schema.org/capital> "Brasilia";
+  <http://schema.org/currency> "BRL";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Brazil" .
+
+_:rowG__244 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Brazil> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__246 .
+
+_:rowG__246 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=42>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Ethiopia>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Ethiopia>;
+  <http://www.w3.org/ns/csvw#rownum> 41;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Ethiopia> .
+
+<http://example.org/countries/Ethiopia> <http://schema.org/capital> "Addis%20Ababa";
+  <http://schema.org/currency> "ETB";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Ethiopia" .
+
+_:rowG__246 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Ethiopia> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__248 .
+
+_:rowG__248 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=43>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Slovenia>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Slovenia>;
+  <http://www.w3.org/ns/csvw#rownum> 42;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Slovenia> .
+
+<http://example.org/countries/Slovenia> <http://schema.org/capital> "Ljubljana";
+  <http://schema.org/currency> "EUR";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Slovenia" .
+
+_:rowG__248 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Slovenia> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__250 .
+
+_:rowG__250 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=44>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Kenya>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Kenya>;
+  <http://www.w3.org/ns/csvw#rownum> 43;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Kenya> .
+
+<http://example.org/countries/Kenya> <http://schema.org/capital> "Nairobi";
+  <http://schema.org/currency> "KES";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Kenya" .
+
+_:rowG__250 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Kenya> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__252 .
+
+_:rowG__252 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=45>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Vatican%20City%20State%20%28Holy%20See%29>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Vatican%20City%20State%20%28Holy%20See%29>;
+  <http://www.w3.org/ns/csvw#rownum> 44;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Vatican%20City%20State%20%28Holy%20See%29> .
+
+<http://example.org/countries/Vatican%20City%20State%20%28Holy%20See%29> <http://schema.org/capital>
+    "Vatican%20City";
+  <http://schema.org/currency> "EUR";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Vatican%20City%20State%20%28Holy%20See%29" .
+
+_:rowG__252 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Vatican%20City%20State%20%28Holy%20See%29> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__254 .
+
+_:rowG__254 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=46>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Israel>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Israel>;
+  <http://www.w3.org/ns/csvw#rownum> 45;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Israel> .
+
+<http://example.org/countries/Israel> <http://schema.org/capital> "Jerusalem";
+  <http://schema.org/currency> "ILS";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Israel" .
+
+_:rowG__254 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Israel> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__256 .
+
+_:rowG__256 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=47>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Nepal>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Nepal>;
+  <http://www.w3.org/ns/csvw#rownum> 46;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Nepal> .
+
+<http://example.org/countries/Nepal> <http://schema.org/capital> "Kathmandu";
+  <http://schema.org/currency> "NPR";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Nepal" .
+
+_:rowG__256 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Nepal> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__258 .
+
+_:rowG__258 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=48>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Switzerland>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Switzerland>;
+  <http://www.w3.org/ns/csvw#rownum> 47;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Switzerland> .
+
+<http://example.org/countries/Switzerland> <http://schema.org/capital> "Bern";
+  <http://schema.org/currency> "CHF";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Switzerland" .
+
+_:rowG__258 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Switzerland> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__260 .
+
+_:rowG__260 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=49>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Sweden>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Sweden>;
+  <http://www.w3.org/ns/csvw#rownum> 48;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Sweden> .
+
+<http://example.org/countries/Sweden> <http://schema.org/capital> "Stockholm";
+  <http://schema.org/currency> "SEK";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Sweden" .
+
+_:rowG__260 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Sweden> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__262 .
+
+_:rowG__262 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=50>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Botswana>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Botswana>;
+  <http://www.w3.org/ns/csvw#rownum> 49;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Botswana> .
+
+<http://example.org/countries/Botswana> <http://schema.org/capital> "Gaborone";
+  <http://schema.org/currency> "BWP";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Botswana" .
+
+_:rowG__262 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Botswana> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__264 .
+
+_:rowG__264 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=51>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Poland>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Poland>;
+  <http://www.w3.org/ns/csvw#rownum> 50;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Poland> .
+
+<http://example.org/countries/Poland> <http://schema.org/capital> "Warsaw";
+  <http://schema.org/currency> "PLN";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Poland" .
+
+_:rowG__264 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Poland> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__266 .
+
+_:rowG__266 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=52>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Costa%20Rica>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Costa%20Rica>;
+  <http://www.w3.org/ns/csvw#rownum> 51;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Costa%20Rica> .
+
+<http://example.org/countries/Costa%20Rica> <http://schema.org/capital> "San%20Jose";
+  <http://schema.org/currency> "CRC";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Costa%20Rica" .
+
+_:rowG__266 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Costa%20Rica> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__268 .
+
+_:rowG__268 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=53>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Canada>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Canada>;
+  <http://www.w3.org/ns/csvw#rownum> 52;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Canada> .
+
+<http://example.org/countries/Canada> <http://schema.org/capital> "Ottawa";
+  <http://schema.org/currency> "CAD";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Canada" .
+
+_:rowG__268 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Canada> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__270 .
+
+_:rowG__270 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=54>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Hungary>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Hungary>;
+  <http://www.w3.org/ns/csvw#rownum> 53;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Hungary> .
+
+<http://example.org/countries/Hungary> <http://schema.org/capital> "Budapest";
+  <http://schema.org/currency> "HUF";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Hungary" .
+
+_:rowG__270 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Hungary> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__272 .
+
+_:rowG__272 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=55>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Estonia>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Estonia>;
+  <http://www.w3.org/ns/csvw#rownum> 54;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Estonia> .
+
+<http://example.org/countries/Estonia> <http://schema.org/capital> "Tallinn";
+  <http://schema.org/currency> "EUR";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Estonia" .
+
+_:rowG__272 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Estonia> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__274 .
+
+_:rowG__274 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=56>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Bosnia%20and%20Herzegovina>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Bosnia%20and%20Herzegovina>;
+  <http://www.w3.org/ns/csvw#rownum> 55;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Bosnia%20and%20Herzegovina> .
+
+<http://example.org/countries/Bosnia%20and%20Herzegovina> <http://schema.org/capital>
+    "Sarajevo";
+  <http://schema.org/currency> "BAM";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Bosnia%20and%20Herzegovina" .
+
+_:rowG__274 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Bosnia%20and%20Herzegovina> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__276 .
+
+_:rowG__276 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=57>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Hong%20Kong%20S.A.R.>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Hong%20Kong%20S.A.R.>;
+  <http://www.w3.org/ns/csvw#rownum> 56;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Hong%20Kong%20S.A.R.> .
+
+<http://example.org/countries/Hong%20Kong%20S.A.R.> <http://schema.org/capital> "Hong%20Kong";
+  <http://schema.org/currency> "HKD";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Hong%20Kong%20S.A.R." .
+
+_:rowG__276 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Hong%20Kong%20S.A.R.> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__278 .
+
+_:rowG__278 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=58>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Norway>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Norway>;
+  <http://www.w3.org/ns/csvw#rownum> 57;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Norway> .
+
+<http://example.org/countries/Norway> <http://schema.org/capital> "Oslo";
+  <http://schema.org/currency> "NOK";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Norway" .
+
+_:rowG__278 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Norway> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__280 .
+
+_:rowG__280 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=59>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Mozambique>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Mozambique>;
+  <http://www.w3.org/ns/csvw#rownum> 58;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Mozambique> .
+
+<http://example.org/countries/Mozambique> <http://schema.org/capital> "Maputo";
+  <http://schema.org/currency> "MZN";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Mozambique" .
+
+_:rowG__280 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Mozambique> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__282 .
+
+_:rowG__282 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=60>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Colombia>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Colombia>;
+  <http://www.w3.org/ns/csvw#rownum> 59;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Colombia> .
+
+<http://example.org/countries/Colombia> <http://schema.org/capital> "Bogota";
+  <http://schema.org/currency> "COP";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Colombia" .
+
+_:rowG__282 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Colombia> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__284 .
+
+_:rowG__284 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=61>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Portugal>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Portugal>;
+  <http://www.w3.org/ns/csvw#rownum> 60;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Portugal> .
+
+<http://example.org/countries/Portugal> <http://schema.org/capital> "Lisbon";
+  <http://schema.org/currency> "EUR";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Portugal" .
+
+_:rowG__284 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Portugal> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__286 .
+
+_:rowG__286 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=62>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Ukraine>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Ukraine>;
+  <http://www.w3.org/ns/csvw#rownum> 61;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Ukraine> .
+
+<http://example.org/countries/Ukraine> <http://schema.org/capital> "Kiev";
+  <http://schema.org/currency> "UAH";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Ukraine" .
+
+_:rowG__286 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Ukraine> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__288 .
+
+_:rowG__288 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=63>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Antarctica>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Antarctica>;
+  <http://www.w3.org/ns/csvw#rownum> 62;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Antarctica>, <http://example.org/countries/Antarctica> .
+
+<http://example.org/countries/Antarctica> a <http://schema.org/Country>;
+  <http://schema.org/capital> "nan";
+  <http://schema.org/name> "Antarctica" .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__290 .
+
+_:rowG__290 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=64>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Malaysia>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Malaysia>;
+  <http://www.w3.org/ns/csvw#rownum> 63;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Malaysia> .
+
+<http://example.org/countries/Malaysia> <http://schema.org/capital> "Kuala%20Lumpur";
+  <http://schema.org/currency> "MYR";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Malaysia" .
+
+_:rowG__290 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Malaysia> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__292 .
+
+_:rowG__292 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=65>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Ghana>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Ghana>;
+  <http://www.w3.org/ns/csvw#rownum> 64;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Ghana> .
+
+<http://example.org/countries/Ghana> <http://schema.org/capital> "Accra";
+  <http://schema.org/currency> "GHS";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Ghana" .
+
+_:rowG__292 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Ghana> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__294 .
+
+_:rowG__294 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=66>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Belgium>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Belgium>;
+  <http://www.w3.org/ns/csvw#rownum> 65;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Belgium> .
+
+<http://example.org/countries/Belgium> <http://schema.org/capital> "Brussels";
+  <http://schema.org/currency> "EUR";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Belgium" .
+
+_:rowG__294 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Belgium> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__296 .
+
+_:rowG__296 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=67>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Rwanda>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Rwanda>;
+  <http://www.w3.org/ns/csvw#rownum> 66;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Rwanda> .
+
+<http://example.org/countries/Rwanda> <http://schema.org/capital> "Kigali";
+  <http://schema.org/currency> "RWF";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Rwanda" .
+
+_:rowG__296 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Rwanda> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__298 .
+
+_:rowG__298 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=68>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Singapore>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Singapore>;
+  <http://www.w3.org/ns/csvw#rownum> 67;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Singapore> .
+
+<http://example.org/countries/Singapore> <http://schema.org/capital> "Singapur";
+  <http://schema.org/currency> "SGD";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Singapore" .
+
+_:rowG__298 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Singapore> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__300 .
+
+_:rowG__300 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=69>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Sri%20Lanka>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Sri%20Lanka>;
+  <http://www.w3.org/ns/csvw#rownum> 68;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Sri%20Lanka> .
+
+<http://example.org/countries/Sri%20Lanka> <http://schema.org/capital> "Colombo";
+  <http://schema.org/currency> "LKR";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Sri%20Lanka" .
+
+_:rowG__300 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Sri%20Lanka> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__302 .
+
+_:rowG__302 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=70>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Georgia>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Georgia>;
+  <http://www.w3.org/ns/csvw#rownum> 69;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Georgia> .
+
+<http://example.org/countries/Georgia> <http://schema.org/capital> "Tbilisi";
+  <http://schema.org/currency> "GEL";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Georgia" .
+
+_:rowG__302 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Georgia> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__304 .
+
+_:rowG__304 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=71>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Korea%20South>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Korea%20South>;
+  <http://www.w3.org/ns/csvw#rownum> 70;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Korea%20South> .
+
+<http://example.org/countries/Korea%20South> <http://schema.org/capital> "Seoul";
+  <http://schema.org/currency> "KRW";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Korea%20South" .
+
+_:rowG__304 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Korea%20South> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__306 .
+
+_:rowG__306 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=72>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Laos>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Laos>;
+  <http://www.w3.org/ns/csvw#rownum> 71;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Laos> .
+
+<http://example.org/countries/Laos> <http://schema.org/capital> "Vientiane";
+  <http://schema.org/currency> "LAK";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Laos" .
+
+_:rowG__306 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Laos> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__308 .
+
+_:rowG__308 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=73>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Senegal>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Senegal>;
+  <http://www.w3.org/ns/csvw#rownum> 72;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Senegal> .
+
+<http://example.org/countries/Senegal> <http://schema.org/capital> "Dakar";
+  <http://schema.org/currency> "XOF";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Senegal" .
+
+_:rowG__308 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Senegal> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__310 .
+
+_:rowG__310 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=74>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Algeria>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Algeria>;
+  <http://www.w3.org/ns/csvw#rownum> 73;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Algeria> .
+
+<http://example.org/countries/Algeria> <http://schema.org/capital> "Algiers";
+  <http://schema.org/currency> "DZD";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Algeria" .
+
+_:rowG__310 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Algeria> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__312 .
+
+_:rowG__312 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=75>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Philippines>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Philippines>;
+  <http://www.w3.org/ns/csvw#rownum> 74;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Philippines> .
+
+<http://example.org/countries/Philippines> <http://schema.org/capital> "Manila";
+  <http://schema.org/currency> "PHP";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Philippines" .
+
+_:rowG__312 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Philippines> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__314 .
+
+_:rowG__314 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=76>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Namibia>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Namibia>;
+  <http://www.w3.org/ns/csvw#rownum> 75;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Namibia> .
+
+<http://example.org/countries/Namibia> <http://schema.org/capital> "Windhoek";
+  <http://schema.org/currency> "NAD";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Namibia" .
+
+_:rowG__314 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Namibia> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__316 .
+
+_:rowG__316 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=77>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Palau>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Palau>;
+  <http://www.w3.org/ns/csvw#rownum> 76;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Palau> .
+
+<http://example.org/countries/Palau> <http://schema.org/capital> "Melekeok";
+  <http://schema.org/currency> "USD";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Palau" .
+
+_:rowG__316 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Palau> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__318 .
+
+_:rowG__318 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=78>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Tunisia>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Tunisia>;
+  <http://www.w3.org/ns/csvw#rownum> 77;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Tunisia> .
+
+<http://example.org/countries/Tunisia> <http://schema.org/capital> "Tunis";
+  <http://schema.org/currency> "TND";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Tunisia" .
+
+_:rowG__318 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Tunisia> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__320 .
+
+_:rowG__320 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=79>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Ireland>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Ireland>;
+  <http://www.w3.org/ns/csvw#rownum> 78;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Ireland> .
+
+<http://example.org/countries/Ireland> <http://schema.org/capital> "Dublin";
+  <http://schema.org/currency> "EUR";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Ireland" .
+
+_:rowG__320 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Ireland> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__322 .
+
+_:rowG__322 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=80>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Indonesia>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Indonesia>;
+  <http://www.w3.org/ns/csvw#rownum> 79;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Indonesia> .
+
+<http://example.org/countries/Indonesia> <http://schema.org/capital> "Jakarta";
+  <http://schema.org/currency> "IDR";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Indonesia" .
+
+_:rowG__322 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Indonesia> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__324 .
+
+_:rowG__324 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=81>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Bulgaria>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Bulgaria>;
+  <http://www.w3.org/ns/csvw#rownum> 80;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Bulgaria> .
+
+<http://example.org/countries/Bulgaria> <http://schema.org/capital> "Sofia";
+  <http://schema.org/currency> "BGN";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Bulgaria" .
+
+_:rowG__324 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Bulgaria> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__326 .
+
+_:rowG__326 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=82>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/United%20Arab%20Emirates>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/United%20Arab%20Emirates>;
+  <http://www.w3.org/ns/csvw#rownum> 81;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/United%20Arab%20Emirates> .
+
+<http://example.org/countries/United%20Arab%20Emirates> <http://schema.org/capital>
+    "Abu%20Dhabi";
+  <http://schema.org/currency> "AED";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "United%20Arab%20Emirates" .
+
+_:rowG__326 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/United%20Arab%20Emirates> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__328 .
+
+_:rowG__328 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=83>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Mali>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Mali>;
+  <http://www.w3.org/ns/csvw#rownum> 82;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Mali> .
+
+<http://example.org/countries/Mali> <http://schema.org/capital> "Bamako";
+  <http://schema.org/currency> "XOF";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Mali" .
+
+_:rowG__328 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Mali> .
+
+_:tableG__165 <http://www.w3.org/ns/csvw#row> _:rowG__330 .
+
+_:rowG__330 <http://www.w3.org/ns/csvw#url> <file:/C:/Users/timop/Documents/GitHub/RoadTrip/Data-Lifting/csvw/countries/countries.csv#row=84>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Tajikistan>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Tajikistan>;
+  <http://www.w3.org/ns/csvw#rownum> 83;
+  <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Tajikistan> .
+
+<http://example.org/countries/Tajikistan> <http://schema.org/capital> "Dushanbe";
+  <http://schema.org/currency> "TJS";
+  a <http://schema.org/Country>;
+  <http://schema.org/name> "Tajikistan" .
+
+_:rowG__330 <http://www.w3.org/ns/csvw#describes> <http://example.org/countries/Tajikistan> .
