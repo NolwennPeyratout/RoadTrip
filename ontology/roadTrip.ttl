@@ -185,6 +185,11 @@
     rdfs:domain :Activity ;
     rdfs:range xsd:float .
 
+:hasRating 
+	a 		 owl:DatatypeProperty ;
+    rdfs:domain :Activity ;
+    rdfs:range xsd:double .
+
 :hasLongitude 
 	a 		 owl:DatatypeProperty ;
     rdfs:domain :Location ;

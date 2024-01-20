@@ -241,7 +241,7 @@
   a ns1:Location ] ;
   ns1:hasRating "4.50000"^^xsd:double ;
   ns1:id "ChIJI1JibStsIysRIV_Fm03NqEM" ;
-  a ns1:Activity .
+  a ns1:RuralActivity .
 
 :TorresDelPaineNationalPark ns1:hasActivityName "Torres Del Paine National Park" ;
   ns1:hasCountry "Chile" ;
@@ -301,7 +301,7 @@
   ns1:hasLongitude "70.9083"^^xsd:double ;
   a ns1:Location ] ;
   ns1:id "ChIJazkbqii8RzkR427WYNab7_U" ;
-  a ns1:Activity .
+  a ns1:RuralActivity .
 
 :EiffelTower ns1:hasActivityName "Eiffel Tower" ;
   ns1:hasCountry "France" ;
@@ -588,7 +588,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   a ns1:Location ] ;
   ns1:hasRating "4.70000"^^xsd:double ;
   ns1:id "ChIJ_Wih_4MxN4cRbkumBBeRn80" ;
-  a ns1:Activity .
+  a ns1:RuralActivity .
 
 :EverestBaseCamp ns1:hasActivityName "Everest Base Camp Trek" ;
   ns1:hasCountry "Nepal" ;
@@ -707,7 +707,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   ns1:id "ChIJVeT_P17rwTARbs9UljGt07c" ;
   a ns1:UrbanActivity .
 
-_:b24 ns1:hasActivityName "Uffizi Gallery" ;
+:YffiziGallery ns1:hasActivityName "Uffizi Gallery" ;
   ns1:hasCountry "Italy" ;
   ns1:hasLocation [ns1:hasAddress "Piazzale degli Uffizi, 6, 50122 Firenze FI, Italy" ;
   ns1:hasLatitude "43.7678"^^xsd:double ;
@@ -715,7 +715,7 @@ _:b24 ns1:hasActivityName "Uffizi Gallery" ;
   a ns1:Location] ;
   ns1:hasRating "4.70000"^^xsd:double ;
   ns1:id "ChIJgZDFjQBUKhMRzcTwm8i33s0" ;
-  a ns1:Activity .
+  a ns1:UrbanActivity .
 
 :Budapest ns1:hasActivityName "Budapest" ;
   ns1:hasCountry "Hungary" ;
@@ -816,7 +816,7 @@ ns1:hasAddress "00120 Vatican City" ;
   ns1:id "ChIJy9V_qbdHJh8RqKoRW4V4a9o" ;
   a ns1:RuralActivity .
 
-_:b0 ns1:hasActivityName "Aiguille Du Midi" ;
+:AiguilleDuMidi ns1:hasActivityName "Aiguille Du Midi" ;
   ns1:hasCountry "France" ;
   ns1:hasLocation [ns1:hasAddress "Aiguille du Midi, 74400 Chamonix, France" ;
   ns1:hasLatitude "45.8793"^^xsd:double ;
@@ -1210,7 +1210,7 @@ _:b0 ns1:hasActivityName "Aiguille Du Midi" ;
   ns1:id "ChIJieMV9YXHh0gRHsuS82zRSjY" ;
   a ns1:UrbanActivity .
 
-_:b0 ns1:hasActivityName "Accra" ;
+:Accra ns1:hasActivityName "Accra" ;
   ns1:hasCountry "Ghana" ;
   ns1:hasLocation [ns1:hasAddress "Accra, Ghana" ;
   ns1:hasLatitude "5.55928"^^xsd:double ;
@@ -1308,7 +1308,7 @@ _:b0 ns1:hasActivityName "Accra" ;
   ns1:id "ChIJtTDV3hOBcUgRTSLxFGi-Rg4" ;
   a ns1:UrbanActivity .
 
-_:b24 ns1:hasActivityName "Terracotta Warriors" ;
+:TerracottaWarriors ns1:hasActivityName "Terracotta Warriors" ;
   ns1:hasCountry "China" ;
   ns1:hasLocation [ns1:hasAddress "Lintong District, Xi'An, Shaanxi, China, 710612" ;
   ns1:hasLatitude "34.3841"^^xsd:double ;

@@ -1,0 +1,30 @@
+PREFIX act: <http://example.org/roadtrip/activity#> 
+PREFIX schema: <http://example.org/roadtrip#>
+
+
+
+SELECT ?activities
+WHERE {
+  ?activities a schema:Activity;
+    schema:hasCountry ?y
+    filter(?y="France")
+
+  }
+
+# SELECT ?address ?activities
+# WHERE {
+#   ?activities a schema:Activity;
+#     schema:hasCountry ?y. 
+# ?activities schema:hasLocation ?location.
+# ?location schema:hasAddress ?address
+#     filter(?y="France")
+
+#   }
+ 
+
+#SELECT ?y (count(?activities) as ?counting)
+# WHERE {
+#   ?activities a schema:Activity;
+#     schema:hasCountry ?y
+#   }
+# group by (?y)
