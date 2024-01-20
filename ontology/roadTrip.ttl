@@ -8,7 +8,7 @@
 @prefix wd:      <http://www.wikidata.org/entity/>.
 @prefix schema:  <http://schema.org/>.
 @prefix dbo: <http://dbpedia.org/ontology/>.
-
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
 
 : a owl:Ontology;
     rdfs:label "Road trip".
@@ -18,8 +18,7 @@
 :RoadTrip 
     a       owl:Class ;
     rdfs:label "RoadTrip" ;
-    rdfs:comment "A journey or excursion by road, especially for pleasure" .
-
+    rdfs:comment "A journey or excursion by road, especially for pleasure".
 :in 
     a       owl:ObjectProperty ;
     rdfs:domain :RoadTrip ;
@@ -82,16 +81,19 @@
 :startingDate 
     a owl:DatatypeProperty;
     rdfs:domain :RoadTrip ;
-    rdfs:range xsd:date.
+    rdfs:range xsd:date;
+    rdfs:sameAs schema:startDate.
 
 :endingDate 
     a owl:DatatypeProperty;
     rdfs:domain :RoadTrip ;
-    rdfs:range xsd:date.
+    rdfs:range xsd:date;
+    rdfs:sameAs schema:endDate.
     
 :participants rdf:type owl:ObjectProperty ;
                rdfs:domain :RoadTrip ;
-               rdfs:range :User .
+               rdfs:range :User ;
+               rdfs:sameAs schema:participant, dbo:participant.
 
 :involvesRuralActivity owl:propertyChainAxiom (:hasItinerary :hasRoute :hasRuralActivity).
 :involvesUrbanActivity owl:propertyChainAxiom (:hasItinerary :hasRoute :hasUrbanActivity).
@@ -99,7 +101,8 @@
 
 #country
 :Country 
-    a        owl:Class.
+    a        owl:Class;
+    rdfs:sameAs dbo:country.
 
 :hasCountryName 
     a        owl:DatatypeProperty ;
@@ -119,7 +122,8 @@
 :hasLanguage 
     a        owl:DatatypeProperty ;
     rdfs:domain :Country ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:string ;
+    rdfs:sameAs schema:availableLanguage.
 
 :requiresVaccine 
     a        owl:DatatypeProperty ;
@@ -213,8 +217,8 @@
         a owl:Restriction ;
         owl:onProperty :hasAddress ;
         owl:someValuesFrom xsd:string
-    ] 
-    .
+    ] ;
+    rdfs:sameAs dbo:place.
 
 :RuralActivity 
         a        owl:Class ;
@@ -303,7 +307,8 @@
 
 :Individual a owl:Class;
     rdfs:label "A unique User" ;
-    rdfs:comment "An individual who interacts with the system" .
+    rdfs:comment "An individual who interacts with the system" ;
+    rdfs:subClassOf foaf:person.
 
 :TravelAgency a owl:Class;
     rdfs:label "A travel Agency" ;

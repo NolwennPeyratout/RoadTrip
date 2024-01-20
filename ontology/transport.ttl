@@ -4,12 +4,15 @@
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl:  <http://www.w3.org/2002/07/owl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix wd: <https://www.wikidata.org/wiki/> .
 
 
 :travelMode 
 	a 		skos:ConceptScheme ;
     skos:prefLabel "Transport"@en;
-    skos:hasTopConcept :PublicTransport, :PrivateTransport .
+    skos:hasTopConcept :PublicTransport, :PrivateTransport ;
+    skos:closeMatch wd:Q7590 .
+
 
 :PublicTransport
 	a 		 skos:Concept ;
@@ -30,35 +33,43 @@
     skos:broader :PrivateTransport ;
     skos:inScheme :travelMode ;
     skos:prefLabel "Car"@en ;
-    skos:topConceptOf :PrivateTransport.
+    skos:topConceptOf :PrivateTransport;
+    skos:exactMatch wd:Q1420.
 
 :Walk
     a 		 skos:Concept ;
     skos:broader :PrivateTransport ;
     skos:inScheme :travelMode ;
     skos:prefLabel "Walk"@en ;
-    skos:topConceptOf :PrivateTransport.
+    skos:topConceptOf :PrivateTransport;
+    skos:exactMatch wd:Q6537379.
+
 
 :Bicycle
     a 		 skos:Concept ;
     skos:broader :PrivateTransport ;
     skos:inScheme :travelMode ;
     skos:prefLabel "Bicycle"@en;
-    skos:topConceptOf :PrivateTransport.
+    skos:topConceptOf :PrivateTransport;
+    skos:exactMatch wd:Q11442.
+
 
 :Train
     a 		 skos:Concept ;
     skos:broader :PublicTransport ;
     skos:inScheme :travelMode ;
     skos:prefLabel "Train"@en;
-    skos:topConceptOf :PublicTransport.
+    skos:topConceptOf :PublicTransport;
+    skos:exactMatch wd:Q870.
+
 
 :Motorcycle
     a		 skos:Concept ;
     skos:broader :PrivateTransport ;
     skos:inScheme :travelMode ;
     skos:prefLabel "Motorcycle"@en;
-    skos:topConceptOf :PrivateTransport.
+    skos:topConceptOf :PrivateTransport;
+    skos:exactMatch wd:Q34493.
 
 :MRT
     a		 skos:Concept ;
@@ -67,23 +78,26 @@
     skos:prefLabel "Mass Rapid Transit"@en;
     skos:topConceptOf :PublicTransport.
 
-:BusAndCoach
+:Bus
     a		 skos:Concept ;
     skos:broader :PublicTransport ;
     skos:inScheme :travelMode ;
     skos:prefLabel "Buses and coaches"@en;
-    skos:topConceptOf :PublicTransport.
+    skos:topConceptOf :PublicTransport;
+    skos:exactMatch wd:Q5638.
 
 :Boat
     a		 skos:Concept ;
     skos:broader :PublicTransport ;
     skos:inScheme :travelMode ;
     skos:prefLabel "Boat"@en;
-    skos:topConceptOf :PublicTransport.
+    skos:topConceptOf :PublicTransport;
+    skos:exactMatch wd:Q35872.
 
 :Plane
     a		skos:Concept ;
     skos:broader :PublicTransport ;
     skos:inScheme :travelMode ;
     skos:prefLabel "Plane"@en;
-    skos:topConceptOf :PublicTransport.
+    skos:topConceptOf :PublicTransport;
+    skos:exactMatch wd:Q197.
