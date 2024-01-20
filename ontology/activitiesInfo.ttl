@@ -2,11 +2,12 @@
 @prefix ns1: <http://example.org/roadtrip#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix : <http://example.org/roadtrip/activity#>.
+@prefix country: <http://example.org/roadtrip/country#>.
 
 
 
 :BritishMuseum ns1:hasActivityName "British Museum" ;
-  ns1:hasCountry "United Kingdom" ;
+  ns1:hasCountry country:UnitedKingdom ;
   ns1:hasLocation [
     ns1:hasAddress "Great Russell St, London WC1B 3DG, United Kingdom" ;
   ns1:hasLatitude "51.5194"^^xsd:double ;
@@ -18,7 +19,7 @@
   a ns1:UrbanActivity .
 
 :AngkorWat ns1:hasActivityName "Angkor Wat" ;
-  ns1:hasCountry "Cambodia" ;
+  ns1:hasCountry country:Cambodia ;
   ns1:hasLocation [ns1:hasAddress "Krong Siem Reap, Cambodia" ;
   ns1:hasLatitude "13.4125"^^xsd:double ;
   ns1:hasLongitude "103.867"^^xsd:double ;
@@ -28,7 +29,7 @@
   a ns1:RuralActivity .
 
 :Colosseum ns1:hasActivityName "Colosseum" ;
-  ns1:hasCountry "Italy" ;
+  ns1:hasCountry country:Italy ;
   ns1:hasLocation [ns1:hasAddress "Piazza del Colosseo, 1, 00184 Roma RM, Italy" ;
   ns1:hasLatitude "41.8902"^^xsd:double ;
   ns1:hasLongitude "12.4922"^^xsd:double ;
@@ -38,7 +39,7 @@
   a ns1:RuralActivity .
 
 :Alambra ns1:hasActivityName "Alhambra" ;
-  ns1:hasCountry "Spain" ;
+  ns1:hasCountry country:Spain ;
   ns1:hasLocation [ns1:hasAddress "P.º del Generalife, Centro, 18009 Granada, Spain" ;
   ns1:hasLatitude "37.1741"^^xsd:double ;
   ns1:hasLongitude "-3.58735"^^xsd:double ;
@@ -48,7 +49,7 @@
   a ns1:UrbanActivity .
 
 :TikalNationalPark ns1:hasActivityName "Tikal National Park" ;
-  ns1:hasCountry "Guatemala" ;
+  ns1:hasCountry country:Guatemala ;
   ns1:hasLocation [ns1:hasAddress "RD-PET-3, Guatemala" ;
   ns1:hasLatitude "17.1170"^^xsd:double ;
   ns1:hasLongitude "-89.6763"^^xsd:double ;
@@ -58,7 +59,7 @@
   a ns1:RuralActivity .
 
 :GreatWallOfChina ns1:hasActivityName "Great Wall of China" ;
-  ns1:hasCountry "China" ;
+  ns1:hasCountry country:China ;
   ns1:hasLocation [ ns1:hasAddress "Huairou District, China, 101406" ;
   ns1:hasLatitude "40.4319"^^xsd:double ;
   ns1:hasLongitude "116.570"^^xsd:double ;
@@ -68,7 +69,7 @@
   a ns1:RuralActivity .
 
 :GreatBarrierReef ns1:hasActivityName "Great Barrier Reef" ;
-  ns1:hasCountry "Australia" ;
+  ns1:hasCountry country:Australia ;
   ns1:hasLocation [ns1:hasAddress "Great Barrier Reef, Australia" ;
   ns1:hasLatitude "-18.2871"^^xsd:double ;
   ns1:hasLongitude "147.699"^^xsd:double ;
@@ -77,7 +78,7 @@
   a ns1:RuralActivity .
 
 :MachuPicchu ns1:hasActivityName "Machu Picchu" ;
-  ns1:hasCountry "Peru" ;
+  ns1:hasCountry country:Peru ;
   ns1:hasLocation [ns1:hasAddress "Machu Picchu, 08680, Peru" ;
   ns1:hasLatitude "-13.1742"^^xsd:double ;
   ns1:hasLongitude "-72.5415"^^xsd:double ;
@@ -87,7 +88,7 @@
   a ns1:RuralActivity .
 
 :IgazuFalls ns1:hasActivityName "Iguazu Falls" ;
-  ns1:hasCountry "Argentina" ;
+  ns1:hasCountry country:Argentina ;
   ns1:hasLocation [ns1:hasAddress "Misiones Province, Argentina" ;
   ns1:hasLatitude "-25.6953"^^xsd:double ;
   ns1:hasLongitude "-54.4367"^^xsd:double ;
@@ -97,7 +98,7 @@
   a ns1:RuralActivity .
 
 :GrandCanyon ns1:hasActivityName "Grand Canyon" ;
-  ns1:hasCountry "United States" ;
+  ns1:hasCountry country:UnitedStates ;
   ns1:hasLocation [ns1:hasAddress "Arizona, United States" ;
   ns1:hasLatitude "36.2679"^^xsd:double ;
   ns1:hasLongitude "-112.354"^^xsd:double ;
@@ -107,7 +108,7 @@
   a ns1:RuralActivity .
 
 :MuseumOfOldAndNewArt ns1:hasActivityName "Museum of Old and New Art" ;
-  ns1:hasCountry "Australia" ;
+  ns1:hasCountry country:Australia ;
   ns1:hasLocation [ns1:hasAddress "44 Gormanston Rd, Moonah TAS 7009, Australia" ;
   ns1:hasLatitude "-42.8429"^^xsd:double ;
   ns1:hasLongitude "147.299"^^xsd:double ;
@@ -117,7 +118,7 @@
   a ns1:UrbanActivity .
 
 :SalarDeUyuni ns1:hasActivityName "Salar De Uyuni" ;
-  ns1:hasCountry "Bolivia" ;
+  ns1:hasCountry country:Bolivia ;
   ns1:hasLocation [ns1:hasAddress "Uyuni Salt Flat, Bolivia" ;
   ns1:hasLatitude "-20.1338"^^xsd:double ;
   ns1:hasLongitude "-67.4891"^^xsd:double ;
@@ -127,7 +128,7 @@
   a ns1:RuralActivity .
 
 :SagradaFamilia ns1:hasActivityName "Sagrada Familia" ;
-  ns1:hasCountry "Spain" ;
+  ns1:hasCountry country:Spain ;
   ns1:hasLocation [ ns1:hasAddress "C/ de Mallorca, 401, L'Eixample, 08013 Barcelona, Spain" ;
   ns1:hasLatitude "41.4036"^^xsd:double ;
   ns1:hasLongitude "2.17436"^^xsd:double ;
@@ -137,7 +138,7 @@
   a ns1:UrbanActivity.
 
 :GalapagosIslands ns1:hasActivityName "Galapagos Islands" ;
-  ns1:hasCountry "Ecuador" ;
+  ns1:hasCountry country:Ecuador;
   ns1:hasLocation [ns1:hasAddress "Galápagos Islands, Ecuador" ;
   ns1:hasLatitude "-0.383106"^^xsd:double ;
   ns1:hasLongitude "-90.4233"^^xsd:double ;
@@ -147,7 +148,7 @@
   a ns1:RuralActivity .
 
 :FiordlandationalPark ns1:hasActivityName "Fiordland National Park" ;
-  ns1:hasCountry "New Zealand" ;
+  ns1:hasCountry country:NewZealand ;
   ns1:hasLocation [ns1:hasAddress "Southland, New Zealand" ;
   ns1:hasLatitude "-45.4085"^^xsd:double ;
   ns1:hasLongitude "167.359"^^xsd:double ;
@@ -157,7 +158,7 @@
   a ns1:RuralActivity .
 
 :Dubrovnik ns1:hasActivityName "Dubrovnik" ;
-  ns1:hasCountry "Croatia" ;
+  ns1:hasCountry country:Croatia ;
   ns1:hasLocation [ns1:hasAddress "Dubrovnik, Croatia" ;
   ns1:hasLatitude "42.6507"^^xsd:double ;
   ns1:hasLongitude "18.0944"^^xsd:double ;
@@ -166,7 +167,7 @@
   a ns1:UrbanActivity .
 
 :Bagan ns1:hasActivityName "Bagan" ;
-  ns1:hasCountry "Myanmar" ;
+  ns1:hasCountry country:Myanmar ;
   ns1:hasLocation [ns1:hasAddress "Old Bagan, Myanmar (Burma)" ;
   ns1:hasLatitude "21.1717"^^xsd:double ;
   ns1:hasLongitude "94.8585"^^xsd:double ;
@@ -175,7 +176,7 @@
   a ns1:UrbanActivity .
 
 :Santorini ns1:hasActivityName "Santorini" ;
-  ns1:hasCountry "Greece" ;
+  ns1:hasCountry country:Greece ;
   ns1:hasLocation [ns1:hasAddress "Santorini, Greece" ;
   ns1:hasLatitude "36.3932"^^xsd:double ;
   ns1:hasLongitude "25.4615"^^xsd:double ;
@@ -185,7 +186,7 @@
   a ns1:UrbanActivity .
 
 :CradleMountain ns1:hasActivityName "Cradle Mountain" ;
-  ns1:hasCountry "Australia" ;
+  ns1:hasCountry country:Australia ;
   ns1:hasLocation [ns1:hasAddress "Cradle Mountain TAS 7306, Australia" ;
   ns1:hasLatitude "-41.6769"^^xsd:double ;
   ns1:hasLongitude "145.947"^^xsd:double ;
@@ -194,7 +195,7 @@
   a ns1:RuralActivity .
 
 :HanoisOldQuarter ns1:hasActivityName "Hanoi's Old Quarter" ;
-  ns1:hasCountry "Vietnam" ;
+  ns1:hasCountry country:Vietnam ;
   ns1:hasLocation [
     ns1:hasAddress "P. Hàng Ngang, Hàng Đào, Hoàn Kiếm, Hà Nội 100000, Vietnam" ;
   ns1:hasLatitude "21.0341"^^xsd:double ;
@@ -205,7 +206,7 @@
   a ns1:UrbanActivity .
 
 :AbelTasmanNationalPark ns1:hasActivityName "Abel Tasman National Park" ;
-  ns1:hasCountry "New Zealand" ;
+  ns1:hasCountry country:NewZealand ;
   ns1:hasLocation [ns1:hasAddress "South Island 7183, New Zealand" ;
   ns1:hasLatitude "-40.9050"^^xsd:double ;
   ns1:hasLongitude "172.967"^^xsd:double ;
@@ -215,7 +216,7 @@
   a ns1:RuralActivity .
 
 :AcropolisofAthens ns1:hasActivityName "Acropolis of Athens" ;
-  ns1:hasCountry "Greece" ;
+  ns1:hasCountry country:Greece ;
   ns1:hasLocation [ns1:hasAddress "Athens 105 58, Greece" ;
   ns1:hasLatitude "37.9715"^^xsd:double ;
   ns1:hasLongitude "23.7257"^^xsd:double ;
@@ -225,7 +226,7 @@
   a ns1:UrbanActivity .
 
 :Marrakesh ns1:hasActivityName "Marrakesh" ;
-  ns1:hasCountry "Morocco" ;
+  ns1:hasCountry country:Morocco ;
   ns1:hasLocation [ns1:hasAddress "Marrakesh, Morocco" ;
   ns1:hasLatitude "31.6225"^^xsd:double ;
   ns1:hasLongitude "-7.98983"^^xsd:double ;
@@ -234,7 +235,7 @@
   a ns1:UrbanActivity .
 
 :Uluru ns1:hasActivityName "Uluru" ;
-  ns1:hasCountry "Australia" ;
+  ns1:hasCountry country:Australia ;
   ns1:hasLocation [ns1:hasAddress "Uluru, Petermann NT 0872, Australia" ;
   ns1:hasLatitude "-25.3444"^^xsd:double ;
   ns1:hasLongitude "131.037"^^xsd:double ;
@@ -244,7 +245,7 @@
   a ns1:RuralActivity .
 
 :TorresDelPaineNationalPark ns1:hasActivityName "Torres Del Paine National Park" ;
-  ns1:hasCountry "Chile" ;
+  ns1:hasCountry country:Chile ;
   ns1:hasLocation [ns1:hasAddress "Magallanes and Chilean Antarctica, Chile" ;
   ns1:hasLatitude "-50.9423"^^xsd:double ;
   ns1:hasLongitude "-73.4068"^^xsd:double ;
@@ -254,7 +255,7 @@
   a ns1:RuralActivity .
 
 :ThePyramidsofGiza ns1:hasActivityName "The Pyramids of Giza" ;
-  ns1:hasCountry "Egypt" ;
+  ns1:hasCountry country:Egypt ;
   ns1:hasLocation [ns1:hasAddress "X4HM+MPC, Al Haram, Nazlet El-Semman, Al Haram, Giza Governorate 3512201, Egypt" ;
   ns1:hasLatitude "29.9792"^^xsd:double ;
   ns1:hasLongitude "31.1342"^^xsd:double ;
@@ -264,7 +265,7 @@
   a ns1:UrbanActivity .
 
 :LouvreMuseum ns1:hasActivityName "Louvre Museum" ;
-  ns1:hasCountry "France" ;
+  ns1:hasCountry country:France ;
   ns1:hasLocation [ns1:hasAddress "75001 Paris, France" ;
   ns1:hasLatitude "48.8606"^^xsd:double ;
   ns1:hasLongitude "2.33764"^^xsd:double ;
@@ -274,7 +275,7 @@
   a ns1:UrbanActivity .
 
 :PiazzaSanMarco ns1:hasActivityName "Piazza San Marco" ;
-  ns1:hasCountry "Italy" ;
+  ns1:hasCountry country:Italy ;
   ns1:hasLocation [ ns1:hasAddress "P.za San Marco, 30100 Venezia VE, Italy" ;
   ns1:hasLatitude "45.4342"^^xsd:double ;
   ns1:hasLongitude "12.3385"^^xsd:double ;
@@ -284,7 +285,7 @@
   a ns1:UrbanActivity .
 
 :Hiroshima ns1:hasActivityName "Hiroshima" ;
-  ns1:hasCountry "Japan" ;
+  ns1:hasCountry  country:Japan ;
   ns1:hasLocation [
     ns1:hasAddress "Hiroshima, Japan" ;
   ns1:hasLatitude "34.3853"^^xsd:double ;
@@ -294,7 +295,7 @@
   a ns1:UrbanActivity .
 
 :JaisalmerRajasthan ns1:hasActivityName "Jaisalmer Rajasthan" ;
-  ns1:hasCountry "India" ;
+  ns1:hasCountry country:India ;
   ns1:hasLocation [
     ns1:hasAddress "Jaisalmer, Rajasthan 345001, India" ;
   ns1:hasLatitude "26.9157"^^xsd:double ;
@@ -304,7 +305,7 @@
   a ns1:RuralActivity .
 
 :EiffelTower ns1:hasActivityName "Eiffel Tower" ;
-  ns1:hasCountry "France" ;
+  ns1:hasCountry country:France ;
   ns1:hasLocation [ ns1:hasAddress "5 Av. Anatole France 3è étage, 75007 Paris, France" ;
   ns1:hasLatitude "48.8581"^^xsd:double ;
   ns1:hasLongitude "2.29486"^^xsd:double ;
@@ -314,7 +315,7 @@
   a ns1:UrbanActivity .
 
 :HermitageMuseum ns1:hasActivityName "Hermitage Museum" ;
-  ns1:hasCountry "Russia" ;
+  ns1:hasCountry country:Russia ;
   ns1:hasLocation [
     ns1:hasAddress "Palace Square, 2, St Petersburg, Russia, 190000" ;
   ns1:hasLatitude "59.9398"^^xsd:double ;
@@ -325,7 +326,7 @@
   a ns1:UrbanActivity .
 
 :NaqshEJahan ns1:hasActivityName "Naqsh-E Jahan" ;
-  ns1:hasCountry "Iran" ;
+  ns1:hasCountry country:Iran ;
   ns1:hasLocation [
     ns1:hasAddress "Naqshe Jahan, Isfahan, Isfahan Province, Iran" ;
   ns1:hasLatitude "32.6544"^^xsd:double ;
@@ -335,7 +336,7 @@
   a ns1:UrbanActivity .
 
 :SerengetiNationalPark ns1:hasActivityName "Serengeti National Park" ;
-  ns1:hasCountry "Tanzania" ;
+  ns1:hasCountry country:Tanzania ;
   ns1:hasLocation [ns1:hasAddress "Tanzania" ;
   ns1:hasLatitude "-2.33333"^^xsd:double ;
   ns1:hasLongitude "34.8333"^^xsd:double ;
@@ -345,7 +346,7 @@
   a ns1:RuralActivity .
 
 :Pompei ns1:hasActivityName "Pompeii" ;
-  ns1:hasCountry "Italy" ;
+  ns1:hasCountry country:Italy ;
   ns1:hasLocation [
     ns1:hasAddress "Via Villa dei Misteri, 1, 80045 Pompei NA, Italy" ;
   ns1:hasLatitude "40.7481"^^xsd:double ;
@@ -357,7 +358,7 @@
 
 
 :Pantheon ns1:hasActivityName "Pantheon" ;
-  ns1:hasCountry "Italy" ;
+  ns1:hasCountry country:Italy ;
   ns1:hasLocation [
     ns1:hasAddress "Piazza della Rotonda, 00186 Roma RM, Italy" ;
   ns1:hasLatitude "41.8986"^^xsd:double ;
@@ -368,7 +369,7 @@
   a ns1:UrbanActivity .
 
 :LakeBaikal ns1:hasActivityName "Lake Baikal" ;
-  ns1:hasCountry "Russia" ;
+  ns1:hasCountry country:Russia ;
   ns1:hasLocation  [
     ns1:hasAddress "Lake Baikal, Russia" ;
   ns1:hasLatitude "53.5587"^^xsd:double ;
@@ -379,7 +380,7 @@
   a ns1:RuralActivity .
 
 :NgorongoroCrater ns1:hasActivityName "Ngorongoro Crater Conservation Area" ;
-  ns1:hasCountry "Tanzania" ;
+  ns1:hasCountry country:Tanzania ;
   ns1:hasLocation [
     ns1:hasAddress "QF4P+3PX, Unnamed Road, Ngorongoro, Tanzania" ;
   ns1:hasLatitude "-3.24476"^^xsd:double ;
@@ -391,7 +392,7 @@
   a ns1:RuralActivity .
 
 :TateModern ns1:hasActivityName "Tate Modern" ;
-  ns1:hasCountry "United Kingdom" ;
+  ns1:hasCountry country:UnitedKingdom ;
   ns1:hasLocation [ns1:hasAddress "Bankside, London SE1 9TG, United Kingdom" ;
   ns1:hasLatitude "51.5076"^^xsd:double ;
   ns1:hasLongitude "-0.0993564"^^xsd:double ;
@@ -401,7 +402,7 @@
   a ns1:UrbanActivity .
 
 :TableMountain ns1:hasActivityName "Table Mountain" ;
-  ns1:hasCountry "South Africa" ;
+  ns1:hasCountry country:SouthAfrica ;
   ns1:hasLocation [
     ns1:hasAddress "Signal Hill, Victoria & Alfred Waterfront, Cape Town, 8002, South Africa" ;
   ns1:hasLatitude "-33.9061"^^xsd:double ;
@@ -412,7 +413,7 @@
   a ns1:RuralActivity .
 
 :HalongBay ns1:hasActivityName "Halong Bay" ;
-  ns1:hasCountry "Vietnam" ;
+  ns1:hasCountry country:Vietnam ;
   ns1:hasLocation [ns1:hasAddress "Hạ Long Bay, Thành phố Hạ Long, Quảng Ninh, Vietnam" ;
   ns1:hasLatitude "20.9101"^^xsd:double ;
   ns1:hasLongitude "107.184"^^xsd:double ;
@@ -422,7 +423,7 @@
   a ns1:RuralActivity .
 
 :EdinburghCastle ns1:hasActivityName "Edinburgh Castle" ;
-  ns1:hasCountry "United Kingdom" ;
+  ns1:hasCountry country:UnitedKingdom ;
   ns1:hasLocation [ns1:hasAddress "Castlehill, Edinburgh EH1 2NG, United Kingdom" ;
   ns1:hasLatitude "55.9486"^^xsd:double ;
   ns1:hasLongitude "-3.19991"^^xsd:double ;
@@ -432,7 +433,7 @@
   a ns1:UrbanActivity .
 
 :Jokulsarlon ns1:hasActivityName "Jökulsarlon" ;
-  ns1:hasCountry "Iceland" ;
+  ns1:hasCountry country:Iceland ;
   ns1:hasLocation [ns1:hasAddress "Jökulsárlón, 781, Iceland" ;
   ns1:hasLatitude "64.0784"^^xsd:double ;
   ns1:hasLongitude "-16.2306"^^xsd:double ;
@@ -442,7 +443,7 @@
   a ns1:RuralActivity .
 
 :BerlinWall ns1:hasActivityName "Berlin Wall" ;
-  ns1:hasCountry "Germany" ;
+  ns1:hasCountry country:Germany ;
   ns1:hasLocation [ ns1:hasAddress "Friedrichstraße 118, 10117 Berlin, Germany" ;
   ns1:hasLatitude "52.5269"^^xsd:double ;
   ns1:hasLongitude "13.3868"^^xsd:double ;
@@ -452,7 +453,7 @@
   a ns1:UrbanActivity .
 
 :AnneFrakHouse ns1:hasActivityName "Anne Frank House" ;
-  ns1:hasCountry "Netherlands" ;
+  ns1:hasCountry country:Netherlands ;
   ns1:hasLocation [ns1:hasAddress "Westermarkt 20, 1016 GV Amsterdam, Netherlands" ;
   ns1:hasLatitude "52.3752"^^xsd:double ;
   ns1:hasLongitude "4.88398"^^xsd:double ;
@@ -462,7 +463,7 @@
   a ns1:UrbanActivity .
 
 :YellowStoneNationalPark ns1:hasActivityName "Yellowstone National Park" ;
-  ns1:hasCountry "United States" ;
+  ns1:hasCountry country:UnitedStates ;
   ns1:hasLocation [ ns1:hasAddress "United States" ;
   ns1:hasLatitude "44.4280"^^xsd:double ;
   ns1:hasLongitude "-110.588"^^xsd:double ;
@@ -472,7 +473,7 @@
   a ns1:RuralActivity .
 
 :TigerLeapingGorge ns1:hasActivityName "Tiger Leaping Gorge" ;
-  ns1:hasCountry "China" ;
+  ns1:hasCountry country:China ;
   ns1:hasLocation [ns1:hasAddress "Tiger Leaping Gorge Scenic Spot, Shangri-La City, Diqing Tibetan Autonomous Prefecture, China" ;
   ns1:hasLatitude "27.2210"^^xsd:double ;
   ns1:hasLongitude "100.135"^^xsd:double ;
@@ -482,7 +483,7 @@
   a ns1:RuralActivity .
 
 :DuomoFirenze ns1:hasActivityName "Santa Maria Del Fiore (Duomo Di Firenze / Florence Cathedral)" ;
-  ns1:hasCountry "Italy" ;
+  ns1:hasCountry country:Italy ;
   ns1:hasLocation [ns1:hasAddress "Piazza del Duomo, 50122 Firenze FI, Italy" ;
   ns1:hasLatitude "43.7731"^^xsd:double ;
   ns1:hasLongitude "11.2560"^^xsd:double ;
@@ -492,7 +493,7 @@
   a ns1:UrbanActivity .
 
 :NotreDame ns1:hasActivityName "Notre Dame" ;
-  ns1:hasCountry "France" ;
+  ns1:hasCountry country:France ;
   ns1:hasLocation [ ns1:hasAddress "26 Pl. du Général de Gaulle, 06000 Nice, France" ;
   ns1:hasLatitude "43.7102"^^xsd:double ;
   ns1:hasLongitude "7.26195"^^xsd:double ;
@@ -502,7 +503,7 @@
   a ns1:UrbanActivity .
 
 :SydneyOperaHouse ns1:hasActivityName "Sydney Opera House" ;
-  ns1:hasCountry "Australia" ;
+  ns1:hasCountry country:Australia ;
   ns1:hasLocation [ ns1:hasAddress "Bennelong Point, Sydney NSW 2000, Australia" ;
   ns1:hasLatitude "-33.8568"^^xsd:double ;
   ns1:hasLongitude "151.215"^^xsd:double ;
@@ -512,7 +513,7 @@
   a ns1:UrbanActivity . 
 
 :Stonehenge ns1:hasActivityName "Stonehenge" ;
-  ns1:hasCountry "United Kingdom" ;
+  ns1:hasCountry country:UnitedKingdom ;
   ns1:hasLocation [
  ns1:hasAddress "3 Stonehenge Rd, Salisbury SP4 7DD, United Kingdom" ;
   ns1:hasLatitude "51.1806"^^xsd:double ;
@@ -523,7 +524,7 @@
   a ns1:UrbanActivity .
 
 :KakaduNationalPark ns1:hasActivityName "Kakadu National Park" ;
-  ns1:hasCountry "Australia" ;
+  ns1:hasCountry country:Australia ;
   ns1:hasLocation [ns1:hasAddress "Kakadu Hwy, Jabiru NT 0886, Australia" ;
   ns1:hasLatitude "-13.0923"^^xsd:double ;
   ns1:hasLongitude "132.394"^^xsd:double ;
@@ -533,7 +534,7 @@
   a ns1:RuralActivity .
 
 :Lalibela ns1:hasActivityName "Lalibela" ;
-  ns1:hasCountry "Ethiopia" ;
+  ns1:hasCountry country:Ethiopia ;
   ns1:hasLocation [ns1:hasAddress "Lalibela, Ethiopia" ;
   ns1:hasLatitude "12.0309"^^xsd:double ;
   ns1:hasLongitude "39.0476"^^xsd:double ;
@@ -542,7 +543,7 @@
   a ns1:UrbanActivity .
 
 :MezquitaOfCordoba ns1:hasActivityName "Mezquita of Cordoba" ;
-  ns1:hasCountry "Spain" ;
+  ns1:hasCountry country:Spain ;
   ns1:hasLocation [ns1:hasAddress "C. Cardenal Herrero, 1, Centro, 14003 Córdoba, Spain" ;
   ns1:hasLatitude "37.8789"^^xsd:double ;
   ns1:hasLongitude "-4.77939"^^xsd:double ;
@@ -552,7 +553,7 @@
   a ns1:UrbanActivity .
 
 :ChichenItza ns1:hasActivityName "Chichen Itza" ;
-  ns1:hasCountry "Mexico" ;
+  ns1:hasCountry country:Mexico ;
   ns1:hasLocation [
 ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   ns1:hasLatitude "20.6791"^^xsd:double ;
@@ -562,7 +563,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   a ns1:RuralActivity .
 
 :HoiAn ns1:hasActivityName "Hoi An" ;
-  ns1:hasCountry "Vietnam" ;
+  ns1:hasCountry country:Vietnam ;
   ns1:hasLocation [ns1:hasAddress "Hội An, Quảng Nam, Vietnam" ;
   ns1:hasLatitude "15.8801"^^xsd:double ;
   ns1:hasLongitude "108.338"^^xsd:double ;
@@ -571,7 +572,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   a ns1:UrbanActivity .
 
 :StPeterBasilica ns1:hasActivityName "St. Peter's Basilica" ;
-  ns1:hasCountry "Vatican City" ;
+  ns1:hasCountry country:VaticanCity ;
   ns1:hasLocation [ns1:hasAddress "Piazza San Pietro, 00120 Città del Vaticano, Vatican City" ;
   ns1:hasLatitude "41.9022"^^xsd:double ;
   ns1:hasLongitude "12.4539"^^xsd:double ;
@@ -581,7 +582,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   a ns1:UrbanActivity .
 
 :MonumentValley ns1:hasActivityName "Monument Valley" ;
-  ns1:hasCountry "United States" ;
+  ns1:hasCountry country:UnitedStates ;
   ns1:hasLocation [ ns1:hasAddress "Arizona, United States" ;
   ns1:hasLatitude "36.9669"^^xsd:double ;
   ns1:hasLongitude "-110.080"^^xsd:double ;
@@ -591,7 +592,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   a ns1:RuralActivity .
 
 :EverestBaseCamp ns1:hasActivityName "Everest Base Camp Trek" ;
-  ns1:hasCountry "Nepal" ;
+  ns1:hasCountry country:Nepal ;
   ns1:hasLocation [ ns1:hasAddress "Khumjung 56000, Nepal" ;
   ns1:hasLatitude "28.0023"^^xsd:double ;
   ns1:hasLongitude "86.8529"^^xsd:double ;
@@ -601,7 +602,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   a ns1:RuralActivity .
 
 :ForbiddenCity ns1:hasActivityName "Forbidden City" ;
-  ns1:hasCountry "China" ;
+  ns1:hasCountry country:China ;
   ns1:hasLocation [ns1:hasAddress "4 Jingshan Front St, Dongcheng, Beijing, China, 100009" ;
   ns1:hasLatitude "39.9163"^^xsd:double ;
   ns1:hasLongitude "116.397"^^xsd:double ;
@@ -611,7 +612,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   a ns1:RuralActivity .
 
 :AbuSimbel ns1:hasActivityName "Abu Simbel" ;
-  ns1:hasCountry "Egypt" ;
+  ns1:hasCountry country:Egypt ;
   ns1:hasLocation [ns1:hasAddress "Abu Simbel, Aswan Governorate 1211501, Egypt" ;
   ns1:hasLatitude "22.3372"^^xsd:double ;
   ns1:hasLongitude "31.6258"^^xsd:double ;
@@ -621,7 +622,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   a ns1:RuralActivity .
 
 :BlueLagoon ns1:hasActivityName "Blue Lagoon" ;
-  ns1:hasCountry "Iceland" ;
+  ns1:hasCountry country:Iceland ;
   ns1:hasLocation [ns1:hasAddress "VHJ2+GHQ, 241 Grindavik, Iceland" ;
   ns1:hasLatitude "63.8813"^^xsd:double ;
   ns1:hasLongitude "-22.4485"^^xsd:double ;
@@ -631,7 +632,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   a ns1:RuralActivity .
 
 :GoldenGateBridge ns1:hasActivityName "Golden Gate Bridge" ;
-  ns1:hasCountry "United States" ;
+  ns1:hasCountry country:UnitedStates ;
   ns1:hasLocation [ns1:hasAddress "Golden Gate Brg, San Francisco, CA, United States" ;
   ns1:hasLatitude "37.8199"^^xsd:double ;
   ns1:hasLongitude "-122.479"^^xsd:double ;
@@ -641,7 +642,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   a ns1:UrbanActivity .
 
 :RedSquare ns1:hasActivityName "Red Square" ;
-  ns1:hasCountry "Russia" ;
+  ns1:hasCountry country:Russia ;
   ns1:hasLocation [ns1:hasAddress "Krasnaya ploshchad', Moskva, Russia, 109012" ;
   ns1:hasLatitude "55.7539"^^xsd:double ;
   ns1:hasLongitude "37.6208"^^xsd:double ;
@@ -650,7 +651,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   a ns1:UrbanActivity .
 
 :OkavangoDelta ns1:hasActivityName "Okavango Delta" ;
-  ns1:hasCountry "Botswana" ;
+  ns1:hasCountry country:Botswana ;
   ns1:hasLocation [ ns1:hasAddress "Okavango Delta, Botswana" ;
   ns1:hasLatitude "-19.6510"^^xsd:double ;
   ns1:hasLongitude "22.9059"^^xsd:double ;
@@ -660,7 +661,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   a ns1:RuralActivity .
 
 :CimetièrePereLachaise ns1:hasActivityName "Le Cimetière de Père Lachaise" ;
-  ns1:hasCountry "France" ;
+  ns1:hasCountry country:France ;
   ns1:hasLocation [ns1:hasAddress "75020 Paris, France" ;
   ns1:hasLatitude "48.8615"^^xsd:double ;
   ns1:hasLongitude "2.39347"^^xsd:double ;
@@ -670,7 +671,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   a ns1:UrbanActivity .
 
 :GamlaStan ns1:hasActivityName "Gamla Stan" ;
-  ns1:hasCountry "Sweden" ;
+  ns1:hasCountry country:Sweden ;
   ns1:hasLocation [ ns1:hasAddress "Gamla stan, Södermalm, Stockholm, Sweden" ;
   ns1:hasLatitude "59.3257"^^xsd:double ;
   ns1:hasLongitude "18.0719"^^xsd:double ;
@@ -679,7 +680,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   a ns1:UrbanActivity .
 
 :LakeWanaka ns1:hasActivityName "Lake Wanaka" ;
-  ns1:hasCountry "New Zealand" ;
+  ns1:hasCountry country:NewZealand ;
   ns1:hasLocation [ns1:hasAddress "Lake Wānaka, Otago, New Zealand" ;
   ns1:hasLatitude "-44.5309"^^xsd:double ;
   ns1:hasLongitude "169.111"^^xsd:double ;
@@ -689,7 +690,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   a ns1:RuralActivity .
 
 :Teotihucan ns1:hasActivityName "Teotihuacan" ;
-  ns1:hasCountry "Mexico" ;
+  ns1:hasCountry country:Mexico ;
   ns1:hasLocation [ns1:hasAddress "San Juan Teotihuacán, State of Mexico, Mexico" ;
   ns1:hasLatitude "19.6861"^^xsd:double ;
   ns1:hasLongitude "-98.8716"^^xsd:double ;
@@ -698,7 +699,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   a ns1:RuralActivity .
 
 :ShwedagonPagoda ns1:hasActivityName "Shwedagon Pagoda" ;
-  ns1:hasCountry "Myanmar" ;
+  ns1:hasCountry country:Myanmar ;
   ns1:hasLocation [ ns1:hasAddress "Yangon, Myanmar (Burma)" ;
   ns1:hasLatitude "16.7984"^^xsd:double ;
   ns1:hasLongitude "96.1496"^^xsd:double ;
@@ -708,7 +709,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   a ns1:UrbanActivity .
 
 :YffiziGallery ns1:hasActivityName "Uffizi Gallery" ;
-  ns1:hasCountry "Italy" ;
+  ns1:hasCountry country:Italy ;
   ns1:hasLocation [ns1:hasAddress "Piazzale degli Uffizi, 6, 50122 Firenze FI, Italy" ;
   ns1:hasLatitude "43.7678"^^xsd:double ;
   ns1:hasLongitude "11.2553"^^xsd:double ;
@@ -718,7 +719,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   a ns1:UrbanActivity .
 
 :Budapest ns1:hasActivityName "Budapest" ;
-  ns1:hasCountry "Hungary" ;
+  ns1:hasCountry country:Hungary ;
   ns1:hasLocation [ns1:hasAddress "Budapest, Hungary" ;
   ns1:hasLatitude "47.4979"^^xsd:double ;
   ns1:hasLongitude "19.0402"^^xsd:double ;
@@ -727,7 +728,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   a ns1:UrbanActivity .
 
 :DashashwamedhGhat ns1:hasActivityName "Dashashwamedh Ghat" ;
-  ns1:hasCountry "India" ;
+  ns1:hasCountry country:India;
   ns1:hasLocation [ns1:hasAddress "Dashashwamegh ghat, Uttar Pradesh 221001, India" ;
   ns1:hasLatitude "25.3070"^^xsd:double ;
   ns1:hasLongitude "83.0105"^^xsd:double ;
@@ -736,7 +737,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   a ns1:RuralActivity .
 
 :AuschitzMemorial ns1:hasActivityName "Auschwitz Memorial / Muzeum Auschwitz" ;
-  ns1:hasCountry "Poland" ;
+  ns1:hasCountry country:Poland;
   ns1:hasLocation [ns1:hasAddress "Więźniów Oświęcimia 20, 32-603 Oświęcim, Poland" ;
   ns1:hasLatitude "50.0272"^^xsd:double ;
   ns1:hasLongitude "19.2036"^^xsd:double ;
@@ -746,7 +747,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   a ns1:UrbanActivity .
 
 :Ayuthaya ns1:hasActivityName "Ayuthaya" ;
-  ns1:hasCountry "Thailand" ;
+  ns1:hasCountry country:Thailand ;
   ns1:hasLocation [ ns1:hasAddress "Phra Nakhon Si Ayutthaya, Phra Nakhon Si Ayutthaya District, Phra Nakhon Si Ayutthaya, Thailand" ;
   ns1:hasLatitude "14.3692"^^xsd:double ;
   ns1:hasLongitude "100.588"^^xsd:double ;
@@ -755,7 +756,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   a ns1:RuralActivity .
 
 :ParqueNacionalCorcovado ns1:hasActivityName "Parque Nacional Corcovado" ;
-  ns1:hasCountry "Costa Rica" ;
+  ns1:hasCountry country:CostaRica ;
   ns1:hasLocation [ns1:hasAddress "Puntarenas Province, Costa Rica" ;
   ns1:hasLatitude "8.54084"^^xsd:double ;
   ns1:hasLongitude "-83.5710"^^xsd:double ;
@@ -765,7 +766,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   a ns1:RuralActivity .
 
 :VaticanMuseum ns1:hasActivityName "Vatican Museum" ;
-  ns1:hasCountry "Vatican City" ;
+  ns1:hasCountry country:VaticanCity ;
   ns1:hasLocation [
 ns1:hasAddress "00120 Vatican City" ;
   ns1:hasLatitude "41.9065"^^xsd:double ;
@@ -776,7 +777,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :HistoricCenterOfTallinn ns1:hasActivityName "Historic Centre (Old Town) of Tallinn" ;
-  ns1:hasCountry "Estonia" ;
+  ns1:hasCountry country:Estonia ;
   ns1:hasLocation [ns1:hasAddress "Pikk 17, 10123 Tallinn, Estonia" ;
   ns1:hasLatitude "59.4384"^^xsd:double ;
   ns1:hasLongitude "24.7450"^^xsd:double ;
@@ -786,7 +787,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :PotalaPalaceLhasa ns1:hasActivityName "Potala Palace Lhasa" ;
-  ns1:hasCountry "China" ;
+  ns1:hasCountry country:China ;
   ns1:hasLocation [
     ns1:hasAddress "35 Beijing Middle Rd, Lhasa, Tibet, China, 850000" ;
   ns1:hasLatitude "29.6555"^^xsd:double ;
@@ -797,7 +798,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :AndazAmsterdamPrinsengracht ns1:hasActivityName "Andaz Amsterdam Prinsengracht" ;
-  ns1:hasCountry "Netherlands" ;
+  ns1:hasCountry country:Netherlands ;
   ns1:hasLocation [ns1:hasAddress "Prinsengracht 587, 1016 HT Amsterdam, Netherlands" ;
   ns1:hasLatitude "52.3678"^^xsd:double ;
   ns1:hasLongitude "4.88306"^^xsd:double ;
@@ -807,7 +808,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :BazarutoArchipelago ns1:hasActivityName "Bazaruto Archipelago" ;
-  ns1:hasCountry "Mozambique" ;
+  ns1:hasCountry country:Mozambique ;
   ns1:hasLocation [ ns1:hasAddress "Bazaruto Archipelago, Mozambique" ;
   ns1:hasLatitude "-21.7576"^^xsd:double ;
   ns1:hasLongitude "35.4233"^^xsd:double ;
@@ -817,7 +818,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :AiguilleDuMidi ns1:hasActivityName "Aiguille Du Midi" ;
-  ns1:hasCountry "France" ;
+  ns1:hasCountry country:France ;
   ns1:hasLocation [ns1:hasAddress "Aiguille du Midi, 74400 Chamonix, France" ;
   ns1:hasLatitude "45.8793"^^xsd:double ;
   ns1:hasLongitude "6.88742"^^xsd:double ;
@@ -827,7 +828,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :AnakenaBeach ns1:hasActivityName "Anakena Beach" ;
-  ns1:hasCountry "Chile" ;
+  ns1:hasCountry country:Chile ;
   ns1:hasLocation [ns1:hasAddress "Anakena, Easter Island, Valparaíso, Chile" ;
   ns1:hasLatitude "-27.0739"^^xsd:double ;
   ns1:hasLongitude "-109.323"^^xsd:double ;
@@ -837,7 +838,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :Bryggen ns1:hasActivityName "Bryggen" ;
-  ns1:hasCountry "Norway" ;
+  ns1:hasCountry country:Norway ;
   ns1:hasLocation [ ns1:hasAddress "Bryggen, 5003 Bergen, Norway" ;
   ns1:hasLatitude "60.3976"^^xsd:double ;
   ns1:hasLongitude "5.32455"^^xsd:double ;
@@ -847,7 +848,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :PlitviceLakesNationalPark ns1:hasActivityName "Plitvice Lakes National Park" ;
-  ns1:hasCountry "Croatia" ;
+  ns1:hasCountry country:Croatia ;
   ns1:hasLocation [ns1:hasAddress "Croatia" ;
   ns1:hasLatitude "44.8654"^^xsd:double ;
   ns1:hasLongitude "15.5820"^^xsd:double ;
@@ -857,7 +858,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :MonteFitzRoyElChalten ns1:hasActivityName "Monte Fitz Roy El Chalten" ;
-  ns1:hasCountry "Argentina" ;
+  ns1:hasCountry country:Argentina;
   ns1:hasLocation [ns1:hasAddress "El Chaltén, Santa Cruz Province, Argentina" ;
   ns1:hasLatitude "-49.3205"^^xsd:double ;
   ns1:hasLongitude "-72.8949"^^xsd:double ;
@@ -867,7 +868,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :Meteora ns1:hasActivityName "Meteora" ;
-  ns1:hasCountry "Greece" ;
+  ns1:hasCountry country:Greece ;
   ns1:hasLocation [ns1:hasAddress "G, Kalampaka 422 00, Greece" ;
   ns1:hasLatitude "39.7263"^^xsd:double ;
   ns1:hasLongitude "21.6263"^^xsd:double ;
@@ -877,7 +878,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :BhaktapurDurbarSquare ns1:hasActivityName "Bhaktapur Durbar Square" ;
-  ns1:hasCountry "Nepal" ;
+  ns1:hasCountry country:Nepal ;
   ns1:hasLocation [ ns1:hasAddress "Durbar square, Bhaktapur 44800, Nepal" ;
   ns1:hasLatitude "27.6721"^^xsd:double ;
   ns1:hasLongitude "85.4281"^^xsd:double ;
@@ -887,7 +888,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :CopperCanyon ns1:hasActivityName "Copper Canyon" ;
-  ns1:hasCountry "Mexico" ;
+  ns1:hasCountry country:Mexico ;
   ns1:hasLocation [ns1:hasAddress "Barrancas del Cobre, Areponapuchi, 33435, Chih., Mexico" ;
   ns1:hasLatitude "27.5169"^^xsd:double ;
   ns1:hasLongitude "-107.827"^^xsd:double ;
@@ -897,7 +898,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :StewartIsland ns1:hasActivityName "Stewart Island" ;
-  ns1:hasCountry "New Zealand" ;
+  ns1:hasCountry country:NewZealand ;
   ns1:hasLocation [ns1:hasAddress "Stewart Island / Rakiura, 9818, New Zealand" ;
   ns1:hasLatitude "-47.0103"^^xsd:double ;
   ns1:hasLongitude "167.827"^^xsd:double ;
@@ -907,7 +908,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :StPaulsCathedral ns1:hasActivityName "St. Paul's Cathedral" ;
-  ns1:hasCountry "United Kingdom" ;
+  ns1:hasCountry country:UnitedKingdom ;
   ns1:hasLocation [ns1:hasAddress "St. Paul's Churchyard, London EC4M 8AD, United Kingdom" ;
   ns1:hasLatitude "51.5138"^^xsd:double ;
   ns1:hasLongitude "-0.0983506"^^xsd:double ;
@@ -917,7 +918,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :TempleOfConfucius ns1:hasActivityName "Temple and Cemetery of Confucius and the Kong Family Mansion in Qufu" ;
-  ns1:hasCountry "China" ;
+  ns1:hasCountry country:China ;
   ns1:hasLocation [ns1:hasAddress "HXRQ+MX5, Shendao Rd, Qufu, Jining, Shandong, China, 273100" ;
   ns1:hasLatitude "35.5916"^^xsd:double ;
   ns1:hasLongitude "116.990"^^xsd:double ;
@@ -927,7 +928,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :Choquequirao ns1:hasActivityName "Choquequirao" ;
-  ns1:hasCountry "Peru" ;
+  ns1:hasCountry country:Peru ;
   ns1:hasLocation [ ns1:hasAddress "08710, Peru" ;
   ns1:hasLatitude "-13.3950"^^xsd:double ;
   ns1:hasLongitude "-72.8722"^^xsd:double ;
@@ -937,7 +938,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :KrugerNationalPark ns1:hasActivityName "Kruger National Park" ;
-  ns1:hasCountry "South Africa" ;
+  ns1:hasCountry country:SouthAfrica ;
   ns1:hasLocation [ ns1:hasAddress "South Africa" ;
   ns1:hasLatitude "-23.9884"^^xsd:double ;
   ns1:hasLongitude "31.5547"^^xsd:double ;
@@ -946,8 +947,8 @@ ns1:hasAddress "00120 Vatican City" ;
   ns1:id "ChIJoaA1xZZIwx4Re3hnH9NOUJo" ;
   a ns1:RuralActivity .
 
-:BayOfIslands ns1:hasActivityName " - New Zealand" ;
-  ns1:hasCountry "New Zealand" ;
+:BayOfIslands ns1:hasActivityName " Bay of Island- New Zealand" ;
+  ns1:hasCountry country:NewZealand ;
   ns1:hasLocation [ns1:hasAddress "Bay Of Islands, Northland, New Zealand" ;
   ns1:hasLatitude "-35.2167"^^xsd:double ;
   ns1:hasLongitude "174.154"^^xsd:double ;
@@ -957,7 +958,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :Carcassonne ns1:hasActivityName "Carcassonne" ;
-  ns1:hasCountry "France" ;
+  ns1:hasCountry country:France;
   ns1:hasLocation [ ns1:hasAddress "11000 Carcassonne, France" ;
   ns1:hasLatitude "43.2132"^^xsd:double ;
   ns1:hasLongitude "2.35177"^^xsd:double ;
@@ -966,7 +967,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :Pantanal ns1:hasActivityName "Pantanal" ;
-  ns1:hasCountry "Brazil" ;
+  ns1:hasCountry country:Brazil ;
   ns1:hasLocation [ns1:hasAddress "Poconé, State of Mato Grosso, 78175-000, Brazil" ;
   ns1:hasLatitude "-17.6558"^^xsd:double ;
   ns1:hasLongitude "-57.4326"^^xsd:double ;
@@ -976,7 +977,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :TayronaNationalPark ns1:hasActivityName "Tayrona National Park" ;
-  ns1:hasCountry "Colombia" ;
+  ns1:hasCountry country:Colombia;
   ns1:hasLocation [ns1:hasAddress "Magdalena, Colombia" ;
   ns1:hasLatitude "11.3064"^^xsd:double ;
   ns1:hasLongitude "-74.0658"^^xsd:double ;
@@ -986,7 +987,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :StatueOfLiberty ns1:hasActivityName "Statue of Liberty" ;
-  ns1:hasCountry "United States" ;
+  ns1:hasCountry country:UnitedStates ;
   ns1:hasLocation [ns1:hasAddress "New York, NY 10004, United States" ;
   ns1:hasLatitude "40.6892"^^xsd:double ;
   ns1:hasLongitude "-74.0445"^^xsd:double ;
@@ -996,7 +997,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :SkaraBrae ns1:hasActivityName "Skara Brae" ;
-  ns1:hasCountry "United Kingdom" ;
+  ns1:hasCountry country:UnitedKingdom ;
   ns1:hasLocation [ns1:hasAddress "Historic Scotland, Stromness KW16 3LR, United Kingdom" ;
   ns1:hasLatitude "59.0489"^^xsd:double ;
   ns1:hasLongitude "-3.33561"^^xsd:double ;
@@ -1006,7 +1007,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :MuseumOfAnthropologyVancouver ns1:hasActivityName "Museum of Anthropology Vancouver BC" ;
-  ns1:hasCountry "Canada" ;
+  ns1:hasCountry country:Canada ;
   ns1:hasLocation [ns1:hasAddress "6393 NW Marine Dr, Vancouver, BC V6T 1Z2, Canada" ;
   ns1:hasLatitude "49.2695"^^xsd:double ;
   ns1:hasLongitude "-123.259"^^xsd:double ;
@@ -1016,7 +1017,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :Sintra ns1:hasActivityName "Sintra" ;
-  ns1:hasCountry "Portugal" ;
+  ns1:hasCountry country:Portugal ;
   ns1:hasLocation [ns1:hasAddress "Sintra, Portugal" ;
   ns1:hasLatitude "38.8029"^^xsd:double ;
   ns1:hasLongitude "-9.38166"^^xsd:double ;
@@ -1025,7 +1026,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :Tulum ns1:hasActivityName "Tulum" ;
-  ns1:hasCountry "Mexico" ;
+  ns1:hasCountry country:Mexico ;
   ns1:hasLocation [ns1:hasAddress "Tulum, Quintana Roo, Mexico" ;
   ns1:hasLatitude "20.2114"^^xsd:double ;
   ns1:hasLongitude "-87.4654"^^xsd:double ;
@@ -1034,7 +1035,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :TsukijiFishMarket ns1:hasActivityName "Tsukiji Fish Market" ;
-  ns1:hasCountry "Japan" ;
+  ns1:hasCountry country:Japan ;
   ns1:hasLocation [ns1:hasAddress "4 Chome-13 Tsukiji, Chuo City, Tokyo 104-0045, Japan" ;
   ns1:hasLatitude "35.6653"^^xsd:double ;
   ns1:hasLongitude "139.771"^^xsd:double ;
@@ -1044,7 +1045,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :NorwegiaFjords ns1:hasActivityName "West Norwegian Fjords – Geirangerfjord and Nærøyfjord" ;
-  ns1:hasCountry "Norway" ;
+  ns1:hasCountry country:Norway ;
   ns1:hasLocation [ ns1:hasAddress "Vestnorsk fjordlandskap, 5747 Gudvangen, Norway" ;
   ns1:hasLatitude "60.9687"^^xsd:double ;
   ns1:hasLongitude "6.97394"^^xsd:double ;
@@ -1054,7 +1055,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :ChernobylExclusionZone ns1:hasActivityName "Chernobyl Exclusion Zone" ;
-  ns1:hasCountry "Ukraine" ;
+  ns1:hasCountry country:Ukraine ;
   ns1:hasLocation [ns1:hasAddress "Unnamed Road, Kyivs'ka oblast, Ukraine" ;
   ns1:hasLatitude "51.1177"^^xsd:double ;
   ns1:hasLongitude "30.1219"^^xsd:double ;
@@ -1064,7 +1065,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :Eiger ns1:hasActivityName "Eiger" ;
-  ns1:hasCountry "Switzerland" ;
+  ns1:hasCountry country:Switzerland;
   ns1:hasLocation [ns1:hasAddress "Eiger, 3818 Grindelwald, Switzerland" ;
   ns1:hasLatitude "46.5776"^^xsd:double ;
   ns1:hasLongitude "8.00539"^^xsd:double ;
@@ -1074,7 +1075,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :BairroOfRibeira ns1:hasActivityName "Bairro of Ribeira" ;
-  ns1:hasCountry "Portugal" ;
+  ns1:hasCountry country:Portugal;
   ns1:hasLocation [ ns1:hasAddress "Ribeira, Porto, Portugal" ;
   ns1:hasLatitude "41.1433"^^xsd:double ;
   ns1:hasLongitude "-8.61031"^^xsd:double ;
@@ -1083,7 +1084,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
  
 :CaveOfAltamire ns1:hasActivityName "Cave of Altamira and Paleolithic Cave Art of Northern Spain" ;
-  ns1:hasCountry "Spain" ;
+  ns1:hasCountry country:Spain ;
   ns1:hasLocation [ns1:hasAddress "Avenida Marcelino Sanz de Sautuola, s/n, 39330 Santillana del Mar, Cantabria, Spain" ;
   ns1:hasLatitude "43.3775"^^xsd:double ;
   ns1:hasLongitude "-4.12235"^^xsd:double ;
@@ -1093,7 +1094,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :HaidaGwaiiBritishColumbia ns1:hasActivityName "Haida Gwaii British Columbia" ;
-  ns1:hasCountry "Canada" ;
+  ns1:hasCountry country:Canada ;
   ns1:hasLocation [ ns1:hasAddress "Haida Gwaii, North Coast, BC, Canada" ;
   ns1:hasLatitude "53.1014"^^xsd:double ;
   ns1:hasLongitude "-132.041"^^xsd:double ;
@@ -1103,7 +1104,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :SchlossNeuschwanstein ns1:hasActivityName "Schloss Neuschwanstein" ;
-  ns1:hasCountry "Germany" ;
+  ns1:hasCountry country:Germany ;
   ns1:hasLocation [ns1:hasAddress "Neuschwansteinstraße 20, 87645 Schwangau, Germany" ;
   ns1:hasLatitude "47.5576"^^xsd:double ;
   ns1:hasLongitude "10.7498"^^xsd:double ;
@@ -1113,7 +1114,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :Etna ns1:hasActivityName "Mt. Etna" ;
-  ns1:hasCountry "Italy" ;
+  ns1:hasCountry country:Italy ;
   ns1:hasLocation [ns1:hasAddress "Mt Etna, 95031 Adrano, Metropolitan city of Catania, Italy" ;
   ns1:hasLatitude "37.7510"^^xsd:double ;
   ns1:hasLongitude "14.9934"^^xsd:double ;
@@ -1123,7 +1124,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :LeshanGrandBuddha ns1:hasActivityName "Leshan Grand Buddha" ;
-  ns1:hasCountry "China" ;
+  ns1:hasCountry country:China ;
   ns1:hasLocation [ ns1:hasAddress "2345 Lingyun Rd, Shizhong District, Leshan, Leshan, Sichuan, China, 614099" ;
   ns1:hasLatitude "29.5441"^^xsd:double ;
   ns1:hasLongitude "103.772"^^xsd:double ;
@@ -1133,7 +1134,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :GionDistrict ns1:hasActivityName "Gion District" ;
-  ns1:hasCountry "Japan" ;
+  ns1:hasCountry country:Japan ;
   ns1:hasLocation [ns1:hasAddress "Gion, Higashiyama Ward, Kyoto, Japan" ;
   ns1:hasLatitude "35.0038"^^xsd:double ;
   ns1:hasLongitude "135.777"^^xsd:double ;
@@ -1142,7 +1143,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :KoyaSan ns1:hasActivityName "Koya-San" ;
-  ns1:hasCountry "Japan" ;
+  ns1:hasCountry country:Japan ;
   ns1:hasLocation [ns1:hasAddress "Koyasan, Koya, Ito District, Wakayama 648-0211, Japan" ;
   ns1:hasLatitude "34.2193"^^xsd:double ;
   ns1:hasLongitude "135.587"^^xsd:double ;
@@ -1151,7 +1152,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :ValleDeVinales ns1:hasActivityName "Valle De Vinales" ;
-  ns1:hasCountry "Cuba" ;
+  ns1:hasCountry country:Cuba ;
   ns1:hasLocation [ ns1:hasAddress "J74F+3QF, Viñales, Cuba" ;
   ns1:hasLatitude "22.6052"^^xsd:double ;
   ns1:hasLongitude "-83.7256"^^xsd:double ;
@@ -1161,7 +1162,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :ShibuyaCrossing ns1:hasActivityName "Shibuya Crossing" ;
-  ns1:hasCountry "Japan" ;
+  ns1:hasCountry  country:Japan;
   ns1:hasLocation  [ns1:hasAddress "Shibuya City, Tokyo, Japan" ;
   ns1:hasLatitude "35.6595"^^xsd:double ;
   ns1:hasLongitude "139.701"^^xsd:double ;
@@ -1171,7 +1172,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :WaltDisneyWorld ns1:hasActivityName "Walt Disney World" ;
-  ns1:hasCountry "United States" ;
+  ns1:hasCountry country:UnitedStates ;
   ns1:hasLocation [ns1:hasAddress "Florida, United States" ;
   ns1:hasLatitude "28.3772"^^xsd:double ;
   ns1:hasLongitude "-81.5707"^^xsd:double ;
@@ -1181,7 +1182,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :VatnajokulllGlacierCave ns1:hasActivityName "Vatnajokulll Glacier Cave" ;
-  ns1:hasCountry "Iceland" ;
+  ns1:hasCountry country:Iceland ;
   ns1:hasLocation [ns1:hasAddress "4QJH+R9, 781 Reynivellir, Iceland" ;
   ns1:hasLatitude "64.1321"^^xsd:double ;
   ns1:hasLongitude "-16.2215"^^xsd:double ;
@@ -1191,7 +1192,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :CristoRentor ns1:hasActivityName "Cristo Redentor" ;
-  ns1:hasCountry "Brazil" ;
+  ns1:hasCountry country:Brazil ;
   ns1:hasLocation [ns1:hasAddress "Santa Teresa, Rio de Janeiro - State of Rio de Janeiro, Brazil" ;
   ns1:hasLatitude "-22.9517"^^xsd:double ;
   ns1:hasLongitude "-43.2109"^^xsd:double ;
@@ -1201,7 +1202,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :EdinburghRoyalMile ns1:hasActivityName "Edinburgh Royal Mile" ;
-  ns1:hasCountry "United Kingdom" ;
+  ns1:hasCountry country:UnitedKingdom ;
   ns1:hasLocation [ns1:hasAddress "Edinburgh EH1 1QS, United Kingdom" ;
   ns1:hasLatitude "55.9501"^^xsd:double ;
   ns1:hasLongitude "-3.18802"^^xsd:double ;
@@ -1211,7 +1212,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :Accra ns1:hasActivityName "Accra" ;
-  ns1:hasCountry "Ghana" ;
+  ns1:hasCountry country:Ghana ;
   ns1:hasLocation [ns1:hasAddress "Accra, Ghana" ;
   ns1:hasLatitude "5.55928"^^xsd:double ;
   ns1:hasLongitude "-0.197431"^^xsd:double ;
@@ -1220,7 +1221,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :ChobeNationalPark ns1:hasActivityName "Chobe National Park" ;
-  ns1:hasCountry "Botswana" ;
+  ns1:hasCountry country:Botswana ;
   ns1:hasLocation [ns1:hasAddress "Botswana" ;
   ns1:hasLatitude "-18.4559"^^xsd:double ;
   ns1:hasLongitude "24.3657"^^xsd:double ;
@@ -1230,7 +1231,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :IcehotelJukkasjärvi ns1:hasActivityName "Icehotel Jukkasjärvi" ;
-  ns1:hasCountry "Sweden" ;
+  ns1:hasCountry country:Sweden ;
   ns1:hasLocation [ ns1:hasAddress "Marknadsvägen 63, 981 91 Jukkasjärvi, Sweden" ;
   ns1:hasLatitude "67.8498"^^xsd:double ;
   ns1:hasLongitude "20.5964"^^xsd:double ;
@@ -1240,7 +1241,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :PhongNhaKeBangNationalPark ns1:hasActivityName "Phong Nha-Ke Bang National Park" ;
-  ns1:hasCountry "Vietnam" ;
+  ns1:hasCountry country:Vietnam ;
   ns1:hasLocation [ns1:hasAddress "Quang Binh Province, Vietnam" ;
   ns1:hasLatitude "17.4777"^^xsd:double ;
   ns1:hasLongitude "106.134"^^xsd:double ;
@@ -1250,7 +1251,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :NationalMall ns1:hasActivityName "National Mall" ;
-  ns1:hasCountry "United States" ;
+  ns1:hasCountry country:UnitedStates ;
   ns1:hasLocation [ns1:hasAddress "Washington, DC, United States" ;
   ns1:hasLatitude "38.8875"^^xsd:double ;
   ns1:hasLongitude "-77.0364"^^xsd:double ;
@@ -1260,7 +1261,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :KotaKinabalu ns1:hasActivityName "Kota Kinabalu" ;
-  ns1:hasCountry "Malaysia" ;
+  ns1:hasCountry country:Malaysia ;
   ns1:hasLocation [ns1:hasAddress "Kota Kinabalu, Sabah, Malaysia" ;
   ns1:hasLatitude "5.98436"^^xsd:double ;
   ns1:hasLongitude "116.077"^^xsd:double ;
@@ -1269,7 +1270,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :HikeFromMoraineLake ns1:hasActivityName "Hike From Moraine Lake Through Paradise Valley" ;
-  ns1:hasCountry "Canada" ;
+  ns1:hasCountry country:Canada ;
   ns1:hasLocation [ns1:hasAddress "Moraine Lake Rd, Lake Louise, AB T0L, Canada" ;
   ns1:hasLatitude "51.3960"^^xsd:double ;
   ns1:hasLongitude "-116.172"^^xsd:double ;
@@ -1279,7 +1280,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :InleLake ns1:hasActivityName "Inle Lake" ;
-  ns1:hasCountry "Myanmar" ;
+  ns1:hasCountry country:Myanmar ;
   ns1:hasLocation [ns1:hasAddress "Inle Lake, Myanmar (Burma)" ;
   ns1:hasLatitude "20.5863"^^xsd:double ;
   ns1:hasLongitude "96.9102"^^xsd:double ;
@@ -1289,7 +1290,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :ShackletonHut ns1:hasActivityName "Shackleton's Hut" ;
-  ns1:hasCountry "Antarctica" ;
+  ns1:hasCountry country:Antarctica ;
   ns1:hasLocation [ns1:hasAddress "Cape Royds Ross Island, Antarctica" ;
   ns1:hasLatitude "-77.5479"^^xsd:double ;
   ns1:hasLongitude "166.166"^^xsd:double ;
@@ -1299,7 +1300,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :RomanBaths ns1:hasActivityName "Roman Baths (Bath)" ;
-  ns1:hasCountry "United Kingdom" ;
+  ns1:hasCountry country:UnitedKingdom ;
   ns1:hasLocation [ns1:hasAddress "Abbey Churchyard, Bath BA1 1LZ, United Kingdom" ;
   ns1:hasLatitude "51.3811"^^xsd:double ;
   ns1:hasLongitude "-2.35962"^^xsd:double ;
@@ -1309,7 +1310,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :TerracottaWarriors ns1:hasActivityName "Terracotta Warriors" ;
-  ns1:hasCountry "China" ;
+  ns1:hasCountry country:China ;
   ns1:hasLocation [ns1:hasAddress "Lintong District, Xi'An, Shaanxi, China, 710612" ;
   ns1:hasLatitude "34.3841"^^xsd:double ;
   ns1:hasLongitude "109.278"^^xsd:double ;
@@ -1319,7 +1320,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :GardensByTheBay ns1:hasActivityName "Gardens by the Bay" ;
-  ns1:hasCountry "Singapore" ;
+  ns1:hasCountry country:Singapore ;
   ns1:hasLocation [ns1:hasAddress "18 Marina S Dr, Singapore" ;
   ns1:hasLatitude "1.28137"^^xsd:double ;
   ns1:hasLongitude "103.865"^^xsd:double ;
@@ -1329,7 +1330,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :GorgesDuVerdon ns1:hasActivityName "Gorges Du Verdon" ;
-  ns1:hasCountry "France" ;
+  ns1:hasCountry country:France ;
   ns1:hasLocation [ns1:hasAddress "Verdon Gorge, France" ;
   ns1:hasLatitude "43.7614"^^xsd:double ;
   ns1:hasLongitude "6.37884"^^xsd:double ;
@@ -1339,7 +1340,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :AmberFort ns1:hasActivityName "Amber Fort" ;
-  ns1:hasCountry "India" ;
+  ns1:hasCountry country:India ;
   ns1:hasLocation [ns1:hasAddress "WQ6P+XWC, Ganpati Nagar, Jaipur, Rajasthan 303902, India" ;
   ns1:hasLatitude "26.9124"^^xsd:double ;
   ns1:hasLongitude "75.7873"^^xsd:double ;
@@ -1349,7 +1350,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :EgyptianMuseum ns1:hasActivityName "Egyptian Museum" ;
-  ns1:hasCountry "Egypt" ;
+  ns1:hasCountry country:Egypt ;
   ns1:hasLocation [ns1:hasAddress "3 Mari Gerges, Kom Ghorab, Old Cairo, Cairo Governorate 4244001, Egypt" ;
   ns1:hasLatitude "30.0058"^^xsd:double ;
   ns1:hasLongitude "31.2304"^^xsd:double ;
@@ -1359,7 +1360,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :KarnakTempleLuxor ns1:hasActivityName "Karnak Temple Luxor" ;
-  ns1:hasCountry "Egypt" ;
+  ns1:hasCountry country:Egypt ;
   ns1:hasLocation [ns1:hasAddress "Karnak, Luxor, Luxor Governorate, Egypt" ;
   ns1:hasLatitude "25.7188"^^xsd:double ;
   ns1:hasLongitude "32.6573"^^xsd:double ;
@@ -1369,7 +1370,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :Xochimilco ns1:hasActivityName "Xochimilco" ;
-  ns1:hasCountry "Mexico" ;
+  ns1:hasCountry country:Mexico ;
   ns1:hasLocation [ns1:hasAddress "Xochimilco, CDMX, Mexico" ;
   ns1:hasLatitude "19.2572"^^xsd:double ;
   ns1:hasLongitude "-99.1030"^^xsd:double ;
@@ -1378,7 +1379,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :Snowdonia ns1:hasActivityName "Snowdonia" ;
-  ns1:hasCountry "United Kingdom" ;
+  ns1:hasCountry country:UnitedKingdom ;
   ns1:hasLocation [ns1:hasAddress "United Kingdom" ;
   ns1:hasLatitude "52.9006"^^xsd:double ;
   ns1:hasLongitude "-3.89634"^^xsd:double ;
@@ -1388,7 +1389,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :GrandPlace ns1:hasActivityName "La Grand-Place Brussels" ;
-  ns1:hasCountry "Belgium" ;
+  ns1:hasCountry country:Belgium ;
   ns1:hasLocation [ns1:hasAddress "Grand Place, 1000 Brussels, Belgium" ;
   ns1:hasLatitude "50.8465"^^xsd:double ;
   ns1:hasLongitude "4.35243"^^xsd:double ;
@@ -1397,7 +1398,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :GullfossWaterfall ns1:hasActivityName "Gullfoss Waterfall" ;
-  ns1:hasCountry "Iceland" ;
+  ns1:hasCountry country:Iceland ;
   ns1:hasLocation [ns1:hasAddress "Gullfoss Falls, 846, Iceland" ;
   ns1:hasLatitude "64.3271"^^xsd:double ;
   ns1:hasLongitude "-20.1199"^^xsd:double ;
@@ -1407,7 +1408,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :KinkakuJi ns1:hasActivityName "Kinkaku-Ji" ;
-  ns1:hasCountry "Japan" ;
+  ns1:hasCountry  country:Japan ;
   ns1:hasLocation[ ns1:hasAddress "1 Kinkakujicho, Kita Ward, Kyoto, 603-8361, Japan" ;
   ns1:hasLatitude "35.0394"^^xsd:double ;
   ns1:hasLongitude "135.729"^^xsd:double ;
@@ -1417,7 +1418,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :iSimangalisoWetlandPark  ns1:hasActivityName "iSimangaliso Wetland Park" ;
-  ns1:hasCountry "South Africa" ;
+  ns1:hasCountry country:SouthAfrica ;
   ns1:hasLocation [ns1:hasAddress "South Africa" ;
   ns1:hasLatitude "-27.6361"^^xsd:double ;
   ns1:hasLongitude "32.5825"^^xsd:double ;
@@ -1427,7 +1428,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :ChangdeokgungPalaceComplex ns1:hasActivityName "Changdeokgung Palace Complex" ;
-  ns1:hasCountry "South Korea" ;
+  ns1:hasCountry country:SouthKorea ;
   ns1:hasLocation [ns1:hasAddress "185 Changgyeonggung-ro, Jongno-gu, Seoul, South Korea" ;
   ns1:hasLatitude "37.5788"^^xsd:double ;
   ns1:hasLongitude "126.995"^^xsd:double ;
@@ -1437,7 +1438,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :GoreeIsland ns1:hasActivityName "Goree Island" ;
-  ns1:hasCountry "Senegal" ;
+  ns1:hasCountry country:Senegal ;
   ns1:hasLocation [ns1:hasAddress "Gorée, Dakar, Senegal" ;
   ns1:hasLatitude "14.6679"^^xsd:double ;
   ns1:hasLongitude "-17.3989"^^xsd:double ;
@@ -1447,7 +1448,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :BlueMountains ns1:hasActivityName "Blue Mountains" ;
-  ns1:hasCountry "Australia" ;
+  ns1:hasCountry country:Australia;
   ns1:hasLocation [ns1:hasAddress "Blue Mountains, NSW, Australia" ;
   ns1:hasLatitude "-33.7323"^^xsd:double ;
   ns1:hasLongitude "150.443"^^xsd:double ;
@@ -1456,7 +1457,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :BoudhanathStupaKathmandu ns1:hasActivityName "Boudhanath Stupa Kathmandu" ;
-  ns1:hasCountry "Nepal" ;
+  ns1:hasCountry country:Nepal ;
   ns1:hasLocation [ns1:hasAddress "Kathmandu 44600, Nepal" ;
   ns1:hasLatitude "27.7215"^^xsd:double ;
   ns1:hasLongitude "85.3620"^^xsd:double ;
@@ -1466,7 +1467,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :IslandOfMozambique ns1:hasActivityName "Island of Mozambique" ;
-  ns1:hasCountry "Mozambique" ;
+  ns1:hasCountry country:Mozambique ;
   ns1:hasLocation [ns1:hasAddress "Island of Mozambique, Mozambique" ;
   ns1:hasLatitude "-15.0364"^^xsd:double ;
   ns1:hasLongitude "40.7323"^^xsd:double ;
@@ -1476,7 +1477,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :OldTbilisi ns1:hasActivityName "Old Tbilisi" ;
-  ns1:hasCountry "Georgia" ;
+  ns1:hasCountry country:Georgia ;
   ns1:hasLocation [ns1:hasAddress "Dzveli Tbilisi, Tbilisi, Georgia" ;
   ns1:hasLatitude "41.6936"^^xsd:double ;
   ns1:hasLongitude "44.7948"^^xsd:double ;
@@ -1485,7 +1486,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :MontStMichel ns1:hasActivityName "Mont St Michel" ;
-  ns1:hasCountry "France" ;
+  ns1:hasCountry country:France ;
   ns1:hasLocation [ns1:hasAddress "50170 Mont Saint-Michel, France" ;
   ns1:hasLatitude "48.6361"^^xsd:double ;
   ns1:hasLongitude "-1.51146"^^xsd:double ;
@@ -1494,7 +1495,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :MogaoCaves ns1:hasActivityName "Mogao Caves" ;
-  ns1:hasCountry "China" ;
+  ns1:hasCountry country:China ;
   ns1:hasLocation [ns1:hasAddress "2RR5+HMR, Dunhuang, Jiu Quan Shi, Gansu, China, 736206" ;
   ns1:hasLatitude "40.0415"^^xsd:double ;
   ns1:hasLongitude "94.8091"^^xsd:double ;
@@ -1504,7 +1505,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :GrandErgOccidentalDesert ns1:hasActivityName "Grand Erg Occidental Desert" ;
-  ns1:hasCountry "Algeria" ;
+  ns1:hasCountry country:Algeria ;
   ns1:hasLocation [ns1:hasAddress "Wielki Erg Zachodni, Kerzaz, Algeria" ;
   ns1:hasLatitude "30.6631"^^xsd:double ;
   ns1:hasLongitude "0.0141721"^^xsd:double ;
@@ -1514,7 +1515,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :MaduraiMeenakshiAmmanTemple ns1:hasActivityName "Madurai Meenakshi Amman Temple" ;
-  ns1:hasCountry "India" ;
+  ns1:hasCountry country:India ;
   ns1:hasLocation [ns1:hasAddress "Madurai Main, Madurai, Tamil Nadu 625001, India" ;
   ns1:hasLatitude "9.91950"^^xsd:double ;
   ns1:hasLongitude "78.1193"^^xsd:double ;
@@ -1524,7 +1525,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :Sigiriya ns1:hasActivityName "Sigiriya" ;
-  ns1:hasCountry "Sri Lanka" ;
+  ns1:hasCountry country:SriLanka ;
   ns1:hasLocation [ns1:hasAddress "Sigiriya, Sri Lanka" ;
   ns1:hasLatitude "7.95135"^^xsd:double ;
   ns1:hasLongitude "80.7519"^^xsd:double ;
@@ -1533,7 +1534,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :RynekGlownyKrakov ns1:hasActivityName "Rynek Glowny Krakow" ;
-  ns1:hasCountry "Poland" ;
+  ns1:hasCountry country:Poland ;
   ns1:hasLocation [ns1:hasAddress "Rynek Główny, Kraków, Poland" ;
   ns1:hasLatitude "50.0617"^^xsd:double ;
   ns1:hasLongitude "19.9374"^^xsd:double ;
@@ -1543,7 +1544,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :YorkMinster ns1:hasActivityName "York Minster" ;
-  ns1:hasCountry "United Kingdom" ;
+  ns1:hasCountry country:UnitedKingdom ;
   ns1:hasLocation [ns1:hasAddress "Deangate, York YO1 7HH, United Kingdom" ;
   ns1:hasLatitude "53.9623"^^xsd:double ;
   ns1:hasLongitude "-1.08192"^^xsd:double ;
@@ -1553,7 +1554,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :VanGoghMuseum ns1:hasActivityName "Van Gogh Museum" ;
-  ns1:hasCountry "Netherlands" ;
+  ns1:hasCountry country:Netherlands ;
   ns1:hasLocation [ns1:hasAddress "Museumplein 6, 1071 DJ Amsterdam, Netherlands" ;
   ns1:hasLatitude "52.3581"^^xsd:double ;
   ns1:hasLongitude "4.88121"^^xsd:double ;
@@ -1563,7 +1564,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :RobbenIsland ns1:hasActivityName "Robben Island" ;
-  ns1:hasCountry "South Africa" ;
+  ns1:hasCountry country:SouthAfrica ;
   ns1:hasLocation [ns1:hasAddress "Robben Island, South Africa" ;
   ns1:hasLatitude "-33.8076"^^xsd:double ;
   ns1:hasLongitude "18.3712"^^xsd:double ;
@@ -1573,7 +1574,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :SummerPalace ns1:hasActivityName "Summer Palace and Imperial Garden" ;
-  ns1:hasCountry "China" ;
+  ns1:hasCountry country:China ;
   ns1:hasLocation [ns1:hasAddress "China, Bei Jing Shi, Haidian District, 圆明园 邮政编码: 100084" ;
   ns1:hasLatitude "40.0081"^^xsd:double ;
   ns1:hasLongitude "116.298"^^xsd:double ;
@@ -1583,7 +1584,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :JellyfishLake ns1:hasActivityName "Jellyfish Lake Eil Malk" ;
-  ns1:hasCountry "Palau" ;
+  ns1:hasCountry country:Palau ;
   ns1:hasLocation [ns1:hasAddress "Jellyfish Lake, Koror, Palau" ;
   ns1:hasLatitude "7.16104"^^xsd:double ;
   ns1:hasLongitude "134.376"^^xsd:double ;
@@ -1593,7 +1594,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :OldQuebec ns1:hasActivityName "Old Quebec/Vieux Québec" ;
-  ns1:hasCountry "Canada" ;
+  ns1:hasCountry country:Canada ;
   ns1:hasLocation [ns1:hasAddress "Old Quebec, Québec City, QC, Canada" ;
   ns1:hasLatitude "46.8122"^^xsd:double ;
   ns1:hasLongitude "-71.2065"^^xsd:double ;
@@ -1602,7 +1603,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :BrúNaBóinneNeolithicSite ns1:hasActivityName "Brú Na Bóinne Neolithic Site" ;
-  ns1:hasCountry "Ireland" ;
+  ns1:hasCountry country:Ireland ;
   ns1:hasLocation [ns1:hasAddress "Newgrange, Co. Meath, Ireland" ;
   ns1:hasLatitude "53.6877"^^xsd:double ;
   ns1:hasLongitude "-6.47840"^^xsd:double ;
@@ -1612,7 +1613,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :Carthage ns1:hasActivityName "Carthage" ;
-  ns1:hasCountry "Tunisia" ;
+  ns1:hasCountry country:Tunisia ;
   ns1:hasLocation [ns1:hasAddress "Carthage, Tunisia" ;
   ns1:hasLatitude "36.8626"^^xsd:double ;
   ns1:hasLongitude "10.3329"^^xsd:double ;
@@ -1621,7 +1622,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :Alcatraz ns1:hasActivityName "Alcatraz" ;
-  ns1:hasCountry "United States" ;
+  ns1:hasCountry country:UnitedStates ;
   ns1:hasLocation [ns1:hasAddress "San Francisco, CA 94133, United States" ;
   ns1:hasLatitude "37.8270"^^xsd:double ;
   ns1:hasLongitude "-122.423"^^xsd:double ;
@@ -1631,7 +1632,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :AlcazarSeville ns1:hasActivityName "Alcazar Seville" ;
-  ns1:hasCountry "Spain" ;
+  ns1:hasCountry country:Spain ;
   ns1:hasLocation [ns1:hasAddress "Patio de Banderas, s/n, Casco Antiguo, 41004 Sevilla, Spain" ;
   ns1:hasLatitude "37.3831"^^xsd:double ;
   ns1:hasLongitude "-5.99023"^^xsd:double ;
@@ -1641,7 +1642,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :GunungLeuserNatioalPark ns1:hasActivityName "Gunung Leuser National Park" ;
-  ns1:hasCountry "Indonesia" ;
+  ns1:hasCountry country:Indonesia ;
   ns1:hasLocation [ ns1:hasAddress "GF97+P97 Barisan mountain range, Aceh 24653, Indonesia" ;
   ns1:hasLatitude "3.51929"^^xsd:double ;
   ns1:hasLongitude "97.4634"^^xsd:double ;
@@ -1651,7 +1652,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :PiazzaDelCampo ns1:hasActivityName "Piazza Del Campo" ;
-  ns1:hasCountry "Italy" ;
+  ns1:hasCountry country:Italy ;
   ns1:hasLocation [ns1:hasAddress "Piazza del Campo, 53100 Siena SI, Italy" ;
   ns1:hasLatitude "43.3184"^^xsd:double ;
   ns1:hasLongitude "11.3317"^^xsd:double ;
@@ -1660,7 +1661,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :MuseoDelPrado ns1:hasActivityName "Museo Del Prado" ;
-  ns1:hasCountry "Spain" ;
+  ns1:hasCountry country:Spain ;
   ns1:hasLocation [ ns1:hasAddress "C. de Ruiz de Alarcón, 23, Retiro, 28014 Madrid, Spain" ;
   ns1:hasLatitude "40.4138"^^xsd:double ;
   ns1:hasLongitude "-3.69213"^^xsd:double ;
@@ -1670,7 +1671,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :MaleconDeRiohacha ns1:hasActivityName "Malecon De Riohacha" ;
-  ns1:hasCountry "Colombia" ;
+  ns1:hasCountry country:Colombia ;
   ns1:hasLocation [ ns1:hasAddress "# a 3-128,, Cl. 1 #32, Riohacha, La Guajira, Colombia" ;
   ns1:hasLatitude "11.5535"^^xsd:double ;
   ns1:hasLongitude "-72.9067"^^xsd:double ;
@@ -1680,7 +1681,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :GroupOfMonumentsatHampi ns1:hasActivityName "Group of Monuments at Hampi" ;
-  ns1:hasCountry "India" ;
+  ns1:hasCountry country:India ;
   ns1:hasLocation [ns1:hasAddress "8FM6+XQV, Hampi, Karnataka 583239, India" ;
   ns1:hasLatitude "15.3350"^^xsd:double ;
   ns1:hasLongitude "76.4619"^^xsd:double ;
@@ -1690,7 +1691,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :LagoAtitlan ns1:hasActivityName "Lago Atitlan" ;
-  ns1:hasCountry "Guatemala" ;
+  ns1:hasCountry country:Guatemala ;
   ns1:hasLocation [ns1:hasAddress "Lake Atitlán, Guatemala" ;
   ns1:hasLatitude "14.6907"^^xsd:double ;
   ns1:hasLongitude "-91.2025"^^xsd:double ;
@@ -1700,7 +1701,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :PostojnaCave ns1:hasActivityName "Postojna Cave" ;
-  ns1:hasCountry "Slovenia" ;
+  ns1:hasCountry country:Slovenia;
   ns1:hasLocation [ns1:hasAddress "Jamska cesta 30, 6230 Postojna, Slovenia" ;
   ns1:hasLatitude "45.7830"^^xsd:double ;
   ns1:hasLongitude "14.2038"^^xsd:double ;
@@ -1711,7 +1712,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :PontDuGard ns1:hasActivityName "Pont Du Gard" ;
-  ns1:hasCountry "France" ;
+  ns1:hasCountry country:France ;
   ns1:hasLocation [ns1:hasAddress "30210 Vers-Pont-du-Gard, France" ;
   ns1:hasLatitude "43.9476"^^xsd:double ;
   ns1:hasLongitude "4.53496"^^xsd:double ;
@@ -1721,7 +1722,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :RilaMonastery ns1:hasActivityName "Rila Monastery" ;
-  ns1:hasCountry "Bulgaria" ;
+  ns1:hasCountry country:Bulgaria ;
   ns1:hasLocation [ ns1:hasAddress "2643 Рилски манастир, Bulgaria" ;
   ns1:hasLatitude "42.1335"^^xsd:double ;
   ns1:hasLongitude "23.3402"^^xsd:double ;
@@ -1731,7 +1732,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :Rijksmuseum ns1:hasActivityName "Rijksmuseum" ;
-  ns1:hasCountry "Netherlands" ;
+  ns1:hasCountry country:Netherlands ;
   ns1:hasLocation [ns1:hasAddress "Museumstraat 1, 1071 XX Amsterdam, Netherlands" ;
   ns1:hasLatitude "52.3600"^^xsd:double ;
   ns1:hasLongitude "4.88522"^^xsd:double ;
@@ -1741,7 +1742,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :ReichstagBuilding ns1:hasActivityName "Reichstag Building" ;
-  ns1:hasCountry "Germany" ;
+  ns1:hasCountry country:Germany ;
   ns1:hasLocation [ns1:hasAddress "Platz der Republik 1, 11011 Berlin, Germany" ;
   ns1:hasLatitude "52.5186"^^xsd:double ;
   ns1:hasLongitude "13.3762"^^xsd:double ;
@@ -1751,7 +1752,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :TheBund ns1:hasActivityName "The Bund" ;
-  ns1:hasCountry "China" ;
+  ns1:hasCountry country:China;
   ns1:hasLocation [ns1:hasAddress "Zhongshan Rd (E-1), Waitan, Huangpu, Shanghai, China, 200002" ;
   ns1:hasLatitude "31.2403"^^xsd:double ;
   ns1:hasLongitude "121.491"^^xsd:double ;
@@ -1761,7 +1762,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :SingaporeZoo ns1:hasActivityName "Singapore Zoo" ;
-  ns1:hasCountry "Singapore" ;
+  ns1:hasCountry country:Singapore;
   ns1:hasLocation [ns1:hasAddress "80 Mandai Lake Rd, Singapore 729826" ;
   ns1:hasLatitude "1.40435"^^xsd:double ;
   ns1:hasLongitude "103.793"^^xsd:double ;
@@ -1771,7 +1772,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :CinqueTerre ns1:hasActivityName "Cinque Terre" ;
-  ns1:hasCountry "Italy" ;
+  ns1:hasCountry country:Italy ;
   ns1:hasLocation [ns1:hasAddress "Cinque Terre, SP, Italy" ;
   ns1:hasLatitude "44.1461"^^xsd:double ;
   ns1:hasLongitude "9.64388"^^xsd:double ;
@@ -1780,7 +1781,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :Djenne ns1:hasActivityName "Djenne" ;
-  ns1:hasCountry "Mali" ;
+  ns1:hasCountry country:Mali ;
   ns1:hasLocation [ns1:hasAddress "Djenne, Mali" ;
   ns1:hasLatitude "13.9054"^^xsd:double ;
   ns1:hasLongitude "-4.55600"^^xsd:double ;
@@ -1789,7 +1790,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :Borobudur ns1:hasActivityName "Borobudur" ;
-  ns1:hasCountry "Indonesia" ;
+  ns1:hasCountry country:Indonesia ;
   ns1:hasLocation [ns1:hasAddress "96V5+QMM, Kw. Candi Borobudur, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah, Indonesia" ;
   ns1:hasLatitude "-7.60553"^^xsd:double ;
   ns1:hasLongitude "110.209"^^xsd:double ;
@@ -1799,7 +1800,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :BosqueNubosoMonteverde ns1:hasActivityName "Bosque Nuboso Monteverde" ;
-  ns1:hasCountry "Costa Rica" ;
+  ns1:hasCountry country:CostaRica ;
   ns1:hasLocation [ns1:hasAddress "Puntarenas Province, Monteverde, Costa Rica" ;
   ns1:hasLatitude "10.2989"^^xsd:double ;
   ns1:hasLongitude "-84.7682"^^xsd:double ;
@@ -1809,7 +1810,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :Naoshima ns1:hasActivityName "Naoshima" ;
-  ns1:hasCountry "Japan" ;
+  ns1:hasCountry  country:Japan ;
   ns1:hasLocation [ns1:hasAddress "Naoshima, Kagawa District, Kagawa 761-3110, Japan" ;
   ns1:hasLatitude "34.4598"^^xsd:double ;
   ns1:hasLongitude "133.996"^^xsd:double ;
@@ -1818,7 +1819,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :SilfraPingvellir ns1:hasActivityName "Silfra Pingvellir" ;
-  ns1:hasCountry "Iceland" ;
+  ns1:hasCountry country:Iceland ;
   ns1:hasLocation [ns1:hasAddress "Vallarvegur, 806, Iceland" ;
   ns1:hasLatitude "64.2535"^^xsd:double ;
   ns1:hasLongitude "-21.1173"^^xsd:double ;
@@ -1828,7 +1829,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :ParqueNacionalManualAntonio ns1:hasActivityName "Parque Nacional Manuel Antonio" ;
-  ns1:hasCountry "Costa Rica" ;
+  ns1:hasCountry country:CostaRica ;
   ns1:hasLocation [ns1:hasAddress "Puntarenas Province, Quepos, Costa Rica" ;
   ns1:hasLatitude "9.39231"^^xsd:double ;
   ns1:hasLongitude "-84.1370"^^xsd:double ;
@@ -1838,7 +1839,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :OldDelhi ns1:hasActivityName "Old Delhi" ;
-  ns1:hasCountry "India" ;
+  ns1:hasCountry country:India ;
   ns1:hasLocation [ns1:hasAddress "Old Delhi, Delhi, India" ;
   ns1:hasLatitude "28.6563"^^xsd:double ;
   ns1:hasLongitude "77.2321"^^xsd:double ;
@@ -1847,7 +1848,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :DuomoMilano ns1:hasActivityName "Duomo Milan" ;
-  ns1:hasCountry "Italy" ;
+  ns1:hasCountry country:Italy ;
   ns1:hasLocation [ ns1:hasAddress "P.za del Duomo, 20122 Milano MI, Italy" ;
   ns1:hasLatitude "45.4642"^^xsd:double ;
   ns1:hasLongitude "9.18970"^^xsd:double ;
@@ -1857,7 +1858,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :NaturalHitoryMuseumDC ns1:hasActivityName "Natural History Museum D.C." ;
-  ns1:hasCountry "United States" ;
+  ns1:hasCountry country:UnitedStates;
   ns1:hasLocation [ns1:hasAddress "10th St. & Constitution Ave. NW, Washington, DC 20560, United States" ;
   ns1:hasLatitude "38.8913"^^xsd:double ;
   ns1:hasLongitude "-77.0261"^^xsd:double ;
@@ -1867,7 +1868,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:UrbanActivity .
 
 :TempleLuxor ns1:hasActivityName "Temple of Luxor" ;
-  ns1:hasCountry "Egypt" ;
+  ns1:hasCountry country:Egypt ;
   ns1:hasLocation [ns1:hasAddress "Mabad Al Oksor, Luxor City, Luxor, Luxor Governorate 1362501, Egypt" ;
   ns1:hasLatitude "25.7005"^^xsd:double ;
   ns1:hasLongitude "32.6407"^^xsd:double ;
@@ -1877,7 +1878,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :TajikNationalPark ns1:hasActivityName "Tajik National Park (Mountains of the Pamirs)" ;
-  ns1:hasCountry "Tajikistan" ;
+  ns1:hasCountry country:Tajikistan ;
   ns1:hasLocation [ ns1:hasAddress "Tajikistan" ;
   ns1:hasLatitude "38.4119"^^xsd:double ;
   ns1:hasLongitude "73.0859"^^xsd:double ;
@@ -1887,7 +1888,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity .
 
 :WadiRumPRotectedArea ns1:hasActivityName "Wadi Rum Protected Area" ;
-  ns1:hasCountry "Jordan" ;
+  ns1:hasCountry country:Jordan ;
   ns1:hasLocation [ns1:hasAddress "Jordan" ;
   ns1:hasLatitude "29.5559"^^xsd:double ;
   ns1:hasLongitude "35.4076"^^xsd:double ;
