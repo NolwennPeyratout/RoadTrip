@@ -187,8 +187,17 @@
 
 :hasRating 
 	a 		 owl:DatatypeProperty ;
+    rdfs:label "rating" ;
+    rdfs:comment "rating of the location given by google maps" ;
     rdfs:domain :Activity ;
     rdfs:range xsd:double .
+
+:id 
+	a 		 owl:DatatypeProperty ;
+    rdfs:label "ID" ;
+    rdfs:comment "ID of the location given by google maps" ;
+    rdfs:domain :Activity ;
+    rdfs:range xsd:string .
 
 :hasLongitude 
 	a 		 owl:DatatypeProperty ;
