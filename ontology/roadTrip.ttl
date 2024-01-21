@@ -143,19 +143,17 @@
 :hasStartingPoint 
 	a 		owl:ObjectProperty ;
     rdfs:domain :Itinerary ;
-    rdfs:range :Location .
+    rdfs:range :Activity .
 
 :hasEndingPoint 
 	a 		owl:ObjectProperty ;
     rdfs:domain :Itinerary ;
-    rdfs:range :Location .
+    rdfs:range :Activity .
 
 
 :hasRoute rdf:type owl:ObjectProperty ;
            rdfs:domain :Itinerary ;
            rdfs:range :Route. 
-
-
 
 #activity 
 
@@ -287,6 +285,13 @@
     rdfs:range transport:travelMode .
 
 
+:origin rdf:type owl:ObjectProperty ;
+           rdfs:domain :Route ;
+           rdfs:range :Activity. 
+
+:destination rdf:type owl:ObjectProperty ;
+           rdfs:domain :Route ;
+           rdfs:range :Activity. 
 #user
 :User 
 	a 		 owl:Class ;
