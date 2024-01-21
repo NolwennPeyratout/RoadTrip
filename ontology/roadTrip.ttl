@@ -276,11 +276,15 @@
 
 :hasDistance 
 	a 		owl:DatatypeProperty ;
+    rdfs:label "Distance in km" ;
+    rdfs:comment "Distance of the route in km" ;
     rdfs:domain :Trip ;
     rdfs:range xsd:float .
 
 :hasTime 
 	a 		owl:DatatypeProperty ;
+    rdfs:label "Duration " ;
+    rdfs:comment "Duration of the route in days, hours and minutes" ;
     rdfs:domain :Trip ;
     rdfs:range xsd:string .
 
