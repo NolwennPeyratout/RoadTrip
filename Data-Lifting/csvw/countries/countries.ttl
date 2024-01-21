@@ -1,0 +1,414 @@
+
+<http://example.org/countries/Cambodia> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Phnom Penh";
+  <http://schema.org/currency> "KHR";
+  <http://schema.org/name> "Cambodia" .
+
+<http://example.org/countries/Australia> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Canberra";
+  <http://schema.org/currency> "AUD";
+  <http://schema.org/name> "Australia" .
+
+<http://example.org/countries/Peru> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Lima";
+  <http://schema.org/currency> "PEN";
+  <http://schema.org/name> "Peru" .
+
+<http://example.org/countries/China> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Beijing";
+  <http://schema.org/currency> "CNY";
+  <http://schema.org/name> "China" .
+
+<http://example.org/countries/India> a <http://schema.org/Country>;
+  <http://schema.org/capital> "New Delhi";
+  <http://schema.org/currency> "INR";
+  <http://schema.org/name> "India" .
+
+<http://example.org/countries/United%20States> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Washington";
+  <http://schema.org/currency> "USD";
+  <http://schema.org/name> "United States" .
+
+<http://example.org/countries/Italy> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Rome";
+  <http://schema.org/currency> "EUR";
+  <http://schema.org/name> "Italy" .
+
+<http://example.org/countries/Argentina> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Buenos Aires";
+  <http://schema.org/currency> "ARS";
+  <http://schema.org/name> "Argentina" .
+
+<http://example.org/countries/Spain> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Madrid";
+  <http://schema.org/currency> "EUR";
+  <http://schema.org/name> "Spain" .
+
+<http://example.org/countries/Turkey> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Ankara";
+  <http://schema.org/currency> "TRY";
+  <http://schema.org/name> "Turkey" .
+
+<http://example.org/countries/Morocco> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Rabat";
+  <http://schema.org/currency> "MAD";
+  <http://schema.org/name> "Morocco" .
+
+<http://example.org/countries/Jordan> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Amman";
+  <http://schema.org/currency> "JOD";
+  <http://schema.org/name> "Jordan" .
+
+<http://example.org/countries/Guatemala> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Guatemala City";
+  <http://schema.org/currency> "GTQ";
+  <http://schema.org/name> "Guatemala" .
+
+<http://example.org/countries/United%20Kingdom> a <http://schema.org/Country>;
+  <http://schema.org/capital> "London";
+  <http://schema.org/currency> "GBP";
+  <http://schema.org/name> "United Kingdom" .
+
+<http://example.org/countries/New%20Zealand> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Wellington";
+  <http://schema.org/currency> "NZD";
+  <http://schema.org/name> "New Zealand" .
+
+<http://example.org/countries/Greece> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Athens";
+  <http://schema.org/currency> "EUR";
+  <http://schema.org/name> "Greece" .
+
+<http://example.org/countries/Ecuador> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Quito";
+  <http://schema.org/currency> "USD";
+  <http://schema.org/name> "Ecuador" .
+
+<http://example.org/countries/Croatia> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Zagreb";
+  <http://schema.org/currency> "HRK";
+  <http://schema.org/name> "Croatia" .
+
+<http://example.org/countries/Bolivia> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Sucre";
+  <http://schema.org/currency> "BOB";
+  <http://schema.org/name> "Bolivia" .
+
+<http://example.org/countries/Myanmar> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Nay Pyi Taw";
+  <http://schema.org/currency> "MMK";
+  <http://schema.org/name> "Myanmar" .
+
+<http://example.org/countries/Egypt> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Cairo";
+  <http://schema.org/currency> "EGP";
+  <http://schema.org/name> "Egypt" .
+
+<http://example.org/countries/Zimbabwe> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Harare";
+  <http://schema.org/currency> "ZWL";
+  <http://schema.org/name> "Zimbabwe" .
+
+<http://example.org/countries/France> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Paris";
+  <http://schema.org/currency> "EUR";
+  <http://schema.org/name> "France" .
+
+<http://example.org/countries/Vietnam> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Hanoi";
+  <http://schema.org/currency> "VND";
+  <http://schema.org/name> "Vietnam" .
+
+<http://example.org/countries/Czech%20Republic> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Prague";
+  <http://schema.org/currency> "CZK";
+  <http://schema.org/name> "Czech Republic" .
+
+<http://example.org/countries/Chile> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Santiago";
+  <http://schema.org/currency> "CLP";
+  <http://schema.org/name> "Chile" .
+
+<http://example.org/countries/Russia> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Moscow";
+  <http://schema.org/currency> "RUB";
+  <http://schema.org/name> "Russia" .
+
+<http://example.org/countries/Cuba> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Havana";
+  <http://schema.org/currency> "CUP";
+  <http://schema.org/name> "Cuba" .
+
+<http://example.org/countries/South%20Africa> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Pretoria";
+  <http://schema.org/currency> "ZAR";
+  <http://schema.org/name> "South Africa" .
+
+<http://example.org/countries/Tanzania> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Dodoma";
+  <http://schema.org/currency> "TZS";
+  <http://schema.org/name> "Tanzania" .
+
+<http://example.org/countries/Montenegro> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Podgorica";
+  <http://schema.org/currency> "EUR";
+  <http://schema.org/name> "Montenegro" .
+
+<http://example.org/countries/Japan> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Tokyo";
+  <http://schema.org/currency> "JPY";
+  <http://schema.org/name> "Japan" .
+
+<http://example.org/countries/Iran> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Tehran";
+  <http://schema.org/currency> "IRR";
+  <http://schema.org/name> "Iran" .
+
+<http://example.org/countries/Netherlands> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Amsterdam";
+  <http://schema.org/currency> "EUR";
+  <http://schema.org/name> "Netherlands" .
+
+<http://example.org/countries/Iceland> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Reykjavik";
+  <http://schema.org/currency> "ISK";
+  <http://schema.org/name> "Iceland" .
+
+<http://example.org/countries/Germany> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Berlin";
+  <http://schema.org/currency> "EUR";
+  <http://schema.org/name> "Germany" .
+
+<http://example.org/countries/Thailand> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Bangkok";
+  <http://schema.org/currency> "THB";
+  <http://schema.org/name> "Thailand" .
+
+<http://example.org/countries/Mexico> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Mexico City";
+  <http://schema.org/currency> "MXN";
+  <http://schema.org/name> "Mexico" .
+
+<http://example.org/countries/Greenland> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Nuuk";
+  <http://schema.org/currency> "DKK";
+  <http://schema.org/name> "Greenland" .
+
+<http://example.org/countries/Brazil> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Brasilia";
+  <http://schema.org/currency> "BRL";
+  <http://schema.org/name> "Brazil" .
+
+<http://example.org/countries/Ethiopia> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Addis Ababa";
+  <http://schema.org/currency> "ETB";
+  <http://schema.org/name> "Ethiopia" .
+
+<http://example.org/countries/Slovenia> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Ljubljana";
+  <http://schema.org/currency> "EUR";
+  <http://schema.org/name> "Slovenia" .
+
+<http://example.org/countries/Kenya> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Nairobi";
+  <http://schema.org/currency> "KES";
+  <http://schema.org/name> "Kenya" .
+
+<http://example.org/countries/Vatican%20City%20State%20%2528Holy%20See%2529> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Vatican City";
+  <http://schema.org/currency> "EUR";
+  <http://schema.org/name> "Vatican City State %28Holy See%29" .
+
+<http://example.org/countries/Israel> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Jerusalem";
+  <http://schema.org/currency> "ILS";
+  <http://schema.org/name> "Israel" .
+
+<http://example.org/countries/Nepal> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Kathmandu";
+  <http://schema.org/currency> "NPR";
+  <http://schema.org/name> "Nepal" .
+
+<http://example.org/countries/Switzerland> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Bern";
+  <http://schema.org/currency> "CHF";
+  <http://schema.org/name> "Switzerland" .
+
+<http://example.org/countries/Sweden> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Stockholm";
+  <http://schema.org/currency> "SEK";
+  <http://schema.org/name> "Sweden" .
+
+<http://example.org/countries/Botswana> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Gaborone";
+  <http://schema.org/currency> "BWP";
+  <http://schema.org/name> "Botswana" .
+
+<http://example.org/countries/Poland> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Warsaw";
+  <http://schema.org/currency> "PLN";
+  <http://schema.org/name> "Poland" .
+
+<http://example.org/countries/Costa%20Rica> a <http://schema.org/Country>;
+  <http://schema.org/capital> "San Jose";
+  <http://schema.org/currency> "CRC";
+  <http://schema.org/name> "Costa Rica" .
+
+<http://example.org/countries/Canada> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Ottawa";
+  <http://schema.org/currency> "CAD";
+  <http://schema.org/name> "Canada" .
+
+<http://example.org/countries/Hungary> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Budapest";
+  <http://schema.org/currency> "HUF";
+  <http://schema.org/name> "Hungary" .
+
+<http://example.org/countries/Estonia> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Tallinn";
+  <http://schema.org/currency> "EUR";
+  <http://schema.org/name> "Estonia" .
+
+<http://example.org/countries/Bosnia%20and%20Herzegovina> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Sarajevo";
+  <http://schema.org/currency> "BAM";
+  <http://schema.org/name> "Bosnia and Herzegovina" .
+
+<http://example.org/countries/Hong%20Kong%20S.A.R.> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Hong Kong";
+  <http://schema.org/currency> "HKD";
+  <http://schema.org/name> "Hong Kong S.A.R." .
+
+<http://example.org/countries/Norway> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Oslo";
+  <http://schema.org/currency> "NOK";
+  <http://schema.org/name> "Norway" .
+
+<http://example.org/countries/Mozambique> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Maputo";
+  <http://schema.org/currency> "MZN";
+  <http://schema.org/name> "Mozambique" .
+
+<http://example.org/countries/Colombia> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Bogota";
+  <http://schema.org/currency> "COP";
+  <http://schema.org/name> "Colombia" .
+
+<http://example.org/countries/Portugal> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Lisbon";
+  <http://schema.org/currency> "EUR";
+  <http://schema.org/name> "Portugal" .
+
+<http://example.org/countries/Ukraine> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Kiev";
+  <http://schema.org/currency> "UAH";
+  <http://schema.org/name> "Ukraine" .
+
+<http://example.org/countries/Antarctica> a <http://schema.org/Country>;
+  <http://schema.org/capital> "nan";
+  <http://schema.org/name> "Antarctica" .
+
+<http://example.org/countries/Malaysia> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Kuala Lumpur";
+  <http://schema.org/currency> "MYR";
+  <http://schema.org/name> "Malaysia" .
+
+<http://example.org/countries/Ghana> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Accra";
+  <http://schema.org/currency> "GHS";
+  <http://schema.org/name> "Ghana" .
+
+<http://example.org/countries/Belgium> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Brussels";
+  <http://schema.org/currency> "EUR";
+  <http://schema.org/name> "Belgium" .
+
+<http://example.org/countries/Rwanda> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Kigali";
+  <http://schema.org/currency> "RWF";
+  <http://schema.org/name> "Rwanda" .
+
+<http://example.org/countries/Singapore> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Singapur";
+  <http://schema.org/currency> "SGD";
+  <http://schema.org/name> "Singapore" .
+
+<http://example.org/countries/Sri%20Lanka> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Colombo";
+  <http://schema.org/currency> "LKR";
+  <http://schema.org/name> "Sri Lanka" .
+
+<http://example.org/countries/Georgia> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Tbilisi";
+  <http://schema.org/currency> "GEL";
+  <http://schema.org/name> "Georgia" .
+
+<http://example.org/countries/Korea%20South> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Seoul";
+  <http://schema.org/currency> "KRW";
+  <http://schema.org/name> "Korea South" .
+
+<http://example.org/countries/Laos> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Vientiane";
+  <http://schema.org/currency> "LAK";
+  <http://schema.org/name> "Laos" .
+
+<http://example.org/countries/Senegal> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Dakar";
+  <http://schema.org/currency> "XOF";
+  <http://schema.org/name> "Senegal" .
+
+<http://example.org/countries/Algeria> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Algiers";
+  <http://schema.org/currency> "DZD";
+  <http://schema.org/name> "Algeria" .
+
+<http://example.org/countries/Philippines> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Manila";
+  <http://schema.org/currency> "PHP";
+  <http://schema.org/name> "Philippines" .
+
+<http://example.org/countries/Namibia> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Windhoek";
+  <http://schema.org/currency> "NAD";
+  <http://schema.org/name> "Namibia" .
+
+<http://example.org/countries/Palau> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Melekeok";
+  <http://schema.org/currency> "USD";
+  <http://schema.org/name> "Palau" .
+
+<http://example.org/countries/Tunisia> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Tunis";
+  <http://schema.org/currency> "TND";
+  <http://schema.org/name> "Tunisia" .
+
+<http://example.org/countries/Ireland> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Dublin";
+  <http://schema.org/currency> "EUR";
+  <http://schema.org/name> "Ireland" .
+
+<http://example.org/countries/Indonesia> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Jakarta";
+  <http://schema.org/currency> "IDR";
+  <http://schema.org/name> "Indonesia" .
+
+<http://example.org/countries/Bulgaria> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Sofia";
+  <http://schema.org/currency> "BGN";
+  <http://schema.org/name> "Bulgaria" .
+
+<http://example.org/countries/United%20Arab%20Emirates> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Abu Dhabi";
+  <http://schema.org/currency> "AED";
+  <http://schema.org/name> "United Arab Emirates" .
+
+<http://example.org/countries/Mali> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Bamako";
+  <http://schema.org/currency> "XOF";
+  <http://schema.org/name> "Mali" .
+
+<http://example.org/countries/Tajikistan> a <http://schema.org/Country>;
+  <http://schema.org/capital> "Dushanbe";
+  <http://schema.org/currency> "TJS";
+  <http://schema.org/name> "Tajikistan" .
