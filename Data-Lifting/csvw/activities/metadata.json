@@ -11,22 +11,21 @@
     
     "columns": [
       {
-        "titles": ["Name"],
+        "titles": "Name",
         "datatype": "string",
         "propertyUrl": "http://example.org/roadtrip/hasActivityName"
       },
       {
-        "titles": ["Location"],
+        "titles": "Location",
         "datatype": "string",
         "aboutUrl": "http://example.org/activities/{Name}#country",
         "propertyUrl": "http://example.org/roadtrip/hasCountryName"
       },
       
       {
-        "titles": ["Image"],
+        "titles": "Image",
         "datatype": "string",
-        "aboutUrl": "http://example.org/activities/{Name}#image",
-        "propertyUrl": "http://example.org/roadtrip/hasLink"
+        "suppressOutput": true
       },
       {
         "virtual": true,
@@ -43,16 +42,6 @@
       "aboutUrl":  "http://example.org/activities/{Name}#country",
       "propertyUrl": "rdf:type",
       "valueUrl": "http://example.org/roadtrip/Country"
-    },  {
-      "virtual": true,
-      "propertyUrl": "http://example.org/roadtrip/hasImage",
-      "valueUrl": "http://example.org/activities/{Name}#image"
-    },
-    {
-      "virtual": true,
-      "aboutUrl":  "http://example.org/activities/{Name}#image",
-      "propertyUrl": "rdf:type",
-      "valueUrl": "http://example.org/roadtrip/Image"
     }
     ]
   }
