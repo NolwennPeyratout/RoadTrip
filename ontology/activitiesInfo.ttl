@@ -1909,7 +1909,7 @@ ns1:hasAddress "00120 Vatican City" ;
   a ns1:RuralActivity ;
   owl:sameAs ns4:Impact_crater .
 
-_:b40 ns1:hasActivityName "nara park" ;
+:NaraPark ns1:hasActivityName "nara park" ;
   ns1:hasCountry country:Japan ;
   ns1:hasLocation [ns1:hasAddress "Nara, Japan" ;
   ns1:hasLatitude "34.6850"^^xsd:double ;
@@ -2123,7 +2123,7 @@ _:b40 ns1:hasActivityName "nara park" ;
   ns1:id "ChIJvSD0dbR95kcRukqEDa0AnoY" ;
   a ns1:RuralActivity .
 
-ns1:AyaSofya ns1:hasActivityName "Aya Sofya (Hagia Sophia)" ;
+:AyaSofya ns1:hasActivityName "Aya Sofya (Hagia Sophia)" ;
   ns1:hasCountry country:Turkey ;
   ns1:hasLocation [
     ns1:hasAddress "Sultan Ahmet, Ayasofya Meydanı No:1, 34122 Fatih/İstanbul, Türkiye" ;
@@ -2135,7 +2135,7 @@ ns1:AyaSofya ns1:hasActivityName "Aya Sofya (Hagia Sophia)" ;
   ns1:id "ChIJJxwBkr65yhQRrk9EN29vbiM" ;
   a ns1:UrbanActivity .
 
-ns1:IguazuFalls ns1:hasActivityName "Iguazu Falls" ;
+:IguazuFalls ns1:hasActivityName "Iguazu Falls" ;
   ns1:hasCountry country:Argentina ;
   ns1:hasLocation [
     ns1:hasAddress "Iguazu Falls" ;
@@ -2147,7 +2147,7 @@ ns1:IguazuFalls ns1:hasActivityName "Iguazu Falls" ;
   ns1:id "ChIJ50jnOXPq9pQRL5ZsgeofhRw" ;
   a ns1:RuralActivity .
 
-ns1:Petra ns1:hasActivityName "Petra" ;
+:Petra ns1:hasActivityName "Petra" ;
   ns1:hasCountry country:Jordan ;
   ns1:hasLocation [
     ns1:hasAddress "Jordan" ;
@@ -2160,7 +2160,7 @@ ns1:Petra ns1:hasActivityName "Petra" ;
   a ns1:UrbanActivity .
 
 
-ns1:TajMahal ns1:hasActivityName "Taj Mahal" ;
+:TajMahal ns1:hasActivityName "Taj Mahal" ;
   ns1:hasCountry country:India ;
   ns1:hasLocation [
     ns1:hasAddress "Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh 282001, India" ;
@@ -2172,7 +2172,7 @@ ns1:TajMahal ns1:hasActivityName "Taj Mahal" ;
   ns1:id "ChIJbf8C1yFxdDkR3n12P4DkKt0" ;
   a ns1:UrbanActivity .
 
-ns1:FiordlandNationalPark ns1:hasActivityName "Fiordland National Park" ;
+:FiordlandNationalPark ns1:hasActivityName "Fiordland National Park" ;
   ns1:hasCountry country:NewZealand ;
   ns1:hasLocation [
     ns1:hasAddress "Southland, New Zealand" ;
@@ -2184,7 +2184,7 @@ ns1:FiordlandNationalPark ns1:hasActivityName "Fiordland National Park" ;
   ns1:id "ChIJqyozYUsO1KkRurckveUzL_Y" ;
   a ns1:RuralActivity .
 
-ns1:TwelveApostles ns1:hasActivityName "Twelve Apostles" ;
+:TwelveApostles ns1:hasActivityName "Twelve Apostles" ;
   ns1:hasAddress "Twelve Apostles, Victoria, Australia" ;
   ns1:hasCountry country:Australia ;
   ns1:hasLocation [
@@ -2195,7 +2195,7 @@ ns1:TwelveApostles ns1:hasActivityName "Twelve Apostles" ;
   ] ;
   a ns1:RuralActivity .
 
-ns1:VictoriaFalls ns1:hasActivityName "Victoria Falls" ;
+:VictoriaFalls ns1:hasActivityName "Victoria Falls" ;
   ns1:hasAddress "Victoria Falls, Zimbabwe" ;
   ns1:hasCountry country:Zimbabwe ;
   ns1:hasLocation [
@@ -2205,7 +2205,7 @@ ns1:VictoriaFalls ns1:hasActivityName "Victoria Falls" ;
   ] ;
   a ns1:UrbanActivity .
 
-ns1:Yosemite ns1:hasActivityName "Yosemite" ;
+:Yosemite ns1:hasActivityName "Yosemite" ;
   ns1:hasCountry country:UnitedStates ;
   ns1:hasLocation [
     ns1:hasAddress "California, United States" ;
@@ -2217,7 +2217,7 @@ ns1:Yosemite ns1:hasActivityName "Yosemite" ;
   ns1:id "ChIJxeyK9Z3wloAR_gOA7SycJC0" ;
   a ns1:RuralActivity .
 
-ns1:Havana ns1:hasActivityName "Havana" ;
+:Havana ns1:hasActivityName "Havana" ;
   ns1:hasCountry country:Cuba ;
   ns1:hasLocation [
     ns1:hasAddress "Havana, Cuba" ;
@@ -2228,7 +2228,7 @@ ns1:Havana ns1:hasActivityName "Havana" ;
   ns1:id "ChIJ4QD2vUx3zYgRYA13Gn5NKU4" ;
   a ns1:UrbanActivity .
 
-ns1:HermitageMuseum ns1:hasActivityName "Hermitage Museum" ;
+:HermitageMuseum ns1:hasActivityName "Hermitage Museum" ;
   ns1:hasCountry country:Russia ;
   ns1:hasLocation [
     ns1:hasAddress "Palace Square, 2, St Petersburg, Russia, 190000" ;
@@ -2240,7 +2240,7 @@ ns1:HermitageMuseum ns1:hasActivityName "Hermitage Museum" ;
   ns1:id "ChIJ6eLLMgsxlkYR_F1QoCoDTgc" ;
   a ns1:UrbanActivity .
 
-ns1:Hiroshima ns1:hasActivityName "Hiroshima" ;
+:Hiroshima ns1:hasActivityName "Hiroshima" ;
   ns1:hasCountry country:Japan ;
   ns1:hasLocation [
     ns1:hasAddress "Hiroshima, Japan" ;
@@ -2251,7 +2251,7 @@ ns1:Hiroshima ns1:hasActivityName "Hiroshima" ;
   ns1:id "ChIJu0_z7giZWjURcvfBz1DO5Ac";
   a ns1:UrbanActivity .
 
-ns1:OldTownSquarePrague ns1:hasActivityName "Old Town Square Prague" ;
+:OldTownSquarePrague ns1:hasActivityName "Old Town Square Prague" ;
   ns1:hasCountry country:CzechRepublic ;
   ns1:hasLocation [
     ns1:hasAddress "Staroměstské nám., 110 00 Staré Město, Czechia" ;
@@ -2262,7 +2262,7 @@ ns1:OldTownSquarePrague ns1:hasActivityName "Old Town Square Prague" ;
   ns1:id "ChIJF6gfPumUC0cRNxOlactBiAU" ;
   a ns1:UrbanActivity .
 
-ns1:SerengetiNationalPark ns1:hasActivityName "Serengeti National Park" ;
+:SerengetiNationalPark ns1:hasActivityName "Serengeti National Park" ;
   ns1:hasCountry country:Tanzania ;
   ns1:hasLocation [
     ns1:hasAddress "Tanzania" ;
