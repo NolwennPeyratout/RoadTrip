@@ -13,8 +13,8 @@ country:France a :Country;
     :hasLanguage "French";
     :requiresVaccine "tetanus","measles","mumps", "rubella".
 
-country:US a :Country;
-    :hasCountryName "US";
+country:UnitedStates a :Country;
+    :hasCountryName "United States";
     :hasCapital "Washington";
     :hasCurrency "Dollar";
     :hasLanguage "English";
