@@ -68,6 +68,11 @@
     rdfs:comment "A review or rating given to an entity" ;
     owl:sameAs wd:Q265158.
 
+:content      
+    a owl:ObjectProperty;
+    rdfs:domain :Review ;
+    rdfs:range xsd:string.
+    
 :relatedTo
     a owl:ObjectProperty;
     rdfs:domain :Review ;
