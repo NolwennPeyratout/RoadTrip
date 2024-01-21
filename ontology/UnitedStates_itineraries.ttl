@@ -7,14 +7,14 @@
 @prefix transport:  <http://example.org/transport#>.
 
 :ItineraryUSUrban a ns1:Itinerary ;
-    :hasStartingPoint activity:Alcatraz;
-    :hasEndingPoint activity:StatueOfLiberty ;
-    :hasRoute _:blankNode1, _:blankNode2, _:blankNode3, _:blankNode4, _:blankNode5, _:blankNode6, _:blankNode7, _:blankNode8.
+    ns1:hasStartingPoint activity:Alcatraz;
+    ns1:hasEndingPoint activity:StatueOfLiberty ;
+    ns1:hasRoute _:blankNode1, _:blankNode2, _:blankNode3, _:blankNode4, _:blankNode5, _:blankNode6, _:blankNode7, _:blankNode8.
     
 :ItineraryUSRural a ns1:Itinerary ;
-	:hasStartingPoint activity:Yosemite;
-	:hasEndingPoint activity:GrandCanyon  ;
-	:hasRoute _:blankNode9, _:blankNode10, _:blankNode11, _:blankNode12, _:blankNode13.
+	ns1:hasStartingPoint activity:Yosemite;
+	ns1:hasEndingPoint activity:GrandCanyon  ;
+	ns1:hasRoute _:blankNode9, _:blankNode10, _:blankNode11, _:blankNode12, _:blankNode13.
 
 _:blankNode1 a ns1:Route;
     ns1:origin activity:Alcatraz;
