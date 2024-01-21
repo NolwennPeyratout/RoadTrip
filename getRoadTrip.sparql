@@ -1,0 +1,20 @@
+PREFIX act: <http://example.org/activity#> 
+PREFIX schema: <http://example.org/roadtrip#>
+PREFIX country: <http://example.org/country#>
+PREFIX transport:  <http://example.org/transport#>
+
+SELECT distinct ?country ?x  ?transport
+WHERE {
+  ?roadtrip a schema:RoadTrip;
+    a ?type;
+    schema:in ?country;
+    schema:hasItinerary ?itinerary.
+?itinerary schema:hasRoute ?route. 
+?route schema:hasTransport ?transport.
+?country ?hasCountryName ?countryName.
+filter(?countryName="France")
+filter(?type=schema:UrbanRoadTrip)
+filter(?transport = transport:Car)
+
+
+  }
