@@ -1,0 +1,45 @@
+PREFIX act: <http://example.org/activities/> 
+PREFIX ex: <http://ns.inria.fr/sparql-micro-service/api#>
+PREFIX : <http://example.org/roadtrip/>
+PREFIX schema: <http://example.org/activity#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+
+CONSTRUCT {
+
+[] a ?activityType;
+:hasActivityName ?name;
+:hasCountry ?country ;
+:hasBudget ?budget ;
+:hasLocation [a :Location;
+:hasLongitude ?longitude;
+:hasLatitude ?latitude;
+:hasAddress  ?address] ;
+:hasRating ?rating;
+:id ?id ;
+owl:sameAs ?same .
+} 
+where {
+SELECT ?name ?country ?id  ?latitude ?longitude ?rating ?open_now ?budget ?address ?activityType ?same {
+  [] schema:hasActivityName ?name;
+      schema:hasCountry ?country;
+	owl:sameAs ?same; 
+	a ?activityType. 
+    ?country :hasCountryName ?nameCountry
+
+BIND(IRI(CONCAT("http://localhost/service/roadtrip/getInformation?place=",?name)) as ?serviceURI)
+
+SERVICE ?serviceURI{
+  ?s ex:place_id ?id.
+  OPTIONAL{ ?s ex:geometry ?geom.}
+  OPTIONAL{?geom ex:location ?location.}
+  OPTIONAL{?location ex:lat ?latitude.}
+  OPTIONAL{?location ex:lng ?longitude.}
+  OPTIONAL{ ?s ex:rating ?rating. }
+  OPTIONAL{ ?s ex:opening_hours ?openH.}
+  OPTIONAL{?openH ex:open_now ?open_now.}
+  OPTIONAL{?s ex:maxprice ?budget.}
+  OPTIONAL{?s ex:formatted_address ?address.}
+  }
+  #filter CONTAINS(?address, ?nameCountry)
+}
+GROUP BY ?name}
