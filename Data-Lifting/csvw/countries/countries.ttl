@@ -24,7 +24,7 @@
   <http://example.org/roadtrip/hasCountryName> "India";
   <http://example.org/roadtrip/hasCurrency> "INR" .
 
-<http://example.org/countries/United%20States> a <http://example.org/roadtrip/Country>;
+<http://example.org/countries/UnitedStates> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryCapital> "Washington";
   <http://example.org/roadtrip/hasCountryName> "United States";
   <http://example.org/roadtrip/hasCurrency> "USD" .
@@ -64,12 +64,12 @@
   <http://example.org/roadtrip/hasCountryName> "Guatemala";
   <http://example.org/roadtrip/hasCurrency> "GTQ" .
 
-<http://example.org/countries/United%20Kingdom> a <http://example.org/roadtrip/Country>;
+<http://example.org/countries/UnitedKingdom> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryCapital> "London";
   <http://example.org/roadtrip/hasCountryName> "United Kingdom";
   <http://example.org/roadtrip/hasCurrency> "GBP" .
 
-<http://example.org/countries/New%20Zealand> a <http://example.org/roadtrip/Country>;
+<http://example.org/countries/NewZealand> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryCapital> "Wellington";
   <http://example.org/roadtrip/hasCountryName> "New Zealand";
   <http://example.org/roadtrip/hasCurrency> "NZD" .
@@ -119,7 +119,7 @@
   <http://example.org/roadtrip/hasCountryName> "Vietnam";
   <http://example.org/roadtrip/hasCurrency> "VND" .
 
-<http://example.org/countries/Czech%20Republic> a <http://example.org/roadtrip/Country>;
+<http://example.org/countries/CzechRepublic> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryCapital> "Prague";
   <http://example.org/roadtrip/hasCountryName> "Czech Republic";
   <http://example.org/roadtrip/hasCurrency> "CZK" .
@@ -139,7 +139,7 @@
   <http://example.org/roadtrip/hasCountryName> "Cuba";
   <http://example.org/roadtrip/hasCurrency> "CUP" .
 
-<http://example.org/countries/South%20Africa> a <http://example.org/roadtrip/Country>;
+<http://example.org/countries/SouthAfrica> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryCapital> "Pretoria";
   <http://example.org/roadtrip/hasCountryName> "South Africa";
   <http://example.org/roadtrip/hasCurrency> "ZAR" .
@@ -214,7 +214,7 @@
   <http://example.org/roadtrip/hasCountryName> "Kenya";
   <http://example.org/roadtrip/hasCurrency> "KES" .
 
-<http://example.org/countries/Vatican%20City%20State%20%2528Holy%20See%2529> a <http://example.org/roadtrip/Country>;
+<http://example.org/countries/VaticanCity> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryCapital> "Vatican City";
   <http://example.org/roadtrip/hasCountryName> "Vatican City State %28Holy See%29";
   <http://example.org/roadtrip/hasCurrency> "EUR" .
@@ -249,7 +249,7 @@
   <http://example.org/roadtrip/hasCountryName> "Poland";
   <http://example.org/roadtrip/hasCurrency> "PLN" .
 
-<http://example.org/countries/Costa%20Rica> a <http://example.org/roadtrip/Country>;
+<http://example.org/countries/CostaRica> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryCapital> "San Jose";
   <http://example.org/roadtrip/hasCountryName> "Costa Rica";
   <http://example.org/roadtrip/hasCurrency> "CRC" .
@@ -269,12 +269,12 @@
   <http://example.org/roadtrip/hasCountryName> "Estonia";
   <http://example.org/roadtrip/hasCurrency> "EUR" .
 
-<http://example.org/countries/Bosnia%20and%20Herzegovina> a <http://example.org/roadtrip/Country>;
+<http://example.org/countries/BosniaandHerzegovina> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryCapital> "Sarajevo";
   <http://example.org/roadtrip/hasCountryName> "Bosnia and Herzegovina";
   <http://example.org/roadtrip/hasCurrency> "BAM" .
 
-<http://example.org/countries/Hong%20Kong%20S.A.R.> a <http://example.org/roadtrip/Country>;
+<http://example.org/countries/HongKong> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryCapital> "Hong Kong";
   <http://example.org/roadtrip/hasCountryName> "Hong Kong S.A.R.";
   <http://example.org/roadtrip/hasCurrency> "HKD" .
@@ -333,7 +333,7 @@
   <http://example.org/roadtrip/hasCountryName> "Singapore";
   <http://example.org/roadtrip/hasCurrency> "SGD" .
 
-<http://example.org/countries/Sri%20Lanka> a <http://example.org/roadtrip/Country>;
+<http://example.org/countries/SriLanka> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryCapital> "Colombo";
   <http://example.org/roadtrip/hasCountryName> "Sri Lanka";
   <http://example.org/roadtrip/hasCurrency> "LKR" .
@@ -343,7 +343,7 @@
   <http://example.org/roadtrip/hasCountryName> "Georgia";
   <http://example.org/roadtrip/hasCurrency> "GEL" .
 
-<http://example.org/countries/Korea%20South> a <http://example.org/roadtrip/Country>;
+<http://example.org/countries/KoreaSouth> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryCapital> "Seoul";
   <http://example.org/roadtrip/hasCountryName> "Korea South";
   <http://example.org/roadtrip/hasCurrency> "KRW" .
@@ -398,7 +398,7 @@
   <http://example.org/roadtrip/hasCountryName> "Bulgaria";
   <http://example.org/roadtrip/hasCurrency> "BGN" .
 
-<http://example.org/countries/United%20Arab%20Emirates> a <http://example.org/roadtrip/Country>;
+<http://example.org/countries/UnitedArabEmirates> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryCapital> "Abu Dhabi";
   <http://example.org/roadtrip/hasCountryName> "United Arab Emirates";
   <http://example.org/roadtrip/hasCurrency> "AED" .
