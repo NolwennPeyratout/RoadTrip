@@ -12,7 +12,10 @@ from nltk.corpus import stopwords
 
 from rdflib import Graph, Literal, RDF, URIRef
 # rdflib knows about quite a few popular namespaces, like W3C ontologies, schema.org etc.
-from rdflib.namespace import FOAF , XSD
+from rdflib.namespace import OWL
+
+import spotlight
+
 
 # Create a Graph
 g = Graph()
@@ -68,7 +71,6 @@ if os.path.exists(dossier_paragraph):
                         final_list = [word for word in edit_string_as_list if word not in word_not_accepted]
                         activity = preprocess_text(' '.join(final_list))
                         if not ((df['country'] == country) & (df['activity'] == activity)).any():
-                            #add node in the graph
                             subject = URIRef(activityURI + quote(activity))
                             hasCountry = URIRef(activityURI + "hasCountry")
                             countryObjet = URIRef(countryURI + quote(country))
@@ -76,10 +78,17 @@ if os.path.exists(dossier_paragraph):
                             classActivity = URIRef(activityURI + "RuralActivity")
                             hasActivityName = URIRef(activityURI + "hasActivityName")
                             activityName = Literal(activity)
-
+                            #add node in the graph
                             g.add((subject, hasCountry, countryObjet))
                             g.add((subject, a, classActivity))
                             g.add((subject, hasActivityName, activityName))
+                            try:
+                                annotation =spotlight.annotate("https://api.dbpedia-spotlight.org/en/annotate",
+                                activity,confidence=0.4,support = 20)
+                                print(annotation[0]['URI'])
+                                g.add((subject,OWL.sameAs, URIRef(annotation[0]['URI'] )))
+                            except:
+                                print("An exception occurred")    
                             #add in the dataframe
                             new_record = pd.DataFrame([{'country': country, 'activity':activity}])
                             df = pd.concat([df, new_record]).drop_duplicates(ignore_index=True)

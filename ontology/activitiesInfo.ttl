@@ -3,7 +3,8 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix : <http://example.org/roadtrip/activity#>.
 @prefix country: <http://example.org/roadtrip/country#>.
-
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ns4: <http://dbpedia.org/resource/> .
 
 
 :BritishMuseum ns1:hasActivityName "British Museum" ;
@@ -1896,3 +1897,152 @@ ns1:hasAddress "00120 Vatican City" ;
   ns1:hasRating "4.70000"^^xsd:double ;
   ns1:id "ChIJsze106WTABURB12LlZJViOk" ;
   a ns1:RuralActivity .
+
+:RedCrater ns1:hasActivityName "red crater" ;
+  ns1:hasCountry country:NewZealand ;
+  ns1:hasLocation [ns1:hasAddress "Red Crater, Waikato 3989, New Zealand" ;
+  ns1:hasLatitude "-39.1333"^^xsd:double ;
+  ns1:hasLongitude "175.650"^^xsd:double ;
+  a ns1:Location ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:id "ChIJ8c-Xz3Kpa20RBX6UtoqfBFA" ;
+  a ns1:RuralActivity ;
+  owl:sameAs ns4:Impact_crater .
+
+_:b40 ns1:hasActivityName "nara park" ;
+  ns1:hasCountry country:Japan ;
+  ns1:hasLocation [ns1:hasAddress "Nara, Japan" ;
+  ns1:hasLatitude "34.6850"^^xsd:double ;
+  ns1:hasLongitude "135.843"^^xsd:double ;
+  a ns1:Location ] ;
+  ns1:hasRating "4.50000"^^xsd:double ;
+  ns1:id "ChIJYWCMvZY5AWARVnREV_OsbPk" ;
+  a ns1:RuralActivity ;
+  owl:sameAs ns4:Nara_Park .
+
+:SounthIsland ns1:hasActivityName "south island" ;
+  ns1:hasCountry country:NewZealand ;
+  ns1:hasLocation [ns1:hasAddress "Te Waipounamu / South Island, New Zealand" ;
+  ns1:hasLatitude "-45.1527"^^xsd:double ;
+  ns1:hasLongitude "169.893"^^xsd:double ;
+  a ns1:Location ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:id "ChIJ0wq0CvhXKqgR64Y-ig9B_TE" ;
+  a ns1:RuralActivity ;
+  owl:sameAs ns4:South_Island .
+
+:TurtleIsland ns1:hasActivityName "turtle island" ;
+  ns1:hasCountry country:Greece ;
+  ns1:hasLocation [ns1:hasAddress "Γέρακας, Vasilikos 291 00, Greece" ;
+  ns1:hasLatitude "37.709"^^xsd:double ;
+  ns1:hasLongitude "20.986"^^xsd:double ;
+  a ns1:Location ] ;
+  ns1:id "ChIJb0MpHoM3ZxMRk_LjY58WZkk" ;
+  a ns1:RuralActivity ;
+  owl:sameAs ns4:Turtle_Island_Quartet .
+
+:TasmanLake ns1:hasActivityName "tasman lake" ;
+  ns1:hasCountry country:NewZealand ;
+  ns1:hasLocation [ns1:hasAddress "Tasman Lake, Canterbury 7999, New Zealand" ;
+  ns1:hasLatitude "-43.6784"^^xsd:double ;
+  ns1:hasLongitude "170.182"^^xsd:double ;
+  a ns1:Location ] ;
+  ns1:hasRating "4.70000"^^xsd:double ;
+  ns1:id "ChIJdSVkdd61K20R8ORjq4bvACo" ;
+  a ns1:RuralActivity .
+
+:MountFuji ns1:hasActivityName "mount fuji" ;
+  ns1:hasCountry country:Japan ;
+  ns1:hasLocation [ns1:hasAddress "Mount Fuji, Kitayama, Fujinomiya, Shizuoka 418-0112, Japan" ;
+  ns1:hasLatitude "35.3606"^^xsd:double ;
+  ns1:hasLongitude "138.727"^^xsd:double ;
+  a ns1:Location ] ;
+  ns1:hasRating "4.60000"^^xsd:double ;
+  ns1:id "ChIJmcj9QppiGWAR36TzFsn8oaY" ;
+  a ns1:RuralActivity ;
+  owl:sameAs ns4:Mount_Fuji .
+
+:LakeRotoaira ns1:hasActivityName "lake rotoaira" ;
+  ns1:hasCountry country:NewZealand ;
+  ns1:hasLocation [ns1:hasAddress "Lake Rotoaira, Waikato 3382, New Zealand" ;
+  ns1:hasLatitude "-39.0497"^^xsd:double ;
+  ns1:hasLongitude "175.710"^^xsd:double ;
+  a ns1:Location ] ;
+  ns1:hasRating "4.60000"^^xsd:double ;
+  ns1:id "ChIJFzRgfaSla20REN3fZWHvACo" ;
+  a ns1:RuralActivity .
+
+:LakeWanaka ns1:hasActivityName "lake wanaka" ;
+  ns1:hasCountry country:NewZealand ;
+  ns1:hasLocation [ ns1:hasAddress "Lake Wānaka, Otago, New Zealand" ;
+  ns1:hasLatitude "-44.5309"^^xsd:double ;
+  ns1:hasLongitude "169.111"^^xsd:double ;
+  a ns1:Location ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:id "ChIJoy1uvEZf1akRECFlq4bvACo" ;
+  a ns1:RuralActivity.
+
+:HookerLake ns1:hasActivityName "hooker lake" ;
+  ns1:hasCountry country:NewZealand ;
+  ns1:hasLocation [ns1:hasAddress "Hooker Lake, Canterbury 7999, New Zealand" ;
+  ns1:hasLatitude "-43.6782"^^xsd:double ;
+  ns1:hasLongitude "170.111"^^xsd:double ;
+  a ns1:Location ] ;
+  ns1:hasRating 5 ;
+  ns1:id "ChIJvYbS1ki1K20RsORjq4bvACo" ;
+  a ns1:RuralActivity .
+
+:MelissaniLake ns1:hasActivityName "melissani lake" ;
+  ns1:hasCountry country:Greece ;
+  ns1:hasLocation [ns1:hasAddress "Melissani Cave, Σάμη 280 80, Greece" ;
+  ns1:hasLatitude "38.2570"^^xsd:double ;
+  ns1:hasLongitude "20.6235"^^xsd:double ;
+  a ns1:Location ] ;
+  ns1:hasRating "4.60000"^^xsd:double ;
+  ns1:id "ChIJf-9oBdqNXRMRh5qdHhjh7TM" ;
+  a ns1:RuralActivity.
+
+:MountCookVillage ns1:hasActivityName "mount cook village" ;
+  ns1:hasCountry country:NewZealand ;
+  ns1:hasLocation [ns1:hasAddress "Aoraki / Mount Cook 7999, New Zealand" ;
+  ns1:hasLatitude "-43.7343"^^xsd:double ;
+  ns1:hasLongitude "170.096"^^xsd:double ;
+  a ns1:Location] ;
+  ns1:id "ChIJ5c497lJLKm0R1Oqd27A7Tmo" ;
+  a ns1:RuralActivity ;
+  owl:sameAs ns4:Mount_Cook_Village .
+
+:MountAspiring ns1:hasActivityName "mount aspiring" ;
+  ns1:hasCountry country:NewZealand ;
+  ns1:hasLocation [ns1:hasAddress "Mount Aspiring 9382, New Zealand" ;
+  ns1:hasLatitude "-44.5624"^^xsd:double ;
+  ns1:hasLongitude "168.896"^^xsd:double ;
+  a ns1:Location ] ;
+  ns1:id "ChIJ15fat2R71akRYF55hIbvAAU" ;
+  a ns1:RuralActivity.
+
+:MarathonisiIsland ns1:hasActivityName "marathonisi island" ;
+  ns1:hasCountry country:Greece ;
+  ns1:hasLocation [ns1:hasAddress "Marathon, Greece" ;
+  ns1:hasLatitude "37.6854"^^xsd:double ;
+  ns1:hasLongitude "20.8709"^^xsd:double ;
+  a ns1:Location ] ;
+  ns1:hasRating "4.50000"^^xsd:double ;
+  ns1:id "ChIJyyr2yZE5ZxMRkVdq-hJsk9w" ;
+  a ns1:RuralActivity ;
+  owl:sameAs ns4:Cranae .
+
+:MontserratNaturalPark ns1:hasActivityName "montserrat natural park" ;
+  ns1:hasCountry country:Spain ;
+  ns1:hasLocation [ns1:hasAddress "Barcelona, Spain" ;
+  ns1:hasLatitude "41.6107"^^xsd:double ;
+  ns1:hasLongitude "1.81417"^^xsd:double ;
+  a ns1:Location ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:id "ChIJAQAAAJdfpBIRn6Z_5o18e7I" ;
+  a ns1:RuralActivity ;
+  owl:sameAs ns4:Montserrat .
+
+
+
+
