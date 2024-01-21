@@ -7,19 +7,30 @@
   ],
   "url": "countries.csv",
   "tableSchema": {
-    "primaryKey": "Location",
     "aboutUrl": "http://example.org/countries/{Location}",
     "columns": [
-      {"name": "Location", "titles": "Location","propertyUrl": "schema:name"},
+      {
+        "titles": "Location",
+        "datatype": "string",
+        "propertyUrl": "http://example.org/roadtrip/hasCountryName"
+      },
       {"name": "phoneCode", "titles": "phoneCode","propertyUrl": "schema:phoneCode", "suppressOutput": true},
-      {"name":"capital","titles":"capital" ,"propertyUrl": "schema:capital"},
-      {"name":"currency","titles":"currency" ,"propertyUrl": "schema:currency"},
+      {
+        "titles": "capital",
+        "datatype": "string",
+        "propertyUrl": "http://example.org/roadtrip/hasCountryCapital"
+      },
+      {
+        "titles": "currency",
+        "datatype": "string",
+        "propertyUrl": "http://example.org/roadtrip/hasCurrency"
+      },
       {"name":"region","titles":"region" ,"propertyUrl": "schema:region", "suppressOutput": true},
       {"name":"timezones","titles":"timezones" ,"propertyUrl": "schema:timezone", "suppressOutput": true}, 
       {
         "virtual": true,
         "propertyUrl": "rdf:type",
-        "valueUrl": "schema:Country"
+        "valueUrl": "http://example.org/roadtrip/Country"
     }
 
     ]

@@ -1,414 +1,414 @@
 
-<http://example.org/countries/Cambodia> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Phnom Penh";
-  <http://schema.org/currency> "KHR";
-  <http://schema.org/name> "Cambodia" .
-
-<http://example.org/countries/Australia> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Canberra";
-  <http://schema.org/currency> "AUD";
-  <http://schema.org/name> "Australia" .
-
-<http://example.org/countries/Peru> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Lima";
-  <http://schema.org/currency> "PEN";
-  <http://schema.org/name> "Peru" .
-
-<http://example.org/countries/China> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Beijing";
-  <http://schema.org/currency> "CNY";
-  <http://schema.org/name> "China" .
-
-<http://example.org/countries/India> a <http://schema.org/Country>;
-  <http://schema.org/capital> "New Delhi";
-  <http://schema.org/currency> "INR";
-  <http://schema.org/name> "India" .
-
-<http://example.org/countries/United%20States> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Washington";
-  <http://schema.org/currency> "USD";
-  <http://schema.org/name> "United States" .
-
-<http://example.org/countries/Italy> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Rome";
-  <http://schema.org/currency> "EUR";
-  <http://schema.org/name> "Italy" .
-
-<http://example.org/countries/Argentina> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Buenos Aires";
-  <http://schema.org/currency> "ARS";
-  <http://schema.org/name> "Argentina" .
-
-<http://example.org/countries/Spain> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Madrid";
-  <http://schema.org/currency> "EUR";
-  <http://schema.org/name> "Spain" .
-
-<http://example.org/countries/Turkey> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Ankara";
-  <http://schema.org/currency> "TRY";
-  <http://schema.org/name> "Turkey" .
-
-<http://example.org/countries/Morocco> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Rabat";
-  <http://schema.org/currency> "MAD";
-  <http://schema.org/name> "Morocco" .
-
-<http://example.org/countries/Jordan> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Amman";
-  <http://schema.org/currency> "JOD";
-  <http://schema.org/name> "Jordan" .
-
-<http://example.org/countries/Guatemala> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Guatemala City";
-  <http://schema.org/currency> "GTQ";
-  <http://schema.org/name> "Guatemala" .
-
-<http://example.org/countries/United%20Kingdom> a <http://schema.org/Country>;
-  <http://schema.org/capital> "London";
-  <http://schema.org/currency> "GBP";
-  <http://schema.org/name> "United Kingdom" .
-
-<http://example.org/countries/New%20Zealand> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Wellington";
-  <http://schema.org/currency> "NZD";
-  <http://schema.org/name> "New Zealand" .
-
-<http://example.org/countries/Greece> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Athens";
-  <http://schema.org/currency> "EUR";
-  <http://schema.org/name> "Greece" .
-
-<http://example.org/countries/Ecuador> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Quito";
-  <http://schema.org/currency> "USD";
-  <http://schema.org/name> "Ecuador" .
-
-<http://example.org/countries/Croatia> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Zagreb";
-  <http://schema.org/currency> "HRK";
-  <http://schema.org/name> "Croatia" .
-
-<http://example.org/countries/Bolivia> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Sucre";
-  <http://schema.org/currency> "BOB";
-  <http://schema.org/name> "Bolivia" .
-
-<http://example.org/countries/Myanmar> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Nay Pyi Taw";
-  <http://schema.org/currency> "MMK";
-  <http://schema.org/name> "Myanmar" .
-
-<http://example.org/countries/Egypt> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Cairo";
-  <http://schema.org/currency> "EGP";
-  <http://schema.org/name> "Egypt" .
-
-<http://example.org/countries/Zimbabwe> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Harare";
-  <http://schema.org/currency> "ZWL";
-  <http://schema.org/name> "Zimbabwe" .
-
-<http://example.org/countries/France> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Paris";
-  <http://schema.org/currency> "EUR";
-  <http://schema.org/name> "France" .
-
-<http://example.org/countries/Vietnam> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Hanoi";
-  <http://schema.org/currency> "VND";
-  <http://schema.org/name> "Vietnam" .
-
-<http://example.org/countries/Czech%20Republic> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Prague";
-  <http://schema.org/currency> "CZK";
-  <http://schema.org/name> "Czech Republic" .
-
-<http://example.org/countries/Chile> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Santiago";
-  <http://schema.org/currency> "CLP";
-  <http://schema.org/name> "Chile" .
-
-<http://example.org/countries/Russia> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Moscow";
-  <http://schema.org/currency> "RUB";
-  <http://schema.org/name> "Russia" .
-
-<http://example.org/countries/Cuba> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Havana";
-  <http://schema.org/currency> "CUP";
-  <http://schema.org/name> "Cuba" .
-
-<http://example.org/countries/South%20Africa> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Pretoria";
-  <http://schema.org/currency> "ZAR";
-  <http://schema.org/name> "South Africa" .
-
-<http://example.org/countries/Tanzania> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Dodoma";
-  <http://schema.org/currency> "TZS";
-  <http://schema.org/name> "Tanzania" .
-
-<http://example.org/countries/Montenegro> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Podgorica";
-  <http://schema.org/currency> "EUR";
-  <http://schema.org/name> "Montenegro" .
-
-<http://example.org/countries/Japan> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Tokyo";
-  <http://schema.org/currency> "JPY";
-  <http://schema.org/name> "Japan" .
-
-<http://example.org/countries/Iran> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Tehran";
-  <http://schema.org/currency> "IRR";
-  <http://schema.org/name> "Iran" .
-
-<http://example.org/countries/Netherlands> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Amsterdam";
-  <http://schema.org/currency> "EUR";
-  <http://schema.org/name> "Netherlands" .
-
-<http://example.org/countries/Iceland> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Reykjavik";
-  <http://schema.org/currency> "ISK";
-  <http://schema.org/name> "Iceland" .
-
-<http://example.org/countries/Germany> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Berlin";
-  <http://schema.org/currency> "EUR";
-  <http://schema.org/name> "Germany" .
-
-<http://example.org/countries/Thailand> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Bangkok";
-  <http://schema.org/currency> "THB";
-  <http://schema.org/name> "Thailand" .
-
-<http://example.org/countries/Mexico> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Mexico City";
-  <http://schema.org/currency> "MXN";
-  <http://schema.org/name> "Mexico" .
-
-<http://example.org/countries/Greenland> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Nuuk";
-  <http://schema.org/currency> "DKK";
-  <http://schema.org/name> "Greenland" .
-
-<http://example.org/countries/Brazil> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Brasilia";
-  <http://schema.org/currency> "BRL";
-  <http://schema.org/name> "Brazil" .
-
-<http://example.org/countries/Ethiopia> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Addis Ababa";
-  <http://schema.org/currency> "ETB";
-  <http://schema.org/name> "Ethiopia" .
-
-<http://example.org/countries/Slovenia> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Ljubljana";
-  <http://schema.org/currency> "EUR";
-  <http://schema.org/name> "Slovenia" .
-
-<http://example.org/countries/Kenya> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Nairobi";
-  <http://schema.org/currency> "KES";
-  <http://schema.org/name> "Kenya" .
-
-<http://example.org/countries/Vatican%20City%20State%20%2528Holy%20See%2529> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Vatican City";
-  <http://schema.org/currency> "EUR";
-  <http://schema.org/name> "Vatican City State %28Holy See%29" .
-
-<http://example.org/countries/Israel> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Jerusalem";
-  <http://schema.org/currency> "ILS";
-  <http://schema.org/name> "Israel" .
-
-<http://example.org/countries/Nepal> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Kathmandu";
-  <http://schema.org/currency> "NPR";
-  <http://schema.org/name> "Nepal" .
-
-<http://example.org/countries/Switzerland> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Bern";
-  <http://schema.org/currency> "CHF";
-  <http://schema.org/name> "Switzerland" .
-
-<http://example.org/countries/Sweden> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Stockholm";
-  <http://schema.org/currency> "SEK";
-  <http://schema.org/name> "Sweden" .
-
-<http://example.org/countries/Botswana> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Gaborone";
-  <http://schema.org/currency> "BWP";
-  <http://schema.org/name> "Botswana" .
-
-<http://example.org/countries/Poland> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Warsaw";
-  <http://schema.org/currency> "PLN";
-  <http://schema.org/name> "Poland" .
-
-<http://example.org/countries/Costa%20Rica> a <http://schema.org/Country>;
-  <http://schema.org/capital> "San Jose";
-  <http://schema.org/currency> "CRC";
-  <http://schema.org/name> "Costa Rica" .
-
-<http://example.org/countries/Canada> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Ottawa";
-  <http://schema.org/currency> "CAD";
-  <http://schema.org/name> "Canada" .
-
-<http://example.org/countries/Hungary> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Budapest";
-  <http://schema.org/currency> "HUF";
-  <http://schema.org/name> "Hungary" .
-
-<http://example.org/countries/Estonia> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Tallinn";
-  <http://schema.org/currency> "EUR";
-  <http://schema.org/name> "Estonia" .
-
-<http://example.org/countries/Bosnia%20and%20Herzegovina> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Sarajevo";
-  <http://schema.org/currency> "BAM";
-  <http://schema.org/name> "Bosnia and Herzegovina" .
-
-<http://example.org/countries/Hong%20Kong%20S.A.R.> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Hong Kong";
-  <http://schema.org/currency> "HKD";
-  <http://schema.org/name> "Hong Kong S.A.R." .
-
-<http://example.org/countries/Norway> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Oslo";
-  <http://schema.org/currency> "NOK";
-  <http://schema.org/name> "Norway" .
-
-<http://example.org/countries/Mozambique> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Maputo";
-  <http://schema.org/currency> "MZN";
-  <http://schema.org/name> "Mozambique" .
-
-<http://example.org/countries/Colombia> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Bogota";
-  <http://schema.org/currency> "COP";
-  <http://schema.org/name> "Colombia" .
-
-<http://example.org/countries/Portugal> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Lisbon";
-  <http://schema.org/currency> "EUR";
-  <http://schema.org/name> "Portugal" .
-
-<http://example.org/countries/Ukraine> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Kiev";
-  <http://schema.org/currency> "UAH";
-  <http://schema.org/name> "Ukraine" .
-
-<http://example.org/countries/Antarctica> a <http://schema.org/Country>;
-  <http://schema.org/capital> "nan";
-  <http://schema.org/name> "Antarctica" .
-
-<http://example.org/countries/Malaysia> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Kuala Lumpur";
-  <http://schema.org/currency> "MYR";
-  <http://schema.org/name> "Malaysia" .
-
-<http://example.org/countries/Ghana> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Accra";
-  <http://schema.org/currency> "GHS";
-  <http://schema.org/name> "Ghana" .
-
-<http://example.org/countries/Belgium> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Brussels";
-  <http://schema.org/currency> "EUR";
-  <http://schema.org/name> "Belgium" .
-
-<http://example.org/countries/Rwanda> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Kigali";
-  <http://schema.org/currency> "RWF";
-  <http://schema.org/name> "Rwanda" .
-
-<http://example.org/countries/Singapore> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Singapur";
-  <http://schema.org/currency> "SGD";
-  <http://schema.org/name> "Singapore" .
-
-<http://example.org/countries/Sri%20Lanka> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Colombo";
-  <http://schema.org/currency> "LKR";
-  <http://schema.org/name> "Sri Lanka" .
-
-<http://example.org/countries/Georgia> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Tbilisi";
-  <http://schema.org/currency> "GEL";
-  <http://schema.org/name> "Georgia" .
-
-<http://example.org/countries/Korea%20South> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Seoul";
-  <http://schema.org/currency> "KRW";
-  <http://schema.org/name> "Korea South" .
-
-<http://example.org/countries/Laos> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Vientiane";
-  <http://schema.org/currency> "LAK";
-  <http://schema.org/name> "Laos" .
-
-<http://example.org/countries/Senegal> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Dakar";
-  <http://schema.org/currency> "XOF";
-  <http://schema.org/name> "Senegal" .
-
-<http://example.org/countries/Algeria> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Algiers";
-  <http://schema.org/currency> "DZD";
-  <http://schema.org/name> "Algeria" .
-
-<http://example.org/countries/Philippines> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Manila";
-  <http://schema.org/currency> "PHP";
-  <http://schema.org/name> "Philippines" .
-
-<http://example.org/countries/Namibia> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Windhoek";
-  <http://schema.org/currency> "NAD";
-  <http://schema.org/name> "Namibia" .
-
-<http://example.org/countries/Palau> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Melekeok";
-  <http://schema.org/currency> "USD";
-  <http://schema.org/name> "Palau" .
-
-<http://example.org/countries/Tunisia> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Tunis";
-  <http://schema.org/currency> "TND";
-  <http://schema.org/name> "Tunisia" .
-
-<http://example.org/countries/Ireland> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Dublin";
-  <http://schema.org/currency> "EUR";
-  <http://schema.org/name> "Ireland" .
-
-<http://example.org/countries/Indonesia> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Jakarta";
-  <http://schema.org/currency> "IDR";
-  <http://schema.org/name> "Indonesia" .
-
-<http://example.org/countries/Bulgaria> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Sofia";
-  <http://schema.org/currency> "BGN";
-  <http://schema.org/name> "Bulgaria" .
-
-<http://example.org/countries/United%20Arab%20Emirates> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Abu Dhabi";
-  <http://schema.org/currency> "AED";
-  <http://schema.org/name> "United Arab Emirates" .
-
-<http://example.org/countries/Mali> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Bamako";
-  <http://schema.org/currency> "XOF";
-  <http://schema.org/name> "Mali" .
-
-<http://example.org/countries/Tajikistan> a <http://schema.org/Country>;
-  <http://schema.org/capital> "Dushanbe";
-  <http://schema.org/currency> "TJS";
-  <http://schema.org/name> "Tajikistan" .
+<http://example.org/countries/Cambodia> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Phnom Penh";
+  <http://example.org/roadtrip/hasCountryName> "Cambodia";
+  <http://example.org/roadtrip/hasCurrency> "KHR" .
+
+<http://example.org/countries/Australia> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Canberra";
+  <http://example.org/roadtrip/hasCountryName> "Australia";
+  <http://example.org/roadtrip/hasCurrency> "AUD" .
+
+<http://example.org/countries/Peru> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Lima";
+  <http://example.org/roadtrip/hasCountryName> "Peru";
+  <http://example.org/roadtrip/hasCurrency> "PEN" .
+
+<http://example.org/countries/China> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Beijing";
+  <http://example.org/roadtrip/hasCountryName> "China";
+  <http://example.org/roadtrip/hasCurrency> "CNY" .
+
+<http://example.org/countries/India> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "New Delhi";
+  <http://example.org/roadtrip/hasCountryName> "India";
+  <http://example.org/roadtrip/hasCurrency> "INR" .
+
+<http://example.org/countries/United%20States> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Washington";
+  <http://example.org/roadtrip/hasCountryName> "United States";
+  <http://example.org/roadtrip/hasCurrency> "USD" .
+
+<http://example.org/countries/Italy> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Rome";
+  <http://example.org/roadtrip/hasCountryName> "Italy";
+  <http://example.org/roadtrip/hasCurrency> "EUR" .
+
+<http://example.org/countries/Argentina> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Buenos Aires";
+  <http://example.org/roadtrip/hasCountryName> "Argentina";
+  <http://example.org/roadtrip/hasCurrency> "ARS" .
+
+<http://example.org/countries/Spain> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Madrid";
+  <http://example.org/roadtrip/hasCountryName> "Spain";
+  <http://example.org/roadtrip/hasCurrency> "EUR" .
+
+<http://example.org/countries/Turkey> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Ankara";
+  <http://example.org/roadtrip/hasCountryName> "Turkey";
+  <http://example.org/roadtrip/hasCurrency> "TRY" .
+
+<http://example.org/countries/Morocco> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Rabat";
+  <http://example.org/roadtrip/hasCountryName> "Morocco";
+  <http://example.org/roadtrip/hasCurrency> "MAD" .
+
+<http://example.org/countries/Jordan> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Amman";
+  <http://example.org/roadtrip/hasCountryName> "Jordan";
+  <http://example.org/roadtrip/hasCurrency> "JOD" .
+
+<http://example.org/countries/Guatemala> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Guatemala City";
+  <http://example.org/roadtrip/hasCountryName> "Guatemala";
+  <http://example.org/roadtrip/hasCurrency> "GTQ" .
+
+<http://example.org/countries/United%20Kingdom> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "London";
+  <http://example.org/roadtrip/hasCountryName> "United Kingdom";
+  <http://example.org/roadtrip/hasCurrency> "GBP" .
+
+<http://example.org/countries/New%20Zealand> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Wellington";
+  <http://example.org/roadtrip/hasCountryName> "New Zealand";
+  <http://example.org/roadtrip/hasCurrency> "NZD" .
+
+<http://example.org/countries/Greece> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Athens";
+  <http://example.org/roadtrip/hasCountryName> "Greece";
+  <http://example.org/roadtrip/hasCurrency> "EUR" .
+
+<http://example.org/countries/Ecuador> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Quito";
+  <http://example.org/roadtrip/hasCountryName> "Ecuador";
+  <http://example.org/roadtrip/hasCurrency> "USD" .
+
+<http://example.org/countries/Croatia> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Zagreb";
+  <http://example.org/roadtrip/hasCountryName> "Croatia";
+  <http://example.org/roadtrip/hasCurrency> "HRK" .
+
+<http://example.org/countries/Bolivia> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Sucre";
+  <http://example.org/roadtrip/hasCountryName> "Bolivia";
+  <http://example.org/roadtrip/hasCurrency> "BOB" .
+
+<http://example.org/countries/Myanmar> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Nay Pyi Taw";
+  <http://example.org/roadtrip/hasCountryName> "Myanmar";
+  <http://example.org/roadtrip/hasCurrency> "MMK" .
+
+<http://example.org/countries/Egypt> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Cairo";
+  <http://example.org/roadtrip/hasCountryName> "Egypt";
+  <http://example.org/roadtrip/hasCurrency> "EGP" .
+
+<http://example.org/countries/Zimbabwe> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Harare";
+  <http://example.org/roadtrip/hasCountryName> "Zimbabwe";
+  <http://example.org/roadtrip/hasCurrency> "ZWL" .
+
+<http://example.org/countries/France> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Paris";
+  <http://example.org/roadtrip/hasCountryName> "France";
+  <http://example.org/roadtrip/hasCurrency> "EUR" .
+
+<http://example.org/countries/Vietnam> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Hanoi";
+  <http://example.org/roadtrip/hasCountryName> "Vietnam";
+  <http://example.org/roadtrip/hasCurrency> "VND" .
+
+<http://example.org/countries/Czech%20Republic> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Prague";
+  <http://example.org/roadtrip/hasCountryName> "Czech Republic";
+  <http://example.org/roadtrip/hasCurrency> "CZK" .
+
+<http://example.org/countries/Chile> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Santiago";
+  <http://example.org/roadtrip/hasCountryName> "Chile";
+  <http://example.org/roadtrip/hasCurrency> "CLP" .
+
+<http://example.org/countries/Russia> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Moscow";
+  <http://example.org/roadtrip/hasCountryName> "Russia";
+  <http://example.org/roadtrip/hasCurrency> "RUB" .
+
+<http://example.org/countries/Cuba> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Havana";
+  <http://example.org/roadtrip/hasCountryName> "Cuba";
+  <http://example.org/roadtrip/hasCurrency> "CUP" .
+
+<http://example.org/countries/South%20Africa> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Pretoria";
+  <http://example.org/roadtrip/hasCountryName> "South Africa";
+  <http://example.org/roadtrip/hasCurrency> "ZAR" .
+
+<http://example.org/countries/Tanzania> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Dodoma";
+  <http://example.org/roadtrip/hasCountryName> "Tanzania";
+  <http://example.org/roadtrip/hasCurrency> "TZS" .
+
+<http://example.org/countries/Montenegro> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Podgorica";
+  <http://example.org/roadtrip/hasCountryName> "Montenegro";
+  <http://example.org/roadtrip/hasCurrency> "EUR" .
+
+<http://example.org/countries/Japan> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Tokyo";
+  <http://example.org/roadtrip/hasCountryName> "Japan";
+  <http://example.org/roadtrip/hasCurrency> "JPY" .
+
+<http://example.org/countries/Iran> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Tehran";
+  <http://example.org/roadtrip/hasCountryName> "Iran";
+  <http://example.org/roadtrip/hasCurrency> "IRR" .
+
+<http://example.org/countries/Netherlands> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Amsterdam";
+  <http://example.org/roadtrip/hasCountryName> "Netherlands";
+  <http://example.org/roadtrip/hasCurrency> "EUR" .
+
+<http://example.org/countries/Iceland> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Reykjavik";
+  <http://example.org/roadtrip/hasCountryName> "Iceland";
+  <http://example.org/roadtrip/hasCurrency> "ISK" .
+
+<http://example.org/countries/Germany> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Berlin";
+  <http://example.org/roadtrip/hasCountryName> "Germany";
+  <http://example.org/roadtrip/hasCurrency> "EUR" .
+
+<http://example.org/countries/Thailand> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Bangkok";
+  <http://example.org/roadtrip/hasCountryName> "Thailand";
+  <http://example.org/roadtrip/hasCurrency> "THB" .
+
+<http://example.org/countries/Mexico> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Mexico City";
+  <http://example.org/roadtrip/hasCountryName> "Mexico";
+  <http://example.org/roadtrip/hasCurrency> "MXN" .
+
+<http://example.org/countries/Greenland> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Nuuk";
+  <http://example.org/roadtrip/hasCountryName> "Greenland";
+  <http://example.org/roadtrip/hasCurrency> "DKK" .
+
+<http://example.org/countries/Brazil> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Brasilia";
+  <http://example.org/roadtrip/hasCountryName> "Brazil";
+  <http://example.org/roadtrip/hasCurrency> "BRL" .
+
+<http://example.org/countries/Ethiopia> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Addis Ababa";
+  <http://example.org/roadtrip/hasCountryName> "Ethiopia";
+  <http://example.org/roadtrip/hasCurrency> "ETB" .
+
+<http://example.org/countries/Slovenia> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Ljubljana";
+  <http://example.org/roadtrip/hasCountryName> "Slovenia";
+  <http://example.org/roadtrip/hasCurrency> "EUR" .
+
+<http://example.org/countries/Kenya> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Nairobi";
+  <http://example.org/roadtrip/hasCountryName> "Kenya";
+  <http://example.org/roadtrip/hasCurrency> "KES" .
+
+<http://example.org/countries/Vatican%20City%20State%20%2528Holy%20See%2529> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Vatican City";
+  <http://example.org/roadtrip/hasCountryName> "Vatican City State %28Holy See%29";
+  <http://example.org/roadtrip/hasCurrency> "EUR" .
+
+<http://example.org/countries/Israel> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Jerusalem";
+  <http://example.org/roadtrip/hasCountryName> "Israel";
+  <http://example.org/roadtrip/hasCurrency> "ILS" .
+
+<http://example.org/countries/Nepal> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Kathmandu";
+  <http://example.org/roadtrip/hasCountryName> "Nepal";
+  <http://example.org/roadtrip/hasCurrency> "NPR" .
+
+<http://example.org/countries/Switzerland> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Bern";
+  <http://example.org/roadtrip/hasCountryName> "Switzerland";
+  <http://example.org/roadtrip/hasCurrency> "CHF" .
+
+<http://example.org/countries/Sweden> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Stockholm";
+  <http://example.org/roadtrip/hasCountryName> "Sweden";
+  <http://example.org/roadtrip/hasCurrency> "SEK" .
+
+<http://example.org/countries/Botswana> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Gaborone";
+  <http://example.org/roadtrip/hasCountryName> "Botswana";
+  <http://example.org/roadtrip/hasCurrency> "BWP" .
+
+<http://example.org/countries/Poland> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Warsaw";
+  <http://example.org/roadtrip/hasCountryName> "Poland";
+  <http://example.org/roadtrip/hasCurrency> "PLN" .
+
+<http://example.org/countries/Costa%20Rica> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "San Jose";
+  <http://example.org/roadtrip/hasCountryName> "Costa Rica";
+  <http://example.org/roadtrip/hasCurrency> "CRC" .
+
+<http://example.org/countries/Canada> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Ottawa";
+  <http://example.org/roadtrip/hasCountryName> "Canada";
+  <http://example.org/roadtrip/hasCurrency> "CAD" .
+
+<http://example.org/countries/Hungary> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Budapest";
+  <http://example.org/roadtrip/hasCountryName> "Hungary";
+  <http://example.org/roadtrip/hasCurrency> "HUF" .
+
+<http://example.org/countries/Estonia> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Tallinn";
+  <http://example.org/roadtrip/hasCountryName> "Estonia";
+  <http://example.org/roadtrip/hasCurrency> "EUR" .
+
+<http://example.org/countries/Bosnia%20and%20Herzegovina> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Sarajevo";
+  <http://example.org/roadtrip/hasCountryName> "Bosnia and Herzegovina";
+  <http://example.org/roadtrip/hasCurrency> "BAM" .
+
+<http://example.org/countries/Hong%20Kong%20S.A.R.> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Hong Kong";
+  <http://example.org/roadtrip/hasCountryName> "Hong Kong S.A.R.";
+  <http://example.org/roadtrip/hasCurrency> "HKD" .
+
+<http://example.org/countries/Norway> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Oslo";
+  <http://example.org/roadtrip/hasCountryName> "Norway";
+  <http://example.org/roadtrip/hasCurrency> "NOK" .
+
+<http://example.org/countries/Mozambique> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Maputo";
+  <http://example.org/roadtrip/hasCountryName> "Mozambique";
+  <http://example.org/roadtrip/hasCurrency> "MZN" .
+
+<http://example.org/countries/Colombia> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Bogota";
+  <http://example.org/roadtrip/hasCountryName> "Colombia";
+  <http://example.org/roadtrip/hasCurrency> "COP" .
+
+<http://example.org/countries/Portugal> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Lisbon";
+  <http://example.org/roadtrip/hasCountryName> "Portugal";
+  <http://example.org/roadtrip/hasCurrency> "EUR" .
+
+<http://example.org/countries/Ukraine> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Kiev";
+  <http://example.org/roadtrip/hasCountryName> "Ukraine";
+  <http://example.org/roadtrip/hasCurrency> "UAH" .
+
+<http://example.org/countries/Antarctica> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "nan";
+  <http://example.org/roadtrip/hasCountryName> "Antarctica" .
+
+<http://example.org/countries/Malaysia> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Kuala Lumpur";
+  <http://example.org/roadtrip/hasCountryName> "Malaysia";
+  <http://example.org/roadtrip/hasCurrency> "MYR" .
+
+<http://example.org/countries/Ghana> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Accra";
+  <http://example.org/roadtrip/hasCountryName> "Ghana";
+  <http://example.org/roadtrip/hasCurrency> "GHS" .
+
+<http://example.org/countries/Belgium> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Brussels";
+  <http://example.org/roadtrip/hasCountryName> "Belgium";
+  <http://example.org/roadtrip/hasCurrency> "EUR" .
+
+<http://example.org/countries/Rwanda> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Kigali";
+  <http://example.org/roadtrip/hasCountryName> "Rwanda";
+  <http://example.org/roadtrip/hasCurrency> "RWF" .
+
+<http://example.org/countries/Singapore> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Singapur";
+  <http://example.org/roadtrip/hasCountryName> "Singapore";
+  <http://example.org/roadtrip/hasCurrency> "SGD" .
+
+<http://example.org/countries/Sri%20Lanka> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Colombo";
+  <http://example.org/roadtrip/hasCountryName> "Sri Lanka";
+  <http://example.org/roadtrip/hasCurrency> "LKR" .
+
+<http://example.org/countries/Georgia> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Tbilisi";
+  <http://example.org/roadtrip/hasCountryName> "Georgia";
+  <http://example.org/roadtrip/hasCurrency> "GEL" .
+
+<http://example.org/countries/Korea%20South> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Seoul";
+  <http://example.org/roadtrip/hasCountryName> "Korea South";
+  <http://example.org/roadtrip/hasCurrency> "KRW" .
+
+<http://example.org/countries/Laos> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Vientiane";
+  <http://example.org/roadtrip/hasCountryName> "Laos";
+  <http://example.org/roadtrip/hasCurrency> "LAK" .
+
+<http://example.org/countries/Senegal> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Dakar";
+  <http://example.org/roadtrip/hasCountryName> "Senegal";
+  <http://example.org/roadtrip/hasCurrency> "XOF" .
+
+<http://example.org/countries/Algeria> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Algiers";
+  <http://example.org/roadtrip/hasCountryName> "Algeria";
+  <http://example.org/roadtrip/hasCurrency> "DZD" .
+
+<http://example.org/countries/Philippines> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Manila";
+  <http://example.org/roadtrip/hasCountryName> "Philippines";
+  <http://example.org/roadtrip/hasCurrency> "PHP" .
+
+<http://example.org/countries/Namibia> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Windhoek";
+  <http://example.org/roadtrip/hasCountryName> "Namibia";
+  <http://example.org/roadtrip/hasCurrency> "NAD" .
+
+<http://example.org/countries/Palau> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Melekeok";
+  <http://example.org/roadtrip/hasCountryName> "Palau";
+  <http://example.org/roadtrip/hasCurrency> "USD" .
+
+<http://example.org/countries/Tunisia> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Tunis";
+  <http://example.org/roadtrip/hasCountryName> "Tunisia";
+  <http://example.org/roadtrip/hasCurrency> "TND" .
+
+<http://example.org/countries/Ireland> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Dublin";
+  <http://example.org/roadtrip/hasCountryName> "Ireland";
+  <http://example.org/roadtrip/hasCurrency> "EUR" .
+
+<http://example.org/countries/Indonesia> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Jakarta";
+  <http://example.org/roadtrip/hasCountryName> "Indonesia";
+  <http://example.org/roadtrip/hasCurrency> "IDR" .
+
+<http://example.org/countries/Bulgaria> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Sofia";
+  <http://example.org/roadtrip/hasCountryName> "Bulgaria";
+  <http://example.org/roadtrip/hasCurrency> "BGN" .
+
+<http://example.org/countries/United%20Arab%20Emirates> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Abu Dhabi";
+  <http://example.org/roadtrip/hasCountryName> "United Arab Emirates";
+  <http://example.org/roadtrip/hasCurrency> "AED" .
+
+<http://example.org/countries/Mali> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Bamako";
+  <http://example.org/roadtrip/hasCountryName> "Mali";
+  <http://example.org/roadtrip/hasCurrency> "XOF" .
+
+<http://example.org/countries/Tajikistan> a <http://example.org/roadtrip/Country>;
+  <http://example.org/roadtrip/hasCountryCapital> "Dushanbe";
+  <http://example.org/roadtrip/hasCountryName> "Tajikistan";
+  <http://example.org/roadtrip/hasCurrency> "TJS" .
