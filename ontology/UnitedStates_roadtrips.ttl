@@ -1,0 +1,37 @@
+@prefix country: <http://example.org/roadtrip/country#>.
+@prefix activity: <http://example.org/roadtrip/activity#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns1: <http://example.org/roadtrip#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix itin: <http://example.org/roadtrip/itinerary#>.
+@prefix transport:  <http://example.org/transport#>.
+@prefix :  <http://example.org/roadtrips#>.
+@prefix user:  <http://example.org/user#> .
+
+
+
+:USUrbanRoadTrip a ns1:UrbanRoadTrip;
+    ns1:in country:UnitedStates;
+    ns1:hasItinerary itin:ItineraryUSUrban;
+    ns1:hasReview _:blankNode1;
+    ns1:startingDate "2023-08-15"^^xsd:date ;
+    ns1:endingDate "2023-08-29"^^xsd:date ;
+    ns1:participants  user:Jean.
+
+
+:USRuralRoadTrip a ns1:RuralRoadTrip;
+    ns1:in country:UnitedStates;
+    ns1:hasItinerary itin:ItineraryUSRural;
+    ns1:startingDate "2024-03-12"^^xsd:date ;
+    ns1:endingDate "2024-04-19"^^xsd:date.
+
+
+
+_:blankNode1 a ns1:Review;
+    ns1:content "Navigating the vibrant urban tapestry of the USA, my expedition led me to iconic landmarks. The Golden Gate Bridge in San Francisco stood majestic, connecting city and nature seamlessly. Walt Disney Studios in Los Angeles sparked creativity, while the luminous allure of Times Square in New York City illuminated the heart of entertainment and excitement.";
+    ns1:writtenBy user:Jean.
+
+
+_:blankNode1 a ns1:Review;
+    ns1:content "Embarking on a memorable journey through the USA, my adventure unfolded amidst the breathtaking landscapes of iconic national parks. From the towering peaks of Yosemite to the vast Grand canyons , each hike revealed nature's grandeur. A tapestry of diverse terrains showcased the country's untamed beauty, making every step a discovery.";
+    ns1:writtenBy user:Marie.

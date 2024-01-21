@@ -12,7 +12,7 @@
     :hasEndingPoint activity:EiffelTower ;
     :hasRoute _:blankNode1, _:blankNode2, _:blankNode3, _:blankNode4.
     
-:ItineraryFranceRurala a ns1:Itinerary ;
+:ItineraryFranceRural a ns1:Itinerary ;
 	:hasStartingPoint activity:MontStMichel;
 	:hasEndingPoint activity:GorgesDuVerdon  ;
 	:hasRoute _:blankNode5, _:blankNode6, _:blankNode7.

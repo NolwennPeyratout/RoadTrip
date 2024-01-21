@@ -11,7 +11,7 @@
     :hasEndingPoint activity:StatueOfLiberty ;
     :hasRoute _:blankNode1, _:blankNode2, _:blankNode3, _:blankNode4, _:blankNode5, _:blankNode6, _:blankNode7, _:blankNode8.
     
-:ItineraryFranceRurala a ns1:Itinerary ;
+:ItineraryUSRural a ns1:Itinerary ;
 	:hasStartingPoint activity:Yosemite;
 	:hasEndingPoint activity:GrandCanyon  ;
 	:hasRoute _:blankNode9, _:blankNode10, _:blankNode11, _:blankNode12, _:blankNode13.
