@@ -8,11 +8,52 @@
   "url": "activities.csv",
   "tableSchema": {
     "aboutUrl": "http://example.org/activities/{Name}",
+    
     "columns": [
-      {"name": "Name", "titles": ["Name"],"propertyUrl": "schema:name"},
-      {"name":"Country","titles":["Location"] ,"propertyUrl": "schema:country"},
-      {"name":"Image","titles":["Image"] ,"propertyUrl": "schema:image"}
-
+      {
+        "titles": ["Name"],
+        "datatype": "string",
+        "propertyUrl": "http://example.org/roadtrip/hasActivityName"
+      },
+      {
+        "titles": ["Location"],
+        "datatype": "string",
+        "aboutUrl": "http://example.org/activities/{Name}#country",
+        "propertyUrl": "http://example.org/roadtrip/hasCountryName"
+      },
+      
+      {
+        "titles": ["Image"],
+        "datatype": "string",
+        "aboutUrl": "http://example.org/activities/{Name}#image",
+        "propertyUrl": "http://example.org/roadtrip/hasLink"
+      },
+      {
+        "virtual": true,
+        "propertyUrl": "rdf:type",
+        "valueUrl": "http://example.org/roadtrip/Activity"
+    }  ,
+     {
+      "virtual": true,
+      "propertyUrl": "http://example.org/roadtrip/hasCountry",
+      "valueUrl": "http://example.org/activities/{Name}#country"
+    },
+    {
+      "virtual": true,
+      "aboutUrl":  "http://example.org/activities/{Name}#country",
+      "propertyUrl": "rdf:type",
+      "valueUrl": "http://example.org/roadtrip/Country"
+    },  {
+      "virtual": true,
+      "propertyUrl": "http://example.org/roadtrip/hasImage",
+      "valueUrl": "http://example.org/activities/{Name}#image"
+    },
+    {
+      "virtual": true,
+      "aboutUrl":  "http://example.org/activities/{Name}#image",
+      "propertyUrl": "rdf:type",
+      "valueUrl": "http://example.org/roadtrip/Image"
+    }
     ]
   }
 }  
