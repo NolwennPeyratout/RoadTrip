@@ -245,21 +245,6 @@
            owl:disjointWith :RuralActivity.
 
 
-:hasImage 
-        a       owl:DatatypeProperty ;
-    rdfs:domain :Activity ;
-    rdfs:range :Image .
-
-
-:Image
-    a        owl:Class ;
-    rdfs:label "Image" ;
-    rdfs:comment "Image of an object, monument, nature,...etc" .
-
-:hasLink 
-	a 		owl:ObjectProperty ;
-    rdfs:domain :Image ;
-    rdfs:range xsd:string .
 
 #route
 :Route
