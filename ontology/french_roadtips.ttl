@@ -1,0 +1,39 @@
+@prefix country: <http://example.org/roadtrip/country#>.
+@prefix activity: <http://example.org/roadtrip/activity#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns1: <http://example.org/roadtrip#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix itin: <http://example.org/roadtrip/itinerary#>.
+@prefix transport:  <http://example.org/transport#>.
+@prefix :  <http://example.org/roadtrips#>.
+@prefix user:  <http://example.org/user#> .
+
+
+
+:FrenchUrbanRoadTrip a ns1:UrbanRoadTrip;
+    ns1:in country:France;
+    ns1:hasItinerary itin:ItineraryFranceUrban;
+    ns1:hasReview _:blankNode1;
+    ns1:startingDate "2023-03-15"^^xsd:date ;
+    ns1:endingDate "2023-03-17"^^xsd:date ;
+    ns1:participants user:Marie, user:Jean.
+
+
+:FrenchRuralRoadTrip a ns1:RuralRoadTrip;
+    ns1:in country:France;
+    ns1:hasItinerary itin:ItineraryFranceRural;
+    ns1:hasReview _:blankNode2;
+    ns1:startingDate "2023-06-1"^^xsd:date ;
+    ns1:endingDate "2023-06-5"^^xsd:date ;
+    ns1:participants user:Jean.
+
+
+
+_:blankNode1 a ns1:Review;
+    ns1:content "The Urban Exploration itinerary in France offers a captivating journey through some of the country's most iconic urban landmarks. Starting from the medieval charm of Carcassonne and culminating at the majestic Eiffel Tower in Paris, this road trip seamlessly blends historical sites with modern marvels.";
+    ns1:writtenBy user:Marie.
+
+
+_:blankNode1 a ns1:Review;
+    ns1:content "The Rural Adventure itinerary in France promises a scenic journey through the countryside, showcasing the natural beauty and rural landscapes of the country. From the picturesque Mont St. Michel to the breathtaking Gorges du Verdon, this road trip is a perfect escape for nature lovers.";
+    ns1:writtenBy user:Jean.
