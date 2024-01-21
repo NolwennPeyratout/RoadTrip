@@ -3,14 +3,14 @@ PREFIX ex: <http://ns.inria.fr/sparql-micro-service/api#>
 PREFIX : <http://example.org/roadtrip/>
 
 
-SELECT ?name ?country_name ?id (GROUP_CONCAT(?type; SEPARATOR=",") AS ?types) ?latitude ?longitude ?rating ?open_now ?budget ?address
+SELECT ?name ?address ?country_name ?id (GROUP_CONCAT(?type; SEPARATOR=",") AS ?types) ?latitude ?longitude ?rating ?open_now ?budget 
 WHERE {
  ?a a :Activity;
     :hasActivityName ?name;
     :hasCountry ?country.
   ?country :hasCountryName ?country_name.
 
-BIND(IRI(CONCAT("http://localhost/service/roadtrip/getInformation?place=",?name)) as ?serviceURI)
+BIND(IRI(CONCAT("http://localhost/service/roadtrip/getInformation?place=",CONCAT(?name, ", ", ?country_name))) as ?serviceURI)
 
 SERVICE ?serviceURI{
   ?s ex:place_id ?id.
