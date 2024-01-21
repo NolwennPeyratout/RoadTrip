@@ -1896,3 +1896,899 @@ ns1:hasAddress "00120 Vatican City" ;
   ns1:hasRating "4.70000"^^xsd:double ;
   ns1:id "ChIJsze106WTABURB12LlZJViOk" ;
   a ns1:RuralActivity .
+
+
+:AiguilleDuMidi ns1:hasActivityName "Aiguille Du Midi" ;
+  ns1:hasCountry country:France ;
+  ns1:hasLocation [ns1:hasAddress "Aiguille du Midi, 74400 Chamonix, France" ;
+                   ns1:hasLatitude "45.8793"^^xsd:double ;
+                   ns1:hasLongitude "6.88742"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:id "ChIJJTYVihpPiUcR_GvGdBZgFIg" ;
+  a ns1:Ruralctivity .
+
+:Alcatraz ns1:hasActivityName "Alcatraz" ;
+  ns1:hasCountry country:UnitedStates ;
+  ns1:hasLocation [ns1:hasAddress "Alcatraz Island, San Francisco, CA, USA" ;
+                   ns1:hasLatitude "37.8267"^^xsd:double ;
+                   ns1:hasLongitude "-122.423"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.70000"^^xsd:double ;
+  ns1:id "ChIJI09XaRWBhYARF65xWugonBg" ;
+  a ns1:Ruralctivity .
+
+:BigSur ns1:hasActivityName "Big Sur" ;
+  ns1:hasCountry country:UnitedStates ;
+  ns1:hasLocation [ns1:hasAddress "Big Sur, CA, USA" ;
+                   ns1:hasLatitude "36.2704"^^xsd:double ;
+                   ns1:hasLongitude "-121.808"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.60000"^^xsd:double ;
+  ns1:id "ChIJd00OeKfojYARYazvylnY6Dc" ;
+  a ns1:RuralActivity .
+
+:Carcassonne ns1:hasActivityName "Carcassonne" ;
+  ns1:hasCountry country:France ;
+  ns1:hasLocation [ns1:hasAddress "11000 Carcassonne, France" ;
+                   ns1:hasLatitude "43.2132"^^xsd:double ;
+                   ns1:hasLongitude "2.35177"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:id "ChIJi70WATksrhIRxxShdzvfj-I" ;
+  a ns1:UrbanActivity .
+
+:EmpireStateBuilding ns1:hasActivityName "Empire State Building" ;
+  ns1:hasCountry country:UnitedStates ;
+  ns1:hasLocation [ns1:hasAddress "20 W 34th St., New York, NY 10001, United States" ;
+                   ns1:hasLatitude "40.7484"^^xsd:double ;
+                   ns1:hasLongitude "-73.9857"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.70000"^^xsd:double ;
+  ns1:id "ChIJaXQRs6lZwokRY6EFpJnhNNE" ;
+  a ns1:UrbanActivity .
+  
+:GoldenGateBridge ns1:hasActivityName "Golden Gate Bridge" ;
+  ns1:hasCountry country:UnitedStates ;
+  ns1:hasLocation [ns1:hasAddress "Golden Gate Brg, San Francisco, CA, United States" ;
+                   ns1:hasLatitude "37.8199"^^xsd:double ;
+                   ns1:hasLongitude "-122.479"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:id "ChIJw96GhYARCVVwg5cT7c0" ;
+  a ns1:UrbanActivity .
+
+:GorgesDuVerdon ns1:hasActivityName "Gorges Du Verdon" ;
+  ns1:hasCountry country:France ;
+  ns1:hasLocation [ns1:hasAddress "Verdon Gorge, France" ;
+                   ns1:hasLatitude "43.7614"^^xsd:double ;
+                   ns1:hasLongitude "6.37884"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:id "ChIJfbkvB735yxIRCeXMqWH0znQ" ;
+  a ns1:RuralActivity .
+
+:LeCimetieredePereLachaise ns1:hasActivityName "Le Cimetière de Père Lachaise" ;
+  ns1:hasCountry country:France ;
+  ns1:hasLocation [ns1:hasAddress "75020 Paris, France" ;
+                   ns1:hasLatitude "48.8615"^^xsd:double ;
+                   ns1:hasLongitude "2.39347"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.60000"^^xsd:double ;
+  ns1:id "ChIJhadpXItt5kcRGWQLUydhz6E" ;
+  a ns1:UrbanActivity .
+
+:MetropolitanMuseumofArt ns1:hasActivityName "Metropolitan Museum of Art" ;
+  ns1:hasCountry country:UnitedStates ;
+  ns1:hasLocation [ns1:hasAddress "1000 5th Ave, New York, NY 10028, United States" ;
+                   ns1:hasLatitude "40.7794"^^xsd:double ;
+                   ns1:hasLongitude "-73.9632"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:id "ChIJb8Jg9pZYwokR-qHGtvSkLzs" ;
+  a ns1:UrbanActivity .
+
+:MontBlanc ns1:hasActivityName "Mont Blanc" ;
+  ns1:hasCountry country:France ;
+  ns1:hasLocation [ns1:hasAddress "Mont Blanc" ;
+                   ns1:hasLatitude "45.8326"^^xsd:double ;
+                   ns1:hasLongitude "6.86517"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.60000"^^xsd:double ;
+  ns1:id "ChIJUb40tZ9FiUcRwMTOXYxyCKk" ;
+  a ns1:RuralActivity .
+
+:MontStMichel ns1:hasActivityName "Mont St Michel" ;
+  ns1:hasCountry country:France ;
+  ns1:hasLocation [ns1:hasAddress "50170 Mont Saint-Michel, France" ;
+                   ns1:hasLatitude "48.6361"^^xsd:double ;
+                   ns1:hasLongitude "-1.51146"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.60000"^^xsd:double ;
+  ns1:id "ChIJs-6cfNaoDkgR_sMNfuRMg8U" ;
+  a ns1:RuralActivity .
+
+
+:MonumentValley ns1:hasActivityName "Monument Valley" ;
+  ns1:hasCountry country:UnitedStates ;
+  ns1:hasLocation [ns1:hasAddress "Arizona, United States" ;
+                   ns1:hasLatitude "36.9669"^^xsd:double ;
+                   ns1:hasLongitude "-110.080"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.70000"^^xsd:double ;
+  ns1:id "ChIJ_Wih_4MxN4cRbkumBBeRn80" ;
+  a ns1:RuralActivity .
+
+:NationalMall ns1:hasActivityName "National Mall" ;
+  ns1:hasCountry country:UnitedStates ;
+  ns1:hasLocation [ns1:hasAddress "Washington, DC, United States" ;
+                   ns1:hasLatitude "38.8875"^^xsd:double ;
+                   ns1:hasLongitude "-77.0364"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:id "ChIJMT3_Wpu3t4kRQScGokyrCDo" ;
+  a ns1:UrbanActivity .
+
+:NaturalHistoryMuseumDC ns1:hasActivityName "Natural History Museum D.C." ;
+  ns1:hasCountry country:UnitedStates ;
+  ns1:hasLocation [ns1:hasAddress "10th St. & Constitution Ave. NW, Washington, DC 20560, United States" ;
+                   ns1:hasLatitude "38.8913"^^xsd:double ;
+                   ns1:hasLongitude "-77.0261"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:id "ChIJx7K17Ji3t4kRr3VvqMTw7cc" ;
+  a ns1:UrbanActivity .
+
+:PontDuGard ns1:hasActivityName "Pont Du Gard" ;
+  ns1:hasCountry country:France ;
+  ns1:hasLocation [ns1:hasAddress "30210 Vers-Pont-du-Gard, France" ;
+                   ns1:hasLatitude "43.9476"^^xsd:double ;
+                   ns1:hasLongitude "4.53496"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.60000"^^xsd:double ;
+  ns1:id "ChIJ1QTnSMLItRIR4uqG8xlzsSY" ;
+  a ns1:RuralActivity .
+
+:RedwoodNationalPark ns1:hasActivityName "Redwood National Park" ;
+  ns1:hasCountry country:UnitedStates ;
+  ns1:hasLocation [ns1:hasAddress "California, United States" ;
+                   ns1:hasLatitude "41.4017"^^xsd:double ;
+                   ns1:hasLongitude "-124.042"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.90000"^^xsd:double ;
+  ns1:id "ChIJpX9B9TZm0FQRjl87lWYyzzY" ;
+  a ns1:RuralActivity .
+
+:StatueofLiberty ns1:hasActivityName "Statue of Liberty" ;
+  ns1:hasCountry country:UnitedStates ;
+  ns1:hasLocation [ns1:hasAddress "New York, NY 10004, United States" ;
+                   ns1:hasLatitude "40.6892"^^xsd:double ;
+                   ns1:hasLongitude "-74.0445"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.70000"^^xsd:double ;
+  ns1:id "ChIJPTacEpBQwokRKwIlDXelxkA" ;
+  a ns1:UrbanActivity .
+
+:TimesSquare ns1:hasActivityName "Times Square" ;
+  ns1:hasCountry country:UnitedStates ;
+  ns1:hasLocation [ns1:hasAddress "Manhattan, NY 10036, United States" ;
+                   ns1:hasLatitude "40.7580"^^xsd:double ;
+                   ns1:hasLongitude "-73.9855"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.70000"^^xsd:double ;
+  ns1:id "ChIJmQJIxlVYwokRLgeuocVOGVU" ;
+  a ns1:UrbanActivity .
+
+:Versailles ns1:hasActivityName "Versailles" ;
+  ns1:hasCountry country:France ;
+  ns1:hasLocation [ns1:hasAddress "78000 Versailles, France" ;
+                   ns1:hasLatitude "48.8014"^^xsd:double ;
+                   ns1:hasLongitude "2.13012"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.60000"^^xsd:double ;
+  ns1:id "ChIJvSD0dbR95kcRukqEDa0AnoY" ;
+  a ns1:RuralActivity .
+
+:WaltDisneyWorld ns1:hasActivityName "Walt Disney World" ;
+  ns1:hasCountry country:UnitedStates ;
+  ns1:hasLocation [ns1:hasAddress "Florida, United States" ;
+                   ns1:hasLatitude "28.3772"^^xsd:double ;
+                   ns1:hasLongitude "-81.5707"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.70000"^^xsd:double ;
+  ns1:id "ChIJ96XKNOZ-3YgRoPEc0B85Hqc" ;
+  a ns1:UrbanActivity .
+
+:YellowstoneNationalPark ns1:hasActivityName "Yellowstone National Park" ;
+  ns1:hasCountry country:UnitedStates ;
+  ns1:hasLocation [ns1:hasAddress "United States" ;
+                   ns1:hasLatitude "44.4280"^^xsd:double ;
+                   ns1:hasLongitude "-110.588"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:id "ChIJVVVVVVXlUVMRu-GPNDD5qKw" ;
+  a ns1:RuralActivity .
+
+
+
+ns1:Alhambra ns1:hasActivityName "Alhambra" ;
+  ns1:hasCountry country:Spain ;
+  ns1:hasLocation [
+    ns1:hasAddress "C. Real de la Alhambra, s/n, Centro, 18009 Granada, Spain" ;
+    ns1:hasLatitude "37.1761"^^xsd:double ;
+    ns1:hasLongitude "-3.58814"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:id "ChIJO7l_l7f8cQ0Rf6IhEu_RjYA" ;
+  a ns1:UrbanActivity .
+
+ns1:AngkorWat ns1:hasActivityName "Angkor Wat" ;
+  ns1:hasCountry country:Cambodia ;
+  ns1:hasLocation [
+    ns1:hasAddress "Krong Siem Reap, Cambodia" ;
+    ns1:hasLatitude "13.4125"^^xsd:double ;
+    ns1:hasLongitude "103.867"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:id "ChIJLSea6ooWEDERjUGwVxGoqz4" ;
+  a ns1:RuralActivity .
+
+ns1:AyaSofya ns1:hasActivityName "Aya Sofya (Hagia Sophia)" ;
+  ns1:hasCountry country:Turkey ;
+  ns1:hasLocation [
+    ns1:hasAddress "Sultan Ahmet, Ayasofya Meydanı No:1, 34122 Fatih/İstanbul, Türkiye" ;
+    ns1:hasLatitude "41.0086"^^xsd:double ;
+    ns1:hasLongitude "28.9802"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:id "ChIJJxwBkr65yhQRrk9EN29vbiM" ;
+  a ns1:UrbanActivity .
+
+ns1:Colosseum ns1:hasActivityName "Colosseum" ;
+  ns1:hasCountry country:Italy ;
+  ns1:hasLocation [
+    ns1:hasAddress "Piazza del Colosseo, 1, 00184 Roma RM, Italy" ;
+    ns1:hasLatitude "41.8902"^^xsd:double ;
+    ns1:hasLongitude "12.4922"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:hasRating "4.70000"^^xsd:double ;
+  ns1:id "ChIJrRMgU7ZhLxMRxAOFkC7I8Sg" ;
+  a ns1:UrbanActivity .
+
+ns1:GrandCanyon ns1:hasActivityName "Grand Canyon" ;
+  ns1:hasCountry country:UnitedStates ;
+  ns1:hasLocation [
+    ns1:hasAddress "Arizona, United States" ;
+    ns1:hasLatitude "36.2679"^^xsd:double ;
+    ns1:hasLongitude "-112.354"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:id "ChIJFU2bda4SM4cRKSCRyb6pOB8" ;
+  a ns1:UrbanActivity .
+
+
+ns1:GreatWallOfChina ns1:hasActivityName "Great Wall of China" ;
+  ns1:hasCountry country:China ;
+  ns1:hasLocation [
+    ns1:hasAddress "Huairou District, China, 101406" ;
+    ns1:hasLatitude "40.4319"^^xsd:double ;
+    ns1:hasLongitude "116.570"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:hasRating "4.30000"^^xsd:double ;
+  ns1:id "ChIJzyx_aNch8TUR3yIFlZslQNA" ;
+  a ns1:UrbanActivity .
+
+
+ns1:IguazuFalls ns1:hasActivityName "Iguazu Falls" ;
+  ns1:hasCountry country:Argentina ;
+  ns1:hasLocation [
+    ns1:hasAddress "Iguazu Falls" ;
+    ns1:hasLatitude "-25.6909"^^xsd:double ;
+    ns1:hasLongitude "-54.4408"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:hasRating "4.90000"^^xsd:double ;
+  ns1:id "ChIJ50jnOXPq9pQRL5ZsgeofhRw" ;
+  a ns1:RuralActivity .
+
+
+ns1:MachuPicchu ns1:hasActivityName "Machu Picchu" ;
+  ns1:hasCountry country:Peru ;
+  ns1:hasLocation [
+    ns1:hasAddress "08680, Peru" ;
+    ns1:hasLatitude "-13.1632"^^xsd:double ;
+    ns1:hasLongitude "-72.5453"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:id "ChIJVVVViV-abZERJxqgpA43EDo" ;
+  a ns1:UrbanActivity .
+
+ns1:Petra ns1:hasActivityName "Petra" ;
+  ns1:hasCountry country:Jordan ;
+  ns1:hasLocation [
+    ns1:hasAddress "Jordan" ;
+    ns1:hasLatitude "30.3285"^^xsd:double ;
+    ns1:hasLongitude "35.4444"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:id "ChIJcWA7cPFuARURkSKaZwj5mxk" ;
+  a ns1:UrbanActivity .
+
+
+ns1:TajMahal ns1:hasActivityName "Taj Mahal" ;
+  ns1:hasCountry country:India ;
+  ns1:hasLocation [
+    ns1:hasAddress "Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh 282001, India" ;
+    ns1:hasLatitude "27.1751"^^xsd:double ;
+    ns1:hasLongitude "78.0421"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:hasRating "4.60000"^^xsd:double ;
+  ns1:id "ChIJbf8C1yFxdDkR3n12P4DkKt0" ;
+  a ns1:UrbanActivity .
+
+
+ns1:TikalNationalPark ns1:hasActivityName "Tikal National Park" ;
+  ns1:hasCountry country:Guatemala ;
+  ns1:hasLocation [
+    ns1:hasAddress "RD-PET-3, Guatemala" ;
+    ns1:hasLatitude "17.1170"^^xsd:double ;
+    ns1:hasLongitude "-89.6763"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:id "ChIJs6MlPcSiX48Roj5-i5mXOK4" ;
+  a ns1:RuralActivity .
+
+
+ns1:TwelveApostles ns1:hasActivityName "Twelve Apostles" ;
+  ns1:hasCountry country:Australia ;
+  ns1:hasLocation [
+    ns1:hasAddress "Twelve Apostles, Victoria, Australia" ;
+    ns1:hasLatitude "-38.6646"^^xsd:double ;
+    ns1:hasLongitude "143.103"^^xsd:double ;
+    a ns1:Location
+  ] ;
+    ns1:hasRating "4.80000"^^xsd:double ;
+    ns1:id "ChIJDz1H5hWegqoRMfiDyQGd0tE" ;
+    a ns1:RuralActivity .
+
+
+
+ns1:AcropolisOfAthens ns1:hasActivityName "Acropolis of Athens" ;
+  ns1:hasCountry country:Greece ;
+  ns1:hasLocation [
+    ns1:hasAddress "Athens 105 58, Greece" ;
+    ns1:hasLatitude "37.9715"^^xsd:double ;
+    ns1:hasLongitude "23.7257"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:id "ChIJ86z1Nxi9oRQR9g3r9ULAl1w" ;
+  a ns1:UrbanActivity .
+
+ns1:Bagan ns1:hasActivityName "Bagan" ;
+  ns1:hasCountry country:Myanmar ;
+  ns1:hasLocation [
+    ns1:hasAddress "Old Bagan, Myanmar (Burma)" ;
+    ns1:hasLatitude "21.1717"^^xsd:double ;
+    ns1:hasLongitude "94.8585"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:id "ChIJYcrYkwPltTARgZnowxdHGjc";
+  a ns1:UrbanActivity .
+
+ns1:BritishMuseum ns1:hasActivityName "British Museum" ;
+  ns1:hasCountry country:UnitedKingdom ;
+  ns1:hasLocation [
+    ns1:hasAddress "Great Russell St, London WC1B 3DG, United Kingdom" ;
+    ns1:hasLatitude "51.5194"^^xsd:double ;
+    ns1:hasLongitude "-0.126957"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:hasRating "4.70000"^^xsd:double ;
+  ns1:id "ChIJB9OTMDIbdkgRp0JWbQGZsS8" ;
+  a ns1:UrbanActivity .
+
+
+
+ns1:AbelTasmanNationalPark ns1:hasActivityName "Abel Tasman National Park" ;
+  ns1:hasAddress "South Island 7183, New Zealand" ;
+  ns1:hasCountry country:NewZealand ;
+  ns1:id "ChIJveQuVCdjPG0RUO5bZYfvAA8" ;
+  ns1:hasLocation [
+    ns1:hasLatitude "-40.9050"^^xsd:double ;
+    ns1:hasLongitude "172.967"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:hasTypes "tourist_attraction,park,point_of_interest,establishment" ;
+  a ns1:RuralActivity .
+
+ns1:AcropolisOfAthens ns1:hasActivityName "Acropolis of Athens" ;
+  ns1:hasAddress "Athens 105 58, Greece" ;
+  ns1:hasCountry country:Greece ;
+  ns1:id "ChIJ86z1Nxi9oRQR9g3r9ULAl1w" ;
+  ns1:hasLocation [
+    ns1:hasLatitude "37.9715"^^xsd:double ;
+    ns1:hasLongitude "23.7257"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:hasTypes "tourist_attraction,point_of_interest,establishment" ;
+  a ns1:UrbanActivity .
+
+ns1:Bagan ns1:hasActivityName "Bagan" ;
+  ns1:hasAddress "Old Bagan, Myanmar (Burma)" ;
+  ns1:hasCountry country:Myanmar ;
+  ns1:id "ChIJYcrYkwPltTARgZnowxdHGjc" ;
+  ns1:hasLocation [
+    ns1:hasLatitude "21.1717"^^xsd:double ;
+    ns1:hasLongitude "94.8585"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  a ns1:RuralActivity .
+
+ns1:BritishMuseum ns1:hasActivityName "British Museum" ;
+  ns1:hasAddress "Great Russell St, London WC1B 3DG, United Kingdom" ;
+  ns1:hasCountry country:UnitedKingdom ;
+  ns1:id "ChIJB9OTMDIbdkgRp0JWbQGZsS8" ;
+  ns1:hasLocation [
+    ns1:hasLatitude "51.5194"^^xsd:double ;
+    ns1:hasLongitude "-0.126957"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:hasRating "4.70000"^^xsd:double ;
+  ns1:hasTypes "museum,tourist_attraction,point_of_interest,establishment" ;
+  a ns1:UrbanActivity .
+
+ns1:Dubrovnik ns1:hasActivityName "Dubrovnik" ;
+  ns1:hasAddress "Dubrovnik, Croatia" ;
+  ns1:hasCountry country:Croatia ;
+  ns1:hasLocation [
+    ns1:hasLatitude "42.6507"^^xsd:double ;
+    ns1:hasLongitude "18.0944"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  a ns1:UrbanActivity .
+
+ns1:FiordlandNationalPark ns1:hasActivityName "Fiordland National Park" ;
+  ns1:hasCountry country:NewZealand ;
+  ns1:hasLocation [
+    ns1:hasAddress "Southland, New Zealand" ;
+    ns1:hasLatitude "-45.4085"^^xsd:double ;
+    ns1:hasLongitude "167.359"^^xsd:double ;
+    ns1:hasRating "4.90000"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:id "ChIJqyozYUsO1KkRurckveUzL_Y" ;
+  a ns1:RuralActivity .
+
+ns1:GalapagosIslands ns1:hasActivityName "Galapagos Islands" ;
+  ns1:hasCountry country:Ecuador ;
+  ns1:hasLocation [
+    ns1:hasAddress "Galápagos Islands, Ecuador" ;
+    ns1:hasLatitude "-0.383106"^^xsd:double ;
+    ns1:hasLongitude "-90.4233"^^xsd:double ;
+    ns1:hasRating "4.70000"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  a ns1:RuralActivity .
+
+ns1:HanoisOldQuarter ns1:hasActivityName "Hanoi's Old Quarter" ;
+  ns1:hasCountry country:Vietnam ;
+  ns1:hasLocation [
+    ns1:hasAddress "Old Quarter, Hoàn Kiếm, Hanoi, Vietnam" ;
+    ns1:hasLatitude "21.0353"^^xsd:double ;
+    ns1:hasLongitude "105.850"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  a ns1:UrbanActivity .
+
+ns1:Marrakesh ns1:hasActivityName "Marrakesh" ;
+  ns1:hasAddress "Marrakesh, Morocco" ;
+  ns1:hasCountry country:Morocco ;
+  ns1:hasLocation [
+    ns1:hasLatitude "31.6225"^^xsd:double ;
+    ns1:hasLongitude "-7.98983"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  a ns1:UrbanActivity .
+
+ns1:MuseumOfOldAndNewArt ns1:hasActivityName "Museum of Old and New Art" ;
+  ns1:hasAddress "655 Main Rd, Berriedale TAS 7011, Australia" ;
+  ns1:hasCountry country:Australia ;
+  ns1:hasLocation [
+    ns1:hasLatitude "-42.8125"^^xsd:double ;
+    ns1:hasLongitude "147.261"^^xsd:double ;
+    ns1:hasRating "4.40000"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:id "ChIJK092aEpzbqoR1exlPQa0ccI" ;
+  a ns1:RuralActivity .
+
+ns1:PiazzaSanMarco ns1:hasActivityName "Piazza San Marco" ;
+  ns1:hasAddress "P.za San Marco, 30100 Venezia VE, Italy" ;
+  ns1:hasCountry country:Italy ;
+  ns1:hasLocation [
+    ns1:hasLatitude "45.4343"^^xsd:double ;
+    ns1:hasLongitude "12.3381"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  a ns1:UrbanActivity .
+
+ns1:SagradaFamilia ns1:hasActivityName "Sagrada Familia" ;
+  ns1:hasAddress "C/ de Mallorca, 401, L'Eixample, 08013 Barcelona, Spain" ;
+  ns1:hasCountry country:Spain ;
+  ns1:hasLocation [
+    ns1:hasLatitude "41.4036"^^xsd:double ;
+    ns1:hasLongitude "2.17436"^^xsd:double ;
+    ns1:hasRating "4.70000"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  a ns1:UrbanActivity .
+
+ns1:SalarDeUyuni ns1:hasActivityName "Salar De Uyuni" ;
+  ns1:hasAddress "Uyuni Salt Flat, Bolivia" ;
+  ns1:hasCountry country:Bolivia ;
+  ns1:hasLocation [
+    ns1:hasLatitude "-20.1338"^^xsd:double ;
+    ns1:hasLongitude "-67.4891"^^xsd:double ;
+    ns1:hasRating "4.80000"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  a ns1:RuralActivity .
+
+ns1:Santorini ns1:hasActivityName "Santorini" ;
+  ns1:hasAddress "Santorini, Greece" ;
+  ns1:hasCountry country:Greece ;
+  ns1:hasLocation [
+    ns1:hasLatitude "36.3932"^^xsd:double ;
+    ns1:hasLongitude "25.4615"^^xsd:double ;
+    ns1:hasRating "4.70000"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  a ns1:RuralActivity .
+
+ns1:ThePyramidsOfGiza ns1:hasActivityName "The Pyramids of Giza" ;
+  ns1:hasAddress "X4HM+MPC, Al Haram, Nazlet El-Semman, Al Haram, Giza Governorate 3512201, Egypt" ;
+  ns1:hasCountry country:Egypt ;
+  ns1:hasLocation [
+    ns1:hasLatitude "29.9792"^^xsd:double ;
+    ns1:hasLongitude "31.1342"^^xsd:double ;
+    ns1:hasRating "4.60000"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  a ns1:UrbanActivity .
+
+ns1:TikalNationalPark ns1:hasActivityName "Tikal National Park" ;
+  ns1:hasAddress "RD-PET-3, Guatemala" ;
+  ns1:hasCountry country:Guatemala ;
+  ns1:hasLocation [
+    ns1:hasLatitude "17.1170"^^xsd:double ;
+    ns1:hasLongitude "-89.6763"^^xsd:double ;
+    ns1:hasRating "4.80000"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  a ns1:RuralActivity .
+
+ns1:TorresDelPaineNationalPark ns1:hasActivityName "Torres Del Paine National Park" ;
+  ns1:hasAddress "Magallanes and Chilean Antarctica, Chile" ;
+  ns1:hasCountry country:Chile ;
+  ns1:hasLocation [
+    ns1:hasLatitude "-50.9423"^^xsd:double ;
+    ns1:hasLongitude "-73.4068"^^xsd:double ;
+    ns1:hasRating "4.70000"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:id "ChIJB6_bgwEbpb0RWM4aRVcmn70" ;
+  a ns1:RuralActivity .
+
+ns1:TwelveApostles ns1:hasActivityName "Twelve Apostles" ;
+  ns1:hasAddress "Twelve Apostles, Victoria, Australia" ;
+  ns1:hasCountry country:Australia ;
+  ns1:hasLocation [
+    ns1:hasLatitude "-38.6646"^^xsd:double ;
+    ns1:hasLongitude "143.103"^^xsd:double ;
+    ns1:hasRating "4.80000"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  a ns1:RuralActivity .
+
+ns1:Uluru ns1:hasActivityName "Uluru" ;
+  ns1:hasAddress "Uluru, Petermann NT 0872, Australia" ;
+  ns1:hasCountry country:Australia ;
+  ns1:hasLocation [
+    ns1:hasLatitude "-25.3444"^^xsd:double ;
+    ns1:hasLongitude "131.037"^^xsd:double ;
+    ns1:hasRating "4.50000"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  a ns1:RuralActivity .
+
+ns1:Versailles ns1:hasActivityName "Versailles" ;
+  ns1:hasAddress "78000 Versailles, France" ;
+  ns1:hasCountry country:France ;
+  ns1:hasLocation [
+    ns1:hasLatitude "48.8014"^^xsd:double ;
+    ns1:hasLongitude "2.13012"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  a ns1:UrbanActivity .
+
+ns1:VictoriaFalls ns1:hasActivityName "Victoria Falls" ;
+  ns1:hasAddress "Victoria Falls, Zimbabwe" ;
+  ns1:hasCountry country:Zimbabwe ;
+  ns1:hasLocation [
+    ns1:hasLatitude "-17.9316"^^xsd:double ;
+    ns1:hasLongitude "25.8302"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  a ns1:UrbanActivity .
+
+ns1:Yosemite ns1:hasActivityName "Yosemite" ;
+  ns1:hasCountry country:UnitedStates ;
+  ns1:hasLocation [
+    ns1:hasAddress "California, United States" ;
+    ns1:hasLatitude "37.8651"^^xsd:double ;
+    ns1:hasLongitude "-119.538"^^xsd:double ;
+    ns1:hasRating "4.80000"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:id "ChIJxeyK9Z3wloAR_gOA7SycJC0" ;
+  a ns1:RuralActivity .
+
+
+ns1:Havana ns1:hasActivityName "Havana" ;
+  ns1:hasCountry country:Cuba ;
+  ns1:hasLocation [
+    ns1:hasAddress "Havana, Cuba" ;
+    ns1:hasLatitude "23.1136"^^xsd:double ;
+    ns1:hasLongitude "-82.3666"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:id "ChIJ4QD2vUx3zYgRYA13Gn5NKU4" ;
+  a ns1:UrbanActivity .
+
+ns1:HermitageMuseum ns1:hasActivityName "Hermitage Museum" ;
+  ns1:hasCountry country:Russia ;
+  ns1:hasLocation [
+    ns1:hasAddress "Palace Square, 2, St Petersburg, Russia, 190000" ;
+    ns1:hasLatitude "59.9398"^^xsd:double ;
+    ns1:hasLongitude "30.3146"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:id "ChIJ6eLLMgsxlkYR_F1QoCoDTgc" ;
+  a ns1:UrbanActivity .
+
+ns1:Hiroshima ns1:hasActivityName "Hiroshima" ;
+  ns1:hasCountry country:Japan ;
+  ns1:hasLocation [
+    ns1:hasAddress "Hiroshima, Japan" ;
+    ns1:hasLatitude "34.3853"^^xsd:double ;
+    ns1:hasLongitude "132.455"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:id "ChIJu0_z7giZWjURcvfBz1DO5Ac";
+  a ns1:UrbanActivity .
+
+ns1:OldTownSquarePrague ns1:hasActivityName "Old Town Square Prague" ;
+  ns1:hasCountry country:CzechRepublic ;
+  ns1:hasLocation [
+    ns1:hasAddress "Staroměstské nám., 110 00 Staré Město, Czechia" ;
+    ns1:hasLatitude "50.0875"^^xsd:double ;
+    ns1:hasLongitude "14.4208"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:id "ChIJF6gfPumUC0cRNxOlactBiAU" ;
+  a ns1:UrbanActivity .
+
+ns1:SerengetiNationalPark ns1:hasActivityName "Serengeti National Park" ;
+  ns1:hasCountry country:Tanzania ;
+  ns1:hasLocation [
+    ns1:hasAddress "Tanzania" ;
+    ns1:hasLatitude "-2.33333"^^xsd:double ;
+    ns1:hasLongitude "34.8333"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:id "ChIJ0cbagNbNMhgRRTnrnfNXoS4" ;
+  a ns1:RuralActivity .
+
+ns1:TableMountain ns1:hasActivityName "Table Mountain" ;
+  ns1:hasCountry country:SouthAfrica ;
+  ns1:hasLocation [
+    ns1:hasAddress "Maclear's Beacon, Table Mountain (Nature Reserve), Cape Town, South Africa" ;
+    ns1:hasLatitude "-33.9668"^^xsd:double ;
+    ns1:hasLongitude "18.4256"^^xsd:double ;
+    a ns1:Location
+  ] ;
+  ns1:hasRating "4.70000"^^xsd:double ;
+  ns1:id "ChIJH7aysfdnzB0RtP4Njfl3218" ;
+  a ns1:RuralActivity .
+
+
+:AnakenaBeach ns1:hasActivityName "Anakena Beach" ;
+  ns1:hasCountry country:Chile ;
+  ns1:hasLocation [ns1:hasAddress "Anakena, Easter Island, Valparaíso, Chile" ;
+                   ns1:hasLatitude "-27.0739"^^xsd:double ;
+                   ns1:hasLongitude "-109.323"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.90000"^^xsd:double ;
+  ns1:id "ChIJO2UGYFbuR5kRuPUng4wGFNI" ;
+  a ns1:Ruralctivity .
+
+:AuschwitzMemorial ns1:hasActivityName "Auschwitz Memorial" ;
+  ns1:hasCountry country:Poland ;
+  ns1:hasLocation [ns1:hasAddress "Więźniów Oświęcimia 20, 32-603 Oświęcim, Poland" ;
+                   ns1:hasLatitude "50.0271"^^xsd:double ;
+                   ns1:hasLongitude "19.2038"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.70000"^^xsd:double ;
+  ns1:id "ChIJBS6HtYWVFkcR6B8UgOSFvqA" ;
+  a ns1:Ruralctivity .
+
+:Ayuthaya ns1:hasActivityName "Ayuthaya" ;
+  ns1:hasCountry country:Thailand ;
+  ns1:hasLocation [ns1:hasAddress "Phra Nakhon Si Ayutthaya, Phra Nakhon Si Ayutthaya District, Phra Nakhon Si Ayutthaya, Thailand" ;
+                   ns1:hasLatitude "14.3692"^^xsd:double ;
+                   ns1:hasLongitude "100.588"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:id "ChIJg4-8rtp14jARGSv_p5Bvw0c" ;
+  a ns1:UrbanActivity .
+
+:BigSur ns1:hasActivityName "Big Sur" ;
+  ns1:hasCountry country:UnitedStates ;
+  ns1:hasLocation [ns1:hasAddress "Big Sur, CA, USA" ;
+                   ns1:hasLatitude "36.2704"^^xsd:double ;
+                   ns1:hasLongitude "-121.808"^^xsd:double ;
+                   a ns1:Location ] ;
+  a ns1:UrbanActivity .
+
+:BlueLagoon ns1:hasActivityName "Blue Lagoon" ;
+  ns1:hasCountry country:Iceland ;
+  ns1:hasLocation [ns1:hasAddress "Norðurljósavegur 9, 240 Grindavík, Iceland" ;
+                   ns1:hasLatitude "63.8807"^^xsd:double ;
+                   ns1:hasLongitude "-22.4473"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.60000"^^xsd:double ;
+  ns1:id "ChIJDd_3r2Yd1kgRbvAWRIl6dPM" ;
+  a ns1:Ruralctivity .
+
+:GamlaStan ns1:hasActivityName "Gamla Stan" ;
+  ns1:hasCountry country:Sweden ;
+  ns1:hasLocation [ns1:hasAddress "Gamla stan, Södermalm, Stockholm, Sweden" ;
+                   ns1:hasLatitude "59.3257"^^xsd:double ;
+                   ns1:hasLongitude "18.0719"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:id "ChIJK_mfZuJ3X0YREYsWNfT-ACY";
+  a ns1:UrbanActivity .
+
+:StariMostBridge ns1:hasActivityName "Stari Most Bridge" ;
+  ns1:hasCountry country:BosniaAndHerzegovina ;
+  ns1:hasLocation [ns1:hasAddress "88000 Mostar, Bosnia & Herzegovina" ;
+                   ns1:hasLatitude "43.3373"^^xsd:double ;
+                   ns1:hasLongitude "17.8150"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  ns1:id "ChIJYbL_wgZDSxMRxMQvCjsSbhw";
+  a ns1:Ruralctivity .
+
+:ThePeak ns1:hasActivityName "The Peak" ;
+  ns1:hasCountry country:HongKong ;
+  ns1:hasLocation [ns1:hasAddress "The Peak, Hong Kong" ;
+                   ns1:hasLatitude "22.2632"^^xsd:double ;
+                   ns1:hasLongitude "114.159"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:id "ChIJUUblZ2sABDQRQAdalFYF10o";
+  a ns1:UrbanActivity .
+
+:TopkapiPalace ns1:hasActivityName "Topkapi Palace" ;
+  ns1:hasCountry country:Turkey ;
+  ns1:hasLocation [ns1:hasAddress "Cankurtaran, 34122 Fatih/İstanbul, Türkiye" ;
+                   ns1:hasLatitude "41.0115"^^xsd:double ;
+                   ns1:hasLongitude "28.9834"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.70000"^^xsd:double ;
+  ns1:id "ChIJM_ilr7i5yhQRAFMBw0MZqhU";
+  a ns1:Ruralctivity .
+
+
+
+:AndazAmsterdamPrinsengracht ns1:hasActivityName "Andaz Amsterdam Prinsengracht" ;
+  ns1:hasCountry country:Netherlands ;
+  ns1:hasLocation [ns1:hasAddress "Prinsengracht 587, 1016 HT Amsterdam, Netherlands" ;
+                   ns1:hasLatitude "52.3678"^^xsd:double ;
+                   ns1:hasLongitude "4.88306"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:id "ChIJZ8I5o8IJxkcRjOkOLn--9gs" ;
+  ns1:hasRating "4.70000"^^xsd:double ;
+  a ns1:Ruralctivity .
+
+:BayofIslandsNewZealand ns1:hasActivityName "Bay of Islands - New Zealand" ;
+  ns1:hasCountry country:NewZealand ;
+  ns1:hasLocation [ns1:hasAddress "Bay Of Islands, Northland, New Zealand" ;
+                   ns1:hasLatitude "-35.2167"^^xsd:double ;
+                   ns1:hasLongitude "174.154"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:id "ChIJyXZ7M1KvC20RgODhZWHvACo" ;
+  ns1:hasRating "4.70000"^^xsd:double ;
+  a ns1:Ruralctivity .
+
+:BazarutoArchipelago ns1:hasActivityName "Bazaruto Archipelago" ;
+  ns1:hasCountry country:Mozambique ;
+  ns1:hasLocation [ns1:hasAddress "Bazaruto Archipelago, Mozambique" ;
+                   ns1:hasLatitude "-21.7576"^^xsd:double ;
+                   ns1:hasLongitude "35.4233"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:id "ChIJy9V_qbdHJh8RqKoRW4V4a9o" ;
+  ns1:hasRating "4.40000"^^xsd:double ;
+  a ns1:Ruralctivity .
+
+:BhaktapurDurbarSquare ns1:hasActivityName "Bhaktapur Durbar Square" ;
+  ns1:hasCountry country:Nepal ;
+  ns1:hasLocation [ns1:hasAddress "Durbar square, Bhaktapur 44800, Nepal" ;
+                   ns1:hasLatitude "27.6721"^^xsd:double ;
+                   ns1:hasLongitude "85.4281"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:id "ChIJMd8y7K8a6zkR_ZuvMec5o90" ;
+  ns1:hasRating "4.60000"^^xsd:double ;
+  a ns1:Ruralctivity .
+
+:BlueMosque ns1:hasActivityName "Blue Mosque" ;
+  ns1:hasCountry country:Turkey ;
+  ns1:hasLocation [ns1:hasAddress "Binbirdirek, At Meydanı Cd No:10, 34122 Fatih/İstanbul, Türkiye" ;
+                   ns1:hasLatitude "41.0054"^^xsd:double ;
+                   ns1:hasLongitude "28.9768"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:id "ChIJ4fRwZb25yhQRpHwVijb3LeU" ;
+  ns1:hasRating "4.70000"^^xsd:double ;
+  a ns1:Ruralctivity .
+
+:PlitviceLakesNationalPark ns1:hasActivityName "Plitvice Lakes National Park" ;
+  ns1:hasCountry country:Croatia ;
+  ns1:hasLocation [ns1:hasAddress "Croatia" ;
+                   ns1:hasLatitude "44.8654"^^xsd:double ;
+                   ns1:hasLongitude "15.5820"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:id "ChIJPQ_Z_mxeYUcRcF6aN_iPGgU" ;
+  ns1:hasRating "4.80000"^^xsd:double ;
+  a ns1:Ruralctivity .
+
+:StewartIsland ns1:hasActivityName "Stewart Island" ;
+  ns1:hasCountry country:NewZealand ;
+  ns1:hasLocation [ns1:hasAddress "Stewart Island / Rakiura, 9818, New Zealand" ;
+                   ns1:hasLatitude "-47.0103"^^xsd:double ;
+                   ns1:hasLongitude "167.827"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:id "ChIJPddu1o9ezakRWvdmaKBUWt4" ;
+  ns1:hasRating "4.60000"^^xsd:double ;
+  a ns1:Ruralctivity .
+
+:Tulum ns1:hasActivityName "Tulum" ;
+  ns1:hasCountry country:Mexico ;
+  ns1:hasLocation [ns1:hasAddress "Tulum, Quintana Roo, Mexico" ;
+                   ns1:hasLatitude "20.2114"^^xsd:double ;
+                   ns1:hasLongitude "-87.4654"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:id "ChIJSyrkEAPUT48Rt5r_k9vA7Q4" ;
+  a ns1:UrbanActivity .
+
+:WestNorwegianFjords ns1:hasActivityName "West Norwegian Fjords – Geirangerfjord and Nærøyfjord" ;
+  ns1:hasCountry country:Norway ;
+  ns1:hasLocation [ns1:hasAddress "Vestnorsk fjordlandskap, 5747 Gudvangen, Norway" ;
+                   ns1:hasLatitude "60.9687"^^xsd:double ;
+                   ns1:hasLongitude "6.97394"^^xsd:double ;
+                   a ns1:Location ] ;
+  ns1:hasRating "4.60000"^^xsd:double ;
+  ns1:id "ChIJB__DioUFPkYRgCqKHFlVBwk" ;
+  a ns1:Ruralctivity .

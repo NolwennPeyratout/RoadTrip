@@ -47,3 +47,143 @@ country:Morocco a :Country;
     :hasCurrency "Dirham Marocain";
     :hasLanguage "Arabic";
     :requiresVaccine "tetanus","measles","mumps", "rubella".
+
+country:NewZealand a :Country;
+    :hasCountryName "New Zealand";
+    :hasCapital "Wellington";
+    :hasCurrency "New Zealand Dollar";
+    :hasLanguage "English";
+    :requiresVaccine "tetanus","measles","mumps","rubella","influenza","hepatitis B".
+
+country:Nepal a :Country;
+    :hasCountryName "Nepal";
+    :hasCapital "Kathmandu";
+    :hasCurrency "Nepalese Rupee";
+    :hasLanguage "Nepali";
+    :requiresVaccine "tetanus","measles","mumps","rubella","typhoid","Japanese encephalitis".
+
+country:Mozambique a :Country;
+    :hasCountryName "Mozambique";
+    :hasCapital "Maputo";
+    :hasCurrency "Mozambican Metical";
+    :hasLanguage "Portuguese";
+    :requiresVaccine "yellow fever","cholera","typhoid","hepatitis A","rabies".
+
+country:Netherlands a :Country;
+    :hasCountryName "Netherlands";
+    :hasCapital "Amsterdam";
+    :hasCurrency "Euro";
+    :hasLanguage "Dutch";
+    :requiresVaccine "tetanus","measles","mumps","rubella","hepatitis B","influenza".
+
+country:Croatia a :Country;
+    :hasCountryName "Croatia";
+    :hasCapital "Zagreb";
+    :hasCurrency "Croatian Kuna";
+    :hasLanguage "Croatian";
+    :requiresVaccine "tetanus","measles","mumps","rubella","tick-borne encephalitis","hepatitis A".
+
+country:Brazil a :Country;
+    :hasCountryName "Brazil";
+    :hasCapital "Brasília";
+    :hasCurrency "Brazilian Real";
+    :hasLanguage "Portuguese";
+    :requiresVaccine "yellow fever","dengue fever","typhoid","hepatitis A","rabies".
+
+country:Thailand a :Country;
+    :hasCountryName "Thailand";
+    :hasCapital "Bangkok";
+    :hasCurrency "Thai Baht";
+    :hasLanguage "Thai";
+    :requiresVaccine "malaria","typhoid","Japanese encephalitis","hepatitis A","rabies".
+
+country:Canada a :Country;
+    :hasCountryName "Canada";
+    :hasCapital "Ottawa";
+    :hasCurrency "Canadian Dollar";
+    :hasLanguage "English, French";
+    :requiresVaccine "tetanus","measles","mumps","rubella","influenza","hepatitis B".
+
+country:UnitedKingdom a :Country;
+    :hasCountryName "United Kingdom";
+    :hasCapital "London";
+    :hasCurrency "Pound Sterling";
+    :hasLanguage "English";
+    :requiresVaccine "tetanus","measles","mumps","rubella","influenza","hepatitis B".
+
+country:Norway a :Country;
+    :hasCountryName "Norway";
+    :hasCapital "Oslo";
+    :hasCurrency "Norwegian Krone";
+    :hasLanguage "Norwegian";
+    :requiresVaccine "tetanus","measles","mumps","rubella","tick-borne encephalitis","hepatitis A".
+
+country:Colombia a :Country;
+    :hasCountryName "Colombia";
+    :hasCapital "Bogotá";
+    :hasCurrency "Colombian Peso";
+    :hasLanguage "Spanish";
+    :requiresVaccine "yellow fever","dengue fever","typhoid","hepatitis A","rabies".
+
+country:Peru a :Country;
+    :hasCountryName "Peru";
+    :hasCapital "Lima";
+    :hasCurrency "Peruvian Sol";
+    :hasLanguage "Spanish";
+    :requiresVaccine "yellow fever","dengue fever","typhoid","hepatitis A","rabies".
+
+country:Greece a :Country;
+    :hasCountryName "Greece";
+    :hasCapital "Athens";
+    :hasCurrency "Euro";
+    :hasLanguage "Greek";
+    :requiresVaccine "tetanus","measles","mumps","rubella","tick-borne encephalitis","influenza".
+
+country:SouthAfrica a :Country;
+    :hasCountryName "South Africa";
+    :hasCapital "Pretoria";
+    :hasCurrency "South African Rand";
+    :hasLanguage "Afrikaans, English";
+    :requiresVaccine "yellow fever","cholera","typhoid","hepatitis A","rabies".
+
+country:Mexico a :Country;
+    :hasCountryName "Mexico";
+    :hasCapital "Mexico City";
+    :hasCurrency "Mexican Peso";
+    :hasLanguage "Spanish";
+    :requiresVaccine "dengue fever","typhoid","hepatitis A","rabies","influenza".
+
+country:Japan a :Country;
+    :hasCountryName "Japan";
+    :hasCapital "Tokyo";
+    :hasCurrency "Japanese Yen";
+    :hasLanguage "Japanese";
+    :requiresVaccine "Japanese encephalitis","hepatitis B","influenza","rubella","measles".
+
+country:Portugal a :Country;
+    :hasCountryName "Portugal";
+    :hasCapital "Lisbon";
+    :hasCurrency "Euro";
+    :hasLanguage "Portuguese";
+    :requiresVaccine "tetanus","measles","mumps","rubella","hepatitis B","influenza".
+
+country:Iceland a :Country;
+    :hasCountryName "Iceland";
+    :hasCapital "Reykjavik";
+    :hasCurrency "Icelandic Króna";
+    :hasLanguage "Icelandic";
+    :requiresVaccine "tetanus","measles","mumps","rubella","tick-borne encephalitis","influenza".
+
+country:Turkey a :Country;
+    :hasCountryName "Turkey";
+    :hasCapital "Ankara";
+    :hasCurrency "Turkish Lira";
+    :hasLanguage "Turkish";
+    :requiresVaccine "typhoid","hepatitis A","rabies","influenza","measles".
+
+country:China a :Country;
+    :hasCountryName "China";
+    :hasCapital "Beijing";
+    :hasCurrency "Chinese Yuan";
+    :hasLanguage "Mandarin";
+    :requiresVaccine "typhoid","hepatitis A","rabies","influenza","Japanese encephalitis".
