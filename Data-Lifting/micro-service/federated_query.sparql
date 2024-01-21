@@ -1,0 +1,29 @@
+PREFIX act: <http://example.org/activities/> 
+PREFIX ex: <http://ns.inria.fr/sparql-micro-service/api#>
+PREFIX : <http://example.org/roadtrip/>
+
+
+SELECT ?name ?address ?country_name ?id (GROUP_CONCAT(?type; SEPARATOR=",") AS ?types) ?latitude ?longitude ?rating ?open_now ?budget 
+WHERE {
+ ?a a :Activity;
+    :hasActivityName ?name;
+    :hasCountry ?country.
+  ?country :hasCountryName ?country_name.
+
+BIND(IRI(CONCAT("http://localhost/service/roadtrip/getInformation?place=",CONCAT(?name, ", ", ?country_name))) as ?serviceURI)
+
+SERVICE ?serviceURI{
+  ?s ex:place_id ?id.
+  OPTIONAL{ ?s ex:geometry ?geom.}
+  OPTIONAL{?geom ex:location ?location.}
+  OPTIONAL{?location ex:lat ?latitude;}
+  OPTIONAL{?location ex:lng ?longitude.}
+  OPTIONAL{ ?s ex:rating ?rating. }
+  OPTIONAL{ ?s ex:opening_hours ?openH.}
+  OPTIONAL{?openH ex:open_now ?open_now.}
+  OPTIONAL{?s ex:types ?type.}
+  OPTIONAL{?s ex:maxprice ?budget}
+  OPTIONAL{?s ex:formatted_address ?address}
+  }
+}
+GROUP BY ?name
