@@ -1,44 +1,44 @@
 
-<http://example.org/activities/Angkor%20Wat> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/AngkorWat> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Angkor Wat";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Angkor%20Wat#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/AngkorWat#country> .
 
-<http://example.org/activities/Angkor%20Wat#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/AngkorWat#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Cambodia" .
 
-<http://example.org/activities/Great%20Barrier%20Reef> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/GreatBarrierReef> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Great Barrier Reef";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Great%20Barrier%20Reef#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/GreatBarrierReef#country> .
 
-<http://example.org/activities/Great%20Barrier%20Reef#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/GreatBarrierReef#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Australia" .
 
-<http://example.org/activities/Machu%20Picchu> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/MachuPicchu> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Machu Picchu";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Machu%20Picchu#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/MachuPicchu#country> .
 
-<http://example.org/activities/Machu%20Picchu#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/MachuPicchu#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Peru" .
 
-<http://example.org/activities/Great%20Wall%20of%20China> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/GreatWallofChina> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Great Wall of China";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Great%20Wall%20of%20China#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/GreatWallofChina#country> .
 
-<http://example.org/activities/Great%20Wall%20of%20China#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/GreatWallofChina#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "China" .
 
-<http://example.org/activities/Taj%20Mahal> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/TajMahal> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Taj Mahal";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Taj%20Mahal#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/TajMahal#country> .
 
-<http://example.org/activities/Taj%20Mahal#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/TajMahal#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "India" .
 
-<http://example.org/activities/Grand%20Canyon> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/GrandCanyon> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Grand Canyon";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Grand%20Canyon#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/GrandCanyon#country> .
 
-<http://example.org/activities/Grand%20Canyon#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/GrandCanyon#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United States" .
 
 <http://example.org/activities/Colosseum> a <http://example.org/roadtrip/Activity>;
@@ -48,11 +48,11 @@
 <http://example.org/activities/Colosseum#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Italy" .
 
-<http://example.org/activities/Iguazu%20Falls> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/IguazuFalls> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Iguazu Falls";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Iguazu%20Falls#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/IguazuFalls#country> .
 
-<http://example.org/activities/Iguazu%20Falls#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/IguazuFalls#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Argentina" .
 
 <http://example.org/activities/Alhambra> a <http://example.org/roadtrip/Activity>;
@@ -62,25 +62,25 @@
 <http://example.org/activities/Alhambra#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Spain" .
 
-<http://example.org/activities/Aya%20Sofya%20%28Hagia%20Sophia%29> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/AyaSofyaHagiaSophia> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Aya Sofya (Hagia Sophia)";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Aya%20Sofya%20%28Hagia%20Sophia%29#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/AyaSofyaHagiaSophia#country> .
 
-<http://example.org/activities/Aya%20Sofya%20%28Hagia%20Sophia%29#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/AyaSofyaHagiaSophia#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Turkey" .
 
-<http://example.org/activities/Medina%20of%20Fez> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/MedinaofFez> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Medina of Fez";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Medina%20of%20Fez#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/MedinaofFez#country> .
 
-<http://example.org/activities/Medina%20of%20Fez#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/MedinaofFez#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Morocco" .
 
-<http://example.org/activities/Twelve%20Apostles> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/TwelveApostles> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Twelve Apostles";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Twelve%20Apostles#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/TwelveApostles#country> .
 
-<http://example.org/activities/Twelve%20Apostles#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/TwelveApostles#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Australia" .
 
 <http://example.org/activities/Petra> a <http://example.org/roadtrip/Activity>;
@@ -90,32 +90,32 @@
 <http://example.org/activities/Petra#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Jordan" .
 
-<http://example.org/activities/Tikal%20National%20Park> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/TikalNationalPark> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Tikal National Park";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Tikal%20National%20Park#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/TikalNationalPark#country> .
 
-<http://example.org/activities/Tikal%20National%20Park#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/TikalNationalPark#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Guatemala" .
 
-<http://example.org/activities/British%20Museum> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/BritishMuseum> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "British Museum";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/British%20Museum#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/BritishMuseum#country> .
 
-<http://example.org/activities/British%20Museum#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/BritishMuseum#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United Kingdom" .
 
-<http://example.org/activities/Sagrada%20Familia> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/SagradaFamilia> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Sagrada Familia";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Sagrada%20Familia#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/SagradaFamilia#country> .
 
-<http://example.org/activities/Sagrada%20Familia#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/SagradaFamilia#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Spain" .
 
-<http://example.org/activities/Fiordland%20National%20Park> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/FiordlandNationalPark> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Fiordland National Park";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Fiordland%20National%20Park#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/FiordlandNationalPark#country> .
 
-<http://example.org/activities/Fiordland%20National%20Park#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/FiordlandNationalPark#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "New Zealand" .
 
 <http://example.org/activities/Santorini> a <http://example.org/roadtrip/Activity>;
@@ -125,18 +125,18 @@
 <http://example.org/activities/Santorini#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Greece" .
 
-<http://example.org/activities/Galapagos%20Islands> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/GalapagosIslands> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Galapagos Islands";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Galapagos%20Islands#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/GalapagosIslands#country> .
 
-<http://example.org/activities/Galapagos%20Islands#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/GalapagosIslands#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Ecuador" .
 
-<http://example.org/activities/Museum%20of%20Old%20and%20New%20Art> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/MuseumofOldandNewArt> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Museum of Old and New Art";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Museum%20of%20Old%20and%20New%20Art#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/MuseumofOldandNewArt#country> .
 
-<http://example.org/activities/Museum%20of%20Old%20and%20New%20Art#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/MuseumofOldandNewArt#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Australia" .
 
 <http://example.org/activities/Yosemite> a <http://example.org/roadtrip/Activity>;
@@ -153,11 +153,11 @@
 <http://example.org/activities/Dubrovnik#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Croatia" .
 
-<http://example.org/activities/Salar%20De%20Uyuni> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/SalarDeUyuni> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Salar De Uyuni";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Salar%20De%20Uyuni#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/SalarDeUyuni#country> .
 
-<http://example.org/activities/Salar%20De%20Uyuni#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/SalarDeUyuni#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Bolivia" .
 
 <http://example.org/activities/Bagan> a <http://example.org/roadtrip/Activity>;
@@ -167,32 +167,32 @@
 <http://example.org/activities/Bagan#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Myanmar" .
 
-<http://example.org/activities/The%20Pyramids%20of%20Giza> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/ThePyramidsofGiza> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "The Pyramids of Giza";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/The%20Pyramids%20of%20Giza#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/ThePyramidsofGiza#country> .
 
-<http://example.org/activities/The%20Pyramids%20of%20Giza#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/ThePyramidsofGiza#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Egypt" .
 
-<http://example.org/activities/Piazza%20San%20Marco> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/PiazzaSanMarco> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Piazza San Marco";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Piazza%20San%20Marco#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/PiazzaSanMarco#country> .
 
-<http://example.org/activities/Piazza%20San%20Marco#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/PiazzaSanMarco#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Italy" .
 
-<http://example.org/activities/Victoria%20Falls> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/VictoriaFalls> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Victoria Falls";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Victoria%20Falls#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/VictoriaFalls#country> .
 
-<http://example.org/activities/Victoria%20Falls#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/VictoriaFalls#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Zimbabwe" .
 
-<http://example.org/activities/Acropolis%20of%20Athens> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/AcropolisofAthens> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Acropolis of Athens";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Acropolis%20of%20Athens#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/AcropolisofAthens#country> .
 
-<http://example.org/activities/Acropolis%20of%20Athens#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/AcropolisofAthens#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Greece" .
 
 <http://example.org/activities/Versailles> a <http://example.org/roadtrip/Activity>;
@@ -209,18 +209,18 @@
 <http://example.org/activities/Marrakesh#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Morocco" .
 
-<http://example.org/activities/Hanoi%27s%20Old%20Quarter> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/HanoisOldQuarter> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Hanoi's Old Quarter";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Hanoi%27s%20Old%20Quarter#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/HanoisOldQuarter#country> .
 
-<http://example.org/activities/Hanoi%27s%20Old%20Quarter#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/HanoisOldQuarter#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Vietnam" .
 
-<http://example.org/activities/Cradle%20Mountain> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/CradleMountain> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Cradle Mountain";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Cradle%20Mountain#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/CradleMountain#country> .
 
-<http://example.org/activities/Cradle%20Mountain#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/CradleMountain#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Australia" .
 
 <http://example.org/activities/Uluru> a <http://example.org/roadtrip/Activity>;
@@ -230,53 +230,53 @@
 <http://example.org/activities/Uluru#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Australia" .
 
-<http://example.org/activities/Charles%20Bridge> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/CharlesBridge> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Charles Bridge";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Charles%20Bridge#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/CharlesBridge#country> .
 
-<http://example.org/activities/Charles%20Bridge#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/CharlesBridge#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Czech Republic" .
 
-<http://example.org/activities/Abel%20Tasman%20National%20Park> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/AbelTasmanNationalPark> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Abel Tasman National Park";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Abel%20Tasman%20National%20Park#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/AbelTasmanNationalPark#country> .
 
-<http://example.org/activities/Abel%20Tasman%20National%20Park#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/AbelTasmanNationalPark#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "New Zealand" .
 
-<http://example.org/activities/Lake%20District> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/LakeDistrict> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Lake District";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Lake%20District#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/LakeDistrict#country> .
 
-<http://example.org/activities/Lake%20District#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/LakeDistrict#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United Kingdom" .
 
-<http://example.org/activities/Louvre%20Museum> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/LouvreMuseum> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Louvre Museum";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Louvre%20Museum#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/LouvreMuseum#country> .
 
-<http://example.org/activities/Louvre%20Museum#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/LouvreMuseum#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "France" .
 
-<http://example.org/activities/Torres%20Del%20Paine%20National%20Park> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/TorresDelPaineNationalPark> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Torres Del Paine National Park";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Torres%20Del%20Paine%20National%20Park#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/TorresDelPaineNationalPark#country> .
 
-<http://example.org/activities/Torres%20Del%20Paine%20National%20Park#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/TorresDelPaineNationalPark#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Chile" .
 
-<http://example.org/activities/Lake%20Baikal> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/LakeBaikal> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Lake Baikal";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Lake%20Baikal#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/LakeBaikal#country> .
 
-<http://example.org/activities/Lake%20Baikal#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/LakeBaikal#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Russia" .
 
-<http://example.org/activities/Eiffel%20Tower> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/EiffelTower> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Eiffel Tower";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Eiffel%20Tower#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/EiffelTower#country> .
 
-<http://example.org/activities/Eiffel%20Tower#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/EiffelTower#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "France" .
 
 <http://example.org/activities/Pompeii> a <http://example.org/roadtrip/Activity>;
@@ -293,53 +293,53 @@
 <http://example.org/activities/Havana#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Cuba" .
 
-<http://example.org/activities/Table%20Mountain> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/TableMountain> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Table Mountain";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Table%20Mountain#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/TableMountain#country> .
 
-<http://example.org/activities/Table%20Mountain#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/TableMountain#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "South Africa" .
 
-<http://example.org/activities/Old%20Town%20Square%20Prague> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/OldTownSquarePrague> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Old Town Square Prague";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Old%20Town%20Square%20Prague#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/OldTownSquarePrague#country> .
 
-<http://example.org/activities/Old%20Town%20Square%20Prague#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/OldTownSquarePrague#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Czech Republic" .
 
-<http://example.org/activities/Serengeti%20National%20Park> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/SerengetiNationalPark> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Serengeti National Park";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Serengeti%20National%20Park#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/SerengetiNationalPark#country> .
 
-<http://example.org/activities/Serengeti%20National%20Park#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/SerengetiNationalPark#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Tanzania" .
 
-<http://example.org/activities/Hermitage%20Museum> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/HermitageMuseum> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Hermitage Museum";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Hermitage%20Museum#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/HermitageMuseum#country> .
 
-<http://example.org/activities/Hermitage%20Museum#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/HermitageMuseum#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Russia" .
 
-<http://example.org/activities/Bay%20of%20Kotor> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/BayofKotor> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Bay of Kotor";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Bay%20of%20Kotor#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/BayofKotor#country> .
 
-<http://example.org/activities/Bay%20of%20Kotor#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/BayofKotor#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Montenegro" .
 
-<http://example.org/activities/Jaisalmer%20Rajasthan> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/JaisalmerRajasthan> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Jaisalmer Rajasthan";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Jaisalmer%20Rajasthan#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/JaisalmerRajasthan#country> .
 
-<http://example.org/activities/Jaisalmer%20Rajasthan#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/JaisalmerRajasthan#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "India" .
 
-<http://example.org/activities/Ngorongoro%20Crater%20Conservation%20Area> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/NgorongoroCraterConservationArea> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Ngorongoro Crater Conservation Area";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Ngorongoro%20Crater%20Conservation%20Area#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/NgorongoroCraterConservationArea#country> .
 
-<http://example.org/activities/Ngorongoro%20Crater%20Conservation%20Area#country>
+<http://example.org/activities/NgorongoroCraterConservationArea#country>
   a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Tanzania" .
 
@@ -357,74 +357,74 @@
 <http://example.org/activities/Pantheon#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Italy" .
 
-<http://example.org/activities/Tate%20Modern> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/TateModern> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Tate Modern";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Tate%20Modern#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/TateModern#country> .
 
-<http://example.org/activities/Tate%20Modern#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/TateModern#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United Kingdom" .
 
-<http://example.org/activities/Naqsh-E%20Jahan> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/Naqsh-EJahan> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Naqsh-E Jahan";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Naqsh-E%20Jahan#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Naqsh-EJahan#country> .
 
-<http://example.org/activities/Naqsh-E%20Jahan#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/Naqsh-EJahan#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Iran" .
 
-<http://example.org/activities/Tiger%20Leaping%20Gorge> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/TigerLeapingGorge> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Tiger Leaping Gorge";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Tiger%20Leaping%20Gorge#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/TigerLeapingGorge#country> .
 
-<http://example.org/activities/Tiger%20Leaping%20Gorge#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/TigerLeapingGorge#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "China" .
 
-<http://example.org/activities/Notre%20Dame> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/NotreDame> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Notre Dame";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Notre%20Dame#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/NotreDame#country> .
 
-<http://example.org/activities/Notre%20Dame#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/NotreDame#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "France" .
 
-<http://example.org/activities/Kakadu%20National%20Park> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/KakaduNationalPark> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Kakadu National Park";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Kakadu%20National%20Park#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/KakaduNationalPark#country> .
 
-<http://example.org/activities/Kakadu%20National%20Park#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/KakaduNationalPark#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Australia" .
 
-<http://example.org/activities/Sydney%20Opera%20House> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/SydneyOperaHouse> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Sydney Opera House";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Sydney%20Opera%20House#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/SydneyOperaHouse#country> .
 
-<http://example.org/activities/Sydney%20Opera%20House#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/SydneyOperaHouse#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Australia" .
 
-<http://example.org/activities/Edinburgh%20Castle> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/EdinburghCastle> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Edinburgh Castle";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Edinburgh%20Castle#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/EdinburghCastle#country> .
 
-<http://example.org/activities/Edinburgh%20Castle#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/EdinburghCastle#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United Kingdom" .
 
-<http://example.org/activities/Anne%20Frank%20House> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/AnneFrankHouse> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Anne Frank House";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Anne%20Frank%20House#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/AnneFrankHouse#country> .
 
-<http://example.org/activities/Anne%20Frank%20House#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/AnneFrankHouse#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Netherlands" .
 
-<http://example.org/activities/J%C3%B6kulsarlon> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/Jokulsarlon> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Jökulsarlon";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/J%C3%B6kulsarlon#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Jokulsarlon#country> .
 
-<http://example.org/activities/J%C3%B6kulsarlon#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/Jokulsarlon#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Iceland" .
 
-<http://example.org/activities/Yellowstone%20National%20Park> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/YellowstoneNationalPark> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Yellowstone National Park";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Yellowstone%20National%20Park#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/YellowstoneNationalPark#country> .
 
-<http://example.org/activities/Yellowstone%20National%20Park#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/YellowstoneNationalPark#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United States" .
 
 <http://example.org/activities/Stonehenge> a <http://example.org/roadtrip/Activity>;
@@ -434,33 +434,33 @@
 <http://example.org/activities/Stonehenge#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United Kingdom" .
 
-<http://example.org/activities/Berlin%20Wall> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/BerlinWall> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Berlin Wall";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Berlin%20Wall#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/BerlinWall#country> .
 
-<http://example.org/activities/Berlin%20Wall#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/BerlinWall#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Germany" .
 
-<http://example.org/activities/Isle%20of%20Skye> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/IsleofSkye> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Isle of Skye";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Isle%20of%20Skye#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/IsleofSkye#country> .
 
-<http://example.org/activities/Isle%20of%20Skye#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/IsleofSkye#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United Kingdom" .
 
-<http://example.org/activities/Halong%20Bay> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/HalongBay> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Halong Bay";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Halong%20Bay#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/HalongBay#country> .
 
-<http://example.org/activities/Halong%20Bay#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/HalongBay#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Vietnam" .
 
-<http://example.org/activities/Santa%20Maria%20Del%20Fiore%20%28Duomo%20Di%20Firenze%20%2F%20Florence%20Cathedral%29>
+<http://example.org/activities/SantaMariaDelFiore>
   a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Santa Maria Del Fiore (Duomo Di Firenze / Florence Cathedral)";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Santa%20Maria%20Del%20Fiore%20%28Duomo%20Di%20Firenze%20%2F%20Florence%20Cathedral%29#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/SantaMariaDelFiore#country> .
 
-<http://example.org/activities/Santa%20Maria%20Del%20Fiore%20%28Duomo%20Di%20Firenze%20%2F%20Florence%20Cathedral%29#country>
+<http://example.org/activities/SantaMariaDelFiore#country>
   a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Italy" .
 
@@ -471,11 +471,11 @@
 <http://example.org/activities/Cappadocia#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Turkey" .
 
-<http://example.org/activities/Koh%20Tao> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/KohTao> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Koh Tao";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Koh%20Tao#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/KohTao#country> .
 
-<http://example.org/activities/Koh%20Tao#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/KohTao#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Thailand" .
 
 <http://example.org/activities/Palenque> a <http://example.org/roadtrip/Activity>;
@@ -485,11 +485,11 @@
 <http://example.org/activities/Palenque#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Mexico" .
 
-<http://example.org/activities/Ilulissat%20Kangerlua> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/IlulissatKangerlua> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Ilulissat Kangerlua";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Ilulissat%20Kangerlua#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/IlulissatKangerlua#country> .
 
-<http://example.org/activities/Ilulissat%20Kangerlua#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/IlulissatKangerlua#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Greenland" .
 
 <http://example.org/activities/Sinai> a <http://example.org/roadtrip/Activity>;
@@ -499,18 +499,18 @@
 <http://example.org/activities/Sinai#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Egypt" .
 
-<http://example.org/activities/Pao%20De%20Acucar> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/PaoDeAcucar> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Pao De Acucar";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Pao%20De%20Acucar#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/PaoDeAcucar#country> .
 
-<http://example.org/activities/Pao%20De%20Acucar#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/PaoDeAcucar#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Brazil" .
 
-<http://example.org/activities/Mezquita%20of%20Cordoba> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/MezquitaofCordoba> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Mezquita of Cordoba";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Mezquita%20of%20Cordoba#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/MezquitaofCordoba#country> .
 
-<http://example.org/activities/Mezquita%20of%20Cordoba#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/MezquitaofCordoba#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Spain" .
 
 <http://example.org/activities/Lalibela> a <http://example.org/roadtrip/Activity>;
@@ -527,116 +527,116 @@
 <http://example.org/activities/Arashiyama#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Japan" .
 
-<http://example.org/activities/Lake%20Bled> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/LakeBled> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Lake Bled";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Lake%20Bled#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/LakeBled#country> .
 
-<http://example.org/activities/Lake%20Bled#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/LakeBled#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Slovenia" .
 
-<http://example.org/activities/Redwood%20National%20Park> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/RedwoodNationalPark> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Redwood National Park";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Redwood%20National%20Park#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/RedwoodNationalPark#country> .
 
-<http://example.org/activities/Redwood%20National%20Park#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/RedwoodNationalPark#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United States" .
 
-<http://example.org/activities/Chichen%20Itza> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/ChichenItza> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Chichen Itza";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Chichen%20Itza#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/ChichenItza#country> .
 
-<http://example.org/activities/Chichen%20Itza#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/ChichenItza#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Mexico" .
 
-<http://example.org/activities/Masai%20Mara> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/MasaiMara> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Masai Mara";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Masai%20Mara#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/MasaiMara#country> .
 
-<http://example.org/activities/Masai%20Mara#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/MasaiMara#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Kenya" .
 
-<http://example.org/activities/Metropolitan%20Museum%20of%20Art> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/MetropolitanMuseumofArt> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Metropolitan Museum of Art";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Metropolitan%20Museum%20of%20Art#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/MetropolitanMuseumofArt#country> .
 
-<http://example.org/activities/Metropolitan%20Museum%20of%20Art#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/MetropolitanMuseumofArt#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United States" .
 
-<http://example.org/activities/Franz%20Josef%20Glacier> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/FranzJosefGlacier> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Franz Josef Glacier";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Franz%20Josef%20Glacier#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/FranzJosefGlacier#country> .
 
-<http://example.org/activities/Franz%20Josef%20Glacier#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/FranzJosefGlacier#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "New Zealand" .
 
-<http://example.org/activities/Valley%20of%20the%20Kings> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/ValleyoftheKings> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Valley of the Kings";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Valley%20of%20the%20Kings#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/ValleyoftheKings#country> .
 
-<http://example.org/activities/Valley%20of%20the%20Kings#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/ValleyoftheKings#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Egypt" .
 
-<http://example.org/activities/Hoi%20An> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/HoiAn> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Hoi An";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Hoi%20An#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/HoiAn#country> .
 
-<http://example.org/activities/Hoi%20An#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/HoiAn#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Vietnam" .
 
-<http://example.org/activities/Monument%20Valley> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/MonumentValley> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Monument Valley";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Monument%20Valley#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/MonumentValley#country> .
 
-<http://example.org/activities/Monument%20Valley#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/MonumentValley#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United States" .
 
-<http://example.org/activities/St.%20Peter%27s%20Basilica> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/St.PetersBasilica> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "St. Peter's Basilica";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/St.%20Peter%27s%20Basilica#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/St.PetersBasilica#country> .
 
-<http://example.org/activities/St.%20Peter%27s%20Basilica#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/St.PetersBasilica#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Vatican City State (Holy See)" .
 
-<http://example.org/activities/Dome%20of%20the%20Rock> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/DomeoftheRock> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Dome of the Rock";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Dome%20of%20the%20Rock#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/DomeoftheRock#country> .
 
-<http://example.org/activities/Dome%20of%20the%20Rock#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/DomeoftheRock#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Israel" .
 
-<http://example.org/activities/Red%20Square> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/RedSquare> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Red Square";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Red%20Square#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/RedSquare#country> .
 
-<http://example.org/activities/Red%20Square#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/RedSquare#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Russia" .
 
-<http://example.org/activities/Forbidden%20City> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/ForbiddenCity> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Forbidden City";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Forbidden%20City#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/ForbiddenCity#country> .
 
-<http://example.org/activities/Forbidden%20City#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/ForbiddenCity#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "China" .
 
-<http://example.org/activities/Uffizi%20Gallery> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/UffiziGallery> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Uffizi Gallery";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Uffizi%20Gallery#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/UffiziGallery#country> .
 
-<http://example.org/activities/Uffizi%20Gallery#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/UffiziGallery#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Italy" .
 
-<http://example.org/activities/Everest%20Base%20Camp%20Trek> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/EverestBaseCampTrek> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Everest Base Camp Trek";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Everest%20Base%20Camp%20Trek#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/EverestBaseCampTrek#country> .
 
-<http://example.org/activities/Everest%20Base%20Camp%20Trek#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/EverestBaseCampTrek#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Nepal" .
 
-<http://example.org/activities/Shwedagon%20Pagoda> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/ShwedagonPagoda> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Shwedagon Pagoda";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Shwedagon%20Pagoda#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/ShwedagonPagoda#country> .
 
-<http://example.org/activities/Shwedagon%20Pagoda#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/ShwedagonPagoda#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Myanmar" .
 
 <http://example.org/activities/Teotihuacan> a <http://example.org/roadtrip/Activity>;
@@ -646,41 +646,41 @@
 <http://example.org/activities/Teotihuacan#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Mexico" .
 
-<http://example.org/activities/Blue%20Lagoon> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/BlueLagoon> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Blue Lagoon";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Blue%20Lagoon#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/BlueLagoon#country> .
 
-<http://example.org/activities/Blue%20Lagoon#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/BlueLagoon#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Iceland" .
 
-<http://example.org/activities/Lake%20Wanaka> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/LakeWanaka> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Lake Wanaka";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Lake%20Wanaka#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/LakeWanaka#country> .
 
-<http://example.org/activities/Lake%20Wanaka#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/LakeWanaka#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "New Zealand" .
 
-<http://example.org/activities/Abu%20Simbel> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/AbuSimbel> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Abu Simbel";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Abu%20Simbel#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/AbuSimbel#country> .
 
-<http://example.org/activities/Abu%20Simbel#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/AbuSimbel#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Egypt" .
 
-<http://example.org/activities/Le%20Cimeti%C3%A8re%20de%20P%C3%A8re%20Lachaise> a
+<http://example.org/activities/LeCimetieredePereLachaise> a
     <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Le Cimetière de Père Lachaise";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Le%20Cimeti%C3%A8re%20de%20P%C3%A8re%20Lachaise#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/LeCimetieredePereLachaise#country> .
 
-<http://example.org/activities/Le%20Cimeti%C3%A8re%20de%20P%C3%A8re%20Lachaise#country>
+<http://example.org/activities/LeCimetieredePereLachaise#country>
   a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "France" .
 
-<http://example.org/activities/Big%20Sur> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/BigSur> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Big Sur";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Big%20Sur#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/BigSur#country> .
 
-<http://example.org/activities/Big%20Sur#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/BigSur#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United States" .
 
 <http://example.org/activities/Matterhorn> a <http://example.org/roadtrip/Activity>;
@@ -690,76 +690,74 @@
 <http://example.org/activities/Matterhorn#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Switzerland" .
 
-<http://example.org/activities/Gamla%20Stan> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/GamlaStan> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Gamla Stan";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Gamla%20Stan#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/GamlaStan#country> .
 
-<http://example.org/activities/Gamla%20Stan#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/GamlaStan#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Sweden" .
 
-<http://example.org/activities/Okavango%20Delta> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/OkavangoDelta> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Okavango Delta";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Okavango%20Delta#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/OkavangoDelta#country> .
 
-<http://example.org/activities/Okavango%20Delta#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/OkavangoDelta#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Botswana" .
 
-<http://example.org/activities/Golden%20Gate%20Bridge> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/GoldenGateBridge> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Golden Gate Bridge";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Golden%20Gate%20Bridge#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/GoldenGateBridge#country> .
 
-<http://example.org/activities/Golden%20Gate%20Bridge#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/GoldenGateBridge#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United States" .
 
-<http://example.org/activities/Dashashwamedh%20Ghat> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/DashashwamedhGhat> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Dashashwamedh Ghat";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Dashashwamedh%20Ghat#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/DashashwamedhGhat#country> .
 
-<http://example.org/activities/Dashashwamedh%20Ghat#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/DashashwamedhGhat#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "India" .
 
-<http://example.org/activities/Giant%27s%20Causeway> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/GiantsCauseway> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Giant's Causeway";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Giant%27s%20Causeway#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/GiantsCauseway#country> .
 
-<http://example.org/activities/Giant%27s%20Causeway#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/GiantsCauseway#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United Kingdom" .
 
-<http://example.org/activities/Auschwitz%20Memorial%20%2F%20Muzeum%20Auschwitz> a
-    <http://example.org/roadtrip/Activity>;
-  <http://example.org/roadtrip/hasActivityName> "Auschwitz Memorial / Muzeum Auschwitz";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Auschwitz%20Memorial%20%2F%20Muzeum%20Auschwitz#country> .
+<http://example.org/activities/AuschwitzMemorial> a <http://example.org/roadtrip/Activity>;
+  <http://example.org/roadtrip/hasActivityName> "Auschwitz Memorial";
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/AuschwitzMemorial#country> .
 
-<http://example.org/activities/Auschwitz%20Memorial%20%2F%20Muzeum%20Auschwitz#country>
-  a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/AuschwitzMemorial#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Poland" .
 
-<http://example.org/activities/Parque%20Nacional%20Corcovado> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/ParqueNacionalCorcovado> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Parque Nacional Corcovado";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Parque%20Nacional%20Corcovado#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/ParqueNacionalCorcovado#country> .
 
-<http://example.org/activities/Parque%20Nacional%20Corcovado#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/ParqueNacionalCorcovado#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Costa Rica" .
 
-<http://example.org/activities/Niagara%20Falls> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/NiagaraFalls> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Niagara Falls";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Niagara%20Falls#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/NiagaraFalls#country> .
 
-<http://example.org/activities/Niagara%20Falls#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/NiagaraFalls#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Canada" .
 
-<http://example.org/activities/Potala%20Palace%20Lhasa> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/PotalaPalaceLhasa> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Potala Palace Lhasa";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Potala%20Palace%20Lhasa#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/PotalaPalaceLhasa#country> .
 
-<http://example.org/activities/Potala%20Palace%20Lhasa#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/PotalaPalaceLhasa#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "China" .
 
-<http://example.org/activities/Empire%20State%20Building> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/EmpireStateBuilding> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Empire State Building";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Empire%20State%20Building#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/EmpireStateBuilding#country> .
 
-<http://example.org/activities/Empire%20State%20Building#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/EmpireStateBuilding#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United States" .
 
 <http://example.org/activities/Budapest> a <http://example.org/roadtrip/Activity>;
@@ -769,27 +767,26 @@
 <http://example.org/activities/Budapest#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Hungary" .
 
-<http://example.org/activities/Topkapi%20Palace> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/TopkapiPalace> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Topkapi Palace";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Topkapi%20Palace#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/TopkapiPalace#country> .
 
-<http://example.org/activities/Topkapi%20Palace#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/TopkapiPalace#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Turkey" .
 
-<http://example.org/activities/Historic%20Centre%20%28Old%20Town%29%20of%20Tallinn>
-  a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/HistoricCentreofTallinn> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Historic Centre (Old Town) of Tallinn";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Historic%20Centre%20%28Old%20Town%29%20of%20Tallinn#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/HistoricCentreofTallinn#country> .
 
-<http://example.org/activities/Historic%20Centre%20%28Old%20Town%29%20of%20Tallinn#country>
+<http://example.org/activities/HistoricCentreofTallinn#country>
   a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Estonia" .
 
-<http://example.org/activities/Stari%20Most%20Bridge> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/StariMostBridge> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Stari Most Bridge";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Stari%20Most%20Bridge#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/StariMostBridge#country> .
 
-<http://example.org/activities/Stari%20Most%20Bridge#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/StariMostBridge#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Bosnia and Herzegovina" .
 
 <http://example.org/activities/Ayuthaya> a <http://example.org/roadtrip/Activity>;
@@ -799,32 +796,32 @@
 <http://example.org/activities/Ayuthaya#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Thailand" .
 
-<http://example.org/activities/Vatican%20Museum> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/VaticanMuseum> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Vatican Museum";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Vatican%20Museum#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/VaticanMuseum#country> .
 
-<http://example.org/activities/Vatican%20Museum#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/VaticanMuseum#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Vatican City State (Holy See)" .
 
-<http://example.org/activities/Anakena%20Beach> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/AnakenaBeach> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Anakena Beach";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Anakena%20Beach#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/AnakenaBeach#country> .
 
-<http://example.org/activities/Anakena%20Beach#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/AnakenaBeach#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Chile" .
 
-<http://example.org/activities/The%20Peak> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/ThePeak> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "The Peak";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/The%20Peak#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/ThePeak#country> .
 
-<http://example.org/activities/The%20Peak#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/ThePeak#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Hong Kong S.A.R." .
 
-<http://example.org/activities/St.%20Paul%27s%20Cathedral> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/St.PaulsCathedral> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "St. Paul's Cathedral";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/St.%20Paul%27s%20Cathedral#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/St.PaulsCathedral#country> .
 
-<http://example.org/activities/St.%20Paul%27s%20Cathedral#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/St.PaulsCathedral#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United Kingdom" .
 
 <http://example.org/activities/Meteora> a <http://example.org/roadtrip/Activity>;
@@ -834,34 +831,33 @@
 <http://example.org/activities/Meteora#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Greece" .
 
-<http://example.org/activities/Temple%20and%20Cemetery%20of%20Confucius%20and%20the%20Kong%20Family%20Mansion%20in%20Qufu>
-  a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/TempleandCemeteryofConfuciusandtheKongFamilyMansioninQufu> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Temple and Cemetery of Confucius and the Kong Family Mansion in Qufu";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Temple%20and%20Cemetery%20of%20Confucius%20and%20the%20Kong%20Family%20Mansion%20in%20Qufu#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/TempleandCemeteryofConfuciusandtheKongFamilyMansioninQufu#country> .
 
-<http://example.org/activities/Temple%20and%20Cemetery%20of%20Confucius%20and%20the%20Kong%20Family%20Mansion%20in%20Qufu#country>
+<http://example.org/activities/TempleandCemeteryofConfuciusandtheKongFamilyMansioninQufu#country>
   a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "China" .
 
-<http://example.org/activities/Copper%20Canyon> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/CopperCanyon> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Copper Canyon";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Copper%20Canyon#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/CopperCanyon#country> .
 
-<http://example.org/activities/Copper%20Canyon#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/CopperCanyon#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Mexico" .
 
-<http://example.org/activities/Monte%20Fitz%20Roy%20El%20Chalten> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/MonteFitzRoyElChalten> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Monte Fitz Roy El Chalten";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Monte%20Fitz%20Roy%20El%20Chalten#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/MonteFitzRoyElChalten#country> .
 
-<http://example.org/activities/Monte%20Fitz%20Roy%20El%20Chalten#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/MonteFitzRoyElChalten#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Argentina" .
 
-<http://example.org/activities/Aiguille%20Du%20Midi> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/AiguilleDuMidi> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Aiguille Du Midi";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Aiguille%20Du%20Midi#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/AiguilleDuMidi#country> .
 
-<http://example.org/activities/Aiguille%20Du%20Midi#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/AiguilleDuMidi#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "France" .
 
 <http://example.org/activities/Bryggen> a <http://example.org/roadtrip/Activity>;
@@ -871,46 +867,46 @@
 <http://example.org/activities/Bryggen#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Norway" .
 
-<http://example.org/activities/Stewart%20Island> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/StewartIsland> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Stewart Island";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Stewart%20Island#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/StewartIsland#country> .
 
-<http://example.org/activities/Stewart%20Island#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/StewartIsland#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "New Zealand" .
 
-<http://example.org/activities/Bhaktapur%20Durbar%20Square> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/BhaktapurDurbarSquare> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Bhaktapur Durbar Square";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Bhaktapur%20Durbar%20Square#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/BhaktapurDurbarSquare#country> .
 
-<http://example.org/activities/Bhaktapur%20Durbar%20Square#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/BhaktapurDurbarSquare#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Nepal" .
 
-<http://example.org/activities/Bazaruto%20Archipelago> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/BazarutoArchipelago> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Bazaruto Archipelago";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Bazaruto%20Archipelago#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/BazarutoArchipelago#country> .
 
-<http://example.org/activities/Bazaruto%20Archipelago#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/BazarutoArchipelago#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Mozambique" .
 
-<http://example.org/activities/Andaz%20Amsterdam%20Prinsengracht> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/AndazAmsterdamPrinsengracht> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Andaz Amsterdam Prinsengracht";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Andaz%20Amsterdam%20Prinsengracht#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/AndazAmsterdamPrinsengracht#country> .
 
-<http://example.org/activities/Andaz%20Amsterdam%20Prinsengracht#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/AndazAmsterdamPrinsengracht#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Netherlands" .
 
-<http://example.org/activities/Plitvice%20Lakes%20National%20Park> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/PlitviceLakesNationalPark> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Plitvice Lakes National Park";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Plitvice%20Lakes%20National%20Park#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/PlitviceLakesNationalPark#country> .
 
-<http://example.org/activities/Plitvice%20Lakes%20National%20Park#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/PlitviceLakesNationalPark#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Croatia" .
 
-<http://example.org/activities/Bay%20of%20Islands%20-%20New%20Zealand> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/BayofIslands-NewZealand> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Bay of Islands - New Zealand";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Bay%20of%20Islands%20-%20New%20Zealand#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/BayofIslands-NewZealand#country> .
 
-<http://example.org/activities/Bay%20of%20Islands%20-%20New%20Zealand#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/BayofIslands-NewZealand#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "New Zealand" .
 
 <http://example.org/activities/Pantanal> a <http://example.org/roadtrip/Activity>;
@@ -920,42 +916,41 @@
 <http://example.org/activities/Pantanal#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Brazil" .
 
-<http://example.org/activities/Great%20Buddha> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/GreatBuddha> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Great Buddha";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Great%20Buddha#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/GreatBuddha#country> .
 
-<http://example.org/activities/Great%20Buddha#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/GreatBuddha#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Thailand" .
 
-<http://example.org/activities/Museum%20of%20Anthropology%20Vancouver%20BC> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/MuseumofAnthropologyVancouverBC> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Museum of Anthropology Vancouver BC";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Museum%20of%20Anthropology%20Vancouver%20BC#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/MuseumofAnthropologyVancouverBC#country> .
 
-<http://example.org/activities/Museum%20of%20Anthropology%20Vancouver%20BC#country>
+<http://example.org/activities/MuseumofAnthropologyVancouverBC#country>
   a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Canada" .
 
-<http://example.org/activities/Skara%20Brae> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/SkaraBrae> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Skara Brae";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Skara%20Brae#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/SkaraBrae#country> .
 
-<http://example.org/activities/Skara%20Brae#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/SkaraBrae#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United Kingdom" .
 
-<http://example.org/activities/West%20Norwegian%20Fjords%20%E2%80%93%20Geirangerfjord%20and%20N%C3%A6r%C3%B8yfjord>
-  a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/WestNorwegianFjords> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "West Norwegian Fjords – Geirangerfjord and Nærøyfjord";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/West%20Norwegian%20Fjords%20%E2%80%93%20Geirangerfjord%20and%20N%C3%A6r%C3%B8yfjord#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/WestNorwegianFjords#country> .
 
-<http://example.org/activities/West%20Norwegian%20Fjords%20%E2%80%93%20Geirangerfjord%20and%20N%C3%A6r%C3%B8yfjord#country>
+<http://example.org/activities/WestNorwegianFjords#country>
   a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Norway" .
 
-<http://example.org/activities/Tayrona%20National%20Park> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/TayronaNationalPark> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Tayrona National Park";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Tayrona%20National%20Park#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/TayronaNationalPark#country> .
 
-<http://example.org/activities/Tayrona%20National%20Park#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/TayronaNationalPark#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Colombia" .
 
 <http://example.org/activities/Choquequirao> a <http://example.org/roadtrip/Activity>;
@@ -972,11 +967,11 @@
 <http://example.org/activities/Ephesus#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Greece" .
 
-<http://example.org/activities/Kruger%20National%20Park> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/KrugerNationalPark> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Kruger National Park";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Kruger%20National%20Park#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/KrugerNationalPark#country> .
 
-<http://example.org/activities/Kruger%20National%20Park#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/KrugerNationalPark#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "South Africa" .
 
 <http://example.org/activities/Tulum> a <http://example.org/roadtrip/Activity>;
@@ -986,11 +981,11 @@
 <http://example.org/activities/Tulum#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Mexico" .
 
-<http://example.org/activities/Tsukiji%20Fish%20Market> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/TsukijiFishMarket> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Tsukiji Fish Market";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Tsukiji%20Fish%20Market#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/TsukijiFishMarket#country> .
 
-<http://example.org/activities/Tsukiji%20Fish%20Market#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/TsukijiFishMarket#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Japan" .
 
 <http://example.org/activities/Sintra> a <http://example.org/roadtrip/Activity>;
@@ -1007,62 +1002,61 @@
 <http://example.org/activities/Carcassonne#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "France" .
 
-<http://example.org/activities/Statue%20of%20Liberty> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/StatueofLiberty> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Statue of Liberty";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Statue%20of%20Liberty#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/StatueofLiberty#country> .
 
-<http://example.org/activities/Statue%20of%20Liberty#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/StatueofLiberty#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United States" .
 
-<http://example.org/activities/Vatnajokulll%20Glacier%20Cave> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/VatnajokulllGlacierCave> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Vatnajokulll Glacier Cave";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Vatnajokulll%20Glacier%20Cave#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/VatnajokulllGlacierCave#country> .
 
-<http://example.org/activities/Vatnajokulll%20Glacier%20Cave#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/VatnajokulllGlacierCave#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Iceland" .
 
-<http://example.org/activities/Blue%20Mosque> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/BlueMosque> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Blue Mosque";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Blue%20Mosque#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/BlueMosque#country> .
 
-<http://example.org/activities/Blue%20Mosque#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/BlueMosque#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Turkey" .
 
-<http://example.org/activities/Gion%20District> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/GionDistrict> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Gion District";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Gion%20District#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/GionDistrict#country> .
 
-<http://example.org/activities/Gion%20District#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/GionDistrict#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Japan" .
 
-<http://example.org/activities/Leshan%20Grand%20Buddha> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/LeshanGrandBuddha> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Leshan Grand Buddha";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Leshan%20Grand%20Buddha#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/LeshanGrandBuddha#country> .
 
-<http://example.org/activities/Leshan%20Grand%20Buddha#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/LeshanGrandBuddha#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "China" .
 
-<http://example.org/activities/Cave%20of%20Altamira%20and%20Paleolithic%20Cave%20Art%20of%20Northern%20Spain>
-  a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/CaveofAltamiraandPaleolithicCaveArtofNorthernSpain> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Cave of Altamira and Paleolithic Cave Art of Northern Spain";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Cave%20of%20Altamira%20and%20Paleolithic%20Cave%20Art%20of%20Northern%20Spain#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/CaveofAltamiraandPaleolithicCaveArtofNorthernSpain#country> .
 
-<http://example.org/activities/Cave%20of%20Altamira%20and%20Paleolithic%20Cave%20Art%20of%20Northern%20Spain#country>
+<http://example.org/activities/CaveofAltamiraandPaleolithicCaveArtofNorthernSpain#country>
   a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Spain" .
 
-<http://example.org/activities/Haida%20Gwaii%20British%20Columbia> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/HaidaGwaiiBritishColumbia> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Haida Gwaii British Columbia";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Haida%20Gwaii%20British%20Columbia#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/HaidaGwaiiBritishColumbia#country> .
 
-<http://example.org/activities/Haida%20Gwaii%20British%20Columbia#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/HaidaGwaiiBritishColumbia#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Canada" .
 
-<http://example.org/activities/Bairro%20of%20Ribeira> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/BairroofRibeira> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Bairro of Ribeira";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Bairro%20of%20Ribeira#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/BairroofRibeira#country> .
 
-<http://example.org/activities/Bairro%20of%20Ribeira#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/BairroofRibeira#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Portugal" .
 
 <http://example.org/activities/Koya-San> a <http://example.org/roadtrip/Activity>;
@@ -1072,11 +1066,11 @@
 <http://example.org/activities/Koya-San#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Japan" .
 
-<http://example.org/activities/Mt.%20Etna> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/Mt.Etna> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Mt. Etna";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Mt.%20Etna#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Mt.Etna#country> .
 
-<http://example.org/activities/Mt.%20Etna#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/Mt.Etna#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Italy" .
 
 <http://example.org/activities/Eiger> a <http://example.org/roadtrip/Activity>;
@@ -1086,133 +1080,132 @@
 <http://example.org/activities/Eiger#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Switzerland" .
 
-<http://example.org/activities/Walt%20Disney%20World> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/WaltDisneyWorld> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Walt Disney World";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Walt%20Disney%20World#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/WaltDisneyWorld#country> .
 
-<http://example.org/activities/Walt%20Disney%20World#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/WaltDisneyWorld#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United States" .
 
-<http://example.org/activities/Chernobyl%20Exclusion%20Zone> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/ChernobylExclusionZone> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Chernobyl Exclusion Zone";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Chernobyl%20Exclusion%20Zone#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/ChernobylExclusionZone#country> .
 
-<http://example.org/activities/Chernobyl%20Exclusion%20Zone#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/ChernobylExclusionZone#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Ukraine" .
 
-<http://example.org/activities/Shibuya%20Crossing> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/ShibuyaCrossing> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Shibuya Crossing";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Shibuya%20Crossing#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/ShibuyaCrossing#country> .
 
-<http://example.org/activities/Shibuya%20Crossing#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/ShibuyaCrossing#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Japan" .
 
-<http://example.org/activities/Valle%20De%20Vinales> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/ValleDeVinales> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Valle De Vinales";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Valle%20De%20Vinales#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/ValleDeVinales#country> .
 
-<http://example.org/activities/Valle%20De%20Vinales#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/ValleDeVinales#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Cuba" .
 
-<http://example.org/activities/Schloss%20Neuschwanstein> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/SchlossNeuschwanstein> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Schloss Neuschwanstein";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Schloss%20Neuschwanstein#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/SchlossNeuschwanstein#country> .
 
-<http://example.org/activities/Schloss%20Neuschwanstein#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/SchlossNeuschwanstein#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Germany" .
 
-<http://example.org/activities/Terracotta%20Warriors> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/TerracottaWarriors> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Terracotta Warriors";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Terracotta%20Warriors#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/TerracottaWarriors#country> .
 
-<http://example.org/activities/Terracotta%20Warriors#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/TerracottaWarriors#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "China" .
 
-<http://example.org/activities/Shackleton%27s%20Hut> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/ShackletonsHut> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Shackleton's Hut";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Shackleton%27s%20Hut#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/ShackletonsHut#country> .
 
-<http://example.org/activities/Shackleton%27s%20Hut#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/ShackletonsHut#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Antarctica" .
 
-<http://example.org/activities/Icehotel%20Jukkasj%C3%A4rvi> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/IcehotelJukkasjarvi> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Icehotel Jukkasjärvi";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Icehotel%20Jukkasj%C3%A4rvi#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/IcehotelJukkasjarvi#country> .
 
-<http://example.org/activities/Icehotel%20Jukkasj%C3%A4rvi#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/IcehotelJukkasjarvi#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Sweden" .
 
-<http://example.org/activities/Hike%20From%20Moraine%20Lake%20Through%20Paradise%20Valley>
-  a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/HikeFromMoraineLakeThroughParadiseValley> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Hike From Moraine Lake Through Paradise Valley";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Hike%20From%20Moraine%20Lake%20Through%20Paradise%20Valley#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/HikeFromMoraineLakeThroughParadiseValley#country> .
 
-<http://example.org/activities/Hike%20From%20Moraine%20Lake%20Through%20Paradise%20Valley#country>
+<http://example.org/activities/HikeFromMoraineLakeThroughParadiseValley#country>
   a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Canada" .
 
-<http://example.org/activities/Roman%20Baths%20%28Bath%29> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/RomanBaths> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Roman Baths (Bath)";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Roman%20Baths%20%28Bath%29#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/RomanBaths#country> .
 
-<http://example.org/activities/Roman%20Baths%20%28Bath%29#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/RomanBaths#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United Kingdom" .
 
-<http://example.org/activities/Chobe%20National%20Park> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/ChobeNationalPark> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Chobe National Park";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Chobe%20National%20Park#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/ChobeNationalPark#country> .
 
-<http://example.org/activities/Chobe%20National%20Park#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/ChobeNationalPark#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Botswana" .
 
-<http://example.org/activities/Inle%20Lake> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/InleLake> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Inle Lake";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Inle%20Lake#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/InleLake#country> .
 
-<http://example.org/activities/Inle%20Lake#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/InleLake#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Myanmar" .
 
-<http://example.org/activities/Kota%20Kinabalu> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/KotaKinabalu> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Kota Kinabalu";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Kota%20Kinabalu#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/KotaKinabalu#country> .
 
-<http://example.org/activities/Kota%20Kinabalu#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/KotaKinabalu#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Malaysia" .
 
-<http://example.org/activities/Phong%20Nha-Ke%20Bang%20National%20Park> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/PhongNha-KeBangNationalPark> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Phong Nha-Ke Bang National Park";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Phong%20Nha-Ke%20Bang%20National%20Park#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/PhongNha-KeBangNationalPark#country> .
 
-<http://example.org/activities/Phong%20Nha-Ke%20Bang%20National%20Park#country> a
+<http://example.org/activities/PhongNha-KeBangNationalPark#country> a
     <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Vietnam" .
 
-<http://example.org/activities/Edinburgh%20Royal%20Mile> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/EdinburghRoyalMile> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Edinburgh Royal Mile";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Edinburgh%20Royal%20Mile#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/EdinburghRoyalMile#country> .
 
-<http://example.org/activities/Edinburgh%20Royal%20Mile#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/EdinburghRoyalMile#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United Kingdom" .
 
-<http://example.org/activities/Cristo%20Redentor> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/CristoRedentor> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Cristo Redentor";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Cristo%20Redentor#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/CristoRedentor#country> .
 
-<http://example.org/activities/Cristo%20Redentor#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/CristoRedentor#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Brazil" .
 
-<http://example.org/activities/National%20Mall> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/NationalMall> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "National Mall";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/National%20Mall#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/NationalMall#country> .
 
-<http://example.org/activities/National%20Mall#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/NationalMall#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United States" .
 
-<http://example.org/activities/Prague%20Castle> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/PragueCastle> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Prague Castle";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Prague%20Castle#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/PragueCastle#country> .
 
-<http://example.org/activities/Prague%20Castle#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/PragueCastle#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Czech Republic" .
 
 <http://example.org/activities/Accra> a <http://example.org/roadtrip/Activity>;
@@ -1222,11 +1215,11 @@
 <http://example.org/activities/Accra#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Ghana" .
 
-<http://example.org/activities/La%20Grand-Place%20Brussels> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/LaGrand-PlaceBrussels> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "La Grand-Place Brussels";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/La%20Grand-Place%20Brussels#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/LaGrand-PlaceBrussels#country> .
 
-<http://example.org/activities/La%20Grand-Place%20Brussels#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/LaGrand-PlaceBrussels#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Belgium" .
 
 <http://example.org/activities/Kinkaku-Ji> a <http://example.org/roadtrip/Activity>;
@@ -1236,39 +1229,39 @@
 <http://example.org/activities/Kinkaku-Ji#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Japan" .
 
-<http://example.org/activities/Gullfoss%20Waterfall> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/GullfossWaterfall> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Gullfoss Waterfall";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Gullfoss%20Waterfall#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/GullfossWaterfall#country> .
 
-<http://example.org/activities/Gullfoss%20Waterfall#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/GullfossWaterfall#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Iceland" .
 
-<http://example.org/activities/The%20Rocky%20Mountains> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/TheRockyMountains> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "The Rocky Mountains";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/The%20Rocky%20Mountains#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/TheRockyMountains#country> .
 
-<http://example.org/activities/The%20Rocky%20Mountains#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/TheRockyMountains#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Canada" .
 
-<http://example.org/activities/Egyptian%20Museum> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/EgyptianMuseum> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Egyptian Museum";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Egyptian%20Museum#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/EgyptianMuseum#country> .
 
-<http://example.org/activities/Egyptian%20Museum#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/EgyptianMuseum#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Egypt" .
 
-<http://example.org/activities/Gorges%20Du%20Verdon> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/GorgesDuVerdon> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Gorges Du Verdon";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Gorges%20Du%20Verdon#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/GorgesDuVerdon#country> .
 
-<http://example.org/activities/Gorges%20Du%20Verdon#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/GorgesDuVerdon#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "France" .
 
-<http://example.org/activities/Amber%20Fort> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/AmberFort> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Amber Fort";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Amber%20Fort#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/AmberFort#country> .
 
-<http://example.org/activities/Amber%20Fort#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/AmberFort#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "India" .
 
 <http://example.org/activities/Snowdonia> a <http://example.org/roadtrip/Activity>;
@@ -1278,11 +1271,11 @@
 <http://example.org/activities/Snowdonia#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United Kingdom" .
 
-<http://example.org/activities/Volcanoes%20National%20Park> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/VolcanoesNationalPark> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Volcanoes National Park";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Volcanoes%20National%20Park#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/VolcanoesNationalPark#country> .
 
-<http://example.org/activities/Volcanoes%20National%20Park#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/VolcanoesNationalPark#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Rwanda" .
 
 <http://example.org/activities/Xochimilco> a <http://example.org/roadtrip/Activity>;
@@ -1299,46 +1292,46 @@
 <http://example.org/activities/Glencoe#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United Kingdom" .
 
-<http://example.org/activities/Mont%20Blanc> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/MontBlanc> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Mont Blanc";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Mont%20Blanc#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/MontBlanc#country> .
 
-<http://example.org/activities/Mont%20Blanc#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/MontBlanc#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "France" .
 
-<http://example.org/activities/Karnak%20Temple%20Luxor> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/KarnakTempleLuxor> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Karnak Temple Luxor";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Karnak%20Temple%20Luxor#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/KarnakTempleLuxor#country> .
 
-<http://example.org/activities/Karnak%20Temple%20Luxor#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/KarnakTempleLuxor#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Egypt" .
 
-<http://example.org/activities/Gardens%20by%20the%20Bay> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/GardensbytheBay> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Gardens by the Bay";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Gardens%20by%20the%20Bay#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/GardensbytheBay#country> .
 
-<http://example.org/activities/Gardens%20by%20the%20Bay#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/GardensbytheBay#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Singapore" .
 
-<http://example.org/activities/iSimangaliso%20Wetland%20Park> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/iSimangalisoWetlandPark> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "iSimangaliso Wetland Park";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/iSimangaliso%20Wetland%20Park#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/iSimangalisoWetlandPark#country> .
 
-<http://example.org/activities/iSimangaliso%20Wetland%20Park#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/iSimangalisoWetlandPark#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "South Africa" .
 
-<http://example.org/activities/York%20Minster> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/YorkMinster> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "York Minster";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/York%20Minster#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/YorkMinster#country> .
 
-<http://example.org/activities/York%20Minster#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/YorkMinster#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United Kingdom" .
 
-<http://example.org/activities/Van%20Gogh%20Museum> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/VanGoghMuseum> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Van Gogh Museum";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Van%20Gogh%20Museum#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/VanGoghMuseum#country> .
 
-<http://example.org/activities/Van%20Gogh%20Museum#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/VanGoghMuseum#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Netherlands" .
 
 <http://example.org/activities/Sigiriya> a <http://example.org/roadtrip/Activity>;
@@ -1348,25 +1341,25 @@
 <http://example.org/activities/Sigiriya#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Sri Lanka" .
 
-<http://example.org/activities/Madurai%20Meenakshi%20Amman%20Temple> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/MaduraiMeenakshiAmmanTemple> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Madurai Meenakshi Amman Temple";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Madurai%20Meenakshi%20Amman%20Temple#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/MaduraiMeenakshiAmmanTemple#country> .
 
-<http://example.org/activities/Madurai%20Meenakshi%20Amman%20Temple#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/MaduraiMeenakshiAmmanTemple#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "India" .
 
-<http://example.org/activities/Old%20Tbilisi> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/OldTbilisi> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Old Tbilisi";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Old%20Tbilisi#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/OldTbilisi#country> .
 
-<http://example.org/activities/Old%20Tbilisi#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/OldTbilisi#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Georgia" .
 
-<http://example.org/activities/Changdeokgung%20Palace%20Complex> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/ChangdeokgungPalaceComplex> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Changdeokgung Palace Complex";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Changdeokgung%20Palace%20Complex#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/ChangdeokgungPalaceComplex#country> .
 
-<http://example.org/activities/Changdeokgung%20Palace%20Complex#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/ChangdeokgungPalaceComplex#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Korea South" .
 
 <http://example.org/activities/DMZ> a <http://example.org/roadtrip/Activity>;
@@ -1376,83 +1369,82 @@
 <http://example.org/activities/DMZ#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Korea South" .
 
-<http://example.org/activities/Boudhanath%20Stupa%20Kathmandu> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/BoudhanathStupaKathmandu> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Boudhanath Stupa Kathmandu";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Boudhanath%20Stupa%20Kathmandu#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/BoudhanathStupaKathmandu#country> .
 
-<http://example.org/activities/Boudhanath%20Stupa%20Kathmandu#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/BoudhanathStupaKathmandu#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Nepal" .
 
-<http://example.org/activities/Rynek%20Glowny%20Krakow> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/RynekGlownyKrakow> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Rynek Glowny Krakow";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Rynek%20Glowny%20Krakow#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/RynekGlownyKrakow#country> .
 
-<http://example.org/activities/Rynek%20Glowny%20Krakow#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/RynekGlownyKrakow#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Poland" .
 
-<http://example.org/activities/Mogao%20Caves> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/MogaoCaves> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Mogao Caves";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Mogao%20Caves#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/MogaoCaves#country> .
 
-<http://example.org/activities/Mogao%20Caves#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/MogaoCaves#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "China" .
 
-<http://example.org/activities/Vat%20Phou%20and%20Associated%20Ancient%20Settlements%20Within%20the%20Champasak%20Cultu>
-  a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/VatPhouandAssociatedAncientSettlementsWithintheChampasakCultu> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Vat Phou and Associated Ancient Settlements Within the Champasak Cultu";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Vat%20Phou%20and%20Associated%20Ancient%20Settlements%20Within%20the%20Champasak%20Cultu#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/VatPhouandAssociatedAncientSettlementsWithintheChampasakCultu#country> .
 
-<http://example.org/activities/Vat%20Phou%20and%20Associated%20Ancient%20Settlements%20Within%20the%20Champasak%20Cultu#country>
+<http://example.org/activities/VatPhouandAssociatedAncientSettlementsWithintheChampasakCultu#country>
   a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Laos" .
 
-<http://example.org/activities/Goree%20Island> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/GoreeIsland> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Goree Island";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Goree%20Island#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/GoreeIsland#country> .
 
-<http://example.org/activities/Goree%20Island#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/GoreeIsland#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Senegal" .
 
-<http://example.org/activities/Mont%20St%20Michel> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/MontStMichel> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Mont St Michel";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Mont%20St%20Michel#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/MontStMichel#country> .
 
-<http://example.org/activities/Mont%20St%20Michel#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/MontStMichel#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "France" .
 
-<http://example.org/activities/Blue%20Mountains> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/BlueMountains> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Blue Mountains";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Blue%20Mountains#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/BlueMountains#country> .
 
-<http://example.org/activities/Blue%20Mountains#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/BlueMountains#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Australia" .
 
-<http://example.org/activities/Island%20of%20Mozambique> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/IslandofMozambique> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Island of Mozambique";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Island%20of%20Mozambique#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/IslandofMozambique#country> .
 
-<http://example.org/activities/Island%20of%20Mozambique#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/IslandofMozambique#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Mozambique" .
 
-<http://example.org/activities/Grand%20Erg%20Occidental%20Desert> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/GrandErgOccidentalDesert> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Grand Erg Occidental Desert";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Grand%20Erg%20Occidental%20Desert#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/GrandErgOccidentalDesert#country> .
 
-<http://example.org/activities/Grand%20Erg%20Occidental%20Desert#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/GrandErgOccidentalDesert#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Algeria" .
 
-<http://example.org/activities/San%20Gimignano> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/SanGimignano> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "San Gimignano";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/San%20Gimignano#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/SanGimignano#country> .
 
-<http://example.org/activities/San%20Gimignano#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/SanGimignano#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Italy" .
 
-<http://example.org/activities/Vasamuseet%20%2F%20the%20Vasa%20Museum> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/Vasamuseet> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Vasamuseet / the Vasa Museum";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Vasamuseet%20%2F%20the%20Vasa%20Museum#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Vasamuseet#country> .
 
-<http://example.org/activities/Vasamuseet%20%2F%20the%20Vasa%20Museum#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/Vasamuseet#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Sweden" .
 
 <http://example.org/activities/Portmeirion> a <http://example.org/roadtrip/Activity>;
@@ -1462,32 +1454,32 @@
 <http://example.org/activities/Portmeirion#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United Kingdom" .
 
-<http://example.org/activities/Times%20Square> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/TimesSquare> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Times Square";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Times%20Square#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/TimesSquare#country> .
 
-<http://example.org/activities/Times%20Square#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/TimesSquare#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United States" .
 
-<http://example.org/activities/Bacuit%20Archipelago> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/BacuitArchipelago> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Bacuit Archipelago";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Bacuit%20Archipelago#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/BacuitArchipelago#country> .
 
-<http://example.org/activities/Bacuit%20Archipelago#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/BacuitArchipelago#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Philippines" .
 
-<http://example.org/activities/Robben%20Island> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/RobbenIsland> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Robben Island";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Robben%20Island#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/RobbenIsland#country> .
 
-<http://example.org/activities/Robben%20Island#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/RobbenIsland#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "South Africa" .
 
-<http://example.org/activities/Borgarfj%C3%B6r%C3%B0ur%20Eystri> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/BorgarfjorourEystri> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Borgarfjörður Eystri";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Borgarfj%C3%B6r%C3%B0ur%20Eystri#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/BorgarfjorourEystri#country> .
 
-<http://example.org/activities/Borgarfj%C3%B6r%C3%B0ur%20Eystri#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/BorgarfjorourEystri#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Iceland" .
 
 <http://example.org/activities/Sossusvlei> a <http://example.org/roadtrip/Activity>;
@@ -1497,25 +1489,25 @@
 <http://example.org/activities/Sossusvlei#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Namibia" .
 
-<http://example.org/activities/Wieliczka%20Salt%20Mine> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/WieliczkaSaltMine> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Wieliczka Salt Mine";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Wieliczka%20Salt%20Mine#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/WieliczkaSaltMine#country> .
 
-<http://example.org/activities/Wieliczka%20Salt%20Mine#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/WieliczkaSaltMine#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Poland" .
 
-<http://example.org/activities/Parque%20Nacional%20Nahuel%20Huapi> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/ParqueNacionalNahuelHuapi> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Parque Nacional Nahuel Huapi";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Parque%20Nacional%20Nahuel%20Huapi#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/ParqueNacionalNahuelHuapi#country> .
 
-<http://example.org/activities/Parque%20Nacional%20Nahuel%20Huapi#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/ParqueNacionalNahuelHuapi#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Argentina" .
 
-<http://example.org/activities/Jellyfish%20Lake%20Eil%20Malk> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/JellyfishLakeEilMalk> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Jellyfish Lake Eil Malk";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Jellyfish%20Lake%20Eil%20Malk#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/JellyfishLakeEilMalk#country> .
 
-<http://example.org/activities/Jellyfish%20Lake%20Eil%20Malk#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/JellyfishLakeEilMalk#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Palau" .
 
 <http://example.org/activities/Vigelandspark> a <http://example.org/roadtrip/Activity>;
@@ -1525,26 +1517,26 @@
 <http://example.org/activities/Vigelandspark#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Norway" .
 
-<http://example.org/activities/Summer%20Palace%20and%20Imperial%20Garden> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/SummerPalaceandImperialGarden> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Summer Palace and Imperial Garden";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Summer%20Palace%20and%20Imperial%20Garden#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/SummerPalaceandImperialGarden#country> .
 
-<http://example.org/activities/Summer%20Palace%20and%20Imperial%20Garden#country>
+<http://example.org/activities/SummerPalaceandImperialGarden#country>
   a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "China" .
 
-<http://example.org/activities/Old%20Quebec%2FVieux%20Qu%C3%A9bec> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/OldQuebec> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Old Quebec/Vieux Québec";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Old%20Quebec%2FVieux%20Qu%C3%A9bec#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/OldQuebec#country> .
 
-<http://example.org/activities/Old%20Quebec%2FVieux%20Qu%C3%A9bec#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/OldQuebec#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Canada" .
 
-<http://example.org/activities/Canterbury%20Cathedral> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/CanterburyCathedral> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Canterbury Cathedral";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Canterbury%20Cathedral#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/CanterburyCathedral#country> .
 
-<http://example.org/activities/Canterbury%20Cathedral#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/CanterburyCathedral#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United Kingdom" .
 
 <http://example.org/activities/Carthage> a <http://example.org/roadtrip/Activity>;
@@ -1554,54 +1546,54 @@
 <http://example.org/activities/Carthage#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Tunisia" .
 
-<http://example.org/activities/Reichstag%20Building> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/ReichstagBuilding> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Reichstag Building";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Reichstag%20Building#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/ReichstagBuilding#country> .
 
-<http://example.org/activities/Reichstag%20Building#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/ReichstagBuilding#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Germany" .
 
-<http://example.org/activities/Group%20of%20Monuments%20at%20Hampi> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/GroupofMonumentsatHampi> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Group of Monuments at Hampi";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Group%20of%20Monuments%20at%20Hampi#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/GroupofMonumentsatHampi#country> .
 
-<http://example.org/activities/Group%20of%20Monuments%20at%20Hampi#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/GroupofMonumentsatHampi#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "India" .
 
-<http://example.org/activities/Malecon%20De%20Riohacha> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/MaleconDeRiohacha> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Malecon De Riohacha";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Malecon%20De%20Riohacha#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/MaleconDeRiohacha#country> .
 
-<http://example.org/activities/Malecon%20De%20Riohacha#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/MaleconDeRiohacha#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Colombia" .
 
-<http://example.org/activities/Br%C3%BA%20Na%20B%C3%B3inne%20Neolithic%20Site> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/BruNaBoinneNeolithicSite> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Brú Na Bóinne Neolithic Site";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Br%C3%BA%20Na%20B%C3%B3inne%20Neolithic%20Site#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/BruNaBoinneNeolithicSite#country> .
 
-<http://example.org/activities/Br%C3%BA%20Na%20B%C3%B3inne%20Neolithic%20Site#country>
+<http://example.org/activities/BruNaBoinneNeolithicSite#country>
   a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Ireland" .
 
-<http://example.org/activities/Museo%20Del%20Prado> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/MuseoDelPrado> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Museo Del Prado";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Museo%20Del%20Prado#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/MuseoDelPrado#country> .
 
-<http://example.org/activities/Museo%20Del%20Prado#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/MuseoDelPrado#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Spain" .
 
-<http://example.org/activities/Lago%20Atitlan> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/LagoAtitlan> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Lago Atitlan";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Lago%20Atitlan#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/LagoAtitlan#country> .
 
-<http://example.org/activities/Lago%20Atitlan#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/LagoAtitlan#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Guatemala" .
 
-<http://example.org/activities/Gunung%20Leuser%20National%20Park> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/GunungLeuserNationalPark> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Gunung Leuser National Park";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Gunung%20Leuser%20National%20Park#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/GunungLeuserNationalPark#country> .
 
-<http://example.org/activities/Gunung%20Leuser%20National%20Park#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/GunungLeuserNationalPark#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Indonesia" .
 
 <http://example.org/activities/Alcatraz> a <http://example.org/roadtrip/Activity>;
@@ -1611,32 +1603,32 @@
 <http://example.org/activities/Alcatraz#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United States" .
 
-<http://example.org/activities/Piazza%20Del%20Campo> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/PiazzaDelCampo> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Piazza Del Campo";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Piazza%20Del%20Campo#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/PiazzaDelCampo#country> .
 
-<http://example.org/activities/Piazza%20Del%20Campo#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/PiazzaDelCampo#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Italy" .
 
-<http://example.org/activities/Postojna%20Cave> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/PostojnaCave> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Postojna Cave";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Postojna%20Cave#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/PostojnaCave#country> .
 
-<http://example.org/activities/Postojna%20Cave#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/PostojnaCave#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Slovenia" .
 
-<http://example.org/activities/Rila%20Monastery> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/RilaMonastery> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Rila Monastery";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Rila%20Monastery#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/RilaMonastery#country> .
 
-<http://example.org/activities/Rila%20Monastery#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/RilaMonastery#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Bulgaria" .
 
-<http://example.org/activities/The%20Bund> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/TheBund> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "The Bund";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/The%20Bund#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/TheBund#country> .
 
-<http://example.org/activities/The%20Bund#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/TheBund#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "China" .
 
 <http://example.org/activities/Rijksmuseum> a <http://example.org/roadtrip/Activity>;
@@ -1646,60 +1638,60 @@
 <http://example.org/activities/Rijksmuseum#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Netherlands" .
 
-<http://example.org/activities/Pont%20Du%20Gard> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/PontDuGard> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Pont Du Gard";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Pont%20Du%20Gard#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/PontDuGard#country> .
 
-<http://example.org/activities/Pont%20Du%20Gard#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/PontDuGard#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "France" .
 
-<http://example.org/activities/Alcazar%20Seville> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/AlcazarSeville> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Alcazar Seville";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Alcazar%20Seville#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/AlcazarSeville#country> .
 
-<http://example.org/activities/Alcazar%20Seville#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/AlcazarSeville#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Spain" .
 
-<http://example.org/activities/Singapore%20Zoo> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/SingaporeZoo> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Singapore Zoo";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Singapore%20Zoo#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/SingaporeZoo#country> .
 
-<http://example.org/activities/Singapore%20Zoo#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/SingaporeZoo#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Singapore" .
 
-<http://example.org/activities/Wadi%20Rum%20Protected%20Area> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/WadiRumProtectedArea> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Wadi Rum Protected Area";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Wadi%20Rum%20Protected%20Area#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/WadiRumProtectedArea#country> .
 
-<http://example.org/activities/Wadi%20Rum%20Protected%20Area#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/WadiRumProtectedArea#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Jordan" .
 
-<http://example.org/activities/Temple%20of%20Luxor> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/TempleofLuxor> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Temple of Luxor";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Temple%20of%20Luxor#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/TempleofLuxor#country> .
 
-<http://example.org/activities/Temple%20of%20Luxor#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/TempleofLuxor#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Egypt" .
 
-<http://example.org/activities/Natural%20History%20Museum%20D.C.> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/NaturalHistoryMuseumD.C.> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Natural History Museum D.C.";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Natural%20History%20Museum%20D.C.#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/NaturalHistoryMuseumD.C.#country> .
 
-<http://example.org/activities/Natural%20History%20Museum%20D.C.#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/NaturalHistoryMuseumD.C.#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United States" .
 
-<http://example.org/activities/Old%20Delhi> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/OldDelhi> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Old Delhi";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Old%20Delhi#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/OldDelhi#country> .
 
-<http://example.org/activities/Old%20Delhi#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/OldDelhi#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "India" .
 
-<http://example.org/activities/Cinque%20Terre> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/CinqueTerre> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Cinque Terre";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Cinque%20Terre#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/CinqueTerre#country> .
 
-<http://example.org/activities/Cinque%20Terre#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/CinqueTerre#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Italy" .
 
 <http://example.org/activities/Borobudur> a <http://example.org/roadtrip/Activity>;
@@ -1709,32 +1701,32 @@
 <http://example.org/activities/Borobudur#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Indonesia" .
 
-<http://example.org/activities/Bosque%20Nuboso%20Monteverde> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/BosqueNubosoMonteverde> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Bosque Nuboso Monteverde";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Bosque%20Nuboso%20Monteverde#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/BosqueNubosoMonteverde#country> .
 
-<http://example.org/activities/Bosque%20Nuboso%20Monteverde#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/BosqueNubosoMonteverde#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Costa Rica" .
 
-<http://example.org/activities/Parque%20Nacional%20Manuel%20Antonio> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/ParqueNacionalManuelAntonio> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Parque Nacional Manuel Antonio";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Parque%20Nacional%20Manuel%20Antonio#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/ParqueNacionalManuelAntonio#country> .
 
-<http://example.org/activities/Parque%20Nacional%20Manuel%20Antonio#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/ParqueNacionalManuelAntonio#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Costa Rica" .
 
-<http://example.org/activities/Duomo%20Milan> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/DuomoMilan> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Duomo Milan";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Duomo%20Milan#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/DuomoMilan#country> .
 
-<http://example.org/activities/Duomo%20Milan#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/DuomoMilan#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Italy" .
 
-<http://example.org/activities/Burj%20Khalifa> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/BurjKhalifa> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Burj Khalifa";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Burj%20Khalifa#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/BurjKhalifa#country> .
 
-<http://example.org/activities/Burj%20Khalifa#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/BurjKhalifa#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "United Arab Emirates" .
 
 <http://example.org/activities/Djenne> a <http://example.org/roadtrip/Activity>;
@@ -1751,18 +1743,18 @@
 <http://example.org/activities/Naoshima#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Japan" .
 
-<http://example.org/activities/Tajik%20National%20Park%20%28Mountains%20of%20the%20Pamirs%29>
+<http://example.org/activities/TajikNationalPark>
   a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Tajik National Park (Mountains of the Pamirs)";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Tajik%20National%20Park%20%28Mountains%20of%20the%20Pamirs%29#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/TajikNationalPark#country> .
 
-<http://example.org/activities/Tajik%20National%20Park%20%28Mountains%20of%20the%20Pamirs%29#country>
+<http://example.org/activities/TajikNationalPark#country>
   a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Tajikistan" .
 
-<http://example.org/activities/Silfra%20%C3%9Eingvellir> a <http://example.org/roadtrip/Activity>;
+<http://example.org/activities/SilfraEingvellir> a <http://example.org/roadtrip/Activity>;
   <http://example.org/roadtrip/hasActivityName> "Silfra Þingvellir";
-  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/Silfra%20%C3%9Eingvellir#country> .
+  <http://example.org/roadtrip/hasCountry> <http://example.org/activities/SilfraEingvellir#country> .
 
-<http://example.org/activities/Silfra%20%C3%9Eingvellir#country> a <http://example.org/roadtrip/Country>;
+<http://example.org/activities/SilfraEingvellir#country> a <http://example.org/roadtrip/Country>;
   <http://example.org/roadtrip/hasCountryName> "Iceland" .
