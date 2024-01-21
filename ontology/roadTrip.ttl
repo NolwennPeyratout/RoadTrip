@@ -267,12 +267,14 @@
 :hasRuralActivity
 	a 		owl:ObjectProperty ;
     rdfs:domain :Route ;
-    rdfs:range :RuralActivity .
+    rdfs:range :RuralActivity;
+    rdfs:subPropertyOf :hasActivity.
 
 :hasUrbanActivity
 	a 		owl:ObjectProperty ;
     rdfs:domain :Route ;
-    rdfs:range :UrbanActivity .
+    rdfs:range :UrbanActivity ;
+    rdfs:subPropertyOf :hasActivity.
 
 :hasDistance 
 	a 		owl:DatatypeProperty ;

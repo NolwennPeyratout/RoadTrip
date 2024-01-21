@@ -8,14 +8,14 @@
 
 
 :ItineraryFranceUrban a ns1:Itinerary ;
-    :hasStartingPoint activity:Carcassonne;
-    :hasEndingPoint activity:EiffelTower ;
-    :hasRoute _:blankNode1, _:blankNode2, _:blankNode3, _:blankNode4.
+    ns1:hasStartingPoint activity:Carcassonne;
+    ns1:hasEndingPoint activity:EiffelTower ;
+    ns1:hasRoute _:blankNode1, _:blankNode2, _:blankNode3, _:blankNode4.
     
 :ItineraryFranceRural a ns1:Itinerary ;
-	:hasStartingPoint activity:MontStMichel;
-	:hasEndingPoint activity:GorgesDuVerdon  ;
-	:hasRoute _:blankNode5, _:blankNode6, _:blankNode7.
+	ns1:hasStartingPoint activity:MontStMichel;
+	ns1:hasEndingPoint activity:GorgesDuVerdon  ;
+	ns1:hasRoute _:blankNode5, _:blankNode6, _:blankNode7.
 
 _:blankNode1 a ns1:Route;
     ns1:origin activity:Carcassonne;
