@@ -1,5 +1,6 @@
 PREFIX act: <http://example.org/roadtrip/activity#> 
 PREFIX schema: <http://example.org/roadtrip#>
+PREFIX country: <http://example.org/roadtrip#>
 
 
 
@@ -28,3 +29,20 @@ WHERE {
 #     schema:hasCountry ?y
 #   }
 # group by (?y)
+
+# PREFIX act: <http://example.org/roadtrip/activity#> 
+# PREFIX schema: <http://example.org/roadtrip#>
+# PREFIX country: <http://example.org/roadtrip#>
+
+# SELECT distinct ?activityname ?address 
+#  WHERE {
+#    ?activities a schema:UrbanActivity;
+#      schema:hasCountry ?country.
+# ?country schema:hasCountryName ?countryName.
+# ?activities schema:hasLocation ?location;
+#  schema:hasActivityName ?activityname
+# ?location schema:hasAddress ?address. 
+
+# filter(?countryName="United States")
+
+#    }
