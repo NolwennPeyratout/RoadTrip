@@ -9,14 +9,14 @@
 :ItineraryUSUrban a ns1:Itinerary ;
     :hasStartingPoint activity:Alcatraz;
     :hasEndingPoint activity:StatueOfLiberty ;
-    :hasRoute _:blankNode1, _:blankNode2, _:blankNode3, _:blankNode4, _:blankNode5, _:blankNode6, _:blankNode7, _:blankNode8.
+    :hasRoute _:blankNode01, _:blankNode02, _:blankNode03, _:blankNode04, _:blankNode05, _:blankNode06, _:blankNode07, _:blankNode08.
     
 :ItineraryUSRural a ns1:Itinerary ;
 	:hasStartingPoint activity:Yosemite;
 	:hasEndingPoint activity:GrandCanyon  ;
-	:hasRoute _:blankNode9, _:blankNode10, _:blankNode11, _:blankNode12, _:blankNode13.
+	:hasRoute _:blankNode09, _:blankNode010, _:blankNode011, _:blankNode012, _:blankNode013.
 
-_:blankNode1 a ns1:Route;
+_:blankNode01 a ns1:Route;
     ns1:origin activity:Alcatraz;
     ns1:destination activity:GoldenGateBridge;
     ns1:hasDistance "7"^^xsd:float;
@@ -24,7 +24,7 @@ _:blankNode1 a ns1:Route;
     ns1:hasTransport transport:Car;
     ns1:hasUrbanActivity activity:Alcatraz , activity:GoldenGateBridge.
 
-_:blankNode2 a ns1:Route;
+_:blankNode02 a ns1:Route;
     ns1:origin activity:GoldenGateBridge ;
     ns1:destination activity:WaltDisneyWorld;
     ns1:hasDistance "4570"^^xsd:float;
@@ -32,7 +32,7 @@ _:blankNode2 a ns1:Route;
     ns1:hasTransport transport:Car;
     ns1:hasUrbanActivity activity:GoldenGateBridge ,activity:WaltDisneyWorld .
 
-_:blankNode3 a ns1:Route;
+_:blankNode03 a ns1:Route;
     ns1:origin activity:WaltDisneyWorld ;
     ns1:destination activity:NaturalHitoryMuseumDC;
     ns1:hasDistance "1387"^^xsd:float;
@@ -40,7 +40,7 @@ _:blankNode3 a ns1:Route;
     ns1:hasTransport transport:Car;
     ns1:hasUrbanActivity activity:WaltDisneyWorld, activity:NaturalHitoryMuseumDC.
 
-_:blankNode4 a ns1:Route;
+_:blankNode04 a ns1:Route;
     ns1:origin activity:NaturalHitoryMuseumDC ;
     ns1:destination activity:NationalMall;
     ns1:hasDistance "1,3"^^xsd:float;
@@ -48,7 +48,7 @@ _:blankNode4 a ns1:Route;
     ns1:hasTransport transport:Car;
     ns1:hasUrbanActivity activity:NaturalHitoryMuseumDC ,activity:NationalMall .
 
-_:blankNode5 a ns1:Route;
+_:blankNode05 a ns1:Route;
     ns1:origin activity:NationalMall;
     ns1:destination activity:TimesSquare;
 	ns1:hasDistance "367 "^^xsd:float;
@@ -56,7 +56,7 @@ _:blankNode5 a ns1:Route;
 	ns1:hasTransport transport:Car;
 	ns1:hasRuralActivity activity:NationalMall, activity:TimesSquare.
 
-_:blankNode6 a ns1:Route;
+_:blankNode06 a ns1:Route;
     ns1:origin activity:TimesSquare ;
     ns1:destination activity:EmpireStateBuilding;
 	ns1:hasDistance "1,5"^^xsd:float;
@@ -64,7 +64,7 @@ _:blankNode6 a ns1:Route;
 	ns1:hasTransport transport:Car;
 	ns1:hasRuralActivity activity:TimesSquare ,activity:EmpireStateBuilding.
 
-_:blankNode7 a ns1:Route;
+_:blankNode07 a ns1:Route;
     ns1:origin activity:EmpireStateBuilding;
     ns1:destination activity:MetropolitanMuseumofArt ;
 	ns1:hasDistance "5"^^xsd:float;
@@ -72,7 +72,7 @@ _:blankNode7 a ns1:Route;
 	ns1:hasTransport transport:Car;
 	ns1:hasRuralActivity activity:EmpireStateBuilding, activity:MetropolitanMuseumofArt.
 
-_:blankNode8 a ns1:Route;
+_:blankNode08 a ns1:Route;
     ns1:origin activity:MetropolitanMuseumofArt;
     ns1:destination activity:StatueOfLiberty;
     ns1:hasDistance "12,7"^^xsd:float;
@@ -80,7 +80,7 @@ _:blankNode8 a ns1:Route;
     ns1:hasTransport transport:Car;
     ns1:hasUrbanActivity activity:MetropolitanMuseumofArt , activity:StatueOfLiberty.
 
-_:blankNode9 a ns1:Route;
+_:blankNode09 a ns1:Route;
     ns1:origin activity:GrandCanyon ;
     ns1:destination activity:MonumentValley;
     ns1:hasDistance "250"^^xsd:float;
@@ -88,7 +88,7 @@ _:blankNode9 a ns1:Route;
     ns1:hasTransport transport:Car;
     ns1:hasUrbanActivity activity:GrandCanyon ,activity:MonumentValley .
 
-_:blankNode10 a ns1:Route;
+_:blankNode010 a ns1:Route;
     ns1:origin activity:MonumentValley ;
     ns1:destination activity:YellowStoneNationalPark;
     ns1:hasDistance "1392"^^xsd:float;
@@ -96,7 +96,7 @@ _:blankNode10 a ns1:Route;
     ns1:hasTransport transport:Car;
     ns1:hasUrbanActivity activity:MonumentValley, activity:YellowStoneNationalPark.
 
-_:blankNode11 a ns1:Route;
+_:blankNode011 a ns1:Route;
     ns1:origin activity:YellowStoneNationalPark ;
     ns1:destination activity:RedwoodNationalPark;
     ns1:hasDistance "1855"^^xsd:float;
@@ -104,7 +104,7 @@ _:blankNode11 a ns1:Route;
     ns1:hasTransport transport:Car;
     ns1:hasUrbanActivity activity:YellowStoneNationalPark ,activity:RedwoodNationalPark .
 
-_:blankNode12 a ns1:Route;
+_:blankNode012 a ns1:Route;
     ns1:origin activity:RedwoodNationalPark;
     ns1:destination activity:BigSur;
 	ns1:hasDistance "816"^^xsd:float;
@@ -112,7 +112,7 @@ _:blankNode12 a ns1:Route;
 	ns1:hasTransport transport:Car;
 	ns1:hasRuralActivity activity:RedwoodNationalPark, activity:BigSur.
 
-_:blankNode13 a ns1:Route;
+_:blankNode013 a ns1:Route;
     ns1:origin activity:BigSur ;
     ns1:destination activity:Yosemite;
 	ns1:hasDistance "341"^^xsd:float;
