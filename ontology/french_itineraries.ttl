@@ -1,0 +1,74 @@
+@prefix country: <http://example.org/roadtrip/country#>.
+@prefix activity: <http://example.org/roadtrip/activity#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns1: <http://example.org/roadtrip#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <http://example.org/roadtrip/itinerary#>.
+@prefix transport:  <http://example.org/transport#>.
+
+
+:ItineraryFranceUrban a ns1:Itinerary ;
+    :hasStartingPoint activity:Carcassonne;
+    :hasEndingPoint activity:EiffelTower ;
+    :hasRoute _:blankNode1, _:blankNode2, _:blankNode3, _:blankNode4.
+    
+:ItineraryFranceRurala a ns1:Itinerary ;
+	:hasStartingPoint activity:MontStMichel;
+	:hasEndingPoint activity:GorgesDuVerdon  ;
+	:hasRoute _:blankNode5, _:blankNode6, _:blankNode7.
+
+_:blankNode1 a ns1:Route;
+    ns1:origin activity:Carcassonne;
+    ns1:destination activity:CimetièrePereLachaise;
+    ns1:hasDistance "771"^^xsd:float;
+    ns1:hasTime "7 hours 34 mins";
+    ns1:hasTransport transport:Car;
+    ns1:hasUrbanActivity activity:Carcassonne , activity:CimetièrePereLachaise.
+
+_:blankNode2 a ns1:Route;
+    ns1:origin activity:CimetièrePereLachaise ;
+    ns1:destination activity:NotreDame;
+    ns1:hasDistance "4.8"^^xsd:float;
+    ns1:hasTime "23 mins";
+    ns1:hasTransport transport:Car;
+    ns1:hasUrbanActivity activity:CimetièrePereLachaise ,activity:NotreDame .
+
+_:blankNode3 a ns1:Route;
+    ns1:origin activity:NotreDame ;
+    ns1:destination activity:LouvreMuseum;
+    ns1:hasDistance "1.9"^^xsd:float;
+    ns1:hasTime "7 mins";
+    ns1:hasTransport transport:Car;
+    ns1:hasUrbanActivity activity:NotreDame, activity:LouvreMuseum.
+
+_:blankNode4 a ns1:Route;
+    ns1:origin activity:LouvreMuseum ;
+    ns1:destination activity:EiffelTower;
+    ns1:hasDistance "4.5"^^xsd:float;
+    ns1:hasTime "15 mins";
+    ns1:hasTransport transport:Car;
+    ns1:hasUrbanActivity activity:LouvreMuseum ,activity:EiffelTower .
+
+_:blankNode5 a ns1:Route;
+    ns1:origin activity:MontStMichel;
+    ns1:destination activity:AiguilleDuMidi;
+	ns1:hasDistance "948"^^xsd:float;
+	ns1:hasTime "9 hours 16 mins";
+	ns1:hasTransport transport:Car;
+	ns1:hasRuralActivity activity:MontStMichel, activity:AiguilleDuMidi.
+
+_:blankNode6 a ns1:Route;
+    ns1:origin activity:AiguilleDuMidi ;
+    ns1:destination activity:PontDuGard;
+	ns1:hasDistance "437"^^xsd:float;
+	ns1:hasTime "4 hours 14 mins";
+	ns1:hasTransport transport:Car;
+	ns1:hasRuralActivity activity:AiguilleDuMidi ,activity:PontDuGard.
+
+_:blankNode7 a ns1:Route;
+    ns1:origin activity:PontDuGard;
+    ns1:destination activity:GorgesDuVerdon ;
+	ns1:hasDistance "215"^^xsd:float;
+	ns1:hasTime "3 hours 13 mins";
+	ns1:hasTransport transport:Car;
+	ns1:hasRuralActivity activity:PontDuGard, activity:GorgesDuVerdon.
