@@ -14,24 +14,24 @@
     
 :ItineraryFranceRural a ns1:Itinerary ;
 	ns1:hasStartingPoint activity:MontStMichel;
-	ns1:hasEndingPoint activity:GorgesDuVerdon  ;
+	ns1:hasEndingPoint activity:GorgesDuVerdon ;
 	ns1:hasRoute _:blankNode5, _:blankNode6, _:blankNode7.
 
 _:blankNode1 a ns1:Route;
     ns1:origin activity:Carcassonne;
-    ns1:destination activity:CimetièrePereLachaise;
+    ns1:destination activity:CimetierePereLachaise;
     ns1:hasDistance "771"^^xsd:float;
     ns1:hasTime "7 hours 34 mins";
     ns1:hasTransport transport:Car;
-    ns1:hasUrbanActivity activity:Carcassonne , activity:CimetièrePereLachaise.
+    ns1:hasUrbanActivity activity:Carcassonne , activity:CimetierePereLachaise.
 
 _:blankNode2 a ns1:Route;
-    ns1:origin activity:CimetièrePereLachaise ;
+    ns1:origin activity:CimetierePereLachaise ;
     ns1:destination activity:NotreDame;
     ns1:hasDistance "4.8"^^xsd:float;
     ns1:hasTime "23 mins";
     ns1:hasTransport transport:Car;
-    ns1:hasUrbanActivity activity:CimetièrePereLachaise ,activity:NotreDame .
+    ns1:hasUrbanActivity activity:CimetierePereLachaise ,activity:NotreDame .
 
 _:blankNode3 a ns1:Route;
     ns1:origin activity:NotreDame ;

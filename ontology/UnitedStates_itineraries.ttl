@@ -12,8 +12,8 @@
     ns1:hasRoute _:blankNode01, _:blankNode02, _:blankNode03, _:blankNode04, _:blankNode05, _:blankNode06, _:blankNode07, _:blankNode08.
     
 :ItineraryUSRural a ns1:Itinerary ;
-	ns1:hasStartingPoint activity:Yosemite;
-	ns1:hasEndingPoint activity:GrandCanyon  ;
+	ns1:hasStartingPoint activity:GrandCanyon;
+	ns1:hasEndingPoint activity:Yosemite  ;
 	ns1:hasRoute _:blankNode09, _:blankNode010, _:blankNode011, _:blankNode012, _:blankNode013.
 
 _:blankNode01 a ns1:Route;

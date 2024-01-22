@@ -660,7 +660,7 @@ ns1:hasAddress "97751 Chichén-Itzá, Yucatan, Mexico" ;
   ns1:id "ChIJJycNodZsVhkRrivLs87AFQQ" ;
   a ns1:RuralActivity .
 
-:CimetièrePereLachaise ns1:hasActivityName "Le Cimetière de Père Lachaise" ;
+:CimetierePereLachaise ns1:hasActivityName "Le Cimetière de Père Lachaise" ;
   ns1:hasCountry country:France ;
   ns1:hasLocation [ns1:hasAddress "75020 Paris, France" ;
   ns1:hasLatitude "48.8615"^^xsd:double ;
@@ -1230,7 +1230,7 @@ ns1:hasAddress "00120 Vatican City" ;
   ns1:id "ChIJiRn8ZqLgUBkRzkOtY-UK3Ko" ;
   a ns1:RuralActivity .
 
-:IcehotelJukkasjärvi ns1:hasActivityName "Icehotel Jukkasjärvi" ;
+:IcehotelJukkasjarvi ns1:hasActivityName "Icehotel Jukkasjärvi" ;
   ns1:hasCountry country:Sweden ;
   ns1:hasLocation [ ns1:hasAddress "Marknadsvägen 63, 981 91 Jukkasjärvi, Sweden" ;
   ns1:hasLatitude "67.8498"^^xsd:double ;
@@ -1602,7 +1602,7 @@ ns1:hasAddress "00120 Vatican City" ;
   ns1:id "ChIJK7_LO9aVuEwRUPWWmG87KwQ" ;
   a ns1:UrbanActivity .
 
-:BrúNaBóinneNeolithicSite ns1:hasActivityName "Brú Na Bóinne Neolithic Site" ;
+:BruNaBoinneNeolithicSite ns1:hasActivityName "Brú Na Bóinne Neolithic Site" ;
   ns1:hasCountry country:Ireland ;
   ns1:hasLocation [ns1:hasAddress "Newgrange, Co. Meath, Ireland" ;
   ns1:hasLatitude "53.6877"^^xsd:double ;
@@ -1641,7 +1641,7 @@ ns1:hasAddress "00120 Vatican City" ;
   ns1:id "ChIJS6JBjBlsEg0Rh_7Brr92qbo" ;
   a ns1:UrbanActivity .
 
-:GunungLeuserNatioalPark ns1:hasActivityName "Gunung Leuser National Park" ;
+:GunungLeuserNationalPark ns1:hasActivityName "Gunung Leuser National Park" ;
   ns1:hasCountry country:Indonesia ;
   ns1:hasLocation [ ns1:hasAddress "GF97+P97 Barisan mountain range, Aceh 24653, Indonesia" ;
   ns1:hasLatitude "3.51929"^^xsd:double ;

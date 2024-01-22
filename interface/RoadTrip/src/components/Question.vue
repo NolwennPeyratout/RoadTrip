@@ -13,64 +13,89 @@ function planRoadTrip() {
 
     var result = "You have chosen to plan a road trip in " + country + " with a " + travelType + " travel type, and your situation is " + situation + ".";
     
-    document.getElementById("result").innerText = result;
-}
+    //document.getElementById("result").innerText = result;
+    var URI = 'http://localhost:8080/sparql?query=PREFIX act: <http://example.org/activity%23> PREFIX schema: <http://example.org/roadtrip%23> PREFIX country: <http://example.org/country%23> PREFIX transport:  <http://example.org/transport%23> SELECT ?itinerary ?startPointItName ?endPointItName ?originName ?originRating ?originAddress ?destName ?destRating ?destAddress WHERE { ?roadtrip a schema:RoadTrip; a ?type; schema:in ?country; schema:hasItinerary ?itinerary. ?itinerary schema:hasRoute ?route; schema:hasStartingPoint ?startPointIt; schema:hasEndingPoint ?endPointIt. ?route schema:hasTransport ?transport; schema:origin ?origin; schema:destination ?dest. ?startPointIt schema:hasActivityName ?startPointItName. ?endPointIt schema:hasActivityName ?endPointItName. ?origin schema:hasActivityName ?originName; OPTIONAL{?origin schema:hasRating ?originRating;} OPTIONAL{?origin schema:hasLocation [schema:hasAddress ?originAddress].} ?dest schema:hasActivityName ?destName; OPTIONAL{?dest schema:hasRating ?destRating;} OPTIONAL{?dest schema:hasLocation [schema:hasAddress ?destAddress].} ?country ?hasCountryName ?countryName. filter(?countryName="'+country+'") filter(?type=schema:'+travelType+') filter(?transport = transport:Car) }'
+    console.log(URI)
+    var startPoint = [];
+    var endPoint = [];
+    var origNames = [];
+    var origRatings = [];
+    var origAddresses = [];
+    var destNames = [];
+    var destRatings = [];
+    var destAddresses = [];
+    fetch(URI)
+      .then(function(response) {
+        return response.text()
+      })
+      .then(function(data) {
+        var parser = new DOMParser();
+        var xmlDoc = parser.parseFromString(data, 'text/xml');
+        console.log(data)
+        var results = xmlDoc.querySelectorAll('result');
 
-fetch('http://localhost:8080/sparql?query=select * where{ ?x ?y ?z}')
-  .then(function(response) {
-    return response.text()
-  })
-  .then(function(data) {
-    var parser = new DOMParser();
-    var xmlDoc = parser.parseFromString(data, 'text/xml');
-    console.log(data)
-    var results = xmlDoc.querySelectorAll('result');
-
-    // Parcourir chaque résultat et traiter les données
-    results.forEach(function(result) {
-      // Extraire les valeurs de chaque binding
-      var xElement = result.querySelector('binding[name="x"] bnode');
-      var xValue = xElement ? xElement.textContent : null;
-
-      var yElement = result.querySelector('binding[name="y"] uri');
-      var yValue = yElement ? yElement.textContent : null;
-
-      var zElement = result.querySelector('binding[name="z"] literal');
-      var zValue = zElement ? zElement.textContent : null;
-
-      // Utiliser les valeurs comme nécessaire
-      console.log('x:', xValue);
-      console.log('y:', yValue);
-      console.log('z:', zValue);
-    });
-  })
-
-// const endpointUrl = 'https://query.wikidata.org/sparql'
-// const query = `
-// PREFIX wd: <http://www.wikidata.org/entity/>
-// PREFIX p: <http://www.wikidata.org/prop/>
-// PREFIX ps: <http://www.wikidata.org/prop/statement/>
-// PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
-
-// SELECT ?value WHERE {
-//   wd:Q243 p:P2048 ?height.
-
-//   ?height pq:P518 wd:Q24192182;
-//     ps:P2048 ?value .
-// }`
-
-// const client = new SparqlClient({ endpointUrl })
-// const stream = await client.query.select(query)
-
-// stream.on('data', row => {
-//   Object.entries(row).forEach(([key, value]) => {
-//     console.log(`${key}: ${value.value} (${value.termType})`)
-//   })
-// })
-
-// stream.on('error', err => {
-//   console.error(err)
-// })
+        
+        results.forEach(function(result) {
+          var spartPointNameElement = result.querySelector('binding[name="startPointItName"] literal');
+          
+          if (spartPointNameElement) {
+            var x = spartPointNameElement.textContent;
+            startPoint.push(x);
+          }
+          var endPointNameElement = result.querySelector('binding[name="endPointItName"] literal');
+          
+          if (endPointNameElement) {
+            var x = endPointNameElement.textContent;
+            endPoint.push(x);
+          }
+          var origNameElement = result.querySelector('binding[name="originName"] literal');
+          
+          if (origNameElement) {
+            var x = origNameElement.textContent;
+            origNames.push(x);
+          }
+          var origRatingElement = result.querySelector('binding[name="originRating"] literal');
+          
+          if (origRatingElement) {
+            var x = origRatingElement.textContent;
+            origRatings.push(x);
+          }
+          var origAddressElement = result.querySelector('binding[name="originAddress"] literal');
+          
+          if (origAddressElement) {
+            var x = origAddressElement.textContent;
+            origAddresses.push(x);
+          }
+          var destNameElement = result.querySelector('binding[name="destName"] literal');
+          
+          if (destNameElement) {
+            var x = destNameElement.textContent;
+            destNames.push(x);
+          }
+          var destRatingElement = result.querySelector('binding[name="destRating"] literal');
+          
+          if (destRatingElement) {
+            var x = destRatingElement.textContent;
+            destRatings.push(x);
+          }
+          var destAddressElement = result.querySelector('binding[name="destAddress"] literal');
+          
+          if (destAddressElement) {
+            var x = destAddressElement.textContent;
+            destAddresses.push(x);
+          }
+          
+        });
+        console.log(endPoint)
+        var route= "You will start from "+startPoint[0] +" rated "+origRatings[1] +" over 5 and is located at the address: "+ origAddresses[1]
+        for (var i = 0; i < destAddresses.length; i++) {
+          route += " and go to "+destNames[i] +" rated "+ destRatings[i]+" over 5 and is located at the address: "+ destAddresses[i]
+          console.log("ici")
+        }
+        document.getElementById("result").innerText = route;
+      })
+      
+    }
 
 
 </script>
@@ -81,7 +106,7 @@ fetch('http://localhost:8080/sparql?query=select * where{ ?x ?y ?z}')
     <div class="where">
         <label for="country">Choose a Country:</label>
         <select id="country">
-            <option value="UnitedStates">USA</option>
+            <option value="United States">USA</option>
             <option value="France">France</option>
         </select>
     </div>
@@ -95,8 +120,8 @@ fetch('http://localhost:8080/sparql?query=select * where{ ?x ?y ?z}')
     <div class="travelType">
         <label for="travelType">Choose Travel Type:</label>
         <select id="travelType">
-            <option value="rural">Rural</option>
-            <option value="urban">Urban</option>
+            <option value="RuralRoadTrip">Rural</option>
+            <option value="UrbanRoadTrip">Urban</option>
         </select>
     </div>
     <div class="research"><button @click="planRoadTrip">Plan Road Trip</button></div>
