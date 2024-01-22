@@ -37,7 +37,6 @@
     sh:class :User ;
     sh:minCount 1 ;
     sh:nodeKind :User ;
-    sh:node sh:UserConstraint ;
   ];
   sh:property [
 		sh:path :startingDate ;
@@ -60,11 +59,11 @@
     sh:targetClass :Itinerary ;
     sh:property [
         sh:path :hasStartingPoint ;
-        sh:class :Location ;
+        sh:class :Activity ;
     ] ;
     sh:property [
         sh:path :hasEndingPoint ;
-        sh:class :Location ;
+        sh:class :Activity ;
     ] ;  
     sh:property [
       sh:path :hasRoute;
@@ -192,14 +191,18 @@ sh:LocationConstraint
     sh:path :hasLongitude;
     sh:datatype xsd:double;
     sh:maxCount 1;
+    sh:minCount 1;
+
   ];
   sh:property [
     sh:path :hasLatitude;
     sh:datatype xsd:double;
     sh:maxCount 1;
+    sh:minCount 1;
   ];
   sh:property [
     sh:path :hasAddress;
     sh:datatype xsd:string;
     sh:maxCount 1;
+    sh:minCount 1;
   ].
