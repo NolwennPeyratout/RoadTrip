@@ -402,16 +402,15 @@
   ns1:id "ChIJlRl2MakEdkgR55tr4CNv_B8" ;
   a ns1:UrbanActivity .
 
-:TableMountain ns1:hasActivityName "Table Mountain" ;
-  ns1:hasCountry country:SouthAfrica ;
-  ns1:hasLocation [
-    ns1:hasAddress "Signal Hill, Victoria & Alfred Waterfront, Cape Town, 8002, South Africa" ;
-  ns1:hasLatitude "-33.9061"^^xsd:double ;
-  ns1:hasLongitude "18.4210"^^xsd:double ;
-  a ns1:Location ];
-  ns1:hasRating "4.30000"^^xsd:double ;
-  ns1:id "ChIJeyCKGVpnzB0RzAjfK3cTv3U" ;
-  a ns1:RuralActivity .
+# :TableMountain ns1:hasActivityName "Table Mountain" ;
+#   ns1:hasCountry country:SouthAfrica ;
+#   ns1:hasLocation [ ns1:hasAddress "Signal Hill, Victoria & Alfred Waterfront, Cape Town, 8002, South Africa" ;
+#   ns1:hasLatitude "-33.9061"^^xsd:double ;
+#   ns1:hasLongitude "18.4210"^^xsd:double ;
+#   a ns1:Location ];
+#   ns1:hasRating "4.30000"^^xsd:double ;
+#   ns1:id "ChIJeyCKGVpnzB0RzAjfK3cTv3U" ;
+#   a ns1:RuralActivity .
 
 :HalongBay ns1:hasActivityName "Halong Bay" ;
   ns1:hasCountry country:Vietnam ;

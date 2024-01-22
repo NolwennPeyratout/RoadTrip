@@ -1,10 +1,10 @@
 <script setup>
-defineProps({
-  msg: {
-    type: String,
-    required: true
-  }
-})
+// defineProps({
+//   msg: {
+//     type: String,
+//     required: true
+//   }
+// })
 
 function planRoadTrip() {
     var country = document.getElementById("country").value;
@@ -15,6 +15,64 @@ function planRoadTrip() {
     
     document.getElementById("result").innerText = result;
 }
+
+fetch('http://localhost:8080/sparql?query=select * where{ ?x ?y ?z}')
+  .then(function(response) {
+    return response.text()
+  })
+  .then(function(data) {
+    var parser = new DOMParser();
+    var xmlDoc = parser.parseFromString(data, 'text/xml');
+    console.log(data)
+    var results = xmlDoc.querySelectorAll('result');
+
+    // Parcourir chaque résultat et traiter les données
+    results.forEach(function(result) {
+      // Extraire les valeurs de chaque binding
+      var xElement = result.querySelector('binding[name="x"] bnode');
+      var xValue = xElement ? xElement.textContent : null;
+
+      var yElement = result.querySelector('binding[name="y"] uri');
+      var yValue = yElement ? yElement.textContent : null;
+
+      var zElement = result.querySelector('binding[name="z"] literal');
+      var zValue = zElement ? zElement.textContent : null;
+
+      // Utiliser les valeurs comme nécessaire
+      console.log('x:', xValue);
+      console.log('y:', yValue);
+      console.log('z:', zValue);
+    });
+  })
+
+// const endpointUrl = 'https://query.wikidata.org/sparql'
+// const query = `
+// PREFIX wd: <http://www.wikidata.org/entity/>
+// PREFIX p: <http://www.wikidata.org/prop/>
+// PREFIX ps: <http://www.wikidata.org/prop/statement/>
+// PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+
+// SELECT ?value WHERE {
+//   wd:Q243 p:P2048 ?height.
+
+//   ?height pq:P518 wd:Q24192182;
+//     ps:P2048 ?value .
+// }`
+
+// const client = new SparqlClient({ endpointUrl })
+// const stream = await client.query.select(query)
+
+// stream.on('data', row => {
+//   Object.entries(row).forEach(([key, value]) => {
+//     console.log(`${key}: ${value.value} (${value.termType})`)
+//   })
+// })
+
+// stream.on('error', err => {
+//   console.error(err)
+// })
+
+
 </script>
 
 <template>
