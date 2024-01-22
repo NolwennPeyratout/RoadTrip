@@ -3,18 +3,34 @@ PREFIX schema: <http://example.org/roadtrip#>
 PREFIX country: <http://example.org/country#>
 PREFIX transport:  <http://example.org/transport#>
 
-SELECT distinct ?country ?x  ?transport
+SELECT ?itinerary ?startPointItName ?endPointItName ?originName ?originRating ?originAddress ?destName ?destRating ?destAddress
 WHERE {
   ?roadtrip a schema:RoadTrip;
     a ?type;
     schema:in ?country;
     schema:hasItinerary ?itinerary.
-?itinerary schema:hasRoute ?route. 
-?route schema:hasTransport ?transport.
+?itinerary schema:hasRoute ?route;
+schema:hasStartingPoint ?startPointIt;
+schema:hasEndingPoint ?endPointIt.
+
+?route schema:hasTransport ?transport;
+schema:origin ?origin;
+schema:destination ?dest.
+
+?startPointIt schema:hasActivityName ?startPointItName.
+
+?endPointIt schema:hasActivityName ?endPointItName.
+
+?origin schema:hasActivityName ?originName;
+OPTIONAL{?origin schema:hasRating ?originRating;}
+OPTIONAL{?origin schema:hasLocation [schema:hasAddress ?originAddress].}
+
+?dest schema:hasActivityName ?destName;
+OPTIONAL{?dest schema:hasRating ?destRating;}
+OPTIONAL{?dest schema:hasLocation [schema:hasAddress ?destAddress].}
+
 ?country ?hasCountryName ?countryName.
 filter(?countryName="France")
 filter(?type=schema:UrbanRoadTrip)
 filter(?transport = transport:Car)
-
-
   }
