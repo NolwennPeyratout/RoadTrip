@@ -1,0 +1,32 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix :  <http://example.org/roadtrip#> .
+@prefix transport:  <http://example.org/transport#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+sh:RouteShape 
+  a sh:NodeShape ;
+  sh:targetClass :Route ;
+  sh:property [
+    sh:path :hasActivity ;
+    sh:class :Activity ; 
+    sh:minCount 2 ;
+    sh:maxCount 2 ;
+    sh:in (:RuralActivity :UrbanActivity);
+  ] ;
+  sh:property [
+    sh:path :hasDistance ;
+    sh:datatype xsd:float ;
+  ] ;
+  sh:property [
+    sh:path :hasTime ;
+    sh:datatype xsd:string ;
+  ] ;
+  sh:property [
+    sh:path :hasTransport ;
+    sh:datatype transport:TravelMode ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+  ] .

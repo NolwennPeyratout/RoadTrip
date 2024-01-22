@@ -1,0 +1,53 @@
+
+
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix :  <http://example.org/roadtrip#> .
+@prefix transport:  <http://example.org/transport#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+:RoadTripShape
+  a sh:NodeShape ;
+  sh:targetClass :RoadTrip ;
+  sh:property [
+    sh:path :in;
+    sh:class :Country ;
+    sh:minCount 1 ;
+    sh:node sh:CountryConstraint ;
+  ] ;
+  sh:property [
+    sh:path :hasItinerary ;
+    sh:class :Itinerary ;
+    sh:minCount 1 ;
+    sh:maxCount 1;
+  ] ;
+  sh:property [
+    sh:path :startingDate;
+    sh:datatype xsd:date ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:path :endingDate;
+    sh:datatype xsd:date ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+     sh:path :participants ;
+    sh:class :User ;
+    sh:minCount 1 ;
+    sh:nodeKind :User ;
+  ];
+  sh:property [
+		sh:path :startingDate ;
+		sh:lessThan :endingDate ;
+	] ;
+  sh:property [
+		sh:path :endingDate ;
+		sh:lessThan (:participants :hasPassportExpirationDate) ;
+	];
+  sh:property [
+		sh:path :requiresVaccine ;
+		sh:in ( :participants :hasVaccinationStatus ) ;
+	] .

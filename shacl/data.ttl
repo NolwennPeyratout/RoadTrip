@@ -1,0 +1,203 @@
+@prefix act: <http://example.org/activity#>. 
+@prefix ns1: <http://example.org/roadtrip#>.
+@prefix : <http://example.org/country#>.
+@prefix transport:  <http://example.org/transport#>.
+@prefix itin: <http://example.org/itinerary#>. 
+@prefix : <http://example.org/roadtrips#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:FrenchUrbanRoadTrip a ns1:UrbanRoadTrip;
+    ns1:in :France;
+    ns1:hasItinerary :ItineraryFranceUrban;
+    ns1:hasReview _:blankNode1;
+    ns1:startingDate "2023-03-15"^^xsd:date ;
+    ns1:endingDate "2023-03-17"^^xsd:date ;
+    ns1:participants :Marie, :Jean.
+
+_:blankNode1 a ns1:Review;
+    ns1:content "The Urban Exploration itinerary in France offers a captivating journey through some of the country's most iconic urban landmarks. Starting from the medieval charm of Carcassonne and culminating at the majestic Eiffel Tower in Paris, this road trip seamlessly blends historical sites with modern marvels.";
+    ns1:writtenBy :Marie.
+
+:ItineraryFranceUrban a ns1:Itinerary ;
+    ns1:hasStartingPoint :Carcassonne;
+    ns1:hasEndingPoint :EiffelTower ;
+    ns1:hasRoute _:blankNode1, _:blankNode2, _:blankNode3, _:blankNode4.
+
+
+_:blankNode1 a ns1:Route;
+    ns1:origin :Carcassonne;
+    ns1:destination :CimetièrePereLachaise;
+    ns1:hasDistance "771"^^xsd:float;
+    ns1:hasTime "7 hours 34 mins";
+    ns1:hasTransport transport:Car;
+    ns1:hasActivity :Carcassonne , :CimetièrePereLachaise.
+
+_:blankNode2 a ns1:Route;
+    ns1:origin :CimetièrePereLachaise ;
+    ns1:destination :NotreDame;
+    ns1:hasDistance "4.8"^^xsd:float;
+    ns1:hasTime "23 mins";
+    ns1:hasTransport transport:Car;
+    ns1:hasActivity :CimetièrePereLachaise ,:NotreDame .
+
+_:blankNode3 a ns1:Route;
+    ns1:origin :NotreDame ;
+    ns1:destination :LouvreMuseum;
+    ns1:hasDistance "1.9"^^xsd:float;
+    ns1:hasTime "7 mins";
+    ns1:hasTransport transport:Car;
+    ns1:hasActivity :NotreDame, :LouvreMuseum.
+
+
+
+_:blankNode4 a ns1:Route;
+    ns1:origin :LouvreMuseum ;
+    ns1:destination :EiffelTower;
+    ns1:hasDistance "4.5"^^xsd:float;
+    ns1:hasTime "15 mins";
+    ns1:hasTransport transport:Car;
+    ns1:hasActivity :LouvreMuseum ,:EiffelTower .
+
+
+:EiffelTower ns1:hasActivityName "Eiffel Tower" ;
+  ns1:hasCountry :France ;
+  ns1:hasLocation [ ns1:hasAddress "5 Av. Anatole France 3è étage, 75007 Paris, France" ;
+  ns1:hasLatitude "48.8581"^^xsd:double ;
+  ns1:hasLongitude "2.29486"^^xsd:double ;
+  a ns1:Location ] ;
+  ns1:hasRating "4.50000"^^xsd:double ;
+  ns1:id "ChIJEbu08-Fv5kcRxIdhEH5yCFo" ;
+  a ns1:Activity .
+
+
+
+ :LouvreMuseum ns1:hasActivityName "Louvre Museum" ;
+  ns1:hasCountry :France ;
+  ns1:hasLocation [ns1:hasAddress "75001 Paris, France" ;
+  ns1:hasLatitude "48.8606"^^xsd:double ;
+  ns1:hasLongitude "2.33764"^^xsd:double ;
+  a ns1:Location ];
+  ns1:hasRating "4.70000"^^xsd:double ;
+  ns1:id "ChIJD3uTd9hx5kcR1IQvGfr8dbk" ;
+  a ns1:Activity .
+
+
+
+ :NotreDame ns1:hasActivityName "Notre Dame" ;
+  ns1:hasCountry :France ;
+  ns1:hasLocation [ ns1:hasAddress "26 Pl. du Général de Gaulle, 06000 Nice, France" ;
+  ns1:hasLatitude "43.7102"^^xsd:double ;
+  ns1:hasLongitude "7.26195"^^xsd:double ;
+  a ns1:Location ];
+  ns1:hasRating "4.70000"^^xsd:double ;
+  ns1:id "ChIJhaWnvV_RzRIR_LGtIOpGT24" ;
+  a ns1:Activity .
+
+
+
+ :Carcassonne ns1:hasActivityName "Carcassonne" ;
+  ns1:hasCountry :France;
+  ns1:hasLocation [ ns1:hasAddress "11000 Carcassonne, France" ;
+  ns1:hasLatitude "43.2132"^^xsd:double ;
+  ns1:hasLongitude "2.35177"^^xsd:double ;
+  a ns1:Location ];
+  ns1:id "ChIJi70WATksrhIRxxShdzvfj-I" ;
+  a ns1:Activity .
+
+
+
+
+:France a :Country;
+    :hasCountryName "France";
+    :hasCapital "Paris";
+    :hasCurrency "Euro";
+    :hasLanguage "French";
+    :requiresVaccine "tetanus","measles","mumps", "rubella".
+
+
+
+
+:Marie a :Individual;
+    :hasCompleteName "Marie Dupond";
+    :hasVaccinationStatus "tetanus","measles","mumps", "rubella", "monkeypox";
+    :hasPassportExpirationDate "2030-12-01".
+
+
+
+:Jean a :Individual;
+    :hasCompleteName "Jean Briand";
+    :hasVaccinationStatus "tetanus","measles","mumps", "rubella", "Hepatitis B", "rabies";
+    :hasPassportExpirationDate "2027-05-15".
+
+
+
+
+:Carcassonne ns1:hasActivityName "Carcassonne" ;
+  ns1:hasCountry :France;
+  ns1:hasLocation [ ns1:hasAddress "11000 Carcassonne, France" ;
+  ns1:hasLatitude "43.2132"^^xsd:double ;
+  ns1:hasLongitude "2.35177"^^xsd:double ;
+  a ns1:Location ];
+  ns1:id "ChIJi70WATksrhIRxxShdzvfj-I" ;
+  a ns1:UrbanActivity  .
+
+
+
+
+:EiffelTower ns1:hasActivityName "Eiffel Tower" ;
+  ns1:hasCountry :France ;
+  ns1:hasLocation [ ns1:hasAddress "5 Av. Anatole France 3è étage, 75007 Paris, France" ;
+  ns1:hasLatitude "48.8581"^^xsd:double ;
+  ns1:hasLongitude "2.29486"^^xsd:double ;
+  a ns1:Location ] ;
+  ns1:hasRating "4.50000"^^xsd:double ;
+  ns1:id "ChIJEbu08-Fv5kcRxIdhEH5yCFo" ;
+  a ns1:UrbanActivity  .
+
+
+
+:NotreDame ns1:hasActivityName "Notre Dame" ;
+  ns1:hasCountry :France ;
+  ns1:hasLocation [ ns1:hasAddress "26 Pl. du Général de Gaulle, 06000 Nice, France" ;
+  ns1:hasLatitude "43.7102"^^xsd:double ;
+  ns1:hasLongitude "7.26195"^^xsd:double ;
+  a ns1:Location ];
+  ns1:hasRating "4.70000"^^xsd:double ;
+  ns1:id "ChIJhaWnvV_RzRIR_LGtIOpGT24" ;
+  a ns1:UrbanActivity  .
+
+
+
+ :LouvreMuseum ns1:hasActivityName "Louvre Museum" ;
+  ns1:hasCountry :France ;
+  ns1:hasLocation [ns1:hasAddress "75001 Paris, France" ;
+  ns1:hasLatitude "48.8606"^^xsd:double ;
+  ns1:hasLongitude "2.33764"^^xsd:double ;
+  a ns1:Location ];
+  ns1:hasRating "4.70000"^^xsd:double ;
+  ns1:id "ChIJD3uTd9hx5kcR1IQvGfr8dbk" ;
+  a ns1:UrbanActivity .
+
+
+
+
+:CimetièrePereLachaise ns1:hasActivityName "Le Cimetière de Père Lachaise" ;
+  ns1:hasCountry :France ;
+  ns1:hasLocation [ns1:hasAddress "75020 Paris, France" ;
+  ns1:hasLatitude "48.8615"^^xsd:double ;
+  ns1:hasLongitude "2.39347"^^xsd:double ;
+  a ns1:Location ] ;
+  ns1:hasRating "4.60000"^^xsd:double ;
+  ns1:id "ChIJhadpXItt5kcRGWQLUydhz6E" ;
+  a ns1:UrbanActivity .
+
+
+
+
+:France a ns1:Country;
+    :hasCountryName "France";
+    :hasCapital "Paris";
+    :hasCurrency "Euro";
+    :hasLanguage "French";
+    :requiresVaccine "tetanus","measles","mumps", "rubella".

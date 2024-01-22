@@ -1,0 +1,40 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix :  <http://example.org/roadtrip#> .
+@prefix transport:  <http://example.org/transport#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+
+:CountryShape
+  a sh:NodeShape ;
+  sh:targetClass :Country ;
+  sh:property [
+    sh:path :hasCountryName ;
+    sh:class xsd:string ;
+    sh:minCount 1 ;
+    sh:maxCount 1;
+  ] ;
+  sh:property [
+    sh:path :hasCapital ;
+    sh:class xsd:string ;
+    sh:minCount 1 ;
+    sh:maxCount 1;
+  ] ;
+  sh:property [
+    sh:path :hasCurrency ;
+    sh:class xsd:string ;
+    sh:minCount 1 ;
+    sh:maxCount 1;
+  ] ;
+  sh:property [
+    sh:path :hasLanguage ;
+    sh:class xsd:string ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+     sh:path :requiresVaccine ;
+     sh:datatype xsd:string ;
+  ] .
+
