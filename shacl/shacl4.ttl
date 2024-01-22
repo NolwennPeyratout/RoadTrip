@@ -1,0 +1,28 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix :  <http://example.org/roadtrip#> .
+@prefix transport:  <http://example.org/transport#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+
+:UserShape
+  a sh:NodeShape ;
+  sh:targetClass :User ;
+    sh:property [
+    sh:path :hasCompleteName ;
+    sh:datatype xsd:string ;
+    sh:minCount 1 ;
+  ] ;
+    sh:property [
+      sh:path :hasVaccinationStatus ;
+      sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path :passportExpirationDate ;
+        sh:datatype xsd:date ;
+        sh:minCount 1 ;
+        sh:maxCount 1;
+  ] .
+
