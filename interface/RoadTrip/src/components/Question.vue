@@ -11,11 +11,10 @@ function planRoadTrip() {
     var travelType = document.getElementById("travelType").value;
     var situation = document.getElementById("situation").value;
 
-    var result = "You have chosen to plan a road trip in " + country + " with a " + travelType + " travel type, and your situation is " + situation + ".";
+    var route = "You have chosen to plan a road trip in " + country + " with a " + travelType + " travel type, and your situation is " + situation + ".\n";
     
-    //document.getElementById("result").innerText = result;
-    var URI = 'http://localhost:8080/sparql?query=PREFIX act: <http://example.org/activity%23> PREFIX schema: <http://example.org/roadtrip%23> PREFIX country: <http://example.org/country%23> PREFIX transport:  <http://example.org/transport%23> SELECT ?itinerary ?startPointItName ?endPointItName ?originName ?originRating ?originAddress ?destName ?destRating ?destAddress WHERE { ?roadtrip a schema:RoadTrip; a ?type; schema:in ?country; schema:hasItinerary ?itinerary. ?itinerary schema:hasRoute ?route; schema:hasStartingPoint ?startPointIt; schema:hasEndingPoint ?endPointIt. ?route schema:hasTransport ?transport; schema:origin ?origin; schema:destination ?dest. ?startPointIt schema:hasActivityName ?startPointItName. ?endPointIt schema:hasActivityName ?endPointItName. ?origin schema:hasActivityName ?originName; OPTIONAL{?origin schema:hasRating ?originRating;} OPTIONAL{?origin schema:hasLocation [schema:hasAddress ?originAddress].} ?dest schema:hasActivityName ?destName; OPTIONAL{?dest schema:hasRating ?destRating;} OPTIONAL{?dest schema:hasLocation [schema:hasAddress ?destAddress].} ?country ?hasCountryName ?countryName. filter(?countryName="'+country+'") filter(?type=schema:'+travelType+') filter(?transport = transport:Car) }'
-    console.log(URI)
+    
+    var URI = 'http://localhost:8080/sparql?query=PREFIX act: <http://example.org/activity%23> PREFIX schema: <http://example.org/roadtrip%23> PREFIX country: <http://example.org/country%23> PREFIX transport:  <http://example.org/transport%23> SELECT ?itinerary ?startPointItName ?endPointItName ?originName ?originRating ?originAddress ?destName ?destRating ?destAddress ?distance WHERE { ?roadtrip a schema:RoadTrip; a ?type; schema:in ?country; schema:hasItinerary ?itinerary. ?itinerary schema:hasRoute ?route; schema:hasStartingPoint ?startPointIt; schema:hasEndingPoint ?endPointIt. ?route schema:hasTransport ?transport; schema:origin ?origin; schema:destination ?dest; schema:hasDistance ?distance. ?startPointIt schema:hasActivityName ?startPointItName. ?endPointIt schema:hasActivityName ?endPointItName. ?origin schema:hasActivityName ?originName; OPTIONAL{?origin schema:hasRating ?originRating;} OPTIONAL{?origin schema:hasLocation [schema:hasAddress ?originAddress].} ?dest schema:hasActivityName ?destName; OPTIONAL{?dest schema:hasRating ?destRating;} OPTIONAL{?dest schema:hasLocation [schema:hasAddress ?destAddress].} ?country ?hasCountryName ?countryName. filter(?countryName="'+country+'") filter(?type=schema:'+travelType+') filter(?transport = transport:Car) }'
     var startPoint = [];
     var endPoint = [];
     var origNames = [];
@@ -24,6 +23,7 @@ function planRoadTrip() {
     var destNames = [];
     var destRatings = [];
     var destAddresses = [];
+    let distances = 0;
     fetch(URI)
       .then(function(response) {
         return response.text()
@@ -31,7 +31,6 @@ function planRoadTrip() {
       .then(function(data) {
         var parser = new DOMParser();
         var xmlDoc = parser.parseFromString(data, 'text/xml');
-        console.log(data)
         var results = xmlDoc.querySelectorAll('result');
 
         
@@ -84,14 +83,19 @@ function planRoadTrip() {
             var x = destAddressElement.textContent;
             destAddresses.push(x);
           }
+          var distance = result.querySelector('binding[name="distance"] literal');
+          
+          if (distance) {
+            var x = parseInt(distance.textContent);
+            distances+=x;
+          }
           
         });
-        console.log(endPoint)
-        var route= "You will start from "+startPoint[0] +" rated "+origRatings[1] +" over 5 and is located at the address: "+ origAddresses[1]
+        route+= "You will start from "+startPoint[0] +" rated "+origRatings[1] +" over 5 and is located at the address: "+ origAddresses[1]
         for (var i = 0; i < destAddresses.length; i++) {
           route += " and go to "+destNames[i] +" rated "+ destRatings[i]+" over 5 and is located at the address: "+ destAddresses[i]
-          console.log("ici")
         }
+        route+='.\n The total distance of the roadTrip is '+distances+' km.'
         document.getElementById("result").innerText = route;
       })
       
