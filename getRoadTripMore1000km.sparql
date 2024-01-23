@@ -1,0 +1,10 @@
+PREFIX ex: <http://example.org/roadtrip#>
+
+SELECT ?roadTrip (SUM(?distance) as ?totalDistance)
+WHERE {
+  ?roadTrip ex:hasItinerary ?itinerary.
+  ?itinerary ex:hasRoute ?route.
+  ?route ex:hasDistance ?distance.
+}
+GROUP BY ?roadTrip
+HAVING (?totalDistance > 1000)

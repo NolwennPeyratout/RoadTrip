@@ -1,6 +1,5 @@
-PREFIX act: <http://example.org/activities/> 
 PREFIX ex: <http://ns.inria.fr/sparql-micro-service/api#>
-PREFIX : <http://example.org/roadtrip/>
+PREFIX : <http://example.org/roadtrip#>
 PREFIX schema: <http://example.org/activity#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#> 
 

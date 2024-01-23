@@ -1,0 +1,15 @@
+PREFIX ns1: <http://example.org/roadtrip#>
+ASK
+WHERE {
+?roadTrip a ns1:RoadTrip ;
+    ns1:hasItinerary ?itinerary ;
+    ns1:participants ?participant ;
+    ns1:in ?country .
+
+?participant a ns1:Individual ;
+    ns1:hasVaccinationStatus ?vaccinationStatus .
+
+?country ns1:requiresVaccine ?requiredVaccine .
+
+FILTER (CONTAINS(str(?vaccinationStatus), str(?requiredVaccine)))
+}
