@@ -40,6 +40,6 @@ SERVICE ?serviceURI{
   OPTIONAL{?s ex:maxprice ?budget.}
   OPTIONAL{?s ex:formatted_address ?address.}
   }
-  #filter CONTAINS(?address, ?nameCountry)
+  filter CONTAINS(?address, ?nameCountry)
 }
 GROUP BY ?name}
